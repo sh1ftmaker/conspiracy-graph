@@ -1,0 +1,3349 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "itemDescription", "inception", "article" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q741229"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Paul_is_dead"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Paul is dead"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "urban legend suggesting that Paul McCartney died and was replaced by a look-alike"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q777089"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Aurora_(aircraft)"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aurora"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "rumored mid-1980s American reconnaissance aircraft"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1980-01-01T00:00:00Z"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q785111"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Lost_Cosmonauts"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lost Cosmonauts"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q840825"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Discredited_HIV/AIDS_origins_theories"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "discredited AIDS origins theories"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "rejected AIDS origin hypotheses"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q926348"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/New_World_Order_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "New World Order"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q949223"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Climate_change_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "global warming conspiracy theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "denial of global warming"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q959796"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Majestic_12"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Majestic 12"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "purported organization that appears in UFO conspiracy theories"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q969554"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Andinia_Plan"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Andinia Plan"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q992863"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Well_poisoning"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "well poisoning"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "malicious manipulation of potable water resources"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1048624"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Phantom_time_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "phantom time conspiracy theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory that Otto Ⅲ and Pope Sylvester Ⅱ fabricated the Carolingian period (614–911)"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1326929"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Finland_Plot"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Finland Plot"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory, not to be confused with the parody conspiracy theory Finland does not exist"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1333233"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/HIV/AIDS_denialism"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HIV/AIDS denialism"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "belief, contradicted by conclusive evidence, that human immunodeficiency virus (HIV) does not cause acquired immune deficiency syndrome (AIDS)"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1540578"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Popish_Plot"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Popish Plot"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "fictitious anti-Catholic conspiracy in England"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1635719"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/New_chronology_(Fomenko)"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "New Chronology"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "pseudohistorical Russian conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1658150"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Deep_state"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "deep state"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "clandestine form of government of a state, operated through networks of covert power groups"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1747568"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/10_agorot_controversy"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "10 agorot controversy"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1823932"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/George_Soros_conspiracy_theories"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "George Soros conspiracy theories"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "various fringe theories that posit conspiracy involving George Soros"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1931364"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Climate_change_denial"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "climate change denial"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "denial, dismissal, or unwarranted doubt about the scientific consensus on the rate and extent of global warming"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q85796308"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Red-tagging_in_the_Philippines"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "red-tagging in the Philippines"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "labelling a person or group communist/terrorist to incite harm"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q85813509"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Voting_pencil_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "voting pencil conspiracy theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory that pencil votes are changed"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q92953145"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Gay_Nazis_myth"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gay fascism"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "discredited idea that homosexuals were numerous and prominent as a group in the Nazi Party"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q94485556"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Obamagate"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Obamagate"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q95160966"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Matarife"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Matarife"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Colombian - Australian web series"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96358805"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/COVID-19_denialism"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "COVID-19 denial"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "rejection of the science on COVID-19"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q98078874"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Jewish_war_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jewish war conspiracy theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "antisemitic conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q100804812"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Biden%E2%80%93Ukraine_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Biden–Ukraine conspiracy"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "political conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104045077"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Stop_the_Steal"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Stop the Steal"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory related to the 2020 United States presidential election"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106153955"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Avril_Lavigne_replacement_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Avril Lavigne replacement conspiracy theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "hoax claiming musician Lavigne is dead"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q107285131"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Italygate"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Italygate conspiracy theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "American conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q107342978"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Acre_conspiracy"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Acre conspiracy"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "satirical conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q108370415"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Dead_Internet_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "dead Internet theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory about the World Wide Web"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-01-05T00:00:00Z"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q108370415"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Dead_Internet_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "dead Internet theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory about the World Wide Web"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2019-01-01T00:00:00Z"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110027962"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Birds_Aren%27t_Real"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Birds Aren't Real"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2017-01-01T00:00:00Z"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110876095"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Tallano_gold"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tallano gold"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory in the Philippines"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q110885712"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Alaska_payment_conspiracy"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alaska Payment Conspiracy"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q111281424"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Ukraine_bioweapons_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ukraine bioweapons conspiracy theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Russian fake news"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q112683795"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Ratanab%C3%A1"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ratanabá"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brazilian conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113298213"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Halal_conspiracy_theories"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Halal conspiracy theories"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theories about halal certification"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113318766"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Deliberate_food_shortage_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "deliberate food shortage conspiracy theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "2022 American conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113541227"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/LGBTQ_grooming_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LGBT grooming conspiracy theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory that alleges child grooming by LGBT people"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q114056710"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Litter_boxes_in_schools_hoax"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "litter boxes in schools hoax"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "false claim that schools provide litter boxes for students identifying as cats"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q114924465"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Ebola_misinformation"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ebola misinformation"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theories about ebola viruses"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q118903059"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Tartarian_Empire"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tartarian Empire"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "alleged lost empire"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q120334705"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/LGBTQ_chemicals_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LGBTQ chemicals conspiracy theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "anti-LGBTQ conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q120504936"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Alleged_state-sponsored_kidnappings_of_Muslims_in_Sweden"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "LVU-kampanjen"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "disinformation campaign and conspiracy theory protest movement against the Swedish social services"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-01-01T00:00:00Z"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q123114703"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Turbo_cancer"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "turbo cancer"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q123377568"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Denial_of_the_October_7_attacks"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "denial of the October 7 attacks"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "negationism of the 2023 Hamas attack on Israel"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q123694281"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Finger_pinching_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Finger-pinching conspiracy theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory in South Korea"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2021-01-01T00:00:00Z"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q124883039"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Where_is_Kate%3F"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Where is Kate?"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "2024 controversy and speculation surrounding Catherine, Princess of Wales"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q125018717"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Transvestigation"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "transvestigation"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory regarding gender and sex"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q125372031"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Statesmen_(conspiracy_theory)"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Statesmen"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lithuanian political conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q125467311"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Pallywood"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pallywood"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "claims of Palestinian manipulation of media"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q126873470"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Global_War_Party"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Global War Party"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Georgian Dream conspiracy theory"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2022-01-01T00:00:00Z"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q128526169"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Voice_to_skull"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Voice to skull"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Microwave auditory effect"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130281725"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Springfield_pet-eating_hoax"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Springfield pet-eating hoax"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "part of a disinformation campaign against migrants in the United States in 2024"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2024-09-01T00:00:00Z"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q131176581"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/BlueAnon"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BlueAnon"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "set of left-wing conspiracy theories regarding Donald Trump"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q132244486"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Pope_in_the_White_House"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pope in the White House"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1800-01-01T00:00:00Z"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q134590960"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Secret_space_program"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Secret space program"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q135967504"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Climate_lockdown"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Climate lockdown"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conspiracy theory claiming that governments will use climate change as a pretext to impose lockdown-style restrictions on daily life."
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q135967589"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Khazarian_Mafia"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Khazarian Mafia"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Antisemitic conspiracy theory alleging that a cabal of \"fake\" Jews descended from the Khazars controls global events."
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q135969589"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Anti-sunscreen_movement"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Anti-sunscreen movement"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Online trend promoting skepticism and misinformation about the safety and effectiveness of sunscreen."
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q135972460"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Grand_Canyon_Egyptian_cave"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Grand Canyon Egyptian cave"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "A 1909 newspaper hoax and subsequent conspiracy theory about the discovery of a cave containing Egyptian-style artifacts in the Grand Canyon"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q135972465"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/BlackRock_house-buying_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "BlackRock house-buying conspiracy theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conspiracy theory asserting that the asset manager BlackRock is secretly buying up most single-family houses in the United States."
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q135972469"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/2020s_purpling_of_streetlights"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "The Great Purpling"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Colloquial term for the widespread manufacturing defect causing certain LED streetlights to turn purple, observed across North America and other regions since the early 2020s."
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q135972476"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/WHO_Pandemic_Agreement_sovereignty_takeover_conspiracy"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "WHO Pandemic Agreement sovereignty takeover conspiracy"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conspiracy theory claiming the WHO Pandemic Agreement would allow the World Health Organization to override national sovereignty and impose public health measures."
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q135972481"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Fogvid-24"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fogvid-24"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "social media conspiracy theory from late 2024 and early 2025 alleging that widespread winter fog was an engineered or toxic phenomenon causing illness."
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q135972490"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Directed-energy_weapon_wildfire_conspiracy_theories"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Directed-energy weapon wildfire conspiracy theories"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Set of conspiracy theories claiming that major wildfires were intentionally started or steered by directed-energy weapons (DEWs) or other advanced technologies."
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q135984207"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Schumann_resonances_conspiracy_theories"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Schumann resonance conspiracy theories"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Family of claims misrepresenting the physics of Schumann resonances to assert that time is speeding up or that the resonances directly affect human consciousness"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q138565219"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Clinton_plan_intelligence_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Clinton plan intelligence conspiracy theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "right-wing conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q139761208"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Missing_scientists_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Missing scientists conspiracy theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "2026 conspiracy theory"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2026-01-01T00:00:00Z"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q129827"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Free_energy_suppression_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "free energy suppression"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory that technologically viable, pollution-free, no-cost energy sources are being suppressed by governments, corporations, or advocacy groups"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q151296"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Holocaust_denial"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Holocaust denial"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "negation, distortion or minimization of the Holocaust"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q159658"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/ODESSA"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ODESSA"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "fictitious postwar international Nazi organization"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1946-01-01T00:00:00Z"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q160944"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Stab-in-the-back_myth"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "stab-in-the-back myth"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "belief that German soldiers were betrayed at the end of World War I"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1918-01-01T00:00:00Z"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q205364"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Zionist_Occupation_Government_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zionist Occupation Government"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory of secret Jewish control of governments or the world"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q252609"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/New_Swabia"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "New Swabia"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "an area of Antarctica between 20°E and 10°W in Queen Maud Land, first explored by Nazi Germany in early 1939"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1939-01-01T00:00:00Z"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q727908"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Chemtrail_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "chemtrail"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory about contrails"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q737979"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Eurabia_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Eurabia"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q256664"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Doctors%27_plot"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Doctors' plot"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "1950s antisemitic campaign by Stalin in the Soviet Union"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q601271"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Cultural_Marxism_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cultural Marxism conspiracy theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "anti-semitic conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q658418"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Nazi_gold"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nazi gold"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory regarding gold smuggled out of Nazi Germany at end of World War II"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q701198"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Jewish_Bolshevism"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jewish Bolshevism"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory that Jews have been the driving force behind Communist movements"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q64481821"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Gender_ideology"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "gender ideology"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "pejorative term for transgender movements or gender studies"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1998-01-01T00:00:00Z"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q68090786"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Clinton_body_count_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Clinton body count conspiracy theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory about politicians Bill and Hillary Clinton"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q77835517"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Epstein_didn%27t_kill_himself"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Epstein didn't kill himself"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "meme and conspiracy theory about Jeffrey Epstein"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q85173778"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/COVID-19_misinformation"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "COVID-19 misinformation"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "false information about the pandemic caused by coronavirus disease 2019"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q85784851"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Melania_Trump_replacement_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Melania Trump replacement theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "body double conspiracy from 2017"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8871"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Daktari_Ranch_affair"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Daktari Ranch affair"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy accusation in Venezuela"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1945647"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Montauk_Project"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Montauk Project"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2297096"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Deep_state_in_Turkey"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "deep state in Turkey"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "alleged influence network within the apparatus of the Turkish state"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2518067"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Pearl_Harbor_advance-knowledge_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pearl Harbor advance-knowledge conspiracy theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory involving government foreknowledge of the Japanese attacks on Pearl Harbor"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2670679"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Golden_billion"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Golden billion"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "term, in the Russian-speaking world, referring to the relatively wealthy people in industrially developed nations, or the West"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2715843"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Titanic_conspiracy_theories"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "RMS Titanic alternative theories"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pseudohistory of RMS Titanic"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2905206"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Yemenite_Children_Affair"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yemenite Children Affair"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alleged disappearance of children in 1950s Israel"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2997212"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Republic_of_Texas_(group)"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Republic of Texas"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "general term for several organizations"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3088051"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Illuminati_modern_conspiracy_theories"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Illuminati"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3137784"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Barack_Obama_citizenship_conspiracy_theories"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Barack Obama citizenship conspiracy theories"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theories asserting that Barack Obama is not a natural-born citizen of the United States"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3445046"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Homintern"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Homintern"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3526260"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Giuseppe_Siri_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Papal election of Giuseppe Siri theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "belief that Giuseppe Siri was elected Pope"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3595597"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Love_jihad_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Love jihad"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Islamophobic conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3800520"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Interplanetary_Phenomenon_Unit"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Interplanetary Phenomenon Unit"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "purported clandestine organization within the United States Military"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3926183"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Q33_NY"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Q33 NY"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "coincidence related to the 9/11 terrorist attacks"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4113878"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Gay_recruitment"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "gay recruitment"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4971475"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Conspiracy_theories_about_the_Iranian_Revolution"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conspiracy theories about the Iranian Revolution"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory about the Iranian Revolution"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5247427"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Conspiracy_theories_about_the_death_of_Diana,_Princess_of_Wales"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theories about the death of Diana, Princess of Wales"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theories surrounding the death of Diana, Princess of Wales"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5257030"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Holodomor_denial"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Holodomor denial"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "claim that the 1932–1933 Holodomor, a man-made famine in Soviet Ukraine, was not a genocide, or diminishment of the scale or significance of the famine"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5314403"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Pre-M%C4%81ori_settlement_of_New_Zealand_theories"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pre-Māori settlement of New Zealand theories"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "false conspiracy theories which deny the indigeneity of Māori people"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5513123"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/GEC-Marconi_scientist_deaths_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GEC-Marconi scientist deaths conspiracy theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "deaths of British scientists, allegedly linked"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6431777"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Korean_Air_Lines_Flight_007_alternative_theories"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Korean Air Lines Flight 007 alternative theories"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conspiracy theories about the 1983 shootdown"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6547952"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Lilla_Saltsj%C3%B6badsavtalet"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lilla Saltsjöbadsavtalet"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "far-right conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6703082"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Lumber_Cartel"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lumber Cartel"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "facetious conspiracy theory popularized on USENET"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7571617"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Sovereign_citizen_movement"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "sovereign citizen movement"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "anti-government conspiracy theory"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1970-01-01T00:00:00Z"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7665828"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/S%C3%A8vres_syndrome"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sèvres syndrome"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7757363"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/The_Plan_(conspiracy_theory)"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "The Plan"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "a conspiracy theory in Washington, D.C."
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7804964"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Time_Cube"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Time Cube"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "American conspiracy website"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1997-01-01T00:00:00Z"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7968565"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/War_on_Islam_controversy"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "War against Islam"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conspiracy theory narrative in Islamist discourse"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10350289"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Cohen_Plan"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cohen Plan"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "1937 Brazilian military forged document"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11704324"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Masonic_conspiracy_theories"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Masonic conspiracy theories"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theories about Freemasons"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12812525"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Jewish_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jewish conspiracy theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theories about Jews and/or Judaism"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q14634937"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Gay_agenda"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "gay agenda"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "disparaging term used by opponents of gay rights activism"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q14914942"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Judeo-Masonic_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Judeo-Masonic conspiracy theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory alleging a secret coalition of Jews and Freemasons controlling the world"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16801232"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Big_Pharma_conspiracy_theories"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Big Pharma conspiracy theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16823407"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Black_genocide_in_the_United_States"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Black genocide"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "notion that discrimination against African Americans amounts to genocide"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16934346"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/1980_October_Surprise_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "October Surprise conspiracy theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory alleging a plot to delay the release of American hostages in Iran to affect the 1980 U.S. presidential election"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17005165"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Black_Knight_satellite_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Black Knight satellite conspiracy theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "alleged Earth satellite of extraterrestrial origin"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17050014"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Malaysia_Airlines_Flight_370_disappearance_theories"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Malaysia Airlines Flight 370 disappearance theories"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ideas about the plane's disappearance"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17629329"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Great_Replacement_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Great Replacement"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory about demographic change"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20647515"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Jade_Helm_15_conspiracy_theories"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jade Helm 15 conspiracy theories"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theories based on the eponymous US military training exercise, scheduled to take place in multiple U.S. states from July 15 to September 15, 2015"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q22909760"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/White_genocide_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "white genocide conspiracy theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory which contends white populations are being replaced, removed, or liquidated"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q22935740"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/FEMA_camps_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "FEMA camps conspiracy theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "belief that US citizens will be imprisoned as a New World Order is established"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q23580679"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/GMO_conspiracy_theories"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "GMO conspiracy theories"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "unfounded beliefs that genetic technology in food is intentionally used to harm"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27970888"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Pizzagate_conspiracy_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pizzagate"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "US-american right-wing conspiracy theory"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2016-11-01T00:00:00Z"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35556078"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Golpe_Azul"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Blue Coup"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy accusation in Venezuela"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q42294245"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Kalergi_Plan"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kalergi Plan"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "far-right anti-semitic conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q51213808"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/QAnon"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "QAnon"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "American far-right conspiracy theory and movement"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2017-01-01T00:00:00Z"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q54765858"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Mandela_Effect"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mandela effect"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "phenomenon in which a group of people share a collective false memory of a past event"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q55138757"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Strawman_theory"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "strawman theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "pseudolegal conspiracy theory associated with fringe movements"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q55608583"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Cronies_of_Ferdinand_Marcos"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cronies of Ferdinand Marcos"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "some associates of former Philippine president Ferdinand Marcos"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q55633747"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Spygate_(conspiracy_theory)"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Spygate"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory by Donald Trump that the FBI improperly spied on him"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2018-05-01T00:00:00Z"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56071631"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/URSAL"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "URSAL"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Union of Socialist Republics of Latin America"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q58641799"
+      },
+      "article" : {
+        "type" : "uri",
+        "value" : "https://en.wikipedia.org/wiki/Uranium_One_controversy"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Uranium One controversy"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "uranium One Scandal"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1134564"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Judeo-Masonic-Communist conspiracy theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1496555"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "The Gay Agenda"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "2013 film directed by Anna McGrath"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1621784"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q1621784"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2548206"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q2548206"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3526877"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zionist conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3526953"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conspiracy theory of the French Revolution"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10854388"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "3S Policy"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11505290"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q11505290"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12588434"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "false Kim Il Sung conspiracy theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory that the North Korean leader Kim Il Sung is not the same person as the Kim Il Sung organizing armed resistance against Japanese colonial occupation"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16515093"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Denial of Soviet occupation"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16674209"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q16674209"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17626182"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Blue Beam Project"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30905006"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Myth of the \"English Help\""
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conspirative theory about the War of the Pacific"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q39859227"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tunnel to the Vatican"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1928-01-01T00:00:00Z"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q42181845"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Case Regina Louf"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Case around the testimony of Regina Louf alleging a pedophile network around Dutroux"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q59780345"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Federal Reserve System conspiracy theories"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q60040443"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q60040443"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q61745043"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Soros Plan"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory created by the third Orbán government"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q64040728"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q64040728"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q64041038"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q64041038"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q64044640"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Soviet citizen movement"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "persons who deny the existence of the Russian Federation and reject its legal system"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q64797065"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q64797065"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q65160122"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q65160122"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q66425334"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Land jihad"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory, according to which Muslims supposedly target public and private land in India for illegally constructing mosques and other permanent structures."
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q66439490"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "secret masters"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "the idea small, anonymous and unreasonably powerful cabals – sometimes individuals – secretly control or manipulate the world"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q76550140"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "2019 fire at Notre-Dame de Paris conspiracy theories"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q77834046"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Muslim no-go-zones conspiracy theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96107093"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "flat Earth conspiracy theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "modern-day conspiracy theory that the Earth is flat and that various organisations and governments conspire to hide this fact"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101003814"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q101003814"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q103783647"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Querdenken"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "COVID-19 German conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q105722461"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q105722461"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q107390894"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "2021 post-election crisis in Peru"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q108473746"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Disinformation in Brazil's presidential election of 2018"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "propagation of fake news and conspiracy theories in Brazil during 2018"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q111990150"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tartaria conspiracy theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "claimed lost civilization"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2016-01-01T00:00:00Z"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q116972124"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mafia caviar"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q120703821"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ben Gurion Canal Project"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory about an alleged canal project in Israel"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q121157263"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q121157263"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q121161309"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Death of Pedro Infante conspiracy theories"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theories surrounding the death of Pedro Infante"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q125739086"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "enemies from within"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q134006921"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "J.D. Vance Is The Antichrist"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "meme suggesting Vance positively influenced the passing of Pope Francis (through a meeting a few hours earlier)"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2025-04-21T00:00:00Z"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q134576481"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Swedish muslim no-go-zones conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q135391046"
+      },
+      "itemLabel" : {
+        "type" : "literal",
+        "value" : "Q135391046"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q136007749"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Trump death conspiracy (2025)"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "unproven rumor that Trump may soon die (from August 2025)"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q138734297"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chelsea Manning reverse transvestigation conspiracy theory"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q140134682"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Iraqi stargate conspiracy theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory claiming an alien stargate exists in Iraq"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q140167951"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Disney's Frozen search manipulation theory"
+      },
+      "itemDescription" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "conspiracy theory claiming the Disney film Frozen was deliberately named to draw search results away from an urban legend that Walt Disney was cryogenically frozen"
+      }
+    } ]
+  }
+}

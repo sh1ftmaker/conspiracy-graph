@@ -1,0 +1,573 @@
+[
+  {
+    "id": "operation-gladio",
+    "name": "Operation Gladio",
+    "aliases": ["Gladio", "NATO stay-behind networks", "strategy of tension"],
+    "genre": "espionage",
+    "year": 1990,
+    "truth": 93,
+    "impact": 72,
+    "notoriety": 52,
+    "summary": "A secret NATO 'stay-behind' network, codenamed Gladio, operated in Italy and across Western Europe, ostensibly to resist a Soviet invasion; evidence emerged that Italian and linked cells carried out terrorist bombings attributed to left-wing groups during the 'Years of Lead.' Italian Prime Minister Giulio Andreotti confirmed the network's existence to parliament in 1990. The extent to which the network directed specific atrocities remains debated, but the covert infrastructure itself is fully documented.",
+    "evidence_for": [
+      "Andreotti's 1990 parliamentary disclosure confirmed the Italian Gladio network and triggered similar investigations across 15+ European countries",
+      "Belgian, Swiss, and Italian parliamentary inquiries all documented stay-behind networks and their arms caches",
+      "Italian investigators linked Gladio-connected figures to the 1980 Bologna train station bombing (85 dead)",
+      "Declassified NATO and CIA documents confirm funding and coordination of the networks"
+    ],
+    "evidence_against": [
+      "NATO denies that a 'strategy of tension' involving civilian attacks was official policy",
+      "The direct link between the central Gladio program and specific terrorist acts is contested; some attacks may have been genuine far-left operations",
+      "No single document conclusively shows NATO headquarters ordered domestic bombings"
+    ],
+    "related": ["cointelpro", "operation-northwoods", "deep-state", "church-committee"],
+    "depends_on": [],
+    "wikipedia": "https://en.wikipedia.org/wiki/Operation_Gladio"
+  },
+  {
+    "id": "pentagon-papers",
+    "name": "Pentagon Papers",
+    "aliases": ["History of U.S. Decision-Making in Vietnam", "McNamara study"],
+    "genre": "government",
+    "year": 1971,
+    "truth": 100,
+    "impact": 68,
+    "notoriety": 68,
+    "summary": "A top-secret Defense Department study commissioned by Robert McNamara revealed that the US government had systematically deceived Congress and the public about the Vietnam War's scope, origins, and prospects. Analyst Daniel Ellsberg leaked the 7,000-page document to the New York Times and Washington Post in 1971. The Supreme Court ruled the government could not suppress publication, and the papers became public record.",
+    "evidence_for": [
+      "The documents themselves are public record, published in full",
+      "The Supreme Court ruled in New York Times Co. v. United States (1971) that publication was lawful",
+      "Daniel Ellsberg's confirmed leak, subsequent trial, and eventual vindication",
+      "The papers showed four successive administrations knowingly escalated a war they believed unwinnable"
+    ],
+    "evidence_against": [
+      "None — proven historical fact"
+    ],
+    "related": ["gulf-of-tonkin", "watergate", "deep-state", "operation-gladio"],
+    "depends_on": [],
+    "wikipedia": "https://en.wikipedia.org/wiki/Pentagon_Papers"
+  },
+  {
+    "id": "bay-of-pigs",
+    "name": "Bay of Pigs Invasion",
+    "aliases": ["Brigade 2506", "Operation Zapata", "La Batalla de Girón"],
+    "genre": "government",
+    "year": 1961,
+    "truth": 100,
+    "impact": 58,
+    "notoriety": 72,
+    "summary": "The CIA covertly trained and funded a 1,400-man Cuban exile force to invade Cuba and overthrow Fidel Castro in April 1961. The operation was a catastrophic failure; the brigade was captured and the US government's role — hidden from Congress and the public beforehand — was publicly acknowledged by President Kennedy shortly afterward.",
+    "evidence_for": [
+      "Kennedy publicly admitted US government responsibility after the invasion's failure",
+      "Fully documented in the CIA's own 1961 Inspector General survey (declassified 1998)",
+      "Congressional testimony and declassified State Department cables confirm planning and funding",
+      "Brigade 2506 veterans and their training at CIA camps in Guatemala are on record"
+    ],
+    "evidence_against": [
+      "None — proven historical fact"
+    ],
+    "related": ["operation-northwoods", "cia-crack-contra", "deep-state", "gulf-of-tonkin"],
+    "depends_on": [],
+    "wikipedia": "https://en.wikipedia.org/wiki/Bay_of_Pigs_Invasion"
+  },
+  {
+    "id": "operation-paperclip",
+    "name": "Operation Paperclip",
+    "aliases": ["Operation Overcast", "Joint Intelligence Objectives Agency program"],
+    "genre": "government",
+    "year": 1946,
+    "truth": 98,
+    "impact": 52,
+    "notoriety": 60,
+    "summary": "After World War II, the US government secretly recruited over 1,600 former Nazi scientists, engineers, and technical specialists, sanitizing their records to conceal war crimes and Nazi party membership to circumvent President Truman's prohibition on employing committed Nazis. Recruits included Wernher von Braun and others who became central to the US space and missile programs.",
+    "evidence_for": [
+      "Fully documented in declassified US government records, FBI files, and State Department cables",
+      "NASA's own history acknowledges Wernher von Braun's SS membership and his path through the program",
+      "Annie Jacobsen's 2014 book and prior scholarly works draw directly on declassified archives",
+      "Participants and their altered dossiers are on record at the National Archives"
+    ],
+    "evidence_against": [
+      "None — proven historical fact"
+    ],
+    "related": ["deep-state", "church-committee", "operation-midnight-climax"],
+    "depends_on": [],
+    "wikipedia": "https://en.wikipedia.org/wiki/Operation_Paperclip"
+  },
+  {
+    "id": "operation-midnight-climax",
+    "name": "Operation Midnight Climax",
+    "aliases": ["MKUltra subproject 42", "CIA safe-house LSD experiments"],
+    "genre": "espionage",
+    "year": 1977,
+    "truth": 95,
+    "impact": 48,
+    "notoriety": 45,
+    "summary": "A CIA sub-project of MKUltra, Operation Midnight Climax established safe houses in San Francisco and New York where agency operatives dosed unsuspecting men — including civilians and criminals — with LSD via prostitutes, then observed reactions through one-way mirrors. The program ran from roughly 1954 to 1965 and was confirmed by surviving documents found in CIA archives in 1977 after Director Helms had most files destroyed in 1973.",
+    "evidence_for": [
+      "Surviving CIA documents discovered in 1977 at the Retired Records Center explicitly describe the operation",
+      "Church Committee testimony (1975) and subsequent 1977 Senate hearings with CIA Director Stansfield Turner confirmed the program",
+      "Operative George White's diaries corroborate the safe-house operations",
+      "CIA Director Richard Helms admitted to the destruction of most MKUltra files in 1973"
+    ],
+    "evidence_against": [
+      "None — proven fact; the CIA publicly admitted the program"
+    ],
+    "related": ["mkultra", "cointelpro", "church-committee", "deep-state"],
+    "depends_on": ["mkultra"],
+    "wikipedia": "https://en.wikipedia.org/wiki/Operation_Midnight_Climax"
+  },
+  {
+    "id": "operation-snow-white",
+    "name": "Operation Snow White",
+    "aliases": ["Scientology government infiltration"],
+    "genre": "religion-occult",
+    "year": 1977,
+    "truth": 97,
+    "impact": 42,
+    "notoriety": 40,
+    "summary": "The Church of Scientology conducted the largest documented infiltration of the US government in history, planting operatives in more than 100 government agencies — including the IRS, FBI, and DEA — to steal and destroy documents critical of the organization. The operation was uncovered by FBI raids in 1977 and resulted in convictions of eleven Scientology officials, including founder L. Ron Hubbard's wife Mary Sue Hubbard.",
+    "evidence_for": [
+      "FBI raids in August 1977 seized over 48,000 pages of documents proving the infiltration program",
+      "Eleven Scientology officials, including Mary Sue Hubbard, were convicted on multiple counts in 1979",
+      "Documented infiltration of at least 136 government and private organizations across multiple countries",
+      "Court records detail specific theft and planting of false information in agency files"
+    ],
+    "evidence_against": [
+      "None — proven by court convictions and documentary record"
+    ],
+    "related": ["cointelpro", "deep-state", "operation-mockingbird"],
+    "depends_on": [],
+    "wikipedia": "https://en.wikipedia.org/wiki/Operation_Snow_White"
+  },
+  {
+    "id": "cointelpro-black-panther",
+    "name": "COINTELPRO: Black Panther Targeting",
+    "aliases": ["FBI Black Panther counterintelligence", "Fred Hampton assassination plot"],
+    "genre": "espionage",
+    "year": 1969,
+    "truth": 97,
+    "impact": 55,
+    "notoriety": 55,
+    "summary": "The FBI ran a targeted campaign against the Black Panther Party as part of COINTELPRO, labeling them 'the greatest threat to the internal security of the country.' The campaign involved infiltration, forged letters designed to provoke lethal gang warfare, and collaboration with local police — including advance intelligence sharing that facilitated the December 1969 killing of Chicago Black Panther leader Fred Hampton.",
+    "evidence_for": [
+      "COINTELPRO documents seized in the 1971 Media, Pennsylvania FBI break-in reveal explicit orders targeting the BPP",
+      "Church Committee documentation confirmed the forged letter program and agent-provocateur operations",
+      "FBI informant William O'Neal's floor plan of Hampton's apartment was provided to Chicago police before the raid",
+      "A 1982 civil suit found the government liable for Hampton's death and awarded damages"
+    ],
+    "evidence_against": [
+      "None — the program's existence and specific tactics are proven fact"
+    ],
+    "related": ["cointelpro", "mlk-assassination", "deep-state", "church-committee"],
+    "depends_on": ["cointelpro"],
+    "wikipedia": "https://en.wikipedia.org/wiki/COINTELPRO#Black_Panther_Party"
+  },
+  {
+    "id": "church-committee",
+    "name": "Church Committee Revelations",
+    "aliases": ["Senate intelligence investigations 1975", "Select Committee to Study Governmental Operations"],
+    "genre": "government",
+    "year": 1975,
+    "truth": 99,
+    "impact": 68,
+    "notoriety": 50,
+    "summary": "The 1975–1976 Senate Select Committee chaired by Frank Church exposed systemic domestic surveillance abuses by the CIA, FBI, NSA, and IRS, including assassination plots against foreign leaders, COINTELPRO, MKUltra, and mass interception of mail and communications. The hearings produced 14 volumes of findings and led directly to intelligence oversight reforms including the creation of permanent Senate and House intelligence committees and the FISA court.",
+    "evidence_for": [
+      "The committee's 14-volume final report is public congressional record",
+      "CIA Director William Colby cooperated and provided documentation of programs including assassination plots",
+      "Led directly to the Foreign Intelligence Surveillance Act (1978) and intelligence oversight committees",
+      "Confirmed the reality of programs previously denied by agencies, including MKUltra and COINTELPRO"
+    ],
+    "evidence_against": [
+      "None — proven congressional fact"
+    ],
+    "related": ["mkultra", "cointelpro", "operation-mockingbird", "deep-state", "operation-gladio"],
+    "depends_on": [],
+    "wikipedia": "https://en.wikipedia.org/wiki/Church_Committee"
+  },
+  {
+    "id": "pearl-harbor-foreknowledge",
+    "name": "Pearl Harbor Advance Knowledge",
+    "aliases": ["FDR knew Pearl Harbor", "Pearl Harbor conspiracy"],
+    "genre": "government",
+    "year": 1944,
+    "truth": 22,
+    "impact": 68,
+    "notoriety": 52,
+    "summary": "President Roosevelt and senior US officials allegedly had specific advance intelligence warning of the Japanese attack on Pearl Harbor and deliberately withheld it from commanders to draw the US into World War II. The theory persists despite multiple official investigations concluding that intelligence failures — not deliberate suppression — explained why the attack came as a surprise.",
+    "evidence_for": [
+      "Decoded Japanese diplomatic cables (MAGIC intercepts) were available to senior officials before the attack",
+      "The 1940 McCollum memo proposed eight provocations to bring Japan into conflict with the US",
+      "US naval and military intelligence had tracked Japanese fleet movements indicating an operation in progress",
+      "Some decoded messages were not relayed to Pearl Harbor commanders in a timely fashion"
+    ],
+    "evidence_against": [
+      "The Japanese strike force maintained strict radio silence; its precise destination was not known from intercepts",
+      "Multiple official reviews — Roberts Commission (1942), Hewitt Inquiry (1945), Joint Congressional Investigation (1946) — found intelligence failures, not deliberate suppression",
+      "No document has emerged showing FDR or senior officials knew Pearl Harbor specifically would be attacked",
+      "The consensus of historians is that inter-agency coordination failures, not a conspiracy, explain the surprise"
+    ],
+    "related": ["gulf-of-tonkin", "operation-northwoods", "deep-state"],
+    "depends_on": [],
+    "wikipedia": "https://en.wikipedia.org/wiki/Pearl_Harbor_advance-knowledge_conspiracy_theory"
+  },
+  {
+    "id": "waco-cover-up",
+    "name": "Waco Siege Cover-up",
+    "aliases": ["Branch Davidian conspiracy", "Waco massacre"],
+    "genre": "government",
+    "year": 1993,
+    "truth": 36,
+    "impact": 52,
+    "notoriety": 62,
+    "summary": "Theories allege that the FBI and ATF used illegal and disproportionate force during the 1993 Waco siege of the Branch Davidian compound, then suppressed evidence of pyrotechnic tear gas use and possible government responsibility for the fire that killed 76 people. Some elements of the cover-up narrative have been partially borne out; others have been investigated and rejected.",
+    "evidence_for": [
+      "The FBI initially denied using pyrotechnic tear gas rounds; this was confirmed in 1999 after documents emerged",
+      "A 1999 independent investigation by former Senator John Danforth found evidence of earlier government denials",
+      "Disputed infrared footage was cited by some analysts as evidence of agents firing into the compound",
+      "Critics noted the conflict between BATF's tactical actions and standard law enforcement procedure"
+    ],
+    "evidence_against": [
+      "Special Counsel Danforth's 2000 final report found no evidence that federal agents started the fire",
+      "Forensic and survivor evidence indicates the main fire was set by Davidians inside the compound",
+      "The pyrotechnic rounds were fired away from the main structure and are not linked to the fatal fire",
+      "Most specific cover-up allegations have been put to independent review and rejected"
+    ],
+    "related": ["deep-state", "oklahoma-city-second-bomb", "fema-camps"],
+    "depends_on": [],
+    "wikipedia": "https://en.wikipedia.org/wiki/Waco_siege"
+  },
+  {
+    "id": "oklahoma-city-second-bomb",
+    "name": "Oklahoma City Bombing Second Bomb",
+    "aliases": ["OKC bombing conspiracy", "John Doe No. 2 mystery"],
+    "genre": "government",
+    "year": 1995,
+    "truth": 15,
+    "impact": 55,
+    "notoriety": 42,
+    "summary": "Claims that one or more additional explosive devices were planted inside the Murrah Federal Building on April 19, 1995, and that unidentified additional conspirators beyond Timothy McVeigh and Terry Nichols were involved — possibly including foreign intelligence or government agents. Initial news reports of a second device and a composite sketch of 'John Doe No. 2' fueled speculation that was never fully resolved publicly.",
+    "evidence_for": [
+      "Early news reports cited ATF and law enforcement officials referring to a second device found in the building",
+      "Some seismologists initially noted two seismic signals, cited as evidence of two separate blasts",
+      "The FBI's 'John Doe No. 2' composite drawing was widely distributed before being quietly abandoned",
+      "McVeigh's claim that his operation had Middle Eastern connections was never fully investigated publicly"
+    ],
+    "evidence_against": [
+      "USGS seismologists subsequently explained the double seismic signal as a surface wave reflection, not a second blast",
+      "Structural engineers and explosives experts confirmed the damage pattern was consistent with one large ANFO truck bomb",
+      "The FBI concluded that John Doe No. 2 was a case of mistaken witness identification and there was no additional conspirator",
+      "The initial 'second device' reports were erroneous based on misidentified unexploded ordnance belonging to McVeigh's vehicle"
+    ],
+    "related": ["waco-cover-up", "deep-state", "911-inside-job"],
+    "depends_on": [],
+    "wikipedia": "https://en.wikipedia.org/wiki/Oklahoma_City_bombing_conspiracy_theories"
+  },
+  {
+    "id": "twa-flight-800-missile",
+    "name": "TWA Flight 800 Missile Theory",
+    "aliases": ["TWA 800 conspiracy", "Flight 800 shoot-down"],
+    "genre": "government",
+    "year": 1996,
+    "truth": 8,
+    "impact": 38,
+    "notoriety": 44,
+    "summary": "TWA Flight 800, which exploded off Long Island in July 1996 killing all 230 aboard, was allegedly shot down by a US Navy missile, with the government covering up the true cause. The four-year NTSB investigation concluded that an explosion in the center fuel tank caused by a mechanical fault was responsible.",
+    "evidence_for": [
+      "More than 100 witnesses reported seeing a streak of light ascending toward the aircraft before the explosion",
+      "A 2013 documentary by former NTSB investigators claimed new evidence supported an external explosion",
+      "Some radar returns were interpreted by critics as a projectile trajectory",
+      "The CIA produced an animated explanation of the ascending streak that some critics found implausible"
+    ],
+    "evidence_against": [
+      "The 4-year NTSB investigation, the most extensive in aviation history at that point, conclusively identified a center wing fuel tank explosion caused by electrical arcing",
+      "The CIA's analysis showed the 'ascending streak' was the burning aircraft climbing after the nose section separated — consistent with witness physics",
+      "No military exercise in the vicinity involved live weapons; Navy ships in the area are accounted for",
+      "Physical debris reconstruction and chemical analysis found no evidence of a missile strike"
+    ],
+    "related": ["deep-state", "mass-govt-secrecy"],
+    "depends_on": [],
+    "wikipedia": "https://en.wikipedia.org/wiki/TWA_Flight_800_conspiracy_theories"
+  },
+  {
+    "id": "jonestown-mkultra",
+    "name": "Jonestown MKUltra Connection",
+    "aliases": ["Jonestown CIA experiment", "Peoples Temple mind control"],
+    "genre": "government",
+    "year": 1978,
+    "truth": 14,
+    "impact": 42,
+    "notoriety": 36,
+    "summary": "The 1978 Jonestown mass murder-suicide, in which over 900 members of Jim Jones's Peoples Temple died in Guyana, is alleged by some to have been a CIA-orchestrated mind-control experiment continuing MKUltra, rather than a genuine religious-cult atrocity. The theory draws on Jones's documented intelligence contacts and the presence of a CIA officer among the victims.",
+    "evidence_for": [
+      "Jim Jones had documented contacts with US intelligence figures and his organization was monitored by the CIA",
+      "A CIA officer (Richard Dwyer) was present at the Jonestown compound on the day of the massacre",
+      "Congressman Leo Ryan, who was killed investigating the commune, had been active in CIA oversight",
+      "The sheer scale of apparent coercion raises questions about ordinary cult dynamics"
+    ],
+    "evidence_against": [
+      "No documentary evidence connects MKUltra or any CIA program to Jonestown's operations",
+      "Extensive survivor testimony, medical records, and FBI investigation describe a genuine coercive cult under Jones's personal control",
+      "Dwyer's presence is explained by his diplomatic role in Guyana, not a covert operation",
+      "Forensic evidence is consistent with the documented murder-suicide scenario"
+    ],
+    "related": ["mkultra", "deep-state", "cointelpro", "church-committee"],
+    "depends_on": [],
+    "wikipedia": "https://en.wikipedia.org/wiki/Peoples_Temple"
+  },
+  {
+    "id": "fema-camps",
+    "name": "FEMA Concentration Camps",
+    "aliases": ["FEMA camps", "Rex 84 detention centers"],
+    "genre": "government",
+    "year": 2009,
+    "truth": 6,
+    "impact": 55,
+    "notoriety": 52,
+    "summary": "FEMA has secretly constructed or designated a network of concentration camps to intern American citizens en masse during a declaration of martial law, national emergency, or political crackdown. The theory surged in popularity during the Obama administration and is often linked to the real but distinct 1984 'Rex 84' civil-disorder contingency plan.",
+    "evidence_for": [
+      "Real emergency contingency plans (Rex 84, 1984) outlined detention procedures for up to 400,000 undocumented immigrants in a national emergency",
+      "Historical precedent of Japanese American internment (1942) shows mass detention is not unprecedented",
+      "FEMA does maintain a National Emergency Resource Register and has authority over some large facilities",
+      "Photographs of ordinary facilities (empty warehouses, fairgrounds) have been widely circulated as 'evidence'"
+    ],
+    "evidence_against": [
+      "Every specific 'FEMA camp' identified has been investigated and found to be an ordinary facility — stadiums, empty lots, rail yards",
+      "Rex 84 was a civil-disorder scenario involving undocumented immigrants, not a plan to intern American citizens",
+      "Journalists, politicians, and activists have visited claimed sites and documented them as mundane",
+      "No credible whistleblower or document has substantiated the network of camps"
+    ],
+    "related": ["deep-state", "new-world-order", "agenda-21", "waco-cover-up"],
+    "depends_on": ["mass-govt-secrecy"],
+    "wikipedia": "https://en.wikipedia.org/wiki/FEMA_camps_conspiracy_theory"
+  },
+  {
+    "id": "agenda-21",
+    "name": "Agenda 21 Control Plot",
+    "aliases": ["UN Agenda 21", "Agenda 2030 depopulation"],
+    "genre": "new-world-order",
+    "year": 1992,
+    "truth": 7,
+    "impact": 62,
+    "notoriety": 48,
+    "summary": "The United Nations' 1992 Agenda 21 sustainable development program is claimed to be a covert blueprint for dismantling private property rights, abolishing national sovereignty, confining rural populations to monitored urban zones, and achieving a drastic reduction in world population — all under a one-world government managed by the UN.",
+    "evidence_for": [
+      "Agenda 21 is a real UN document adopted at the 1992 Rio Earth Summit by 178 governments",
+      "It addresses land use, consumption patterns, and population, which touch on property and lifestyle",
+      "Language about 'changing individual behavior' and global governance coordination has been cited by critics",
+      "Subsequent Agenda 2030 goals explicitly target economic restructuring"
+    ],
+    "evidence_against": [
+      "Agenda 21 is entirely non-binding; it has no enforcement mechanism and no legal authority over member states",
+      "The document's actual text focuses on voluntary sustainability goals and poverty reduction, not coercive control",
+      "Hundreds of municipalities adopted Agenda 21 plans openly, with no accompanying loss of autonomy",
+      "Detailed reading of the text contradicts virtually every specific claim made by conspiracy proponents"
+    ],
+    "related": ["new-world-order", "great-reset", "fema-camps", "climate-lockdown"],
+    "depends_on": ["new-world-order"],
+    "wikipedia": "https://en.wikipedia.org/wiki/Agenda_21"
+  },
+  {
+    "id": "project-blue-beam",
+    "name": "Project Blue Beam",
+    "aliases": ["NASA Blue Beam", "holographic Second Coming"],
+    "genre": "new-world-order",
+    "year": 1994,
+    "truth": 4,
+    "impact": 78,
+    "notoriety": 42,
+    "summary": "Project Blue Beam, first described by Canadian journalist Serge Monast in 1994, alleges that NASA and the UN plan to stage a fake extraterrestrial invasion or Second Coming using holographic projections in the sky and mind-control technologies transmitted via satellite, in order to manufacture public acceptance of a totalitarian one-world government and religion.",
+    "evidence_for": [
+      "Holographic projection technology has advanced and large-scale aerial projections are theoretically possible in limited forms",
+      "Governments and militaries have used psychological operations and staged events historically",
+      "Monast cited alleged NASA documents, though none have been independently verified"
+    ],
+    "evidence_against": [
+      "No credible evidence the project exists; no leaked document, whistleblower, or physical proof has emerged",
+      "The technology required to project globally visible holograms across open sky does not exist and is physically implausible at scale",
+      "Monast provided no verifiable sources; his claims have been traced to no documentary origin",
+      "Monast died in 1996; subsequent 'updates' are unverifiable internet embellishments"
+    ],
+    "related": ["new-world-order", "illuminati", "ufo-coverup", "nasa-hoax-capacity"],
+    "depends_on": ["new-world-order"],
+    "wikipedia": "https://en.wikipedia.org/wiki/Project_Blue_Beam"
+  },
+  {
+    "id": "georgia-guidestones",
+    "name": "Georgia Guidestones",
+    "aliases": ["American Stonehenge", "Guidestones depopulation agenda"],
+    "genre": "new-world-order",
+    "year": 1980,
+    "truth": 8,
+    "impact": 48,
+    "notoriety": 46,
+    "summary": "A granite monument erected in Elbert County, Georgia, in 1980 by an anonymous patron using the pseudonym 'R.C. Christian' bore inscriptions in eight languages outlining goals including maintaining world population under 500 million. Conspiracy theorists interpreted the monument as a declaration of a Satanic New World Order plan for genocidal population reduction; others view it as an eccentric conservationist's statement. The stones were destroyed by explosion in July 2022.",
+    "evidence_for": [
+      "The call to 'maintain humanity under 500,000,000' is far below current population and alarmed many readers",
+      "The patron's identity was never publicly confirmed, lending an air of institutional secrecy",
+      "Inscriptions about a 'world court' and a single new language align with New World Order rhetoric",
+      "The stones attracted vandalism and were targeted by political activists citing their content"
+    ],
+    "evidence_against": [
+      "The patron was later identified as Elberton businessman Herbert Hinie Kersten, a private individual with no organizational backing",
+      "The inscriptions are aspirational conservation and governance guidelines, not orders or a revealed plan",
+      "No organization has claimed authorship or acted on the 'guidelines' in any documented way",
+      "The monument's destruction in 2022 by unknown assailants produced no conspiracy revelations"
+    ],
+    "related": ["new-world-order", "agenda-21", "illuminati"],
+    "depends_on": [],
+    "wikipedia": "https://en.wikipedia.org/wiki/Georgia_Guidestones"
+  },
+  {
+    "id": "denver-airport-conspiracy",
+    "name": "Denver International Airport Conspiracy",
+    "aliases": ["DIA murals conspiracy", "Denver airport New World Order"],
+    "genre": "new-world-order",
+    "year": 1995,
+    "truth": 6,
+    "impact": 32,
+    "notoriety": 50,
+    "summary": "Denver's airport, which opened in 1995 amid cost overruns and delays, is claimed to be a secret NWO headquarters featuring murals depicting a genocidal world takeover, underground bunkers for the global elite, and Masonic and occult symbols throughout the terminal. The airport's dedication capstone carries a Masonic inscription, and grotesque gargoyle statues add to the atmosphere.",
+    "evidence_for": [
+      "The murals by Leo Tanguma depict vivid apocalyptic imagery — a uniformed figure with a sword, dead children, burning cities — which are genuinely unsettling and controversial",
+      "A Masonic time-capsule capstone is present at the airport with a reference to the 'New World Airport Commission'",
+      "The airport's construction was significantly over budget and delayed, feeding suspicion about hidden purposes",
+      "Underground tunnels (the automated baggage system) are extensive and were partly unused for years"
+    ],
+    "evidence_against": [
+      "Artist Leo Tanguma publicly explained the murals as depicting humanity overcoming war, genocide, and environmental destruction — a peace narrative, not a blueprint",
+      "The 'New World Airport Commission' was a temporary promotional body for the airport opening, not a global cabal",
+      "The 'underground tunnels' are the airport's documented automated baggage system",
+      "The airport has leaned into the conspiracies with humor, posting self-referential jokey signage about being a secret base"
+    ],
+    "related": ["new-world-order", "illuminati", "georgia-guidestones", "freemasons"],
+    "depends_on": [],
+    "wikipedia": "https://en.wikipedia.org/wiki/Denver_International_Airport#Conspiracy_theories"
+  },
+  {
+    "id": "skull-and-bones",
+    "name": "Skull and Bones",
+    "aliases": ["The Order", "322", "Yale secret society cabal"],
+    "genre": "religion-occult",
+    "year": 1983,
+    "truth": 22,
+    "impact": 52,
+    "notoriety": 56,
+    "summary": "Yale University's Skull and Bones secret society, founded in 1832, is claimed to be the recruiting arm of an elite cabal that secretly controls US intelligence, politics, and banking. Members including George H.W. Bush, George W. Bush, John Kerry, and numerous CIA directors are cited as evidence of coordinated power.",
+    "evidence_for": [
+      "Many members have reached the highest levels of US government: three presidents, multiple CIA directors, senators, and Supreme Court justices",
+      "The society is genuinely secretive, with rituals, oaths, and a 'tomb' headquarters sealed from non-members",
+      "Antony Sutton's 1983 research documented extensive member overlap with powerful institutions",
+      "Members refer to non-Bonesmen as 'outsiders,' suggesting in-group loyalty"
+    ],
+    "evidence_against": [
+      "Correlation between elite educational networks and political power is not evidence of covert coordinated control",
+      "Membership overlaps with dozens of other elite organizations (Scroll and Key, Wolf's Head, Council on Foreign Relations)",
+      "No evidence of coordinated policy direction beyond alumni networking and mutual sponsorship",
+      "The society's influence, while real as a social network, is qualitatively similar to other elite fraternal organizations"
+    ],
+    "related": ["illuminati", "new-world-order", "bohemian-grove", "freemasons"],
+    "depends_on": [],
+    "wikipedia": "https://en.wikipedia.org/wiki/Skull_and_Bones"
+  },
+  {
+    "id": "soros-puppet-master",
+    "name": "George Soros Puppet Master",
+    "aliases": ["Soros funds everything", "Soros open borders conspiracy"],
+    "genre": "finance",
+    "year": 2016,
+    "truth": 7,
+    "impact": 55,
+    "notoriety": 68,
+    "summary": "Billionaire philanthropist George Soros secretly orchestrates political upheavals, open-border immigration policies, progressive protest movements, and electoral interference worldwide through a network of NGOs funded by his Open Society Foundations. The theory frequently deploys antisemitic tropes about Jewish financiers controlling governments and has been linked to violent attacks. Catalogued to document a harmful, evidence-free trope.",
+    "evidence_for": [
+      "Soros's Open Society Foundations publicly spend billions funding civil society organizations, media, and political causes",
+      "Soros has acknowledged funding democracy-promotion groups in former Soviet states",
+      "Some OSF-funded organizations have been involved in voter registration and electoral advocacy",
+      "Soros himself has written about his political views and funding priorities"
+    ],
+    "evidence_against": [
+      "Philanthropic donations to NGOs are legal, publicly disclosed at the organizational level, and not covert control",
+      "The 'puppet master' framing directly mirrors classical antisemitic canards about Jewish financiers (Rothschild trope) applied to a living person",
+      "Diverse protest movements attributed to Soros have documented organic origins unrelated to OSF funding",
+      "The theory was explicitly linked to the 2018 Pittsburgh synagogue shooting and multiple bomb threats against Soros"
+    ],
+    "related": ["rothschild-banking", "protocols-elders-zion", "new-world-order", "great-replacement"],
+    "depends_on": [],
+    "wikipedia": "https://en.wikipedia.org/wiki/George_Soros#Conspiracy_theories"
+  },
+  {
+    "id": "cultural-marxism",
+    "name": "Cultural Marxism Conspiracy",
+    "aliases": ["Frankfurt School plot", "Gramscian cultural takeover", "cultural Bolshevism"],
+    "genre": "new-world-order",
+    "year": 1998,
+    "truth": 6,
+    "impact": 58,
+    "notoriety": 52,
+    "summary": "Frankfurt School Marxist intellectuals — many of them Jewish emigrants from Nazi Germany — allegedly devised a deliberate plan to infiltrate Western universities, media, and institutions to destroy traditional culture, family structures, Christianity, and national identity, paving the way for communist or globalist takeover. The theory maps real academic critical theory onto an intentional subversive conspiracy it was never designed to support.",
+    "evidence_for": [
+      "The Frankfurt School intellectuals did explicitly critique bourgeois and capitalist culture",
+      "Critical theory did spread through academic humanities and is genuinely influential",
+      "Antonio Gramsci wrote about cultural hegemony and the role of intellectuals in social change",
+      "Cultural changes in Western societies since the 1960s are real and significant"
+    ],
+    "evidence_against": [
+      "The term 'Cultural Marxism' was coined by far-right critics, not the academics themselves, and misrepresents their actual work",
+      "Academic influence on culture is not a secret conspiracy — the Frankfurt School published openly",
+      "The theory closely mirrors pre-existing antisemitic conspiracy narratives about Jewish intellectuals corrupting host cultures ('cultural Bolshevism' in Nazi Germany)",
+      "Cultural change in Western societies has multiple documented drivers; attributing it to a small academic school is unfalsifiable reductionism"
+    ],
+    "related": ["new-world-order", "great-replacement", "soros-puppet-master", "protocols-elders-zion"],
+    "depends_on": ["new-world-order"],
+    "wikipedia": "https://en.wikipedia.org/wiki/Cultural_Marxism_conspiracy_theory"
+  },
+  {
+    "id": "great-replacement",
+    "name": "The Great Replacement",
+    "aliases": ["replacement theory", "demographic replacement"],
+    "genre": "ethnic-religious",
+    "year": 2011,
+    "truth": 6,
+    "impact": 72,
+    "notoriety": 64,
+    "summary": "Popularized by French author Renaud Camus in 2011, this theory holds that a globalist or Jewish elite is deliberately engineering mass immigration and demographic change to 'replace' native (white) European and Western populations, destroying their culture and political power. Catalogued to document a violence-linked, debunked trope.",
+    "evidence_for": [
+      "Real demographic shifts from immigration and differential birth rates are occurring in Western nations",
+      "Immigration policy is shaped by political and economic decisions made by identifiable actors"
+    ],
+    "evidence_against": [
+      "Demographic change results from economic migration, refugee flows, and birth-rate differences — not a coordinated genocidal plot",
+      "No evidence of a coordinating elite engineering this outcome",
+      "The theory repackages earlier antisemitic canards (white genocide, Protocols) in updated language",
+      "Directly linked to real-world terror attacks: Christchurch (2019), El Paso (2019), and the Buffalo shooting (2022)"
+    ],
+    "related": ["white-genocide", "protocols-elders-zion", "cultural-marxism", "new-world-order"],
+    "depends_on": [],
+    "wikipedia": "https://en.wikipedia.org/wiki/Great_Replacement"
+  },
+  {
+    "id": "white-genocide",
+    "name": "White Genocide",
+    "aliases": ["white replacement", "white extinction conspiracy", "White Genocide Manifesto"],
+    "genre": "ethnic-religious",
+    "year": 1995,
+    "truth": 3,
+    "impact": 62,
+    "notoriety": 55,
+    "summary": "A white nationalist theory claiming that white people are being deliberately exterminated through mass immigration, interracial marriage, abortion, and low birth rates, engineered by a Jewish or globalist elite. Catalogued to document a harmful, violence-linked, and thoroughly debunked trope that has inspired multiple terrorist attacks.",
+    "evidence_for": [
+      "Demographic projections show white majorities declining in some Western nations over coming decades",
+      "Immigration rates are high in many Western countries, representing real policy choices"
+    ],
+    "evidence_against": [
+      "Demographic change driven by economics, migration, and personal reproductive choices does not constitute genocide by any legal or moral definition",
+      "The claim of deliberate orchestration by a cabal has no evidentiary basis",
+      "The term 'genocide' is legally defined under international law and requires intent to destroy a group; voluntary demographic trends do not qualify",
+      "Directly linked to terrorist attacks including the Christchurch mosque shootings (51 dead, 2019), the Pittsburgh Tree of Life shooting (11 dead, 2018), and the El Paso Walmart shooting (23 dead, 2019)"
+    ],
+    "related": ["great-replacement", "protocols-elders-zion", "cultural-marxism", "soros-puppet-master"],
+    "depends_on": [],
+    "wikipedia": "https://en.wikipedia.org/wiki/White_genocide_conspiracy_theory"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "genres": [
+    { "key": "government",       "label": "Government & State",        "color": "#ef4444", "blurb": "State actors secretly acting against their own people or hiding operations." },
+    { "key": "espionage",        "label": "Espionage & Intelligence", "color": "#f59e0b", "blurb": "Intelligence agencies, covert programs, surveillance and psyops." },
+    { "key": "alt-history",      "label": "Alternative History",      "color": "#a8a29e", "blurb": "Claims that the accepted history of an event, person or era is fabricated." },
+    { "key": "science-tech",     "label": "Science & Technology",     "color": "#22d3ee", "blurb": "Suppressed inventions, faked science, or hidden technological programs." },
+    { "key": "health",           "label": "Health & Medicine",        "color": "#10b981", "blurb": "Medicine, pharma, vaccines, disease origins and public-health cover-ups." },
+    { "key": "extraterrestrial", "label": "Extraterrestrial & UFO",   "color": "#8b5cf6", "blurb": "Aliens, UFOs, disclosure and contact cover-ups." },
+    { "key": "religion-occult",  "label": "Religion & Occult",        "color": "#c084fc", "blurb": "Secret societies, cults, esoteric and religious plots." },
+    { "key": "finance",          "label": "Finance & Economy",        "color": "#84cc16", "blurb": "Banking cabals, market manipulation, currency and economic control." },
+    { "key": "deaths",           "label": "Deaths & Assassinations",  "color": "#fb923c", "blurb": "Contested deaths, assassinations, faked deaths and disappearances." },
+    { "key": "ethnic-religious", "label": "Ethnic & Religious Scapegoating", "color": "#64748b", "blurb": "Theories that scapegoat an ethnic or religious group (catalogued to document harm, not endorse)." },
+    { "key": "new-world-order",  "label": "New World Order & Globalism", "color": "#ec4899", "blurb": "A hidden global elite engineering world domination or population control." },
+    { "key": "media-surveillance","label": "Media & Surveillance",    "color": "#60a5fa", "blurb": "Mind control, media manipulation, mass surveillance and social engineering." }
+  ],
+  "truth_scale": [
+    { "min": 0,  "max": 10,  "label": "Debunked",        "note": "Contradicted by overwhelming evidence; physically or logically impossible." },
+    { "min": 11, "max": 30,  "label": "Fringe",          "note": "No credible supporting evidence; relies on speculation or misread data." },
+    { "min": 31, "max": 55,  "label": "Contested",       "note": "Genuine unanswered questions or unfalsifiable claims; mainstream rejects but a real debate exists." },
+    { "min": 56, "max": 75,  "label": "Plausible",       "note": "Substantial circumstantial evidence; partially supported by the record." },
+    { "min": 76, "max": 90,  "label": "Substantiated",   "note": "Largely borne out by documents, testimony or later admissions." },
+    { "min": 91, "max": 100, "label": "Confirmed",       "note": "Documented historical fact — a real conspiracy, proven in court, by declassification or admission." }
+  ],
+  "impact_scale": {
+    "0":   "Trivial — even if true, changes almost nothing.",
+    "25":  "Local/limited — affects a specific group, event, or industry.",
+    "50":  "National/major — would rewrite a country's politics or a field of science.",
+    "75":  "Global — would upend geopolitics, economics, or shared reality.",
+    "100": "Civilization-defining — the world is fundamentally not what we think it is."
+  }
+}
