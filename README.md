@@ -5,7 +5,7 @@ against **how impactful they'd be if true** (y-axis) — plus a genre breakdown,
 formulation-year timeline, and a **load-bearing dependency graph** showing which
 theories require other theories to be true.
 
-**[Live site →](https://SolomonsBlade.github.io/conspiracy-graph/)** *(update URL after first push)*
+**[Live site →](https://sh1ftmaker.github.io/conspiracy-graph/)**
 
 ## What's here
 
