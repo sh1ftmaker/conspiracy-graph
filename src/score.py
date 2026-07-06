@@ -56,6 +56,17 @@ DEFAULTS = {
     "impact_gain": 20.0, "impact_floor": 0.5,
     "noto_log_off": 1.5, "noto_log_div": 5.5, "noto_tier_band": 20,
     "att_ladder": [3, 10, 22, 40, 58, 75],
+    # ---- metaphysical "frame" plausibility (a DIFFERENT truth axis) ----
+    # For entries that are frameworks of reality (idealism, simulation theory,
+    # pantheism, invented cosmologies) rather than empirical historical claims.
+    # We score probability-among-worldviews, not historical fact: no source can
+    # "prove" a metaphysics, so the axis is capped well below certainty.
+    "ped_map": [-1.0, -0.5, -0.15, 0.2, 0.45],  # pedigree 0-4: creepypasta -> live academic/major tradition
+    "coh_map": [-0.7, -0.35, 0.0, 0.2, 0.4],    # coherence 0-4: self-contradictory -> consistent with known physics/logic
+    "par_map": [-0.5, -0.25, 0.0, 0.15, 0.3],   # parsimony 0-4: baroque ontology -> minimal assumptions
+    "frame_pro": 1.0, "frame_con": 0.9,         # per-source strength for arguments for / against the framework
+    "frame_pro_cap": 0.65, "frame_con_cap": 0.8,
+    "frame_ceiling": 85,                         # nothing metaphysical is ever "proven"
     "classes": {},          # cls -> [proven, total] frozen base rates
     "bias_weights": {"court": 5, "declassified": 4, "academic": 4, "investigative": 4,
                      "government": 3, "mainstream": 3, "book": 2, "wikipedia": 2,
@@ -144,6 +155,49 @@ def truth_terms(t, f, C):
     return round(prior, 2), ev_terms, leak, round(logit, 2), int(round(100 * sigma(logit)))
 
 
+def frame_terms(t, f, C):
+    """Metaphysical plausibility: 100*sigma(pedigree + coherence + parsimony
+    + argued support), capped below certainty. Returns
+    (ped_term, coh_term, par_term, src_terms, logit, plausibility)."""
+    ped = C["ped_map"][max(0, min(4, f.get("ped", 2)))]
+    coh = C["coh_map"][max(0, min(4, f.get("coh", 2)))]
+    par = C["par_map"][max(0, min(4, f.get("par", 2)))]
+
+    raw = []
+    for i, src in enumerate(t.get("sources") or []):
+        st = (src.get("st") or C["stance_legacy"].get((src.get("stance") or "").lower(), "")).lower()
+        if st in ("proves", "supports"):
+            sign = 1
+        elif st in ("debunks", "disproves"):
+            sign = -1
+        else:
+            continue
+        q = C["bias_weights"].get(src.get("bias"), 2) / C["quality_div"]
+        strength = C["frame_pro"] if sign > 0 else -C["frame_con"]
+        raw.append([i, st, round(q, 2), sign, q * strength, _domain(src.get("url", ""))])
+
+    src_terms, src_sum = [], 0.0
+    for sign in (1, -1):
+        grp = [r for r in raw if (r[4] > 0) == (sign > 0)]
+        grp.sort(key=lambda r: -abs(r[4]))
+        seen, kept = set(), []
+        for r in grp:
+            if r[5] and r[5] in seen:
+                continue
+            seen.add(r[5]); kept.append(r)
+        subtotal = 0.0
+        for j, r in enumerate(kept):
+            w = r[4] / (j + 1)
+            subtotal += w
+            src_terms.append([r[0], r[1], r[2], round(w, 2)])
+        cap = C["frame_pro_cap"] if sign > 0 else C["frame_con_cap"]
+        src_sum += max(-cap, min(cap, subtotal)) if sign > 0 else max(-cap, min(cap, subtotal))
+
+    logit = ped + coh + par + src_sum
+    plaus = min(C["frame_ceiling"], max(1, int(round(100 * sigma(logit)))))
+    return round(ped, 2), round(coh, 2), round(par, 2), src_terms, round(logit, 2), plaus
+
+
 def impact_of(f, C):
     fl = C["impact_floor"]
     g = (max(fl, f["scale"]) * max(fl, f["sev"]) * max(fl, f["reach"])) ** (1 / 3)
@@ -164,14 +218,29 @@ def noto_of(f, views, C):
 
 
 def score_theory(t, f, views, C):
-    """Attach computed scores + transparent breakdown to theory dict t."""
-    prior, ev, leak, logit, truth = truth_terms(t, f, C)
+    """Attach computed scores + transparent breakdown to theory dict t.
+    Frame records (metaphysical frameworks) use the plausibility axis; all
+    others use the historical Bayesian truth axis."""
     imp = impact_of(f, C)
     noto = noto_of(f, views, C)
     t["truth_manual"], t["impact_manual"], t["notoriety_manual"] = t["truth"], t["impact"], t["notoriety"]
-    t["truth"], t["impact"], t["notoriety"] = truth, imp, noto
+    t["impact"], t["notoriety"] = imp, noto
+    if f.get("frame"):
+        ped, coh, par, srcs, logit, plaus = frame_terms(t, f, C)
+        t["truth"] = plaus
+        t["truth_kind"] = "frame"
+        t["score"] = {
+            "kind": "frame", "cls": f["cls"],
+            "ped": [f.get("ped", 2), ped], "coh": [f.get("coh", 2), coh], "par": [f.get("par", 2), par],
+            "src": srcs, "logit": logit, "ceiling": C["frame_ceiling"],
+            "if": [f["scale"], f["sev"], f["reach"]], "pv": views, "att": f.get("att"),
+        }
+        return
+    prior, ev, leak, logit, truth = truth_terms(t, f, C)
+    t["truth"] = truth
+    t["truth_kind"] = "fact"
     t["score"] = {
-        "cls": f["cls"], "imp": bool(f.get("imp")),
+        "kind": "fact", "cls": f["cls"], "imp": bool(f.get("imp")),
         "prior": [C["classes"].get(f["cls"], [0, 1])[0], C["classes"].get(f["cls"], [0, 1])[1], prior],
         "ev": ev, "leak": leak, "logit": logit,
         "if": [f["scale"], f["sev"], f["reach"]],
@@ -184,6 +253,11 @@ def load_factors():
     for fp in sorted(glob.glob(os.path.join(ROOT, "data", "factors", "fact_*.json"))):
         for r in json.load(io.open(fp, encoding="utf-8")):
             F[r["id"]] = r
+    # frame overlays add frame/ped/coh/par onto the matching factor record
+    for fp in sorted(glob.glob(os.path.join(ROOT, "data", "frames", "frame_*.json"))):
+        for r in json.load(io.open(fp, encoding="utf-8")):
+            if r["id"] in F:
+                F[r["id"]].update({k: v for k, v in r.items() if k != "id"})
     return F
 
 

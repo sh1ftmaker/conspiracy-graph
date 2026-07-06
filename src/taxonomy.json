@@ -13,6 +13,14 @@
     { "key": "new-world-order",  "label": "New World Order & Globalism", "color": "#ec4899", "blurb": "A hidden global elite engineering world domination or population control." },
     { "key": "media-surveillance","label": "Media & Surveillance",    "color": "#60a5fa", "blurb": "Mind control, media manipulation, mass surveillance and social engineering." }
   ],
+  "frame_scale": [
+    { "min": 0,  "max": 10,  "label": "Incoherent",        "color": "#4b4463", "note": "Self-contradictory, or physically impossible as stated." },
+    { "min": 11, "max": 30,  "label": "Fringe metaphysics", "color": "#6d5b9e", "note": "Invented cosmology with no serious defenders; a bare possibility." },
+    { "min": 31, "max": 55,  "label": "Speculative",        "color": "#8b78d4", "note": "Coherent but unsupported; one imaginable model of reality among many." },
+    { "min": 56, "max": 75,  "label": "Live hypothesis",    "color": "#a78bfa", "note": "Seriously entertained by some thinkers or traditions; not idle." },
+    { "min": 76, "max": 90,  "label": "Serious framework",  "color": "#c4b5fd", "note": "Defended in academic philosophy or theoretical physics." },
+    { "min": 91, "max": 100, "label": "Leading model",      "color": "#ddd6fe", "note": "A major contender among frameworks of reality (rarely reached — plausibility is capped short of proof)." }
+  ],
   "truth_scale": [
     { "min": 0,  "max": 10,  "label": "Debunked",        "note": "Contradicted by overwhelming evidence; physically or logically impossible." },
     { "min": 11, "max": 30,  "label": "Fringe",          "note": "No credible supporting evidence; relies on speculation or misread data." },

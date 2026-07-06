@@ -1,0 +1,689 @@
+[
+  {
+    "id": "field-trauma",
+    "frame": true,
+    "ped": 2,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "artificial-aliens",
+    "frame": false
+  },
+  {
+    "id": "deep-space-tech",
+    "frame": false
+  },
+  {
+    "id": "warlords-are-time-travellers",
+    "frame": false
+  },
+  {
+    "id": "non-space",
+    "frame": false
+  },
+  {
+    "id": "memetic-black-magic",
+    "frame": true,
+    "ped": 2,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "new-zealand-8th-continent",
+    "frame": false
+  },
+  {
+    "id": "agarthan-geopolitics",
+    "frame": false
+  },
+  {
+    "id": "the-moon-was-the-ark",
+    "frame": false
+  },
+  {
+    "id": "protein-qrd-1451",
+    "frame": false
+  },
+  {
+    "id": "micro-auras",
+    "frame": true,
+    "ped": 2,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "2012-mayan-prophecy-shift",
+    "frame": false
+  },
+  {
+    "id": "quantum-death",
+    "frame": true,
+    "ped": 3,
+    "coh": 3,
+    "par": 2
+  },
+  {
+    "id": "the-furry-conspiracy",
+    "frame": false
+  },
+  {
+    "id": "abaka-alignment",
+    "frame": false
+  },
+  {
+    "id": "lunar-shadow-temples",
+    "frame": false
+  },
+  {
+    "id": "bacterial-humanity",
+    "frame": false
+  },
+  {
+    "id": "earthly-aura",
+    "frame": true,
+    "ped": 2,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "ancient-glyphs-on-saturns-moons",
+    "frame": false
+  },
+  {
+    "id": "cosmic-demons",
+    "frame": true,
+    "ped": 2,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "the-charley-project",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "memetic-existence",
+    "frame": true,
+    "ped": 2,
+    "coh": 1,
+    "par": 2
+  },
+  {
+    "id": "demonic-plants",
+    "frame": false
+  },
+  {
+    "id": "earth-is-bigger-than-the-sun",
+    "frame": false
+  },
+  {
+    "id": "ashtar-high-command",
+    "frame": false
+  },
+  {
+    "id": "leyline-survival-mechanisms",
+    "frame": true,
+    "ped": 0,
+    "coh": 1,
+    "par": 0
+  },
+  {
+    "id": "ocean-doesnt-exist",
+    "frame": false
+  },
+  {
+    "id": "pelagic-giants",
+    "frame": false
+  },
+  {
+    "id": "geometric-algorithmic-shortcuts",
+    "frame": true,
+    "ped": 2,
+    "coh": 4,
+    "par": 3
+  },
+  {
+    "id": "divine-graphetics",
+    "frame": true,
+    "ped": 3,
+    "coh": 2,
+    "par": 1
+  },
+  {
+    "id": "malerei-diespirale-the-spiral",
+    "frame": true,
+    "ped": 0,
+    "coh": 1,
+    "par": 0
+  },
+  {
+    "id": "earthly-aura-influence",
+    "frame": true,
+    "ped": 2,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "bioma-over-genoma",
+    "frame": false
+  },
+  {
+    "id": "earthly-aura-control",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "hivemind-induction",
+    "frame": false
+  },
+  {
+    "id": "npc-astroturfing",
+    "frame": false
+  },
+  {
+    "id": "field-consciousness",
+    "frame": true,
+    "ped": 2,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "chthonic-noosphere",
+    "frame": true,
+    "ped": 2,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "chaos-banking",
+    "frame": true,
+    "ped": 0,
+    "coh": 0,
+    "par": 0
+  },
+  {
+    "id": "preemptive-chaos-investment",
+    "frame": false
+  },
+  {
+    "id": "human-extinction",
+    "frame": false
+  },
+  {
+    "id": "tomoki-uemiya",
+    "frame": false
+  },
+  {
+    "id": "earth-abandonment",
+    "frame": false
+  },
+  {
+    "id": "nuclear-grid-theory",
+    "frame": false
+  },
+  {
+    "id": "esoteric-posadism",
+    "frame": false
+  },
+  {
+    "id": "demonic-interrogation",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 0
+  },
+  {
+    "id": "illuminati-are-the-good-guys",
+    "frame": false
+  },
+  {
+    "id": "anti-extinction",
+    "frame": false
+  },
+  {
+    "id": "demolition-elves",
+    "frame": false
+  },
+  {
+    "id": "involuntary-tulpas",
+    "frame": true,
+    "ped": 2,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "war-is-fake",
+    "frame": false
+  },
+  {
+    "id": "tesseract-earthuniverse",
+    "frame": true,
+    "ped": 2,
+    "coh": 2,
+    "par": 1
+  },
+  {
+    "id": "4th-dimensional-astral-projection",
+    "frame": true,
+    "ped": 2,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "absurdism-sway",
+    "frame": true,
+    "ped": 3,
+    "coh": 3,
+    "par": 1
+  },
+  {
+    "id": "moai-statues-were-rapa-nuians",
+    "frame": false
+  },
+  {
+    "id": "bodily-calcification-implications",
+    "frame": true,
+    "ped": 2,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "mathacker",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "hyper-acting-tulpa-creation",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "real-meaning-of-hybrid-rpg",
+    "frame": true,
+    "ped": 0,
+    "coh": 1,
+    "par": 0
+  },
+  {
+    "id": "demonic-presentism",
+    "frame": true,
+    "ped": 2,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "hyper-active-tulpa-induction",
+    "frame": false
+  },
+  {
+    "id": "tibetan-slut-stocks",
+    "frame": false
+  },
+  {
+    "id": "demonic-media-conglomerates",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 0
+  },
+  {
+    "id": "fire-is-alive",
+    "frame": false
+  },
+  {
+    "id": "satan-prometheus",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "eating-food-makes-you-age",
+    "frame": false
+  },
+  {
+    "id": "the-panurgic-protocols",
+    "frame": false
+  },
+  {
+    "id": "non-euclidian-4th-dimensional-topography",
+    "frame": true,
+    "ped": 1,
+    "coh": 2,
+    "par": 1
+  },
+  {
+    "id": "1800s-technology",
+    "frame": false
+  },
+  {
+    "id": "field-consciousness-transference",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "door-dogs",
+    "frame": true,
+    "ped": 2,
+    "coh": 1,
+    "par": 2
+  },
+  {
+    "id": "4th-dimensional-tulpas",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "oneworldness",
+    "frame": true,
+    "ped": 3,
+    "coh": 3,
+    "par": 3
+  },
+  {
+    "id": "earthly-aura-escapism",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "fukushimas-gateway",
+    "frame": false
+  },
+  {
+    "id": "grand-nuclear-cryptid-theory",
+    "frame": true,
+    "ped": 0,
+    "coh": 1,
+    "par": 0
+  },
+  {
+    "id": "lottery-exists-to-catch-time-travelers",
+    "frame": false
+  },
+  {
+    "id": "contemporary-cognitohazards",
+    "frame": false
+  },
+  {
+    "id": "vertical-universe",
+    "frame": true,
+    "ped": 1,
+    "coh": 2,
+    "par": 1
+  },
+  {
+    "id": "5th-dimensional-astral-projection",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "prophecies-enforcing-agency",
+    "frame": false
+  },
+  {
+    "id": "prophecies-are-cognitohazards",
+    "frame": false
+  },
+  {
+    "id": "consciousness-beamed-from-moon-base",
+    "frame": false
+  },
+  {
+    "id": "post-reset-operation-blue-beam",
+    "frame": false
+  },
+  {
+    "id": "human-immortality",
+    "frame": true,
+    "ped": 2,
+    "coh": 2,
+    "par": 1
+  },
+  {
+    "id": "soul-entrapment",
+    "frame": true,
+    "ped": 2,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "panurgic-men",
+    "frame": false
+  },
+  {
+    "id": "quantum-coagulation",
+    "frame": false
+  },
+  {
+    "id": "timecube",
+    "frame": true,
+    "ped": 0,
+    "coh": 0,
+    "par": 1
+  },
+  {
+    "id": "reality-oscillation",
+    "frame": true,
+    "ped": 2,
+    "coh": 2,
+    "par": 1
+  },
+  {
+    "id": "technocracy-theory",
+    "frame": false
+  },
+  {
+    "id": "demonic-technocracy",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 0
+  },
+  {
+    "id": "wetiko",
+    "frame": true,
+    "ped": 3,
+    "coh": 2,
+    "par": 2
+  },
+  {
+    "id": "ancestral-vengeance",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "water-is-not-from-earth",
+    "frame": false
+  },
+  {
+    "id": "extraterrestrial-notions",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "digital-aura-transmission",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "concrete-people-of-callugasi",
+    "frame": false
+  },
+  {
+    "id": "involuntary-cognitohazards",
+    "frame": false
+  },
+  {
+    "id": "inverted-humans",
+    "frame": false
+  },
+  {
+    "id": "ancient-bunkers-mega-bunkers",
+    "frame": false
+  },
+  {
+    "id": "italian-language",
+    "frame": false
+  },
+  {
+    "id": "sanctified-speech",
+    "frame": true,
+    "ped": 2,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "90-of-books-written-by-one-author",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 0
+  },
+  {
+    "id": "extradimensional-homogeneity",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "anti-earth-biology",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "holy-grail-found-centuries-ago",
+    "frame": false
+  },
+  {
+    "id": "essence-consumption-essence-feeding",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "clone-consumption",
+    "frame": false
+  },
+  {
+    "id": "hostile-plants",
+    "frame": false
+  },
+  {
+    "id": "fauna-to-flora-soul-transference",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "upward-causality",
+    "frame": true,
+    "ped": 2,
+    "coh": 1,
+    "par": 2
+  },
+  {
+    "id": "artificial-causality-stimulation",
+    "frame": false
+  },
+  {
+    "id": "lithuanian-poems",
+    "frame": false
+  },
+  {
+    "id": "cryptic-premonitions",
+    "frame": true,
+    "ped": 2,
+    "coh": 1,
+    "par": 2
+  },
+  {
+    "id": "aliens-caused-the-bubonic-plague",
+    "frame": false
+  },
+  {
+    "id": "extra-terrestrial-evolution",
+    "frame": false
+  },
+  {
+    "id": "enchanted-websites",
+    "frame": true,
+    "ped": 0,
+    "coh": 1,
+    "par": 0
+  },
+  {
+    "id": "internet-old-magic",
+    "frame": true,
+    "ped": 0,
+    "coh": 1,
+    "par": 0
+  },
+  {
+    "id": "dyson-sphere-already-constructed",
+    "frame": false
+  },
+  {
+    "id": "microchips-found-in-fossils",
+    "frame": false
+  },
+  {
+    "id": "time-travel-shrinkage",
+    "frame": true,
+    "ped": 0,
+    "coh": 1,
+    "par": 0
+  },
+  {
+    "id": "the-black-snake-prophecy",
+    "frame": true,
+    "ped": 3,
+    "coh": 2,
+    "par": 2
+  },
+  {
+    "id": "modular-prophecies",
+    "frame": true,
+    "ped": 3,
+    "coh": 3,
+    "par": 3
+  },
+  {
+    "id": "underground-caverns",
+    "frame": false
+  },
+  {
+    "id": "the-cavern-guardian",
+    "frame": true,
+    "ped": 3,
+    "coh": 1,
+    "par": 1
+  }
+]

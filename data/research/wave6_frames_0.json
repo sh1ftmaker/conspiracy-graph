@@ -1,0 +1,139 @@
+[
+{"id":"mandela-effect","sources":[
+  {"title":"Mandela Effect Explained by Parallel Universe and Multiverse Theory","url":"https://humansbefree.com/2018/09/mandela-effect-explained-by-parallel-universe-and-multiverse-theory.html","type":"advocacy","stance":"supports"},
+  {"title":"The 'Mandela effect' and how your mind is playing tricks on you","url":"https://theconversation.com/the-mandela-effect-and-how-your-mind-is-playing-tricks-on-you-89544","type":"news","stance":"debunks"}
+],"st":[
+  {"url":"https://humansbefree.com/2018/09/mandela-effect-explained-by-parallel-universe-and-multiverse-theory.html","st":"supports"},
+  {"url":"https://theconversation.com/the-mandela-effect-and-how-your-mind-is-playing-tricks-on-you-89544","st":"debunks"}
+]},
+{"id":"simulation-theory","sources":[
+  {"title":"The Simulation Argument FAQ","url":"https://simulation-argument.com/faq/","type":"academic","stance":"supports"},
+  {"title":"Simulation hypothesis","url":"https://en.wikipedia.org/wiki/Simulation_hypothesis","type":"wikipedia","stance":"context"}
+],"st":[
+  {"url":"https://simulation-argument.com/faq/","st":"supports"},
+  {"url":"https://en.wikipedia.org/wiki/Simulation_hypothesis","st":"context"}
+]},
+{"id":"hermeneutics","sources":[
+  {"title":"Hans-Georg Gadamer","url":"https://plato.stanford.edu/entries/gadamer/","type":"academic","stance":"supports"},
+  {"title":"Hermeneutics","url":"https://plato.stanford.edu/archives/win2021/entries/hermeneutics/","type":"academic","stance":"supports"}
+],"st":[
+  {"url":"https://plato.stanford.edu/entries/gadamer/","st":"supports"},
+  {"url":"https://plato.stanford.edu/archives/win2021/entries/hermeneutics/","st":"supports"}
+]},
+{"id":"geometrodynamics","sources":[
+  {"title":"Geometrodynamics","url":"https://en.wikipedia.org/wiki/Geometrodynamics","type":"wikipedia","stance":"context"},
+  {"title":"Geometrodynamics (Wheeler)","url":"https://books.google.com/books/about/Geometrodynamics.html?id=-gUvAAAAIAAJ","type":"book","stance":"supports"}
+],"st":[
+  {"url":"https://en.wikipedia.org/wiki/Geometrodynamics","st":"context"},
+  {"url":"https://books.google.com/books/about/Geometrodynamics.html?id=-gUvAAAAIAAJ","st":"supports"}
+]},
+{"id":"deep-philosophies","sources":[
+  {"title":"Self-Knowledge","url":"https://plato.stanford.edu/entries/self-knowledge/","type":"academic","stance":"context"}
+],"st":[
+  {"url":"https://plato.stanford.edu/entries/self-knowledge/","st":"context"}
+]},
+{"id":"esoteric-hitlerism","sources":[
+  {"title":"Adolf Hitler, The Ultimate Avatar","url":"https://dn710203.ca.archive.org/0/items/adolf-hitler-the-ultimate-avatar-miguel-serrano/Adolf%20Hitler,%20The%20Ultimate%20Avatar%20-%20Miguel%20Serrano.pdf","type":"book","stance":"supports"},
+  {"title":"Savitri Devi, Miguel Serrano and the global phenomenon of esoteric Hitlerism","url":"https://www.cambridge.org/core/books/abs/occultism-in-a-global-perspective/savitri-devi-miguel-serrano-and-the-global-phenomenon-of-esoteric-hitlerism/FA5A25553E361411F513A46ACB6E15A3","type":"academic","stance":"context"}
+],"st":[
+  {"url":"https://dn710203.ca.archive.org/0/items/adolf-hitler-the-ultimate-avatar-miguel-serrano/Adolf%20Hitler,%20The%20Ultimate%20Avatar%20-%20Miguel%20Serrano.pdf","st":"supports"},
+  {"url":"https://www.cambridge.org/core/books/abs/occultism-in-a-global-perspective/savitri-devi-miguel-serrano-and-the-global-phenomenon-of-esoteric-hitlerism/FA5A25553E361411F513A46ACB6E15A3","st":"context"}
+]},
+{"id":"last-thursdayism","sources":[
+  {"title":"Last Thursdayism","url":"https://rationalwiki.org/wiki/Last_Thursdayism","type":"advocacy","stance":"context"},
+  {"title":"Omphalos hypothesis","url":"https://en.wikipedia.org/wiki/Omphalos_hypothesis","type":"wikipedia","stance":"context"}
+],"st":[
+  {"url":"https://rationalwiki.org/wiki/Last_Thursdayism","st":"context"},
+  {"url":"https://en.wikipedia.org/wiki/Omphalos_hypothesis","st":"context"}
+]},
+{"id":"acosmism","sources":[
+  {"title":"Pantheism","url":"https://plato.stanford.edu/entries/pantheism/","type":"academic","stance":"supports"},
+  {"title":"Acosmism","url":"https://en.wikipedia.org/wiki/Acosmism","type":"wikipedia","stance":"context"}
+],"st":[
+  {"url":"https://plato.stanford.edu/entries/pantheism/","st":"supports"},
+  {"url":"https://en.wikipedia.org/wiki/Acosmism","st":"context"}
+]},
+{"id":"animism","sources":[
+  {"title":"Animism: Respecting the Living World","url":"https://animism.org.uk/","type":"book","stance":"supports"},
+  {"title":"Animism","url":"https://iep.utm.edu/animism/","type":"academic","stance":"supports"}
+],"st":[
+  {"url":"https://animism.org.uk/","st":"supports"},
+  {"url":"https://iep.utm.edu/animism/","st":"supports"}
+]},
+{"id":"montanism","sources":[
+  {"title":"The New Prophecy and the Old Faith: Montanism's Challenge to Early Christianity","url":"https://www.veritascatholica.com/the-new-prophecy-and-the-old-faith-montanisms-challenge-to-early-christianity/","type":"advocacy","stance":"context"},
+  {"title":"Montanism","url":"https://www.britannica.com/topic/Montanism","type":"academic","stance":"context"}
+],"st":[
+  {"url":"https://www.veritascatholica.com/the-new-prophecy-and-the-old-faith-montanisms-challenge-to-early-christianity/","st":"context"},
+  {"url":"https://www.britannica.com/topic/Montanism","st":"context"}
+]},
+{"id":"manichaeism","sources":[
+  {"title":"Manichaeism","url":"https://www.britannica.com/topic/Manichaeism","type":"academic","stance":"supports"},
+  {"title":"Manicheism","url":"https://www.rep.routledge.com/articles/thematic/manicheism/v-1","type":"academic","stance":"supports"}
+],"st":[
+  {"url":"https://www.britannica.com/topic/Manichaeism","st":"supports"},
+  {"url":"https://www.rep.routledge.com/articles/thematic/manicheism/v-1","st":"supports"}
+]},
+{"id":"valis","sources":[
+  {"title":"Valis (novel)","url":"https://en.wikipedia.org/wiki/Valis_(novel)","type":"wikipedia","stance":"context"},
+  {"title":"VALIS and Gnosticism","url":"https://www.technoccult.net/2008/02/22/valis-and-gnosticism/","type":"advocacy","stance":"supports"}
+],"st":[
+  {"url":"https://en.wikipedia.org/wiki/Valis_(novel)","st":"context"},
+  {"url":"https://www.technoccult.net/2008/02/22/valis-and-gnosticism/","st":"supports"}
+]},
+{"id":"agarthan-entrances","sources":[
+  {"title":"The Kingdom of Agarttha: A Journey into the Hollow Earth","url":"https://www.theosophical.org/publications/quest-magazine/the-kingdom-of-agarttha-a-journey-into-the-hollow-earth","type":"advocacy","stance":"supports"},
+  {"title":"Agartha","url":"https://en.wikipedia.org/wiki/Agartha","type":"wikipedia","stance":"context"}
+],"st":[
+  {"url":"https://www.theosophical.org/publications/quest-magazine/the-kingdom-of-agarttha-a-journey-into-the-hollow-earth","st":"supports"},
+  {"url":"https://en.wikipedia.org/wiki/Agartha","st":"context"}
+]},
+{"id":"gods-plan","sources":[
+  {"title":"Theodicies","url":"https://plato.stanford.edu/entries/theodicies/","type":"academic","stance":"supports"},
+  {"title":"Foreknowledge and Free Will","url":"https://plato.stanford.edu/entries/free-will-foreknowledge/","type":"academic","stance":"context"}
+],"st":[
+  {"url":"https://plato.stanford.edu/entries/theodicies/","st":"supports"},
+  {"url":"https://plato.stanford.edu/entries/free-will-foreknowledge/","st":"context"}
+]},
+{"id":"the-corrupted-image","sources":[
+  {"title":"Image of God (Imago Dei)","url":"https://www.saet.ac.uk/Christianity/ImageofGod","type":"academic","stance":"context"}
+],"st":[
+  {"url":"https://www.saet.ac.uk/Christianity/ImageofGod","st":"context"}
+]},
+{"id":"animal-possession","sources":[
+  {"title":"Religious Beliefs, Possession States, and Spirits: Three Case Studies from Sri Lanka","url":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3437272/","type":"academic","stance":"context"},
+  {"title":"Spirit Possession as a Cross-Cultural Phenomenon","url":"https://www.pas.rochester.edu/~tim/study/Keener%20Possession%20.pdf","type":"academic","stance":"supports"}
+],"st":[
+  {"url":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3437272/","st":"context"},
+  {"url":"https://www.pas.rochester.edu/~tim/study/Keener%20Possession%20.pdf","st":"supports"}
+]},
+{"id":"occultic-leyline-creation","sources":[
+  {"title":"Ley Lines","url":"https://occult-world.com/ley-lines/","type":"advocacy","stance":"context"}
+],"st":[
+  {"url":"https://occult-world.com/ley-lines/","st":"context"}
+]},
+{"id":"prana-release","sources":[
+  {"title":"Prana: Understanding Vital Energy and Its Connection to Karma and Dharma","url":"https://www.hinduwebsite.com/hinduism/essays/prana-means.asp","type":"advocacy","stance":"supports"},
+  {"title":"Prana: Understanding the Life Force","url":"https://himalayaninstitute.org/online/prana-understanding-life-force/","type":"book","stance":"supports"}
+],"st":[
+  {"url":"https://www.hinduwebsite.com/hinduism/essays/prana-means.asp","st":"supports"},
+  {"url":"https://himalayaninstitute.org/online/prana-understanding-life-force/","st":"supports"}
+]},
+{"id":"gods-image","sources":[
+  {"title":"The Imago Dei: Why Human Life Has Unique Value","url":"https://theologyinfocus.org/blog/the-imago-dei-why-human-life-has-unique-value/","type":"advocacy","stance":"supports"},
+  {"title":"The Doctrine of the Imago Dei","url":"https://etsjets.org/wp-content/uploads/2019/09/files_JETS-PDFs_62_62-3_JETS_62.3_543-561_Threlfall.pdf","type":"academic","stance":"supports"}
+],"st":[
+  {"url":"https://theologyinfocus.org/blog/the-imago-dei-why-human-life-has-unique-value/","st":"supports"},
+  {"url":"https://etsjets.org/wp-content/uploads/2019/09/files_JETS-PDFs_62_62-3_JETS_62.3_543-561_Threlfall.pdf","st":"supports"}
+]},
+{"id":"reverse-divination-corruption","sources":[
+  {"title":"Novikov's Self-Consistency Principle","url":"https://www.emergentmind.com/topics/novikov-s-self-consistency-principle","type":"academic","stance":"context"}
+],"st":[
+  {"url":"https://www.emergentmind.com/topics/novikov-s-self-consistency-principle","st":"context"}
+]},
+{"id":"young-blood","sources":[
+  {"title":"Blood Magick","url":"https://occult-world.com/blood-magick/","type":"advocacy","stance":"context"}
+],"st":[
+  {"url":"https://occult-world.com/blood-magick/","st":"context"}
+]}
+]

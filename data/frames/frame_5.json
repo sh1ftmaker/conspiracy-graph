@@ -1,0 +1,567 @@
+[
+ {
+  "id": "tartaria-mud-flood",
+  "frame": false
+ },
+ {
+  "id": "phantom-time-hypothesis",
+  "frame": false
+ },
+ {
+  "id": "new-chronology-fomenko",
+  "frame": false
+ },
+ {
+  "id": "pre-columbian-transoceanic-contact",
+  "frame": false
+ },
+ {
+  "id": "nazi-ufos-antarctic-base",
+  "frame": false
+ },
+ {
+  "id": "birds-arent-real",
+  "frame": false
+ },
+ {
+  "id": "bielefeld-conspiracy",
+  "frame": false
+ },
+ {
+  "id": "loch-ness-monster-cover-up",
+  "frame": false
+ },
+ {
+  "id": "bigfoot-cover-up",
+  "frame": false
+ },
+ {
+  "id": "kubrick-filmed-moon-landing",
+  "frame": false
+ },
+ {
+  "id": "nibiru-planet-x",
+  "frame": false
+ },
+ {
+  "id": "hollow-earth",
+  "frame": false
+ },
+ {
+  "id": "black-knight-satellite",
+  "frame": false
+ },
+ {
+  "id": "bermuda-triangle",
+  "frame": false
+ },
+ {
+  "id": "mars-face-cydonia",
+  "frame": false
+ },
+ {
+  "id": "nazca-lines-aliens",
+  "frame": false
+ },
+ {
+  "id": "majestic-12",
+  "frame": false
+ },
+ {
+  "id": "tsunami-bomb-2004",
+  "frame": false
+ },
+ {
+  "id": "haiti-earthquake-weapon",
+  "frame": false
+ },
+ {
+  "id": "denver-airport-blucifer",
+  "frame": false
+ },
+ {
+  "id": "third-secret-fatima",
+  "frame": false
+ },
+ {
+  "id": "fake-snow",
+  "frame": false
+ },
+ {
+  "id": "roswell-alien-autopsy",
+  "frame": false
+ },
+ {
+  "id": "men-in-black",
+  "frame": false
+ },
+ {
+  "id": "disclosure-project",
+  "frame": false
+ },
+ {
+  "id": "pentagon-uap-disclosure",
+  "frame": false
+ },
+ {
+  "id": "wow-signal",
+  "frame": false
+ },
+ {
+  "id": "hollow-moon",
+  "frame": false
+ },
+ {
+  "id": "antarctica-hidden",
+  "frame": false
+ },
+ {
+  "id": "flat-earth-ice-wall",
+  "frame": false
+ },
+ {
+  "id": "big-pharma",
+  "frame": false
+ },
+ {
+  "id": "atlantis",
+  "frame": false
+ },
+ {
+  "id": "nostradamus",
+  "frame": false
+ },
+ {
+  "id": "orbs",
+  "frame": false
+ },
+ {
+  "id": "bilderberg-meetings",
+  "frame": false
+ },
+ {
+  "id": "transhumanism",
+  "frame": false
+ },
+ {
+  "id": "bek",
+  "frame": false
+ },
+ {
+  "id": "antarctica",
+  "frame": false
+ },
+ {
+  "id": "giants",
+  "frame": false
+ },
+ {
+  "id": "the-secret",
+  "frame": true,
+  "ped": 1,
+  "coh": 1,
+  "par": 0
+ },
+ {
+  "id": "acupuncture",
+  "frame": false
+ },
+ {
+  "id": "un-agenda",
+  "frame": false
+ },
+ {
+  "id": "lucid-dreaming",
+  "frame": true,
+  "ped": 1,
+  "coh": 1,
+  "par": 0
+ },
+ {
+  "id": "the-mcfly-code",
+  "frame": false
+ },
+ {
+  "id": "dowsing",
+  "frame": false
+ },
+ {
+  "id": "agartha",
+  "frame": false
+ },
+ {
+  "id": "23-enigma",
+  "frame": false
+ },
+ {
+  "id": "astral-projection",
+  "frame": true,
+  "ped": 2,
+  "coh": 1,
+  "par": 1
+ },
+ {
+  "id": "succubi",
+  "frame": true,
+  "ped": 2,
+  "coh": 1,
+  "par": 0
+ },
+ {
+  "id": "eastern-philosophies",
+  "frame": false
+ },
+ {
+  "id": "nephilim",
+  "frame": false
+ },
+ {
+  "id": "summoning",
+  "frame": true,
+  "ped": 2,
+  "coh": 1,
+  "par": 0
+ },
+ {
+  "id": "tulpas",
+  "frame": true,
+  "ped": 2,
+  "coh": 1,
+  "par": 1
+ },
+ {
+  "id": "operation-blue-beam",
+  "frame": false
+ },
+ {
+  "id": "occult-knowledge",
+  "frame": false
+ },
+ {
+  "id": "magicka",
+  "frame": true,
+  "ped": 0,
+  "coh": 1,
+  "par": 0
+ },
+ {
+  "id": "shelled-firmament-earth",
+  "frame": false
+ },
+ {
+  "id": "reality-simulations",
+  "frame": true,
+  "ped": 4,
+  "coh": 4,
+  "par": 3
+ },
+ {
+  "id": "divination",
+  "frame": false
+ },
+ {
+  "id": "space-is-fake",
+  "frame": false
+ },
+ {
+  "id": "pantheism",
+  "frame": true,
+  "ped": 3,
+  "coh": 3,
+  "par": 4
+ },
+ {
+  "id": "intelligent-design",
+  "frame": true,
+  "ped": 3,
+  "coh": 2,
+  "par": 1
+ },
+ {
+  "id": "ghost-girl",
+  "frame": true,
+  "ped": 2,
+  "coh": 1,
+  "par": 1
+ },
+ {
+  "id": "archdemons-angels",
+  "frame": true,
+  "ped": 3,
+  "coh": 2,
+  "par": 1
+ },
+ {
+  "id": "philosopher-s-stone",
+  "frame": false
+ },
+ {
+  "id": "my-red-is-not-your-red",
+  "frame": true,
+  "ped": 3,
+  "coh": 3,
+  "par": 3
+ },
+ {
+  "id": "vampires",
+  "frame": true,
+  "ped": 2,
+  "coh": 1,
+  "par": 0
+ },
+ {
+  "id": "aura",
+  "frame": true,
+  "ped": 2,
+  "coh": 1,
+  "par": 1
+ },
+ {
+  "id": "francis-leavy-s-handprint",
+  "frame": false
+ },
+ {
+  "id": "lost-civilizations",
+  "frame": false
+ },
+ {
+  "id": "paranormal-beings",
+  "frame": false
+ },
+ {
+  "id": "6th-extinction",
+  "frame": false
+ },
+ {
+  "id": "pseudosciences",
+  "frame": false
+ },
+ {
+  "id": "saturn-s-rings",
+  "frame": false
+ },
+ {
+  "id": "polar-shift",
+  "frame": false
+ },
+ {
+  "id": "large-hadron-collider",
+  "frame": false
+ },
+ {
+  "id": "oumuamua",
+  "frame": false
+ },
+ {
+  "id": "fish-rain",
+  "frame": false
+ },
+ {
+  "id": "butterfly-effect",
+  "frame": false
+ },
+ {
+  "id": "ningens",
+  "frame": false
+ },
+ {
+  "id": "patterson-gimlin-massacre",
+  "frame": false
+ },
+ {
+  "id": "oil-pit-squid",
+  "frame": false
+ },
+ {
+  "id": "people-of-the-mount",
+  "frame": false
+ },
+ {
+  "id": "crystal-skulls",
+  "frame": false
+ },
+ {
+  "id": "singularity",
+  "frame": false
+ },
+ {
+  "id": "quantum-suicide-immortality",
+  "frame": true,
+  "ped": 3,
+  "coh": 2,
+  "par": 1
+ },
+ {
+  "id": "genocide-denials",
+  "frame": false
+ },
+ {
+  "id": "rokos-basilisk",
+  "frame": true,
+  "ped": 2,
+  "coh": 2,
+  "par": 1
+ },
+ {
+  "id": "taured",
+  "frame": false
+ },
+ {
+  "id": "bloop",
+  "frame": false
+ },
+ {
+  "id": "rosicrucianism",
+  "frame": true,
+  "ped": 2,
+  "coh": 1,
+  "par": 0
+ },
+ {
+  "id": "sinkholes",
+  "frame": false
+ },
+ {
+  "id": "esoteric-knowledge",
+  "frame": true,
+  "ped": 2,
+  "coh": 1,
+  "par": 0
+ },
+ {
+  "id": "archons",
+  "frame": true,
+  "ped": 3,
+  "coh": 2,
+  "par": 0
+ },
+ {
+  "id": "spirit-science",
+  "frame": true,
+  "ped": 1,
+  "coh": 1,
+  "par": 0
+ },
+ {
+  "id": "the-plain-of-jars",
+  "frame": false
+ },
+ {
+  "id": "charles-fort",
+  "frame": false
+ },
+ {
+  "id": "mereological-nihilism",
+  "frame": true,
+  "ped": 4,
+  "coh": 4,
+  "par": 4
+ },
+ {
+  "id": "hitler-escaped-inside-the-earth",
+  "frame": false
+ },
+ {
+  "id": "illuminati-blood-banks",
+  "frame": false
+ },
+ {
+  "id": "sacred-geometry",
+  "frame": true,
+  "ped": 2,
+  "coh": 1,
+  "par": 0
+ },
+ {
+  "id": "the-black-pope-prophecy",
+  "frame": false
+ },
+ {
+  "id": "dmt-beings",
+  "frame": false
+ },
+ {
+  "id": "solipsism",
+  "frame": true,
+  "ped": 3,
+  "coh": 4,
+  "par": 4
+ },
+ {
+  "id": "thule",
+  "frame": false
+ },
+ {
+  "id": "die-glocke",
+  "frame": false
+ },
+ {
+  "id": "lake-baikal",
+  "frame": false
+ },
+ {
+  "id": "dancing-plague",
+  "frame": false
+ },
+ {
+  "id": "panspermia",
+  "frame": false
+ },
+ {
+  "id": "toxoplasmosis",
+  "frame": false
+ },
+ {
+  "id": "john-babacombe-lee",
+  "frame": false
+ },
+ {
+  "id": "oz-factor",
+  "frame": false
+ },
+ {
+  "id": "shavers-writings",
+  "frame": false
+ },
+ {
+  "id": "henotheism",
+  "frame": true,
+  "ped": 3,
+  "coh": 3,
+  "par": 2
+ },
+ {
+  "id": "quantum-jumping",
+  "frame": true,
+  "ped": 1,
+  "coh": 1,
+  "par": 0
+ },
+ {
+  "id": "fulcanelli",
+  "frame": false
+ },
+ {
+  "id": "grey-goo",
+  "frame": false
+ },
+ {
+  "id": "machs-principle",
+  "frame": true,
+  "ped": 4,
+  "coh": 4,
+  "par": 3
+ },
+ {
+  "id": "pokaini",
+  "frame": false
+ },
+ {
+  "id": "deathworm",
+  "frame": false
+ },
+ {
+  "id": "smithsonian-suppression",
+  "frame": false
+ }
+]

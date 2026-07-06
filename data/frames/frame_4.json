@@ -1,0 +1,629 @@
+[
+  {
+    "id": "biblical-aliens",
+    "frame": false
+  },
+  {
+    "id": "ancient-bioengineering",
+    "frame": false
+  },
+  {
+    "id": "strip-mining-hell",
+    "frame": true,
+    "ped": 0,
+    "coh": 0,
+    "par": 0
+  },
+  {
+    "id": "lunapark-tain-fire-demon",
+    "frame": false
+  },
+  {
+    "id": "postpartum-sacrifice",
+    "frame": false
+  },
+  {
+    "id": "neanderthal-superiority",
+    "frame": false
+  },
+  {
+    "id": "cults-of-fallen-angels",
+    "frame": false
+  },
+  {
+    "id": "ufos-are-atmospheric-life-forms",
+    "frame": false
+  },
+  {
+    "id": "earths-divine-aura",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 0
+  },
+  {
+    "id": "expanding-earth",
+    "frame": false
+  },
+  {
+    "id": "hell-excavation",
+    "frame": false
+  },
+  {
+    "id": "forest-stairs",
+    "frame": false
+  },
+  {
+    "id": "ghost-memories",
+    "frame": true,
+    "ped": 1,
+    "coh": 2,
+    "par": 1
+  },
+  {
+    "id": "nephilim-protocols",
+    "frame": false
+  },
+  {
+    "id": "digital-demon-summoning",
+    "frame": true,
+    "ped": 0,
+    "coh": 1,
+    "par": 0
+  },
+  {
+    "id": "senses-programming",
+    "frame": true,
+    "ped": 3,
+    "coh": 3,
+    "par": 2
+  },
+  {
+    "id": "memetic-entities-control-humanity",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "paradigm-recalescence",
+    "frame": false
+  },
+  {
+    "id": "npc-paradigm",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "neolithics-contraptions",
+    "frame": false
+  },
+  {
+    "id": "reset-survivors",
+    "frame": false
+  },
+  {
+    "id": "social-media-esotericism",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "diseases-worship",
+    "frame": false
+  },
+  {
+    "id": "mundane-reincarnation",
+    "frame": true,
+    "ped": 2,
+    "coh": 2,
+    "par": 2
+  },
+  {
+    "id": "animal-plant-hybrids",
+    "frame": false
+  },
+  {
+    "id": "ecological-revivification",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "sky-snag-theory",
+    "frame": false
+  },
+  {
+    "id": "welteislehre",
+    "frame": false
+  },
+  {
+    "id": "earth-hopping",
+    "frame": false
+  },
+  {
+    "id": "cosmic-censorship-cottage",
+    "frame": true,
+    "ped": 4,
+    "coh": 3,
+    "par": 3
+  },
+  {
+    "id": "cosmic-censorship-corruption",
+    "frame": true,
+    "ped": 2,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "despair-code",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "dr-emotos-water-experiments",
+    "frame": false
+  },
+  {
+    "id": "self-burying-hoses",
+    "frame": false
+  },
+  {
+    "id": "cigarettes-extreme-health-benefits",
+    "frame": false
+  },
+  {
+    "id": "secret-human-organs",
+    "frame": false
+  },
+  {
+    "id": "tops-of-mountains",
+    "frame": true,
+    "ped": 2,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "organs-decalcification",
+    "frame": false
+  },
+  {
+    "id": "solar-plexus-clown-gliders",
+    "frame": true,
+    "ped": 0,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "skin-is-an-alien-parasite",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "anti-medicine",
+    "frame": false
+  },
+  {
+    "id": "original-earth",
+    "frame": true,
+    "ped": 2,
+    "coh": 2,
+    "par": 2
+  },
+  {
+    "id": "world-wraps",
+    "frame": true,
+    "ped": 3,
+    "coh": 3,
+    "par": 3
+  },
+  {
+    "id": "secret-gates",
+    "frame": true,
+    "ped": 2,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "robert-golf-and-the-glass-camera",
+    "frame": false
+  },
+  {
+    "id": "pyramids-built-by-the-templars-order",
+    "frame": false
+  },
+  {
+    "id": "endless-elevators",
+    "frame": false
+  },
+  {
+    "id": "divinities-playing-card-game",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 0
+  },
+  {
+    "id": "regurgitation-rituals",
+    "frame": false
+  },
+  {
+    "id": "hook-operators",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "regenerative-death-consumption",
+    "frame": false
+  },
+  {
+    "id": "chakra-removal",
+    "frame": true,
+    "ped": 2,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "sexualerotic-energy",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "trees-are-mammals",
+    "frame": false
+  },
+  {
+    "id": "the-math-vault-of-trinidad",
+    "frame": false
+  },
+  {
+    "id": "entity-merging",
+    "frame": true,
+    "ped": 2,
+    "coh": 2,
+    "par": 2
+  },
+  {
+    "id": "inside-out-earth",
+    "frame": false
+  },
+  {
+    "id": "the-ocean-at-night",
+    "frame": false
+  },
+  {
+    "id": "berry-bushes",
+    "frame": false
+  },
+  {
+    "id": "the-sky-is-alive",
+    "frame": false
+  },
+  {
+    "id": "volcanoes-real-purpose",
+    "frame": false
+  },
+  {
+    "id": "nano-ufos-giga-ufos",
+    "frame": false
+  },
+  {
+    "id": "holistic-tubes",
+    "frame": false
+  },
+  {
+    "id": "cuneiform-language-in-technology",
+    "frame": false
+  },
+  {
+    "id": "bhutanese-shadow-market",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "phantom-time",
+    "frame": false
+  },
+  {
+    "id": "phlogiston-theory-resurfacing",
+    "frame": false
+  },
+  {
+    "id": "santiago-interference",
+    "frame": false
+  },
+  {
+    "id": "sphynx-water-erosion-hypothesis-implications",
+    "frame": false
+  },
+  {
+    "id": "archontic-genetic-engineered-entities",
+    "frame": true,
+    "ped": 2,
+    "coh": 1,
+    "par": 0
+  },
+  {
+    "id": "olfma",
+    "frame": true,
+    "ped": 2,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "eggless-travel",
+    "frame": false
+  },
+  {
+    "id": "prolepsis",
+    "frame": false
+  },
+  {
+    "id": "stone-head-of-guatemala",
+    "frame": false
+  },
+  {
+    "id": "approaching-stars",
+    "frame": false
+  },
+  {
+    "id": "loveshack",
+    "frame": true,
+    "ped": 0,
+    "coh": 1,
+    "par": 0
+  },
+  {
+    "id": "retrocausality",
+    "frame": true,
+    "ped": 4,
+    "coh": 3,
+    "par": 3
+  },
+  {
+    "id": "vaccine-soul-stealing",
+    "frame": false
+  },
+  {
+    "id": "bank-of-souls",
+    "frame": true,
+    "ped": 2,
+    "coh": 1,
+    "par": 0
+  },
+  {
+    "id": "incorruptible-saints",
+    "frame": false
+  },
+  {
+    "id": "god-of-the-gaps-never-existed",
+    "frame": true,
+    "ped": 3,
+    "coh": 3,
+    "par": 2
+  },
+  {
+    "id": "oilresources-from-humans",
+    "frame": false
+  },
+  {
+    "id": "feelings-auto-suppression",
+    "frame": false
+  },
+  {
+    "id": "adult-film-stars-leeching-your-energy",
+    "frame": true,
+    "ped": 0,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "virus-23",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "pancreas-denial",
+    "frame": false
+  },
+  {
+    "id": "patterns-manipulation",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "ascension-blacklist",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 0
+  },
+  {
+    "id": "oikeiosis",
+    "frame": true,
+    "ped": 3,
+    "coh": 3,
+    "par": 3
+  },
+  {
+    "id": "forced-soul-removal",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "real-humans-died-millenia-ago",
+    "frame": false
+  },
+  {
+    "id": "artifice-predance",
+    "frame": false
+  },
+  {
+    "id": "roman-empire-still-rules-the-world",
+    "frame": false
+  },
+  {
+    "id": "fractalization",
+    "frame": true,
+    "ped": 1,
+    "coh": 2,
+    "par": 2
+  },
+  {
+    "id": "paleolithic-deep-state",
+    "frame": false
+  },
+  {
+    "id": "depression-overriding",
+    "frame": true,
+    "ped": 1,
+    "coh": 1,
+    "par": 1
+  },
+  {
+    "id": "encorings",
+    "frame": false
+  },
+  {
+    "id": "golden-rules-of-nature",
+    "frame": false
+  },
+  {
+    "id": "gods-ego-death",
+    "frame": true,
+    "ped": 3,
+    "coh": 3,
+    "par": 2
+  },
+  {
+    "id": "gods-last-wish",
+    "frame": true,
+    "ped": 2,
+    "coh": 3,
+    "par": 2
+  },
+  {
+    "id": "there-is-no-conspiracy",
+    "frame": false
+  },
+  {
+    "id": "all-conspiracies-are-true",
+    "frame": false
+  },
+  {
+    "id": "the-final-understanding",
+    "frame": false
+  },
+  {
+    "id": "zog",
+    "frame": false
+  },
+  {
+    "id": "holocaust-denial",
+    "frame": false
+  },
+  {
+    "id": "jewish-bolshevism",
+    "frame": false
+  },
+  {
+    "id": "khazarian-mafia",
+    "frame": false
+  },
+  {
+    "id": "blueanon",
+    "frame": false
+  },
+  {
+    "id": "epstein-files-transparency-fight",
+    "frame": false
+  },
+  {
+    "id": "grusch-uap-crash-retrieval",
+    "frame": false
+  },
+  {
+    "id": "maui-fires-directed-energy-weapon",
+    "frame": false
+  },
+  {
+    "id": "diddy-list-conspiracy",
+    "frame": false
+  },
+  {
+    "id": "cattle-mutilation",
+    "frame": false
+  },
+  {
+    "id": "rendlesham-forest",
+    "frame": false
+  },
+  {
+    "id": "anunnaki-ancient-aliens",
+    "frame": false
+  },
+  {
+    "id": "secret-space-program",
+    "frame": false
+  },
+  {
+    "id": "skinwalker-ranch",
+    "frame": false
+  },
+  {
+    "id": "tesla-free-energy",
+    "frame": false
+  },
+  {
+    "id": "technology-suppression",
+    "frame": false
+  },
+  {
+    "id": "philadelphia-experiment",
+    "frame": false
+  },
+  {
+    "id": "montauk-project",
+    "frame": false
+  },
+  {
+    "id": "cern-black-hole",
+    "frame": false
+  },
+  {
+    "id": "cold-fusion-suppression",
+    "frame": false
+  },
+  {
+    "id": "homeopathy-suppression",
+    "frame": false
+  },
+  {
+    "id": "aids-denialism",
+    "frame": false
+  },
+  {
+    "id": "morgellons-disease",
+    "frame": false
+  }
+]

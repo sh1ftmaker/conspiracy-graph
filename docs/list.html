@@ -187,7 +187,7 @@
 <div id="loading"><div class="spin"></div><div>tabulating the plots…</div></div>
 
 <script>
-const DATA_URL='data.json?v=8';
+const DATA_URL='data.json?v=9';
 const esc=s=>(s||'').replace(/[&<>]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[m]));
 function statusCol(tr){return tr>=91?'#4ade80':tr>=76?'#86efac':tr>=56?'#bef264':tr>=31?'#fbbf24':tr>=11?'#fb923c':'#f87171';}
 const fmtYear=y=>y<0?(-y)+' BC':y;
@@ -336,7 +336,7 @@ function render(){
 
   const tb=document.getElementById('tb');
   const html=rows.map(t=>{
-    const g=gc(t.genre),sc=statusCol(t.truth);
+    const g=gc(t.genre),sc=truthCol(t);
     const nsrc=(t.sources||[]).length+((t.wikipedia&&!(t.sources||[]).some(s=>s.url===t.wikipedia))?1:0);
     return `<tr class="row" data-id="${esc(t.id)}">
       <td class="name">${esc(t.name)}${t.aliases&&t.aliases.length?`<span class="al">${esc(t.aliases.join(' · '))}</span>`:''}</td>
@@ -363,6 +363,31 @@ const SB_SCALE=['a few individuals','thousands','hundreds of thousands','million
 const SB_SEV=['trivial / symbolic','money or privacy losses','serious financial or civic harm','major health harm / oppression','deaths at scale','mass death'];
 const SB_REACH=['one small group','one firm or office','an industry / major agency','a national-government branch','multiple governments','the world order'];
 const SB_ATT=['obscure forum lore','niche community','known in conspiracy culture','mainstream coverage','widely known','household name'];
+// ---- metaphysical "frame" plausibility axis (distinct from factual truth) ----
+const FSC=()=>((typeof META!=='undefined'&&META.frame_scale)||[]);
+const isFrame=t=>!!(t&&t.truth_kind==='frame');
+function frameOf(v){for(const s of FSC()){if(v>=s.min&&v<=s.max)return s;}return{label:'?',color:'#8b78d4'};}
+const frameCol=v=>frameOf(v).color;
+const truthCol=t=>isFrame(t)?frameCol(t.truth):statusCol(t.truth);
+const truthLabel=t=>isFrame(t)?frameOf(t.truth).label:statusOf(t.truth).label;
+const truthBarLabel=t=>isFrame(t)?'Plausibility':'How true';
+const FR_PED=['no tradition — invented','fringe modern esoterica','folk/occult or minor position','major tradition or academic minority','live academic / physics debate'];
+const FR_COH=['self-contradictory','many physics violations','one major unproven posit','consistent, adds unfalsifiables','fully consistent — an interpretation'];
+const FR_PAR=['baroque ontology','several new entities','one new kind of thing','economical','maximally parsimonious'];
+function frameRows(t,S,f2,row,esc){
+  let h=`<div class="sbh">Plausibility ${t.truth} = 100·σ( pedigree + coherence + parsimony + argued support ) · capped ${S.ceiling}</div>`;
+  h+=row(`pedigree · ${FR_PED[S.ped[0]]||''}`,f2(S.ped[1]),S.ped[1]>0?'pos':'neg');
+  h+=row(`coherence · ${FR_COH[S.coh[0]]||''}`,f2(S.coh[1]),S.coh[1]>0?'pos':'neg');
+  h+=row(`parsimony · ${FR_PAR[S.par[0]]||''}`,f2(S.par[1]),S.par[1]>0?'pos':'neg');
+  for(const e of (S.src||[])){
+    const src=(t.sources||[])[e[0]];
+    const against=(e[1]==='debunks'||e[1]==='disproves');
+    const lab=src?`<a class="src" href="${esc(src.url)}" target="_blank" rel="noopener">${esc(src.title||src.url)} ↗</a> <span class="dim">argues ${against?'against':'for'} · quality ${e[2]}</span>`:`<span class="dim">source</span>`;
+    h+=row(lab,f2(e[3]),e[3]>0?'pos':'neg');
+  }
+  h+=row(`log-odds ${f2(S.logit)} → logistic σ (capped ${S.ceiling})`,String(t.truth),'tot');
+  return h;
+}
 function scoreHtml(t){
   const S=t.score, SC=(META&&META.score_constants)||null;
   let h='<h4 class="sec">\u2699 Score breakdown</h4>';
@@ -370,6 +395,7 @@ function scoreHtml(t){
   const f2=x=>(x>0?'+':x<0?'\u2212':'')+Math.abs(x).toFixed(2);
   const row=(l,v,c)=>`<div class="sbrow${c?' '+c:''}"><span>${l}</span>${v!==''?`<b>${v}</b>`:''}</div>`;
   h+='<div class="sb">';
+  if(S.kind==='frame'){ h+=frameRows(t,S,f2,row,esc); } else {
   h+=`<div class="sbh">Truth ${t.truth} = 100\u00b7\u03c3( prior + evidence \u2212 leak )</div>`;
   h+=row(`prior \u00b7 base rate of proven <i>${esc(S.cls)}</i> operations: ${S.prior[0]} of ${S.prior[1]} in the atlas${S.imp?' \u00b7 <span style="color:#f87171">physically impossible</span>':''}`,f2(S.prior[2]),S.prior[2]>0?'pos':'neg');
   for(const e of (S.ev||[])){
@@ -380,6 +406,7 @@ function scoreHtml(t){
   }
   if(S.leak) h+=row(`leak penalty \u00b7 ~10<sup>${S.leak[0]}</sup> insiders \u00d7 ${S.leak[1]} yr unleaked (Grimes 2016)`,'\u2212'+S.leak[2].toFixed(2),'neg');
   h+=row(`log-odds ${f2(S.logit)} \u2192 logistic \u03c3`,String(t.truth),'tot');
+  }
   h+=`<div class="sbh">Impact ${t.impact} = 20\u00b7(scale \u00b7 severity \u00b7 reach)<sup>1/3</sup></div>`;
   h+=row(`scale ${S.if[0]}/5 \u00b7 ${SB_SCALE[S.if[0]]||''}`,'');
   h+=row(`severity ${S.if[1]}/5 \u00b7 ${SB_SEV[S.if[1]]||''}`,'');
@@ -423,7 +450,7 @@ function toggleDetail(tr){
   const dtr=document.createElement('tr');dtr.className='detail';
   dtr.innerHTML=`<td colspan="${COLS.length}"><div class="dgrid">
     <div><div class="desc">${esc(t.summary||'')}</div>${ev}${steel}</div>
-    <div>${bar('How true',t.truth,statusCol(t.truth))}${bar('Impact if true',t.impact,'#60a5fa')}${bar('Notoriety',t.notoriety,'#a855f7')}${scoreHtml(t)}${srcHtml}</div>
+    <div>${bar(truthBarLabel(t),t.truth,truthCol(t))}${bar('Impact if true',t.impact,'#60a5fa')}${bar('Notoriety',t.notoriety,'#a855f7')}${scoreHtml(t)}${srcHtml}</div>
   </div></td>`;
   tr.after(dtr);
   dtr.querySelectorAll('.prec').forEach(el=>el.onclick=e=>{e.stopPropagation();

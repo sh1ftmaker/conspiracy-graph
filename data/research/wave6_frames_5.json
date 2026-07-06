@@ -1,0 +1,534 @@
+[
+ {
+  "id": "the-secret",
+  "sources": [
+   {
+    "title": "Law of attraction (New Thought) - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Law_of_attraction_(New_Thought)",
+    "type": "wikipedia",
+    "stance": "supports"
+   },
+   {
+    "title": "Law of Attraction is not a Philosophical Hokum",
+    "url": "https://medium.com/better-advice/law-of-attraction-is-not-a-philosophical-hokum-f970c6ca85bf",
+    "type": "advocacy",
+    "stance": "supports"
+   }
+  ],
+  "st": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Law_of_attraction_(New_Thought)",
+    "st": "supports"
+   },
+   {
+    "url": "https://medium.com/better-advice/law-of-attraction-is-not-a-philosophical-hokum-f970c6ca85bf",
+    "st": "supports"
+   }
+  ]
+ },
+ {
+  "id": "lucid-dreaming",
+  "sources": [
+   {
+    "title": "Getting lucid about lucid dreaming",
+    "url": "https://academic.oup.com/pq/advance-article/doi/10.1093/pq/pqae138/7889345",
+    "type": "academic",
+    "stance": "supports"
+   }
+  ],
+  "st": [
+   {
+    "url": "https://academic.oup.com/pq/advance-article/doi/10.1093/pq/pqae138/7889345",
+    "st": "supports"
+   }
+  ]
+ },
+ {
+  "id": "astral-projection",
+  "sources": [
+   {
+    "title": "Journeys Out of the Body - Robert A. Monroe",
+    "url": "https://ia803203.us.archive.org/32/items/astral-projection-books/Journeys%20Out%20of%20the%20Body%20-%20Robert%20Monroe.pdf",
+    "type": "book",
+    "stance": "supports"
+   },
+   {
+    "title": "Robert Monroe - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Robert_Monroe",
+    "type": "wikipedia",
+    "stance": "context"
+   }
+  ],
+  "st": [
+   {
+    "url": "https://ia803203.us.archive.org/32/items/astral-projection-books/Journeys%20Out%20of%20the%20Body%20-%20Robert%20Monroe.pdf",
+    "st": "supports"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Robert_Monroe",
+    "st": "context"
+   }
+  ]
+ },
+ {
+  "id": "succubi",
+  "sources": [
+   {
+    "title": "Demonic Impregnation: Incubi and Succubi",
+    "url": "https://unamsanctamcatholicam.com/2022/05/25/demonic-impregnation-incubi-and-succubi/",
+    "type": "advocacy",
+    "stance": "supports"
+   }
+  ],
+  "st": [
+   {
+    "url": "https://unamsanctamcatholicam.com/2022/05/25/demonic-impregnation-incubi-and-succubi/",
+    "st": "supports"
+   }
+  ]
+ },
+ {
+  "id": "summoning",
+  "sources": [
+   {
+    "title": "Ceremonial Magic & The Power of Evocation - Joseph C. Lisiewski",
+    "url": "https://www.goodreads.com/book/show/82058.Ceremonial_Magic_the_Power_of_Evocation",
+    "type": "book",
+    "stance": "supports"
+   },
+   {
+    "title": "Evocation - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Evocation",
+    "type": "wikipedia",
+    "stance": "context"
+   }
+  ],
+  "st": [
+   {
+    "url": "https://www.goodreads.com/book/show/82058.Ceremonial_Magic_the_Power_of_Evocation",
+    "st": "supports"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Evocation",
+    "st": "context"
+   }
+  ]
+ },
+ {
+  "id": "tulpas",
+  "sources": [
+   {
+    "title": "Thoughtforms - Psi Encyclopedia",
+    "url": "https://psi-encyclopedia.spr.ac.uk/articles/thoughtforms/",
+    "type": "academic",
+    "stance": "supports"
+   }
+  ],
+  "st": [
+   {
+    "url": "https://psi-encyclopedia.spr.ac.uk/articles/thoughtforms/",
+    "st": "supports"
+   }
+  ]
+ },
+ {
+  "id": "reality-simulations",
+  "sources": [
+   {
+    "title": "The Simulation Argument - Nick Bostrom",
+    "url": "https://simulation-argument.com/",
+    "type": "academic",
+    "stance": "supports"
+   },
+   {
+    "title": "Are You Living in a Computer Simulation? (PDF)",
+    "url": "https://wmit-pages-prod.s3.amazonaws.com/wp-content/uploads/sites/283/2022/06/12151116/simulation.pdf",
+    "type": "academic",
+    "stance": "supports"
+   }
+  ],
+  "st": [
+   {
+    "url": "https://simulation-argument.com/",
+    "st": "supports"
+   },
+   {
+    "url": "https://wmit-pages-prod.s3.amazonaws.com/wp-content/uploads/sites/283/2022/06/12151116/simulation.pdf",
+    "st": "supports"
+   }
+  ]
+ },
+ {
+  "id": "pantheism",
+  "sources": [
+   {
+    "title": "Pantheism - Stanford Encyclopedia of Philosophy",
+    "url": "https://plato.stanford.edu/entries/pantheism/",
+    "type": "academic",
+    "stance": "supports"
+   }
+  ],
+  "st": [
+   {
+    "url": "https://plato.stanford.edu/entries/pantheism/",
+    "st": "supports"
+   }
+  ]
+ },
+ {
+  "id": "intelligent-design",
+  "sources": [
+   {
+    "title": "Intelligent Design: The Bridge Between Science & Theology - William Dembski",
+    "url": "https://billdembski.com/inteldes.htm",
+    "type": "advocacy",
+    "stance": "supports"
+   }
+  ],
+  "st": [
+   {
+    "url": "https://billdembski.com/inteldes.htm",
+    "st": "supports"
+   }
+  ]
+ },
+ {
+  "id": "ghost-girl",
+  "sources": [
+   {
+    "title": "The Contribution of Apparitions to the Evidence for Survival - Ian Stevenson",
+    "url": "https://med.virginia.edu/perceptual-studies/wp-content/uploads/sites/360/2017/09/The-Contributions-of-Apparitions-to-the-Evidence-for-Survival_-Ian-Stevenson-1982.pdf",
+    "type": "academic",
+    "stance": "supports"
+   }
+  ],
+  "st": [
+   {
+    "url": "https://med.virginia.edu/perceptual-studies/wp-content/uploads/sites/360/2017/09/The-Contributions-of-Apparitions-to-the-Evidence-for-Survival_-Ian-Stevenson-1982.pdf",
+    "st": "supports"
+   }
+  ]
+ },
+ {
+  "id": "archdemons-angels",
+  "sources": [
+   {
+    "title": "Pseudo-Dionysius: Celestial Hierarchy",
+    "url": "https://www.ccel.org/ccel/dionysius/celestial.vii.html",
+    "type": "book",
+    "stance": "supports"
+   },
+   {
+    "title": "Pseudo-Dionysius the Areopagite - Stanford Encyclopedia of Philosophy",
+    "url": "https://plato.stanford.edu/entries/pseudo-dionysius-areopagite/",
+    "type": "academic",
+    "stance": "context"
+   }
+  ],
+  "st": [
+   {
+    "url": "https://www.ccel.org/ccel/dionysius/celestial.vii.html",
+    "st": "supports"
+   },
+   {
+    "url": "https://plato.stanford.edu/entries/pseudo-dionysius-areopagite/",
+    "st": "context"
+   }
+  ]
+ },
+ {
+  "id": "my-red-is-not-your-red",
+  "sources": [
+   {
+    "title": "Inverted Qualia - Stanford Encyclopedia of Philosophy",
+    "url": "https://plato.stanford.edu/entries/qualia-inverted/",
+    "type": "academic",
+    "stance": "supports"
+   }
+  ],
+  "st": [
+   {
+    "url": "https://plato.stanford.edu/entries/qualia-inverted/",
+    "st": "supports"
+   }
+  ]
+ },
+ {
+  "id": "vampires",
+  "sources": [
+   {
+    "title": "Sacrifice, scapegoat, vampire: the social and religious origins of the Bulgarian folkloric vampire",
+    "url": "https://libraetd.lib.virginia.edu/public_view/n583xv419",
+    "type": "academic",
+    "stance": "context"
+   }
+  ],
+  "st": [
+   {
+    "url": "https://libraetd.lib.virginia.edu/public_view/n583xv419",
+    "st": "context"
+   }
+  ]
+ },
+ {
+  "id": "aura",
+  "sources": [
+   {
+    "title": "Kirlian Photography - Theosophy World",
+    "url": "https://www.theosophy.world/encyclopedia/kirlian-photography",
+    "type": "advocacy",
+    "stance": "supports"
+   }
+  ],
+  "st": [
+   {
+    "url": "https://www.theosophy.world/encyclopedia/kirlian-photography",
+    "st": "supports"
+   }
+  ]
+ },
+ {
+  "id": "mereological-nihilism",
+  "sources": [
+   {
+    "title": "Mereological Nihilism and Personal Ontology - Andrew Brenner",
+    "url": "https://philarchive.org/archive/BREMNA-3",
+    "type": "academic",
+    "stance": "supports"
+   },
+   {
+    "title": "Mereological nihilism - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Mereological_nihilism",
+    "type": "wikipedia",
+    "stance": "context"
+   }
+  ],
+  "st": [
+   {
+    "url": "https://philarchive.org/archive/BREMNA-3",
+    "st": "supports"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Mereological_nihilism",
+    "st": "context"
+   }
+  ]
+ },
+ {
+  "id": "rosicrucianism",
+  "sources": [
+   {
+    "title": "Fama Fraternitatis - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Fama_Fraternitatis",
+    "type": "wikipedia",
+    "stance": "context"
+   },
+   {
+    "title": "Secret Teachings of All Ages: Rosicrucian Doctrines",
+    "url": "https://sacred-texts.com/eso/sta/sta34.htm",
+    "type": "book",
+    "stance": "supports"
+   }
+  ],
+  "st": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Fama_Fraternitatis",
+    "st": "context"
+   },
+   {
+    "url": "https://sacred-texts.com/eso/sta/sta34.htm",
+    "st": "supports"
+   }
+  ]
+ },
+ {
+  "id": "esoteric-knowledge",
+  "sources": [
+   {
+    "title": "The Perennial Philosophy - Aldous Huxley (full text)",
+    "url": "https://www.symb-ol.org/app/download/26907707/Perennial+Philosophy.pdf",
+    "type": "book",
+    "stance": "supports"
+   }
+  ],
+  "st": [
+   {
+    "url": "https://www.symb-ol.org/app/download/26907707/Perennial+Philosophy.pdf",
+    "st": "supports"
+   }
+  ]
+ },
+ {
+  "id": "archons",
+  "sources": [
+   {
+    "title": "The Hypostasis of the Archons - trans. Bentley Layton",
+    "url": "http://www.gnosis.org/naghamm/hypostas.html",
+    "type": "book",
+    "stance": "supports"
+   }
+  ],
+  "st": [
+   {
+    "url": "http://www.gnosis.org/naghamm/hypostas.html",
+    "st": "supports"
+   }
+  ]
+ },
+ {
+  "id": "spirit-science",
+  "sources": [
+   {
+    "title": "About - Spirit Science",
+    "url": "https://spiritsciencecentral.com/about/",
+    "type": "advocacy",
+    "stance": "supports"
+   }
+  ],
+  "st": [
+   {
+    "url": "https://spiritsciencecentral.com/about/",
+    "st": "supports"
+   }
+  ]
+ },
+ {
+  "id": "sacred-geometry",
+  "sources": [
+   {
+    "title": "Sacred Geometry: Philosophy and Practice - Robert Lawlor",
+    "url": "https://archive.org/details/sacredgeometryil00robe",
+    "type": "book",
+    "stance": "supports"
+   }
+  ],
+  "st": [
+   {
+    "url": "https://archive.org/details/sacredgeometryil00robe",
+    "st": "supports"
+   }
+  ]
+ },
+ {
+  "id": "solipsism",
+  "sources": [
+   {
+    "title": "Solipsism and the Problem of Other Minds - Internet Encyclopedia of Philosophy",
+    "url": "https://iep.utm.edu/solipsis/",
+    "type": "academic",
+    "stance": "supports"
+   }
+  ],
+  "st": [
+   {
+    "url": "https://iep.utm.edu/solipsis/",
+    "st": "supports"
+   }
+  ]
+ },
+ {
+  "id": "quantum-suicide-immortality",
+  "sources": [
+   {
+    "title": "Quantum suicide and immortality - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Quantum_suicide_and_immortality",
+    "type": "wikipedia",
+    "stance": "context"
+   },
+   {
+    "title": "Many lives in many worlds - Max Tegmark",
+    "url": "https://arxiv.org/pdf/0707.2593",
+    "type": "academic",
+    "stance": "supports"
+   }
+  ],
+  "st": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Quantum_suicide_and_immortality",
+    "st": "context"
+   },
+   {
+    "url": "https://arxiv.org/pdf/0707.2593",
+    "st": "supports"
+   }
+  ]
+ },
+ {
+  "id": "rokos-basilisk",
+  "sources": [
+   {
+    "title": "Roko's basilisk - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Roko%27s_basilisk",
+    "type": "wikipedia",
+    "stance": "context"
+   },
+   {
+    "title": "Roko's Basilisk - David Auerbach analysis",
+    "url": "https://deontologistics.co/wp-content/uploads/2021/02/auerbach-rokos-basilisk.pdf",
+    "type": "academic",
+    "stance": "supports"
+   }
+  ],
+  "st": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Roko%27s_basilisk",
+    "st": "context"
+   },
+   {
+    "url": "https://deontologistics.co/wp-content/uploads/2021/02/auerbach-rokos-basilisk.pdf",
+    "st": "supports"
+   }
+  ]
+ },
+ {
+  "id": "henotheism",
+  "sources": [
+   {
+    "title": "Henotheism - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Henotheism",
+    "type": "wikipedia",
+    "stance": "supports"
+   }
+  ],
+  "st": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Henotheism",
+    "st": "supports"
+   }
+  ]
+ },
+ {
+  "id": "quantum-jumping",
+  "sources": [
+   {
+    "title": "Quantum Jumping by Burt Goldman - Mindvalley",
+    "url": "https://www.mindvalley.com/quantum",
+    "type": "advocacy",
+    "stance": "supports"
+   }
+  ],
+  "st": [
+   {
+    "url": "https://www.mindvalley.com/quantum",
+    "st": "supports"
+   }
+  ]
+ },
+ {
+  "id": "machs-principle",
+  "sources": [
+   {
+    "title": "Mach's Principle and the Origin of Inertia",
+    "url": "https://arxiv.org/pdf/1509.01869",
+    "type": "academic",
+    "stance": "supports"
+   }
+  ],
+  "st": [
+   {
+    "url": "https://arxiv.org/pdf/1509.01869",
+    "st": "supports"
+   }
+  ]
+ }
+]

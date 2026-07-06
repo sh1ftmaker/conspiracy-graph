@@ -1,0 +1,602 @@
+[
+  {
+    "id": "field-trauma",
+    "sources": [
+      {
+        "title": "Morphic Resonance: Research and Papers - Rupert Sheldrake",
+        "url": "https://www.sheldrake.org/research/morphic-resonance",
+        "type": "advocacy",
+        "stance": "supports"
+      }
+    ]
+  },
+  {
+    "id": "memetic-black-magic",
+    "sources": [
+      {
+        "title": "The Lesser Key of Solomon - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Lesser_Key_of_Solomon",
+        "type": "wikipedia",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "micro-auras",
+    "sources": [
+      {
+        "title": "The Chakras (C.W. Leadbeater, 1927)",
+        "url": "https://archive.org/details/chakras00lead",
+        "type": "book",
+        "stance": "supports"
+      }
+    ]
+  },
+  {
+    "id": "quantum-death",
+    "sources": [
+      {
+        "title": "Quantum suicide and immortality - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Quantum_suicide_and_immortality",
+        "type": "wikipedia",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "earthly-aura",
+    "sources": [
+      {
+        "title": "The Chakras (C.W. Leadbeater, 1927)",
+        "url": "https://archive.org/details/chakras00lead",
+        "type": "book",
+        "stance": "supports"
+      }
+    ]
+  },
+  {
+    "id": "cosmic-demons",
+    "sources": [
+      {
+        "title": "Ephesians 6:12",
+        "url": "https://biblehub.com/ephesians/6-12.htm",
+        "type": "book",
+        "stance": "supports"
+      }
+    ]
+  },
+  {
+    "id": "the-charley-project",
+    "sources": [
+      {
+        "title": "George Berkeley (Stanford Encyclopedia of Philosophy)",
+        "url": "https://plato.stanford.edu/entries/berkeley/",
+        "type": "academic",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "memetic-existence",
+    "sources": [
+      {
+        "title": "George Berkeley (Stanford Encyclopedia of Philosophy)",
+        "url": "https://plato.stanford.edu/entries/berkeley/",
+        "type": "academic",
+        "stance": "supports"
+      }
+    ]
+  },
+  {
+    "id": "leyline-survival-mechanisms",
+    "sources": [
+      {
+        "title": "The Old Straight Track - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Old_Straight_Track",
+        "type": "wikipedia",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "geometric-algorithmic-shortcuts",
+    "sources": [
+      {
+        "title": "Platonism in the Philosophy of Mathematics (Stanford Encyclopedia of Philosophy)",
+        "url": "https://plato.stanford.edu/entries/platonism-mathematics/",
+        "type": "academic",
+        "stance": "supports"
+      }
+    ]
+  },
+  {
+    "id": "divine-graphetics",
+    "sources": [
+      {
+        "title": "Sefer Yetzirah: The Book of Creation",
+        "url": "https://www.myjewishlearning.com/article/sefer-yetzirah-the-book-of-creation/",
+        "type": "book",
+        "stance": "supports"
+      }
+    ]
+  },
+  {
+    "id": "earthly-aura-influence",
+    "sources": [
+      {
+        "title": "The Chakras (C.W. Leadbeater, 1927)",
+        "url": "https://archive.org/details/chakras00lead",
+        "type": "book",
+        "stance": "supports"
+      }
+    ]
+  },
+  {
+    "id": "earthly-aura-control",
+    "sources": [
+      {
+        "title": "The Chakras (C.W. Leadbeater, 1927)",
+        "url": "https://archive.org/details/chakras00lead",
+        "type": "book",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "field-consciousness",
+    "sources": [
+      {
+        "title": "Collective unconscious - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Collective_unconscious",
+        "type": "wikipedia",
+        "stance": "supports"
+      }
+    ]
+  },
+  {
+    "id": "chthonic-noosphere",
+    "sources": [
+      {
+        "title": "Noosphere - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Noosphere",
+        "type": "wikipedia",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "demonic-interrogation",
+    "sources": [
+      {
+        "title": "Noosphere - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Noosphere",
+        "type": "wikipedia",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "involuntary-tulpas",
+    "sources": [
+      {
+        "title": "Where Tulpas Come From - JSTOR Daily",
+        "url": "https://daily.jstor.org/where-tulpas-come-from/",
+        "type": "news",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "tesseract-earthuniverse",
+    "sources": [
+      {
+        "title": "Kaluza–Klein theory - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Kaluza%E2%80%93Klein_theory",
+        "type": "wikipedia",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "4th-dimensional-astral-projection",
+    "sources": [
+      {
+        "title": "The Astral Plane (C.W. Leadbeater) - Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/21080",
+        "type": "book",
+        "stance": "supports"
+      }
+    ]
+  },
+  {
+    "id": "absurdism-sway",
+    "sources": [
+      {
+        "title": "David Lewis (Stanford Encyclopedia of Philosophy)",
+        "url": "https://plato.stanford.edu/entries/david-lewis/",
+        "type": "academic",
+        "stance": "supports"
+      }
+    ]
+  },
+  {
+    "id": "bodily-calcification-implications",
+    "sources": [
+      {
+        "title": "Descartes Thought The Pineal Gland Was 'The Seat Of The Soul' — And Some People Still Do",
+        "url": "https://www.iflscience.com/descartes-thought-the-pineal-gland-was-the-seat-of-the-soul-and-some-people-still-do-81889",
+        "type": "news",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "mathacker",
+    "sources": [
+      {
+        "title": "Are You Living in a Computer Simulation? (Nick Bostrom)",
+        "url": "https://simulation-argument.com/simulation.pdf",
+        "type": "academic",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "hyper-acting-tulpa-creation",
+    "sources": [
+      {
+        "title": "Where Tulpas Come From - JSTOR Daily",
+        "url": "https://daily.jstor.org/where-tulpas-come-from/",
+        "type": "news",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "demonic-presentism",
+    "sources": [
+      {
+        "title": "As above, so below - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/As_above,_so_below",
+        "type": "wikipedia",
+        "stance": "supports"
+      }
+    ]
+  },
+  {
+    "id": "demonic-media-conglomerates",
+    "sources": [
+      {
+        "title": "The Lesser Key of Solomon - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Lesser_Key_of_Solomon",
+        "type": "wikipedia",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "satan-prometheus",
+    "sources": [
+      {
+        "title": "Prometheus - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Prometheus",
+        "type": "wikipedia",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "non-euclidian-4th-dimensional-topography",
+    "sources": [
+      {
+        "title": "Kaluza–Klein theory - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Kaluza%E2%80%93Klein_theory",
+        "type": "wikipedia",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "field-consciousness-transference",
+    "sources": [
+      {
+        "title": "Collective unconscious - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Collective_unconscious",
+        "type": "wikipedia",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "door-dogs",
+    "sources": [
+      {
+        "title": "Black dog (folklore) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Black_dog_(folklore)",
+        "type": "wikipedia",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "4th-dimensional-tulpas",
+    "sources": [
+      {
+        "title": "Where Tulpas Come From - JSTOR Daily",
+        "url": "https://daily.jstor.org/where-tulpas-come-from/",
+        "type": "news",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "oneworldness",
+    "sources": [
+      {
+        "title": "Huayan Buddhism (Stanford Encyclopedia of Philosophy)",
+        "url": "https://plato.stanford.edu/entries/buddhism-huayan/",
+        "type": "academic",
+        "stance": "supports"
+      }
+    ]
+  },
+  {
+    "id": "earthly-aura-escapism",
+    "sources": [
+      {
+        "title": "The Chakras (C.W. Leadbeater, 1927)",
+        "url": "https://archive.org/details/chakras00lead",
+        "type": "book",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "vertical-universe",
+    "sources": [
+      {
+        "title": "Many-worlds interpretation - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Many-worlds_interpretation",
+        "type": "wikipedia",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "5th-dimensional-astral-projection",
+    "sources": [
+      {
+        "title": "The Astral Plane (C.W. Leadbeater) - Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/21080",
+        "type": "book",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "human-immortality",
+    "sources": [
+      {
+        "title": "Reincarnation in the Bhagavad Gita",
+        "url": "https://www.jkyog.org/blog/reincarnation-in-the-bhagavad-gita/",
+        "type": "book",
+        "stance": "supports"
+      }
+    ]
+  },
+  {
+    "id": "soul-entrapment",
+    "sources": [
+      {
+        "title": "Reincarnation in the Bhagavad Gita",
+        "url": "https://www.jkyog.org/blog/reincarnation-in-the-bhagavad-gita/",
+        "type": "book",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "timecube",
+    "sources": [
+      {
+        "title": "Time Cube",
+        "url": "https://www.timecube.net/",
+        "type": "advocacy",
+        "stance": "supports"
+      },
+      {
+        "title": "Time Cube - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Time_Cube",
+        "type": "wikipedia",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "reality-oscillation",
+    "sources": [
+      {
+        "title": "Many-worlds interpretation - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Many-worlds_interpretation",
+        "type": "wikipedia",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "demonic-technocracy",
+    "sources": [
+      {
+        "title": "The Lesser Key of Solomon - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Lesser_Key_of_Solomon",
+        "type": "wikipedia",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "wetiko",
+    "sources": [
+      {
+        "title": "Dispelling Wetiko: Breaking the Curse of Evil",
+        "url": "https://www.theosophical.org/publications/quest-magazine/dispelling-wetiko-breaking-the-curse-of-evil",
+        "type": "book",
+        "stance": "supports"
+      }
+    ]
+  },
+  {
+    "id": "ancestral-vengeance",
+    "sources": [
+      {
+        "title": "Where Tulpas Come From - JSTOR Daily",
+        "url": "https://daily.jstor.org/where-tulpas-come-from/",
+        "type": "news",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "extraterrestrial-notions",
+    "sources": [
+      {
+        "title": "Aura (paranormal) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Aura_(paranormal)",
+        "type": "wikipedia",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "digital-aura-transmission",
+    "sources": [
+      {
+        "title": "Aura (paranormal) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Aura_(paranormal)",
+        "type": "wikipedia",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "sanctified-speech",
+    "sources": [
+      {
+        "title": "Sefer Yetzirah: The Book of Creation",
+        "url": "https://www.myjewishlearning.com/article/sefer-yetzirah-the-book-of-creation/",
+        "type": "book",
+        "stance": "supports"
+      }
+    ]
+  },
+  {
+    "id": "90-of-books-written-by-one-author",
+    "sources": [
+      {
+        "title": "Are You Living in a Computer Simulation? (Nick Bostrom)",
+        "url": "https://simulation-argument.com/simulation.pdf",
+        "type": "academic",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "extradimensional-homogeneity",
+    "sources": [
+      {
+        "title": "Many-worlds interpretation - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Many-worlds_interpretation",
+        "type": "wikipedia",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "anti-earth-biology",
+    "sources": [
+      {
+        "title": "Aura (paranormal) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Aura_(paranormal)",
+        "type": "wikipedia",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "essence-consumption-essence-feeding",
+    "sources": [
+      {
+        "title": "Reincarnation in the Bhagavad Gita",
+        "url": "https://www.jkyog.org/blog/reincarnation-in-the-bhagavad-gita/",
+        "type": "book",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "fauna-to-flora-soul-transference",
+    "sources": [
+      {
+        "title": "Reincarnation in the Bhagavad Gita",
+        "url": "https://www.jkyog.org/blog/reincarnation-in-the-bhagavad-gita/",
+        "type": "book",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "upward-causality",
+    "sources": [
+      {
+        "title": "Aristotle on Causality (Stanford Encyclopedia of Philosophy)",
+        "url": "https://plato.stanford.edu/entries/aristotle-causality/",
+        "type": "academic",
+        "stance": "supports"
+      }
+    ]
+  },
+  {
+    "id": "cryptic-premonitions",
+    "sources": [
+      {
+        "title": "'We must kill the black snake': Prophecy and prayer motivate Standing Rock movement",
+        "url": "https://www.cbc.ca/news/canada/manitoba/dakota-access-pipeline-prayer-1.3887441",
+        "type": "news",
+        "stance": "context"
+      }
+    ]
+  },
+  {
+    "id": "the-black-snake-prophecy",
+    "sources": [
+      {
+        "title": "'We must kill the black snake': Prophecy and prayer motivate Standing Rock movement",
+        "url": "https://www.cbc.ca/news/canada/manitoba/dakota-access-pipeline-prayer-1.3887441",
+        "type": "news",
+        "stance": "supports"
+      }
+    ]
+  },
+  {
+    "id": "modular-prophecies",
+    "sources": [
+      {
+        "title": "Hick, John - Internet Encyclopedia of Philosophy",
+        "url": "https://iep.utm.edu/hick/",
+        "type": "academic",
+        "stance": "supports"
+      }
+    ]
+  },
+  {
+    "id": "the-cavern-guardian",
+    "sources": [
+      {
+        "title": "Genesis 3:24",
+        "url": "https://biblehub.com/genesis/3-24.htm",
+        "type": "book",
+        "stance": "supports"
+      }
+    ]
+  }
+]

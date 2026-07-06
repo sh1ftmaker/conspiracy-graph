@@ -1,0 +1,136 @@
+[
+ {
+  "id": "divine-linguistic-censorship",
+  "sources": [
+   {"title": "Adamic language", "url": "https://en.wikipedia.org/wiki/Adamic_language", "type": "wikipedia", "stance": "context"}
+  ]
+ },
+ {
+  "id": "ooo",
+  "sources": [
+   {"title": "Graham Harman, Object-Oriented Ontology: A New Theory of Everything", "url": "https://philpapers.org/rec/HAROOA-6", "type": "book", "stance": "supports"},
+   {"title": "Object-oriented ontology", "url": "https://en.wikipedia.org/wiki/Object-oriented_ontology", "type": "wikipedia", "stance": "context"}
+  ]
+ },
+ {
+  "id": "post-simulation-society",
+  "sources": [
+   {"title": "Are You Living in a Computer Simulation? (Bostrom)", "url": "https://simulation-argument.com/simulation.pdf", "type": "academic", "stance": "supports"}
+  ]
+ },
+ {
+  "id": "quantum-entanglement",
+  "sources": [
+   {"title": "Orchestrated objective reduction", "url": "https://en.wikipedia.org/wiki/Orchestrated_objective_reduction", "type": "wikipedia", "stance": "context"},
+   {"title": "Penrose & Hameroff, Orchestrated objective reduction of quantum coherence in brain microtubules (\"Orch OR\")", "url": "https://philpapers.org/rec/PENOOR", "type": "academic", "stance": "supports"}
+  ]
+ },
+ {
+  "id": "kundalini-energy",
+  "sources": [
+   {"title": "Kundalini", "url": "https://en.wikipedia.org/wiki/Kundalini", "type": "wikipedia", "stance": "context"},
+   {"title": "Investigation of the phenomenology, physiology and impact of spiritually transformative experiences – kundalini awakening", "url": "https://www.sciencedirect.com/science/article/abs/pii/S1550830720302238", "type": "academic", "stance": "supports"}
+  ]
+ },
+ {
+  "id": "brain-in-a-jar",
+  "sources": [
+   {"title": "Brain in a Vat Argument", "url": "https://iep.utm.edu/brain-in-a-vat-argument/", "type": "academic", "stance": "supports"}
+  ]
+ },
+ {
+  "id": "ghost-towns",
+  "sources": [
+   {"title": "Stone Tape (residual haunting theory)", "url": "https://en.wikipedia.org/wiki/Stone_Tape", "type": "wikipedia", "stance": "supports"}
+  ]
+ },
+ {
+  "id": "theosophist-geology",
+  "sources": [
+   {"title": "The Secret Doctrine (Blavatsky)", "url": "https://sacred-texts.com/the/sd/index.htm", "type": "book", "stance": "supports"},
+   {"title": "Planetary Spirit", "url": "https://www.theosophy.wiki/en/Planetary_Spirit", "type": "advocacy", "stance": "context"}
+  ]
+ },
+ {
+  "id": "panrockticon",
+  "sources": [
+   {"title": "Stone Tape (residual haunting theory)", "url": "https://en.wikipedia.org/wiki/Stone_Tape", "type": "wikipedia", "stance": "supports"}
+  ]
+ },
+ {
+  "id": "anatta",
+  "sources": [
+   {"title": "Mind in Indian Buddhist Philosophy", "url": "https://plato.stanford.edu/entries/mind-indian-buddhism/", "type": "academic", "stance": "supports"}
+  ]
+ },
+ {
+  "id": "npc-possession",
+  "sources": [
+   {"title": "Demon Possession", "url": "https://www.thegospelcoalition.org/essay/demon-possession/", "type": "advocacy", "stance": "supports"},
+   {"title": "Christian demonology", "url": "https://en.wikipedia.org/wiki/Christian_demonology", "type": "wikipedia", "stance": "context"}
+  ]
+ },
+ {
+  "id": "saint-is-angels",
+  "sources": [
+   {"title": "Are You Living in a Computer Simulation? (Bostrom)", "url": "https://simulation-argument.com/simulation.pdf", "type": "academic", "stance": "supports"}
+  ]
+ },
+ {
+  "id": "puppet-show-simulation",
+  "sources": [
+   {"title": "Are You Living in a Computer Simulation? (Bostrom)", "url": "https://simulation-argument.com/simulation.pdf", "type": "academic", "stance": "supports"}
+  ]
+ },
+ {
+  "id": "flesh-prison",
+  "sources": [
+   {"title": "The Gnostic World View: A Brief Summary of Gnosticism", "url": "http://www.gnosis.org/gnintro.htm", "type": "advocacy", "stance": "supports"},
+   {"title": "Divine spark", "url": "https://en.wikipedia.org/wiki/Divine_spark", "type": "wikipedia", "stance": "context"}
+  ]
+ },
+ {
+  "id": "dark-city-non-fiction",
+  "sources": [
+   {"title": "Are You Living in a Computer Simulation? (Bostrom)", "url": "https://simulation-argument.com/simulation.pdf", "type": "academic", "stance": "supports"},
+   {"title": "The Matrix as Metaphysics (Chalmers)", "url": "http://consc.net/papers/matrix.html", "type": "academic", "stance": "supports"}
+  ]
+ },
+ {
+  "id": "simulation-endgame",
+  "sources": [
+   {"title": "Are You Living in a Computer Simulation? (Bostrom)", "url": "https://simulation-argument.com/simulation.pdf", "type": "academic", "stance": "supports"}
+  ]
+ },
+ {
+  "id": "subjective-reality",
+  "sources": [
+   {"title": "Other Minds", "url": "https://plato.stanford.edu/entries/other-minds/", "type": "academic", "stance": "supports"}
+  ]
+ },
+ {
+  "id": "mediums",
+  "sources": [
+   {"title": "Spiritualism (movement)", "url": "https://en.wikipedia.org/wiki/Spiritualism_(movement)", "type": "wikipedia", "stance": "context"}
+  ]
+ },
+ {
+  "id": "spiritual-microeconomy",
+  "sources": [
+   {"title": "Karma", "url": "https://en.wikipedia.org/wiki/Karma", "type": "wikipedia", "stance": "context"}
+  ]
+ },
+ {
+  "id": "simulation-prison",
+  "sources": [
+   {"title": "Are You Living in a Computer Simulation? (Bostrom)", "url": "https://simulation-argument.com/simulation.pdf", "type": "academic", "stance": "supports"}
+  ]
+ },
+ {
+  "id": "universal-hermeneutics",
+  "sources": [
+   {"title": "The Perennial Philosophy (Huxley)", "url": "https://en.wikipedia.org/wiki/The_Perennial_Philosophy", "type": "book", "stance": "supports"},
+   {"title": "Perennial philosophy", "url": "https://en.wikipedia.org/wiki/Perennial_philosophy", "type": "wikipedia", "stance": "context"}
+  ]
+ }
+]

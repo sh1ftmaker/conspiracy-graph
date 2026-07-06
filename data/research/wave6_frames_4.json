@@ -1,0 +1,573 @@
+[
+  {
+    "id": "ghost-memories",
+    "sources": [
+      {
+        "title": "Global Consciousness Project: Theory and Speculations",
+        "url": "https://noosphere.princeton.edu/speculations.html",
+        "type": "academic",
+        "stance": "supports"
+      },
+      {
+        "title": "Morphic Resonance: Research and Papers - Rupert Sheldrake",
+        "url": "https://www.sheldrake.org/research/morphic-resonance",
+        "type": "advocacy",
+        "stance": "supports"
+      }
+    ],
+    "st": [
+      {
+        "url": "https://noosphere.princeton.edu/speculations.html",
+        "st": "supports"
+      },
+      {
+        "url": "https://www.sheldrake.org/research/morphic-resonance",
+        "st": "supports"
+      }
+    ]
+  },
+  {
+    "id": "senses-programming",
+    "sources": [
+      {
+        "title": "Donald D. Hoffman",
+        "url": "https://en.wikipedia.org/wiki/Donald_D._Hoffman",
+        "type": "wikipedia",
+        "stance": "context"
+      },
+      {
+        "title": "Interface Theory of Perception from The Case Against Reality",
+        "url": "https://medium.com/@thecommonsapien/interface-theory-of-perception-from-the-case-against-reality-f4d09c655d92",
+        "type": "advocacy",
+        "stance": "supports"
+      }
+    ],
+    "st": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Donald_D._Hoffman",
+        "st": "context"
+      },
+      {
+        "url": "https://medium.com/@thecommonsapien/interface-theory-of-perception-from-the-case-against-reality-f4d09c655d92",
+        "st": "supports"
+      }
+    ]
+  },
+  {
+    "id": "memetic-entities-control-humanity",
+    "sources": [
+      {
+        "title": "Global Consciousness Project: Theory and Speculations",
+        "url": "https://noosphere.princeton.edu/speculations.html",
+        "type": "academic",
+        "stance": "supports"
+      },
+      {
+        "title": "Morphic Resonance: Research and Papers - Rupert Sheldrake",
+        "url": "https://www.sheldrake.org/research/morphic-resonance",
+        "type": "advocacy",
+        "stance": "supports"
+      }
+    ],
+    "st": [
+      {
+        "url": "https://noosphere.princeton.edu/speculations.html",
+        "st": "supports"
+      },
+      {
+        "url": "https://www.sheldrake.org/research/morphic-resonance",
+        "st": "supports"
+      }
+    ]
+  },
+  {
+    "id": "npc-paradigm",
+    "sources": [
+      {
+        "title": "Global Consciousness Project: Theory and Speculations",
+        "url": "https://noosphere.princeton.edu/speculations.html",
+        "type": "academic",
+        "stance": "supports"
+      }
+    ],
+    "st": [
+      {
+        "url": "https://noosphere.princeton.edu/speculations.html",
+        "st": "supports"
+      }
+    ]
+  },
+  {
+    "id": "social-media-esotericism",
+    "sources": [
+      {
+        "title": "Global Consciousness Project: Theory and Speculations",
+        "url": "https://noosphere.princeton.edu/speculations.html",
+        "type": "academic",
+        "stance": "supports"
+      }
+    ],
+    "st": [
+      {
+        "url": "https://noosphere.princeton.edu/speculations.html",
+        "st": "supports"
+      }
+    ]
+  },
+  {
+    "id": "mundane-reincarnation",
+    "sources": [
+      {
+        "title": "Reincarnation Without Souls? Understanding Buddhist Rebirth",
+        "url": "https://www.learnreligions.com/reincarnation-without-souls-449996",
+        "type": "advocacy",
+        "stance": "supports"
+      },
+      {
+        "title": "Rebirth (Buddhism)",
+        "url": "https://en.wikipedia.org/wiki/Rebirth_(Buddhism)",
+        "type": "wikipedia",
+        "stance": "context"
+      }
+    ],
+    "st": [
+      {
+        "url": "https://www.learnreligions.com/reincarnation-without-souls-449996",
+        "st": "supports"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Rebirth_(Buddhism)",
+        "st": "context"
+      }
+    ]
+  },
+  {
+    "id": "cosmic-censorship-cottage",
+    "sources": [
+      {
+        "title": "Cosmic censorship hypothesis",
+        "url": "https://en.wikipedia.org/wiki/Cosmic_censorship_hypothesis",
+        "type": "wikipedia",
+        "stance": "context"
+      },
+      {
+        "title": "Singularities, Black Holes, and Cosmic Censorship: A Tribute to Roger Penrose",
+        "url": "https://link.springer.com/article/10.1007/s10701-021-00432-1",
+        "type": "academic",
+        "stance": "supports"
+      },
+      {
+        "title": "Spacetime Singularities and Cosmic Censorship Conjecture: A Review",
+        "url": "https://arxiv.org/abs/2005.07032",
+        "type": "academic",
+        "stance": "supports"
+      }
+    ],
+    "st": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cosmic_censorship_hypothesis",
+        "st": "context"
+      },
+      {
+        "url": "https://link.springer.com/article/10.1007/s10701-021-00432-1",
+        "st": "supports"
+      },
+      {
+        "url": "https://arxiv.org/abs/2005.07032",
+        "st": "supports"
+      }
+    ]
+  },
+  {
+    "id": "cosmic-censorship-corruption",
+    "sources": [
+      {
+        "title": "Cosmic censorship hypothesis",
+        "url": "https://en.wikipedia.org/wiki/Cosmic_censorship_hypothesis",
+        "type": "wikipedia",
+        "stance": "context"
+      }
+    ],
+    "st": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cosmic_censorship_hypothesis",
+        "st": "context"
+      }
+    ]
+  },
+  {
+    "id": "tops-of-mountains",
+    "sources": [
+      {
+        "title": "Axis mundi",
+        "url": "https://en.wikipedia.org/wiki/Axis_mundi",
+        "type": "wikipedia",
+        "stance": "context"
+      },
+      {
+        "title": "Axis Mundi and the Sacred Mountain",
+        "url": "https://jeremybassetti.com/on-mountains/2021/axis-mundi-sacred-mountain/",
+        "type": "advocacy",
+        "stance": "supports"
+      }
+    ],
+    "st": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Axis_mundi",
+        "st": "context"
+      },
+      {
+        "url": "https://jeremybassetti.com/on-mountains/2021/axis-mundi-sacred-mountain/",
+        "st": "supports"
+      }
+    ]
+  },
+  {
+    "id": "world-wraps",
+    "sources": [
+      {
+        "title": "The Universe's Topology May Not Be Simple",
+        "url": "https://physics.aps.org/articles/v17/74",
+        "type": "academic",
+        "stance": "supports"
+      },
+      {
+        "title": "The Shape and Topology of the Universe",
+        "url": "https://arxiv.org/pdf/0802.2236",
+        "type": "academic",
+        "stance": "supports"
+      }
+    ],
+    "st": [
+      {
+        "url": "https://physics.aps.org/articles/v17/74",
+        "st": "supports"
+      },
+      {
+        "url": "https://arxiv.org/pdf/0802.2236",
+        "st": "supports"
+      }
+    ]
+  },
+  {
+    "id": "secret-gates",
+    "sources": [
+      {
+        "title": "Axis mundi",
+        "url": "https://en.wikipedia.org/wiki/Axis_mundi",
+        "type": "wikipedia",
+        "stance": "context"
+      },
+      {
+        "title": "Axis Mundi and the Sacred Mountain",
+        "url": "https://jeremybassetti.com/on-mountains/2021/axis-mundi-sacred-mountain/",
+        "type": "advocacy",
+        "stance": "supports"
+      }
+    ],
+    "st": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Axis_mundi",
+        "st": "context"
+      },
+      {
+        "url": "https://jeremybassetti.com/on-mountains/2021/axis-mundi-sacred-mountain/",
+        "st": "supports"
+      }
+    ]
+  },
+  {
+    "id": "divinities-playing-card-game",
+    "sources": [
+      {
+        "title": "Hick, John | Internet Encyclopedia of Philosophy",
+        "url": "https://iep.utm.edu/hick/",
+        "type": "academic",
+        "stance": "supports"
+      }
+    ],
+    "st": [
+      {
+        "url": "https://iep.utm.edu/hick/",
+        "st": "supports"
+      }
+    ]
+  },
+  {
+    "id": "chakra-removal",
+    "sources": [
+      {
+        "title": "Subtle body",
+        "url": "https://en.wikipedia.org/wiki/Subtle_body",
+        "type": "wikipedia",
+        "stance": "context"
+      },
+      {
+        "title": "Chakra",
+        "url": "https://en.wikipedia.org/wiki/Chakra",
+        "type": "wikipedia",
+        "stance": "context"
+      }
+    ],
+    "st": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Subtle_body",
+        "st": "context"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Chakra",
+        "st": "context"
+      }
+    ]
+  },
+  {
+    "id": "entity-merging",
+    "sources": [
+      {
+        "title": "Parfit on Survival and What Matters",
+        "url": "https://www.jimpryor.net/teaching/courses/identity2022/notes/parfit.html",
+        "type": "academic",
+        "stance": "supports"
+      },
+      {
+        "title": "Personal Identity | Internet Encyclopedia of Philosophy",
+        "url": "https://iep.utm.edu/person-i/",
+        "type": "academic",
+        "stance": "context"
+      }
+    ],
+    "st": [
+      {
+        "url": "https://www.jimpryor.net/teaching/courses/identity2022/notes/parfit.html",
+        "st": "supports"
+      },
+      {
+        "url": "https://iep.utm.edu/person-i/",
+        "st": "context"
+      }
+    ]
+  },
+  {
+    "id": "archontic-genetic-engineered-entities",
+    "sources": [
+      {
+        "title": "The Hypostasis of the Archons (Nag Hammadi Library)",
+        "url": "https://www.markfoster.net/rn/archons.pdf",
+        "type": "book",
+        "stance": "supports"
+      },
+      {
+        "title": "Archons - Gnosticism Explained",
+        "url": "https://gnosticismexplained.org/archons/",
+        "type": "context",
+        "stance": "context"
+      }
+    ],
+    "st": [
+      {
+        "url": "https://www.markfoster.net/rn/archons.pdf",
+        "st": "supports"
+      },
+      {
+        "url": "https://gnosticismexplained.org/archons/",
+        "st": "context"
+      }
+    ]
+  },
+  {
+    "id": "olfma",
+    "sources": [
+      {
+        "title": "The Secret Doctrine and its Study - Theosophical Society in America",
+        "url": "https://www.theosophical.org/component/content/article/the-secret-doctrine-and-its-study?catid=25&Itemid=1107",
+        "type": "advocacy",
+        "stance": "supports"
+      },
+      {
+        "title": "The Secret Doctrine",
+        "url": "https://en.wikipedia.org/wiki/The_Secret_Doctrine",
+        "type": "wikipedia",
+        "stance": "context"
+      }
+    ],
+    "st": [
+      {
+        "url": "https://www.theosophical.org/component/content/article/the-secret-doctrine-and-its-study?catid=25&Itemid=1107",
+        "st": "supports"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Secret_Doctrine",
+        "st": "context"
+      }
+    ]
+  },
+  {
+    "id": "retrocausality",
+    "sources": [
+      {
+        "title": "Retrocausality in Quantum Mechanics",
+        "url": "https://plato.stanford.edu/entries/qm-retrocausality/",
+        "type": "academic",
+        "stance": "supports"
+      }
+    ],
+    "st": [
+      {
+        "url": "https://plato.stanford.edu/entries/qm-retrocausality/",
+        "st": "supports"
+      }
+    ]
+  },
+  {
+    "id": "god-of-the-gaps-never-existed",
+    "sources": [
+      {
+        "title": "Occasionalism",
+        "url": "https://plato.stanford.edu/entries/occasionalism/",
+        "type": "academic",
+        "stance": "supports"
+      },
+      {
+        "title": "Classical theism",
+        "url": "http://edwardfeser.blogspot.com/2010/09/classical-theism.html",
+        "type": "advocacy",
+        "stance": "supports"
+      }
+    ],
+    "st": [
+      {
+        "url": "https://plato.stanford.edu/entries/occasionalism/",
+        "st": "supports"
+      },
+      {
+        "url": "http://edwardfeser.blogspot.com/2010/09/classical-theism.html",
+        "st": "supports"
+      }
+    ]
+  },
+  {
+    "id": "virus-23",
+    "sources": [
+      {
+        "title": "Global Consciousness Project: Theory and Speculations",
+        "url": "https://noosphere.princeton.edu/speculations.html",
+        "type": "academic",
+        "stance": "supports"
+      }
+    ],
+    "st": [
+      {
+        "url": "https://noosphere.princeton.edu/speculations.html",
+        "st": "supports"
+      }
+    ]
+  },
+  {
+    "id": "oikeiosis",
+    "sources": [
+      {
+        "title": "Stoicism",
+        "url": "https://plato.stanford.edu/entries/stoicism/",
+        "type": "academic",
+        "stance": "supports"
+      },
+      {
+        "title": "Oikeiôsis",
+        "url": "https://en.wikipedia.org/wiki/Oikei%C3%B4sis",
+        "type": "wikipedia",
+        "stance": "context"
+      }
+    ],
+    "st": [
+      {
+        "url": "https://plato.stanford.edu/entries/stoicism/",
+        "st": "supports"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Oikei%C3%B4sis",
+        "st": "context"
+      }
+    ]
+  },
+  {
+    "id": "fractalization",
+    "sources": [
+      {
+        "title": "Terence McKenna",
+        "url": "https://en.wikipedia.org/wiki/Terence_McKenna",
+        "type": "wikipedia",
+        "stance": "context"
+      },
+      {
+        "title": "The Syntax of Psychedelic Time: Fractals, Endpoints, End-times, & Zeropoints",
+        "url": "https://steemit.com/philosophy/@allabout/terence-mckenna-the-syntax-of-psychedelic-time-fractals-endpoints-end-times-and-zeropoints",
+        "type": "advocacy",
+        "stance": "supports"
+      }
+    ],
+    "st": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Terence_McKenna",
+        "st": "context"
+      },
+      {
+        "url": "https://steemit.com/philosophy/@allabout/terence-mckenna-the-syntax-of-psychedelic-time-fractals-endpoints-end-times-and-zeropoints",
+        "st": "supports"
+      }
+    ]
+  },
+  {
+    "id": "gods-ego-death",
+    "sources": [
+      {
+        "title": "Tzimtzum",
+        "url": "https://en.wikipedia.org/wiki/Tzimtzum",
+        "type": "wikipedia",
+        "stance": "context"
+      },
+      {
+        "title": "Basics in Kabbalah and Chassidut: Tzimtzum",
+        "url": "https://inner.org/worlds/tzimtzum.htm",
+        "type": "advocacy",
+        "stance": "supports"
+      }
+    ],
+    "st": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tzimtzum",
+        "st": "context"
+      },
+      {
+        "url": "https://inner.org/worlds/tzimtzum.htm",
+        "st": "supports"
+      }
+    ]
+  },
+  {
+    "id": "gods-last-wish",
+    "sources": [
+      {
+        "title": "Tzimtzum",
+        "url": "https://en.wikipedia.org/wiki/Tzimtzum",
+        "type": "wikipedia",
+        "stance": "context"
+      },
+      {
+        "title": "Basics in Kabbalah and Chassidut: Tzimtzum",
+        "url": "https://inner.org/worlds/tzimtzum.htm",
+        "type": "advocacy",
+        "stance": "supports"
+      }
+    ],
+    "st": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tzimtzum",
+        "st": "context"
+      },
+      {
+        "url": "https://inner.org/worlds/tzimtzum.htm",
+        "st": "supports"
+      }
+    ]
+  }
+]
