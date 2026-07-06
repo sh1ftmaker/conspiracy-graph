@@ -1,23 +1,35 @@
 # The Conspiracy Atlas
 
-An interactive atlas of conspiracy theories plotted by **how true they are** (x-axis)
-against **how impactful they'd be if true** (y-axis) — plus a genre breakdown, a
-formulation-year timeline, and a **load-bearing dependency graph** showing which
-theories require other theories to be true.
+An interactive atlas of 1000+ conspiracy theories. Two views, both fed by the same
+dataset:
 
-**[Live site →](https://sh1ftmaker.github.io/conspiracy-graph/)**
+- **[2D semantic map](https://sh1ftmaker.github.io/conspiracy-graph/)** (`docs/index.html`)
+  — a WebGL point-cloud laid out by semantic similarity (embedded with
+  **gemini-embedding-2**, UMAP-projected): theories with similar claims, actors or
+  themes cluster together regardless of genre or truth. Pan/pinch/zoom, click a
+  point to trace its nearest neighbors in full embedding space.
+- **[3D flythrough](https://sh1ftmaker.github.io/conspiracy-graph/3d.html)** (`docs/3d.html`)
+  — a free-orbit Three.js scene with four switchable layouts: Truth × Impact
+  scatter, a **load-bearing dependency graph** (which theories require other
+  theories to be true), a formulation-year Timeline, and the same Semantic space
+  as the 2D map but in 3D.
 
 ## What's here
 
-- `docs/index.html` — single-file canvas/WebGL-free 2D renderer (3 views: scatter, graph, timeline)
-- `docs/data.json` — built dataset (generated, do not hand-edit)
+- `docs/index.html` — 2D WebGL semantic map (front page)
+- `docs/3d.html` — 3D Three.js flythrough (scatter / graph / timeline / semantic space)
+- `docs/data.json` — built dataset incl. embedding coordinates (generated, do not hand-edit)
 - `data/theories.seed.json` — hand-authored anchor theories (evidence-scored)
 - `data/enriched/batch_*.json` — subagent-researched theories, same schema
-- `data/queue.json` — remaining theories queued for enrichment
 - `data/SCHEMA.md` — field reference + the truth/impact scoring rubric
 - `src/taxonomy.json` — genre list + truth/impact scale definitions
 - `src/build.py` — merges all sources, validates, resolves cross-links, computes
   load-bearing in-degree → `docs/data.json`
+- `src/embed_theories.py` — embeds every theory (name + summary + evidence) with
+  **gemini-embedding-2** via Vertex AI (needs a service-account JSON with the
+  Vertex AI API enabled; not committed to this repo)
+- `src/project_embed.py` — UMAP-projects the embeddings to 2D/3D and writes
+  `ex/ey/ex3/ey3/ez3` + nearest-neighbor ids (`nn`) onto each theory in `docs/data.json`
 
 ## Methodology
 
@@ -47,6 +59,8 @@ is not an endorsement.
 
 ```
 python src/build.py      # regenerates docs/data.json from data/*.json
+python src/embed_theories.py --sa <path-to-sa.json> --out out/embeddings.npz   # re-embed (only needed if theories changed)
+python src/project_embed.py --emb out/embeddings.npz --data docs/data.json    # re-project + write coords into docs/data.json
 python -m http.server 8000 --directory docs   # preview locally
 ```
 
