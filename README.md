@@ -3,16 +3,16 @@
 An interactive atlas of 1000+ conspiracy theories. Two views, both fed by the same
 dataset:
 
-- **[2D semantic map](https://sh1ftmaker.github.io/conspiracy-graph/)** (`docs/index.html`)
+- **[2D semantic map](https://sh1ftmaker.github.io/conspiracy-atlas/)** (`docs/index.html`)
   — a WebGL point-cloud laid out by semantic similarity (embedded with
   **gemini-embedding-2**, UMAP-projected): theories with similar claims, actors or
   themes cluster together regardless of genre or truth. Pan/pinch/zoom, click a
   point to trace its nearest neighbors in full embedding space.
-- **[3D flythrough](https://sh1ftmaker.github.io/conspiracy-graph/3d.html)** (`docs/3d.html`)
+- **[3D flythrough](https://sh1ftmaker.github.io/conspiracy-atlas/3d.html)** (`docs/3d.html`)
   — fly (WASD + mouse-look) or orbit through the semantic point cloud in 3D;
   remap the X/Y/Z axes (Semantic / Truth / Impact / Notoriety / Year) and watch
   the cloud morph between layouts.
-- **[Graph & timeline](https://sh1ftmaker.github.io/conspiracy-graph/classic.html)** (`docs/classic.html`)
+- **[Graph & timeline](https://sh1ftmaker.github.io/conspiracy-atlas/classic.html)** (`docs/classic.html`)
   — the tabbed Three.js scene: Truth × Impact scatter, a **load-bearing
   dependency graph** (which theories require other theories to be true), a
   formulation-year Timeline, and the Semantic space.

@@ -77,6 +77,11 @@
   #nbrs div{padding:3px 6px;border-radius:6px;cursor:pointer;color:var(--accent);font-size:11.5px}
   #nbrs div:hover{background:rgba(124,242,214,.1)}
   a.src{color:var(--accent);text-decoration:none;font-size:11.5px}
+  ul.ev{margin:0 0 4px;padding:0;list-style:none}
+  ul.ev li{position:relative;padding:3px 0 3px 18px;font-size:12px;color:#c7cbde}
+  ul.ev li::before{position:absolute;left:0;top:2px;font-weight:700}
+  ul.ev.for li::before{content:"✓";color:#4ade80}
+  ul.ev.against li::before{content:"✗";color:#f87171}
   .metric{margin:7px 0}
   .metric .ml{display:flex;justify-content:space-between;font-size:10.5px;color:var(--dim);margin-bottom:3px}
   .metric .mv{color:var(--txt);font-weight:650;font-variant-numeric:tabular-nums}
@@ -184,6 +189,7 @@
     <div id="cPills"></div>
     <div class="desc" id="cDesc"></div>
     <div id="cBars"></div>
+    <div id="cEv"></div>
     <h4>Nearest neighbors (semantic)</h4>
     <div id="nbrs"></div>
     <div id="cSrcs" style="margin-top:8px"></div>
@@ -453,6 +459,12 @@ function selectTheory(i){
   document.getElementById('cDesc').textContent=t.summary||'';
   document.getElementById('cBars').innerHTML=
     bar('How true',t.truth,statusCol(t.truth))+bar('Impact if true',t.impact,'#60a5fa')+bar('Notoriety',t.notoriety,'#a855f7');
+  const evLi=x=>{const txt=typeof x==='string'?x:(x.text||''), su=typeof x==='object'&&x?x.source:null;
+    return `<li>${esc(txt)}${su?` <a class="src" href="${esc(su)}" target="_blank" rel="noopener" title="source">↗</a>`:''}</li>`;};
+  let ev='';
+  if(t.evidence_for&&t.evidence_for.length) ev+=`<h4>Evidence / claims for</h4><ul class="ev for">${t.evidence_for.map(evLi).join('')}</ul>`;
+  if(t.evidence_against&&t.evidence_against.length) ev+=`<h4>Evidence against</h4><ul class="ev against">${t.evidence_against.map(evLi).join('')}</ul>`;
+  document.getElementById('cEv').innerHTML=ev;
   const nb=document.getElementById('nbrs'); nb.innerHTML='';
   for(const j of NN[i]){const div=document.createElement('div'); div.textContent='→ '+T[j].name;
     div.onclick=()=>{selectTheory(j); flyTo(j);}; nb.appendChild(div);}

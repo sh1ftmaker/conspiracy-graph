@@ -92,6 +92,7 @@
   ul.ev li{position:relative;padding:3px 0 3px 18px;font-size:12px;color:#c7ccde}
   ul.ev li::before{position:absolute;left:0;top:2px;font-weight:700}
   ul.ev.for li::before{content:"✓";color:var(--for)}
+  ul.ev.against li::before{content:"✗";color:var(--against)}
   #nbrs div{padding:3px 6px;border-radius:6px;cursor:pointer;color:var(--accent);font-size:11.5px}
   #nbrs div:hover{background:rgba(124,242,214,.1)}
   a.src{color:var(--accent);text-decoration:none;font-size:11.5px}
@@ -467,6 +468,7 @@ function selectTheory(i){
   h+=bar('Impact if true',t.impact,'#60a5fa');
   h+=bar('Notoriety',t.notoriety,'#a855f7');
   if(t.evidence_for&&t.evidence_for.length){ h+=`<h4>Evidence / claims for</h4><ul class="ev for">${t.evidence_for.map(evLi).join('')}</ul>`; }
+  if(t.evidence_against&&t.evidence_against.length){ h+=`<h4>Evidence against</h4><ul class="ev against">${t.evidence_against.map(evLi).join('')}</ul>`; }
   h+=`<h4>Nearest neighbors (semantic)</h4><div id="nbrs"></div>`;
   const srcs=(t.sources||[]).slice();
   if(t.wikipedia && !srcs.some(s=>s.url===t.wikipedia)) srcs.unshift({title:'Wikipedia',url:t.wikipedia,type:'wikipedia',stance:'documents'});
