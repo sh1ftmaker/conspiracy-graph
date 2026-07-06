@@ -1,0 +1,1634 @@
+[
+  {
+    "id": "big-pharma",
+    "name": "Big Pharma",
+    "aliases": [],
+    "genre": "health",
+    "year": 1995,
+    "truth": 20,
+    "impact": 35,
+    "notoriety": 70,
+    "summary": "Pharmaceutical companies suppress effective vaccines & medical treatment for profit.",
+    "evidence_for": [
+      "If there are alternative medicinal techniques that are practiced by some but suppressed by much of modern science, perhaps this medicine isn’t ineffective, but requires a substantial amount of foreknowledge into the recipient. This would imply that."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "atlantis",
+    "name": "Atlantis",
+    "aliases": [],
+    "genre": "extraterrestrial",
+    "year": 500,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 85,
+    "summary": "Ancient Greek documents of a continent located in the Atlantic ocean which has since disappeared.",
+    "evidence_for": [
+      "If the Atlantean civilization found a way to technologically progress beyond the rest of humanity, it might be favorable to hide their civilization from the rest of the world and run it in hiding. Likewise, they moved their society to the most."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "nostradamus",
+    "name": "Nostradamus",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 500,
+    "truth": 25,
+    "impact": 60,
+    "notoriety": 20,
+    "summary": "Old philosopher that created constellations and made predictions of the future, such as World War 2 & Great London Fire.",
+    "evidence_for": [
+      "If someone can reach such a fundamental and full understanding of reality, likely someone well educated such as a philosopher, then perhaps they can have some influence over the future by convincing themselves of what is to come. This can imply."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "mandela-effect",
+    "name": "Mandela Effect",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 2000,
+    "truth": 25,
+    "impact": 95,
+    "notoriety": 85,
+    "summary": "Parallel universes with slight alterations replace aspects of our reality, creating minor differences.",
+    "evidence_for": [
+      "As mentioned in later tiers, if certain people are similar enough to alternate dimensional forms of themselves, they can shift into the alternate dimension either temporarily or permanently. If we accept theories such as “Field Consciousness” that."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "mh-370",
+    "name": "MH 370",
+    "aliases": [],
+    "genre": "government",
+    "year": 2014,
+    "truth": 25,
+    "impact": 60,
+    "notoriety": 55,
+    "summary": "A flight disappearance over the Indian ocean, likely over a United States military base.",
+    "evidence_for": [
+      "Just as civilians can be used to test more experimental techniques, such as in the MK Ultra experiments, perhaps commercial flights are used to test out the anti-air capabilities of military bases or technology. These tests can either be."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "gmo",
+    "name": "GMO",
+    "aliases": [],
+    "genre": "health",
+    "year": 1995,
+    "truth": 20,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "GMOs used in food products have unique, negative effects beyond public knowledge, perhaps to induce addiction.",
+    "evidence_for": [
+      "Undoubtedly with the introduction of foreign modifications into plants and food, some manner of naturality is lost. Perhaps, though, the inherent health benefits of natural food are not only being consequently suppressed, but intentionally."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "orbs",
+    "name": "Orbs",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "When photographing the sun, blots of light are often seen in the resulting pictures, and are considered some manner of supernatural occurrence.",
+    "evidence_for": [
+      "Many polytheistic religions held the idea that many natural phenomena were the actions of the divine, or were deities themselves. The most common of these was the sun"
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "new-world-order",
+    "name": "New World Order",
+    "aliases": [],
+    "genre": "government",
+    "year": 1995,
+    "truth": 25,
+    "impact": 80,
+    "notoriety": 70,
+    "summary": "Mentioned in the Book of Revelations, a singular world government will form in public or secret and control the human population.",
+    "evidence_for": [
+      "The American Experiment is a well-known concept referring to the idea of America's establishment as a free nation. Before the past few centuries, overcrowding was a far less substantial problem, so each expansion of civilization had to have."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "nibriu-cataclysm",
+    "name": "Nibriu Cataclysm",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 2003,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "Nibriu (or planet X) was predicted by a scientist in 2003 to collide with the earth within the year, but is now used more broadly to speak about an apocalyptic meteoric or planetary collision.",
+    "evidence_for": [
+      "According to geographic dating, the earth has existed for millions of years even before humanity, and similarly, the existence of life required extraordinary circumstances. Perhaps there is more than just phenomenal luck at play that facilitated and."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "bilderberg-meetings",
+    "name": "Bilderberg Meetings",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "A yearly meeting of western economists to discuss the state of capitalism in the west, with no notes or press present.",
+    "evidence_for": [
+      "When making small purchases, physical currency is often used, but as larger purchases are made, it is facilitated using debt or direct equal tradeoffs. If this trend continues, perhaps the wealthiest in an economy perform trade using things well."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "transhumanism",
+    "name": "Transhumanism",
+    "aliases": [],
+    "genre": "government",
+    "year": 1995,
+    "truth": 25,
+    "impact": 60,
+    "notoriety": 20,
+    "summary": "Humans can be artificially advanced further through mechanical or computational augments, a belief found most often in anarchist groups.",
+    "evidence_for": [
+      "In the wild, if an animal receives a substantial injury, it will often be deemed useless by other animals and left to die, whereas humans have grown past this, and our creation of treatment for natural ailments and injury is arguably our greatest."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "bek",
+    "name": "BEK",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 1995,
+    "truth": 25,
+    "impact": 15,
+    "notoriety": 20,
+    "summary": "Sightings of small children with blacked-out eyes often appear during tragedies.",
+    "evidence_for": [
+      "If summonings are tied to phenomenal releases of power, as mentioned in later tiers, and if human will and emotions are a form of power then perhaps, during tragedies, masses of people may perform accidental summonings of simplistic, supernatural."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "antarctica",
+    "name": "Antarctica",
+    "aliases": [],
+    "genre": "government",
+    "year": 1995,
+    "truth": 25,
+    "impact": 95,
+    "notoriety": 20,
+    "summary": "Numerous mysteries surrounding the frozen continent, ranging from entrances to the hollow earth, to military installations, and elitist rings hiding spots.",
+    "evidence_for": [
+      "If either all or substantial portions of the world are being run from the shadows by organizations of people, perhaps Antarctica acts as a headquarters for these groups to watch from afar while remaining safe from any consequence. Likewise, if some."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "basement-tapes",
+    "name": "Basement Tapes",
+    "aliases": [],
+    "genre": "government",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "A collection of recordings made by the Columbine shooters directly before the tragedy, the location of which is unknown, but theorized to be constantly moving due to the footage being released online.",
+    "evidence_for": [
+      "Perhaps not only was the Columbine tragedy facilitated by the elites to help implant the ideas of violence into the minds of the general population, but the basement tapes are also gradually being released to keep the ideas in the backs of the minds."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "operation-northwoods",
+    "name": "Operation Northwoods",
+    "aliases": [],
+    "genre": "government",
+    "year": 1995,
+    "truth": 90,
+    "impact": 60,
+    "notoriety": 55,
+    "summary": "During the Cuban Missile Crisis, the CIA issued reports revealing plans to initiate war with Cuba by framing the country for acts of terrorism committed against US citizens by the CIA.",
+    "evidence_for": [
+      "If the government is so prone to hiding information, we have no reason to believe reasons for warfare are as simplistic as they’re described, and instead perhaps are fought over much greater causes than are widely known, and therefore governments."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "psyops",
+    "name": "PSYOPS",
+    "aliases": [],
+    "genre": "government",
+    "year": 1960,
+    "truth": 60,
+    "impact": 60,
+    "notoriety": 20,
+    "summary": "A type of alternative warfare employed by governments, focusing on psychological aspects, such as long-term demoralization or terror.",
+    "evidence_for": [
+      "For thousands of years, warfare has evolved beyond simply “kill every member of the opposing force”, such as attrition to assassination. Perhaps in the 21st century, modern superpowers have evolved beyond even physical warfare, and can instead take."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "the-vela-incident",
+    "name": "The Vela Incident",
+    "aliases": [],
+    "genre": "government",
+    "year": 1960,
+    "truth": 60,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "A collection of satellites captured a pair of massive flashes, seemingly caused by nothing, but was likely an unsanctioned nuclear test, with similar occurrences being given the same conclusion.",
+    "evidence_for": [
+      "Such a phenomenal destructive force like a nuclear bomb must be used sparingly to avoid a cataclysm. Perhaps they truly are only used when necessary, likely to fight forces well beyond common understanding"
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "giants",
+    "name": "Giants",
+    "aliases": [],
+    "genre": "alt-history",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "From the Old Testament to ancient historical documents, there have been numerous documents referencing giant humanoid creatures.",
+    "evidence_for": [
+      "Many oceanic organisms have counterparts in the deep ocean that have some manner of gigantism, and perhaps the same is true for humans. Perhaps this furthers the theory of their natural habitat being within the hollow earth, or even the Atlantean."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "padma-mccord",
+    "name": "Padma McCord",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 1995,
+    "truth": 25,
+    "impact": 15,
+    "notoriety": 30,
+    "summary": "Millions of URLs attributed to one person, which all contain strange pictures of her face often photoshopped onto other women, as well as numerous backlinks to each other.",
+    "evidence_for": [
+      "Rather than a company or a single, obsessive person behind these websites, perhaps they are the work of a virus on the internet grabbing all available URLs it can find, and claiming them, then filling them with these images as well as the backlinks."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "elisa-lam",
+    "name": "Elisa Lam",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 2014,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 55,
+    "summary": "A college student who, while staying in a hotel, entered an elevator in a panic, then left security camera sight and was found multiple days later within a locked water container on the roof.",
+    "evidence_for": [
+      "Just as performed in centuries past, perhaps people in modern times have shamanistic capabilities, and can influence, or be influenced by good & evil spirits. As a result, certain unexplainable things may occur around these people, only able to be."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "the-tara-calico-picture",
+    "name": "The Tara Calico Picture",
+    "aliases": [],
+    "genre": "government",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 30,
+    "summary": "A woman suspected to have been kidnapped, but never having been found, a picture of whom ended up being found months later in a convenience store parking lot.",
+    "evidence_for": [
+      "In modern society, it is a common belief that with the interconnected world, it is far more difficult for people to go missing, as every individual is known and seen by dozens or perhaps hundreds of others daily. Perhaps, though, the opposite is true"
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "the-mad-gasser-of-mattoon",
+    "name": "The Mad Gasser of Mattoon",
+    "aliases": [],
+    "genre": "government",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "In the 1940s, a collection of gas attacks were reported to have been committed by a singular person in Mattoon Illinois, which authorities chalked up to mass hysteria.",
+    "evidence_for": [
+      "If certain politicians or other higher-ups are hoping to increase the authority of the government and law, a certain level of criminality must occur to warrant it. If the crime is too substantial, then it will cause mass terror among the population,."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "cointelpro",
+    "name": "COINTELPRO",
+    "aliases": [],
+    "genre": "government",
+    "year": 1960,
+    "truth": 90,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "Before The Patriot Act, this was evidence of the FBI illegally spying on United States citizens.",
+    "evidence_for": [
+      "National security is undeniably a powerful excuse for increased surveillance, but still with such far-reaching governmental monitoring, acts of terror or crime are quite common. Perhaps the reasoning behind the surveillance is not for security, but."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "mao-yale-theory",
+    "name": "Mao-Yale Theory",
+    "aliases": [],
+    "genre": "ethnic-religious",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "Hidden connections between Mao Zedong and Yale University for the university to indoctrinate students in exchange for funding.",
+    "evidence_for": [
+      "Over time, it has been shown that the older any person is, the more resilient they are against massive changes, so rather than trying to massively shift entire populations in their cultural or economic ways of living, perhaps it is better to play."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "i-70-killer",
+    "name": "I-70 Killer",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 1992,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "In the Spring of 1992, 6 murders occurred on the I-70 interstate, every target being gas station employees, with the killer themself never being caught.",
+    "evidence_for": [
+      "When traveling extraordinary distances over unchanging roads, drivers or passengers may experience highway hypnosis, entering a trance-like state where they act solely on their driver’s instinct, yet have no recollection of their actions. Perhaps in."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "majestic-12",
+    "name": "Majestic 12",
+    "aliases": [],
+    "genre": "extraterrestrial",
+    "year": 1960,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 55,
+    "summary": "A board of 12 individuals created by Harry Truman to collect and recover alien spacecraft and related information.",
+    "evidence_for": [
+      "If a board of individuals could be made to collect UFOs and such things, which are common knowledge, then perhaps there are similar, more secretive committees dedicated to studying and/or covering up other phenomena less known to the public"
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "red-squads",
+    "name": "Red Squads",
+    "aliases": [],
+    "genre": "government",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "Groups of US police officers that gathered during the Red Scare to hunt down suspected communist sympathizers and arrest them.",
+    "evidence_for": [
+      "If an individual becomes a problem for the government, it is an easy process of “accidentally” causing their death, but if a group of people or large amounts of disconnected individuals grow too problematic in ways that can not be known to the."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "the-secret",
+    "name": "“The Secret”",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "A self-help book that pushes the message that certain thoughts can change the course of one’s life.",
+    "evidence_for": [
+      "Modern definitions of meditation refer to thinking deeply about certain ideas, but in the past, it was often used as a form of deep introspection or to commune with unseen influences in a trance like manner. Perhaps if ideas like fate and destiny."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "acupuncture",
+    "name": "Acupuncture",
+    "aliases": [],
+    "genre": "health",
+    "year": 1995,
+    "truth": 25,
+    "impact": 35,
+    "notoriety": 20,
+    "summary": "A type of alternative medicine that involves puncturing particular points in the human body, and is often covered up by mainstream media despite its unique healing properties.",
+    "evidence_for": [
+      "If a part of one’s body begins to bleed substantially, cutting off the bleeding using pressure on key points is a common treatment. Perhaps a similar, though less physical, fundamental logic applies to acupuncture"
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "max-headroom-incident",
+    "name": "Max Headroom Incident",
+    "aliases": [],
+    "genre": "extraterrestrial",
+    "year": 1987,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "In the year 1987 in Chicago, a pair of broadcast stations were hacked and displayed a man wearing a Max Headroom (a character from British television) costume, who began to speak nonsense and perform vulgar acts, but no suspect was ever named or apprehended as a result.",
+    "evidence_for": [
+      "TV static is well known to be caused by a collection of random signals being caught by the satellite receiver when no specific station has been tuned in to. Some of these signals are even from deep space, and if satellites can pick up signals from."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "un-agenda",
+    "name": "UN Agenda",
+    "aliases": [],
+    "genre": "government",
+    "year": 1995,
+    "truth": 25,
+    "impact": 60,
+    "notoriety": 20,
+    "summary": "A motive behind the United Nations to build themselves into a single world government, but is kept entirely secret.",
+    "evidence_for": [
+      "If the United Nations is a collection of individuals from all over the earth, whatever secretive goal they set out to achieve would be divined from the collective knowledge of hundreds of different cultures and history. Perhaps they have discerned."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "lucid-dreaming",
+    "name": "Lucid Dreaming",
+    "aliases": [],
+    "genre": "health",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "Through practice or natural ability, some people can exercise a level of control over their dreams. This theory suggests that doing this may be able to influence the real world or a person’s internal thought patterns.",
+    "evidence_for": [
+      "Perhaps when we dream, our consciousness, rather than turning off entirely, recedes from the physical world to a psychologically focused space within our mind. During this time, we perform maintenance on our own mind to keep our psychological health."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "mk-ultra",
+    "name": "MK Ultra",
+    "aliases": [],
+    "genre": "health",
+    "year": 1960,
+    "truth": 90,
+    "impact": 60,
+    "notoriety": 85,
+    "summary": "A CIA experiment that involved people being influenced by mind-altering drugs to view their effects for the purpose of PSYOPS. While it was stated to be shut down, it, or its findings, may still be in use today.",
+    "evidence_for": [
+      "If humans can be controlled through their stimuli or through chemicals, perhaps the government will soon not require a major police state like usual dystopian visions. With the rise of digital media and heavily processed foods, perhaps much of."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "hypnosis",
+    "name": "Hypnosis",
+    "aliases": [],
+    "genre": "media-surveillance",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "An act that involves a level of mind control over a subject. This can be done to help the subject remember certain events or can even be used to implant memories.",
+    "evidence_for": [
+      "Perhaps rather than simply making certain people more susceptible to suggestion, hypnosis is much more akin to a form of psychological surgery. Just as the mind heals itself when unconscious, it can be naturally influenced through certain means"
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "fluoride",
+    "name": "Fluoride",
+    "aliases": [],
+    "genre": "health",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "In the United States, the chemical fluoride is put into tap water for health purposes. Being a chemical, it may have some adverse effects not known to the public.",
+    "evidence_for": [
+      "If, like in the “Physicality Obsoletion” theory, the government is attempting to control the population through chemicals, the best way to do it would be to contaminate something humans absolutely can not live without. Perhaps all the pushes towards."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "pineal-gland-calcification",
+    "name": "Pineal Gland Calcification",
+    "aliases": [],
+    "genre": "health",
+    "year": 1995,
+    "truth": 25,
+    "impact": 60,
+    "notoriety": 20,
+    "summary": "The pineal gland in the mind, over time, calcifies and becomes useless. As it is used for the body’s early stages of growth, this is not an issue. The calcification of this gland is artificial and therefore prevents us from obtaining our full physical or mental potential.",
+    "evidence_for": [
+      "Pineal gland calcification is a universal occurrence among humans, but there seems to be no noticeable physical or mental degradation immediately after this occurs. Perhaps this specific gland, as well as maybe even others we’re not aware of, has."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "cicada",
+    "name": "Cicada",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 2012,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 30,
+    "summary": "In 2012, an account by the name of Cicada 3301 appeared and presented puzzles online supposedly to recruit code breakers. So far, two of these puzzles have been solved, yet the third has not.",
+    "evidence_for": [
+      "In order for esoteric societies and hidden organizations to maintain their secrecy, they must keep their membership levels relatively low, but this runs the risk of certain major problems being beyond the collective capabilities of the few members.."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "the-mcfly-code",
+    "name": "The McFly Code",
+    "aliases": [],
+    "genre": "media-surveillance",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "In Back To The Future, there are a number of strange visuals that appear to predict 9/11.",
+    "evidence_for": [
+      "In many conspiracy theorist circles, there is the proliferation of ideas involving the sinister nature of modern culture and consumerism. As a result, many of the most adamant members of these groups likely won’t partake in popular media, making."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "dowsing",
+    "name": "Dowsing",
+    "aliases": [],
+    "genre": "finance",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "Using a fork of metal, vibrations within the earth can be picked up for the purposes of finding underground collections of water or oil.",
+    "evidence_for": [
+      "If oil is the result of previously living things undergoing millenia of change, then perhaps some form of life still remains within the oil, or at least the previous aura of life. Just as well, the “Dr Emoto’s Water Experiments” theory later in the."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "admiral-byrd",
+    "name": "Admiral Byrd",
+    "aliases": [],
+    "genre": "government",
+    "year": 1995,
+    "truth": 25,
+    "impact": 60,
+    "notoriety": 20,
+    "summary": "After World War 2, the American government performed something called Operation High Jump, sending Byrd to Antarctica to find what the Nazis were searching for. After the operation, Byrd was given the medal of honor and told not to speak of his findings.",
+    "evidence_for": [
+      "If Admiral Byrd was sent to Antarctica by himself to find its secrets and supposedly succeeded, then there must have been something immensely apparent that he found, as a singular person can’t reasonably search through what could be hundreds of."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "agartha",
+    "name": "Agartha",
+    "aliases": [],
+    "genre": "government",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "A civilization located within the earth, backed up by many similar accounts throughout history of entities coming from within the earth.",
+    "evidence_for": [
+      "If the earth is hollow and the interior works as a centrifugal force, then there must be a point in the crust of the earth where the force of gravity and this centrifugal force are at equal measure, and thusly the highest pressure point on earth.."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "weather-control-haarp",
+    "name": "Weather Control (HAARP)",
+    "aliases": [],
+    "genre": "government",
+    "year": 1995,
+    "truth": 25,
+    "impact": 60,
+    "notoriety": 20,
+    "summary": "A United States military base located in Alaska that has been the subject of many accusations of controlling the weather.",
+    "evidence_for": [
+      "If the government controls the weather, perhaps they have been using this power to exert some form of control over the population, either creating disasters to send specific groups of people into disarray by targeting their headquarters, or by."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "freemasons",
+    "name": "Freemasons",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 1995,
+    "truth": 25,
+    "impact": 80,
+    "notoriety": 70,
+    "summary": "A mysterious organization of individuals accused of secretly influencing global politics from the shadows.",
+    "evidence_for": [
+      "If humanity, or some other sentient species, existed in previous cycles, then perhaps there are organizations of people that have persisted as well. This is further supported by the “Bunker Continent” theory from the previous tier"
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "23-enigma",
+    "name": "23 Enigma",
+    "aliases": [],
+    "genre": "alt-history",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "A number that supposedly has importance throughout history, such as in dates or statistics.",
+    "evidence_for": [
+      "If certain secretive, elitist groups do exist throughout history and have their fingers in innumerable numbers of systems and societies, perhaps they can influence things like data to cause these recurring numbers. This can either be a form of."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "astral-projection",
+    "name": "Astral Projection",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 1995,
+    "truth": 20,
+    "impact": 15,
+    "notoriety": 20,
+    "summary": "While sleeping, an individual can separate their soul from their body and move it freely in order to observe or even influence the real world.",
+    "evidence_for": [
+      "Many religions state that the spirit and body are two separate entities, and if this were true, there may be a number of ways to separate the two, such as astral projection. Perhaps ghosts or other spirits are just another form of astral projection,."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "succubi",
+    "name": "Succubi",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "Supernatural entities disguised as women that feed off of men’s sexual energy.",
+    "evidence_for": [
+      "As mentioned prior, certain entities may be able to manifest in the real world if given sufficient thought or “energy” towards their existence. If sexual desire is the most profound form of human energy, perhaps numerous succubi and incubi have been."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "eastern-philosophies",
+    "name": "Eastern Philosophies",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "In many eastern philosophies, a greater emphasis is put on spirituality than in western philosophies.",
+    "evidence_for": [
+      "Perhaps these philosophies do have quite a bit of merit, but are only truly believed and practiced in smaller or heavily controlled portions of the earth because of it. If these beliefs can lead to true power, then such a large population like."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "nephilim",
+    "name": "Nephilim",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 500,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "The product of angels on earth having children with humans, creating giant children. Certain theories persist that they may still be around in small tribes or hidden locations in modern day.",
+    "evidence_for": [
+      "In most beliefs, angels are closer to God in a hierarchical manner than humans are, and are often far larger than humans as well. Perhaps there is a correlation between these facts, showing that closeness to God directly results in a larger physical."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "the-missing-cosmonauts",
+    "name": "The Missing Cosmonauts",
+    "aliases": [],
+    "genre": "extraterrestrial",
+    "year": 1995,
+    "truth": 45,
+    "impact": 60,
+    "notoriety": 20,
+    "summary": "During the cold war, Russia shot several unsuccessful cosmonauts into space, but kept the ordeal under wraps to avoid bad press",
+    "evidence_for": [
+      "Perhaps the reason Russia kept so quiet about the failed cosmonaut missions was not because they failed, but because they succeeded, though the cosmonauts had witnessed something that the government wanted to keep hidden, and when they couldn’t."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "dyaltov-pass",
+    "name": "Dyaltov Pass",
+    "aliases": [],
+    "genre": "deaths",
+    "year": 1995,
+    "truth": 25,
+    "impact": 15,
+    "notoriety": 30,
+    "summary": "In Siberia, 9 researchers had gone missing only to be found with their corpses having unexplainable injuries.",
+    "evidence_for": [
+      "So many cryptids have been documented in heavily populated countries, perhaps in a country with a much lower ratio of people to land, numerous cryptids have yet to be properly documented, and can cause unexplainable deaths like these"
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "declassified-documents",
+    "name": "Declassified Documents",
+    "aliases": [],
+    "genre": "government",
+    "year": 1995,
+    "truth": 60,
+    "impact": 60,
+    "notoriety": 20,
+    "summary": "Over time, many government documents have become declassified, both proving and disproving a number of conspiracy theories.",
+    "evidence_for": [
+      "If documents about the government's misdeeds must be revealed to the public, the natural solution would be to create a more substantial event to distract the public as the hype dies down, but this too may lead to similar misdeeds. This would result."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "summoning",
+    "name": "Summoning",
+    "aliases": [],
+    "genre": "health",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "Through rituals or other acts, people can bring otherworldly entities into our world.",
+    "evidence_for": [
+      "Throughout history, certain people have supposedly had much greater connections to the spiritual world than others, likely as a result of their spiritual health or natural aptitude. If this health can be increased or diminished, perhaps elites in."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "tulpas",
+    "name": "Tulpas",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "A being conjured through the act of simply believing that they exist, akin to imaginary friends",
+    "evidence_for": [
+      "In certain old philosophies, there was the belief of a tiered world, starting from the mind, proceeding to reality, then to a more spiritual or heavenly place. Perhaps this wasn’t an ascending list, but instead acting more like a parabola, with."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "operation-blue-beam",
+    "name": "Operation Blue Beam",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 55,
+    "summary": "A theory that NASA was working with the United Nations to fake the second coming of Christ and install a new world religion with the antichrist as the godhead.",
+    "evidence_for": [
+      "Throughout religions, specifically Abrahamic religions, there is the persistent idea that God is a perfect, infallible entity, but if certain elites know these religions have some truths to them, then no reasonable person would ever stand against."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "occult-knowledge",
+    "name": "Occult Knowledge",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "Anything involving supernatural, though not spiritual, entities, phenomena, or occurrences.",
+    "evidence_for": [
+      "According to numerous theories, certain ideas are supposedly being suppressed even if the ideas are mundane, or if the average person couldn’t or wouldn’t be affected in their daily lives. Perhaps this knowledge is being suppressed not because of."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "magicka",
+    "name": "Magicka",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "Different types of magical capabilities, being the Arcane, Illusionary, Aura, Manipulation, & Elemental.",
+    "evidence_for": [
+      "Perhaps the reason magic is so often asserted as a fantasy concept or well beyond the realm of reality is because in order for magic to truly function, the user must have full faith that it will work, because, as mentioned in prior theories, there."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "shelled-firmament-earth",
+    "name": "Shelled/Firmament Earth",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "In the book of Genesis, the Earth is stated to have a wrapping of water covering it, at least prior to the flood.",
+    "evidence_for": [
+      "Perhaps the belief that the earth had a shell of water around it was a result of extremely early humanity living within the hollow earth, and only was moved to the outer earth after the biblical flood. This could also explain the seeming."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "men-in-black",
+    "name": "Men in Black",
+    "aliases": [],
+    "genre": "government",
+    "year": 1995,
+    "truth": 25,
+    "impact": 60,
+    "notoriety": 20,
+    "summary": "Government agents wearing all black suits and aliases will hide certain events or evidence from the public.",
+    "evidence_for": [
+      "Perhaps the reason certain events or pieces of evidence are retrieved and covered up by these nameless suits while others aren’t, is because they have prior knowledge of what evidence will result in a panic in the greater public, and what will."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "the-boy-in-the-box",
+    "name": "The Boy in the Box",
+    "aliases": [],
+    "genre": "deaths",
+    "year": 1957,
+    "truth": 25,
+    "impact": 60,
+    "notoriety": 20,
+    "summary": "In Philadelphia, 1957, a child’s body was found in a box on the side of a river, but was never able to be identified, and nobody came forward to claim the child as their own.",
+    "evidence_for": [
+      "Perhaps the crime of the boy in the box was so elusive because it did not occur in our dimension. Akin to “Forest Stairs”, if certain things from other dimensions can pass into ours, then perhaps this can be used to cover up evidence for crimes"
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "reality-simulations",
+    "name": "Reality Simulations",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 1995,
+    "truth": 25,
+    "impact": 95,
+    "notoriety": 20,
+    "summary": "The idea that reality itself may be a simulation. This simulation may be for every living person, or specifically for a few people.",
+    "evidence_for": [
+      "If either the entirety of reality is a simulation, or at least some portion of it is fabricated, perhaps singular, unexplainable events aren’t phenomena of nature that we have yet to understand but the deliberate acts of sentient beings outside of."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "clown-sightings",
+    "name": "Clown Sightings",
+    "aliases": [],
+    "genre": "government",
+    "year": 2016,
+    "truth": 25,
+    "impact": 60,
+    "notoriety": 20,
+    "summary": "In 2016, quite a few cases of people dressed as clowns carrying weapons were reported. Nonetheless, nobody came forward and admitted themselves to be a participant afterward.",
+    "evidence_for": [
+      "As mentioned in other “Public Target Practice” theories, the government may be utilizing the public to test weaponry or forms of warfare. This form of testing may extent beyond simple weaponry and may also include large scale psychological warfare,."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "divination",
+    "name": "Divination",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "The idea that certain people can have epiphanies or premonitions of the future through supernatural means, likely involving meditation or summoning.",
+    "evidence_for": [
+      "Perhaps divination is a valid practice that can give reliable results in a similar way to divine prophecies, but when the future is glimpsed, the present, and therefore everything leading up to that future, is irreversibly changed, and therefore the."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "space-is-fake",
+    "name": "Space is Fake",
+    "aliases": [],
+    "genre": "extraterrestrial",
+    "year": 1995,
+    "truth": 25,
+    "impact": 95,
+    "notoriety": 20,
+    "summary": "The idea that the night sky is simply a simulation or projection to hide whatever lies beyond, and perhaps even acting as a one-way shield for the earth to be observed.",
+    "evidence_for": [
+      "If earth is the home of humanity, and within earth is a supposed paradise as stated by theories such as “Agartha” or “Genesis Location”, perhaps outside the earth is the opposite, containing demons of some form that can exist beyond typical means.."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "pantheism",
+    "name": "Pantheism",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 1995,
+    "truth": 25,
+    "impact": 95,
+    "notoriety": 20,
+    "summary": "Rather than a god being the creator of all things, god IS all things, with all of reality and the universe being the projection of this god.",
+    "evidence_for": [
+      "If a portion of God lives within each human, perhaps growing this power by certain means may grant a person increased capabilities both physically, mentally, and even supernaturally"
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "intelligent-design",
+    "name": "Intelligent Design",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "Rather than the universe being created as a result of pure chance and life from evolution, a higher power created either the universe or just the earth in this manner intentionally.",
+    "evidence_for": [
+      "If God is a perfect being, then he lacks redundancy, and would therefore create no more than is necessary within the universe, the basis of which is revolving around humanity of course. Perhaps humanity is destined to learn everything about the."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "la-oil-rigs",
+    "name": "LA Oil Rigs",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "Oil rigs in Los Angeles are not up to the city’s aesthetic code, and are instead covered by a large building.",
+    "evidence_for": [
+      "Akin to the “90% Of Books Written By One Author” theory, perhaps numerous rooms or entire buildings are made just to keep up the illusion of a fully populated city, while in actuality they are entirely empty and purposeless"
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "ghost-girl",
+    "name": "Ghost Girl",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "A ghostly apparition watching over people while they sleep or seen for moments in people’s peripheral vision, often chalked up to hallucinations.",
+    "evidence_for": [
+      "In many beliefs, a place called purgatory acts as an in-between for souls to pay for their sins before entering heaven. Perhaps the existence of ghosts on earth is evidence that earth acts as a purgatory"
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "operation-fishbowl",
+    "name": "Operation Fishbowl",
+    "aliases": [],
+    "genre": "government",
+    "year": 1962,
+    "truth": 25,
+    "impact": 60,
+    "notoriety": 55,
+    "summary": "In 1962, the government launched nukes into the atmosphere to test their effects. The shape of the explosions resembled a fishbowl, which is where the name originated from.",
+    "evidence_for": [
+      "As mentioned, there have been a number of extinctions on Earth, and we appear to be awaiting another, but perhaps these extinctions are preordained by some grander force than we’re aware of, and any preemptive attempts to cause the extinction will."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "archdemons-angels",
+    "name": "Archdemons/Angels",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "Higher orders of angels with both greater power and authority are referred to as archangels, and when archangels were cast out from heaven, they became archdemons.",
+    "evidence_for": [
+      "As mentioned in “Genesis Location”, humanity may have lived for a time within the hollow earth before the biblical flood. Perhaps the outer earth was occupied with both God and his angels as well as demons"
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "philosopher-s-stone",
+    "name": "Philosopher’s Stone",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "An object theorized to turn certain elements into other elements when within their vicinity.",
+    "evidence_for": [
+      "In many religions, Gods or a singular God created the universe and all things in it. Combined with Pantheism, perhaps all entities have some minuscule powers of creation within them, and some anomalous entities can be found (or perhaps created) that."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "my-red-is-not-your-red",
+    "name": "My Red is not Your Red",
+    "aliases": [],
+    "genre": "health",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "All people see color differently due to small changes in the physical makeup of the eye.",
+    "evidence_for": [
+      "If color is an objective aspect of reality, every person sees color differently, perhaps some people are simply more attuned with the “proper” reality than others, and perhaps some people are even susceptible to having these colors drift over time."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "vampires",
+    "name": "Vampires",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "A species of supernatural beings that many older cultures believed to exist, with even some rituals performed to prevent their creation.",
+    "evidence_for": [
+      "If supernatural entities like vampires did exist at one point but are not present today, perhaps rather than still existing in modern times but in secrecy, they were successfully purged from humanity. With cultures having such strict practices."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "aura",
+    "name": "Aura",
+    "aliases": [],
+    "genre": "health",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "The idea that humans have some manner of spiritual energy permeating around them that can influence others. This aura is said to change with mood, health, and certain activities.",
+    "evidence_for": [
+      "Many philosophies and religions separate the human form into 3 parts, the physical, the mental, and the spiritual. We communicate physically through speech, and with ideas such as “Field Consciousness”, we can communicate mentally with each other,."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "francis-leavy-s-handprint",
+    "name": "Francis Leavy’s Handprint",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 1924,
+    "truth": 25,
+    "impact": 60,
+    "notoriety": 20,
+    "summary": "In 1924, a firehouse worker was cleaning a window, then got called to put out a fire, which resulted in his death. Afterward, his handprint on the window remained perfectly preserved and could not be removed despite the many attempts from various people and groups.",
+    "evidence_for": [
+      "If somebody dies and their spirit is freed from their body yet lingers on earth, it will likely search out places familiar. Perhaps Francis Leavy’s soul sought out the firehouse and his presence manifested in the handprint"
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "bohemian-grove",
+    "name": "Bohemian Grove",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "A campsite often used by elitists. There are to be no pictures taken of the inside, though one photo has appeared online that appeared to depict a fiery ritual of some sort.",
+    "evidence_for": [
+      "If secretive, dangerous actions or rituals are held by the elites, the best course of action would be to constantly do them on the move, something that would be no problem for the mega-rich. Perhaps this isn’t possible due to specific land or entity."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "lost-civilizations",
+    "name": "Lost Civilizations",
+    "aliases": [],
+    "genre": "extraterrestrial",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "In ancient records, numerous societies are mentioned, but are unable to be found in modern times.",
+    "evidence_for": [
+      "If each nation is a unique experiment conducted by a secret group of elites or other higher power, then something must be done to moderate these civilizations. Perhaps once an experiment has concluded, due to the limited habitable space on earth,."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "paranormal-beings",
+    "name": "Paranormal Beings",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "Any entities that do not abide by the usual realm of logic.",
+    "evidence_for": [
+      "Perhaps paranormal entities that can be spotted but not captured or studied don’t abide by our reality’s rules simply because they are not constrained by time, and that if they are ‘caught’ in any substantial sense at a point in time, then they can."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "professional-sports-scripted",
+    "name": "Professional Sports Scripted",
+    "aliases": [],
+    "genre": "finance",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "Professional sports are supposedly scripted to create a show for viewers to get invested in rather than simply being a competition among teams.",
+    "evidence_for": [
+      "Perhaps in addition to professional sports being used as a distraction for the general population, they are also used to move massive sums of money with reasonable excuses, as some of the largest games in the world can have extraordinary transfers."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "snuff-cinema",
+    "name": "Snuff Cinema",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "A type of media that is illegal both to produce and distribute, often depicting violence and torture.",
+    "evidence_for": [
+      "Accusations of those in power worshiping demons or other evil entities to attain their status are quite common, perhaps if these theories are true, a corrupting influence of these practices could lead them to more degenerative desires, seeking out."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "gangstalking",
+    "name": "Gangstalking",
+    "aliases": [],
+    "genre": "government",
+    "year": 1995,
+    "truth": 25,
+    "impact": 60,
+    "notoriety": 20,
+    "summary": "A paranoid belief that certain individuals that appear to be normal are watching you throughout your day, often employed by the government or other higher authorities.",
+    "evidence_for": [
+      "As mentioned in the “Hook Operators” theory, certain people can take control of others remotely through psychological means. Perhaps rather than certain innocuous people being employed by the government, they are instead being controlled by these."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "experiments-on-humans",
+    "name": "Experiments On Humans",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 1995,
+    "truth": 60,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "Scientific experimentation on human beings. Often these are exceptionally cruel, but give the most profound results.",
+    "evidence_for": [
+      "In certain interpretations of the Bible as well as other religions, it is stated that fallen angels came to earth and gave humanity the gifts of knowledge and technology. Perhaps reports of morbid experimentation during world war 2 and other similar."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "6th-extinction",
+    "name": "6th Extinction",
+    "aliases": [],
+    "genre": "extraterrestrial",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "Prior to humans, there have been 5 mass extinction events on earth, and some believe we are awaiting a sixth.",
+    "evidence_for": [
+      "Perhaps these extinction events are occuring on a cosmic schedule we are unaware of, and the measure of humanity is not their technological advancements or their conquered land, but instead how long they’ve been alive in relation to these cycles.."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "pseudosciences",
+    "name": "Pseudosciences",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "Fields of scientific study that are either old and have become obsolete, or too misguided to base any real studies on.",
+    "evidence_for": [
+      "Perhaps certain pseudosciences do have some merit beyond what we understand, but can not reasonably be practiced due to either physical or mental limitations imposed on us by our lifestyle or the industrial world around us, such as with chemicals in."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "saturn-s-rings",
+    "name": "Saturn’s Rings",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "The idea that an asteroid impacted Saturn and its debris formed the rings around the planet, even further extrapolating that perhaps another, similar asteroid could impact us.",
+    "evidence_for": [
+      "Perhaps Earth is not the first planet even in our solar system to hold life. If other planets underwent monumentally cataclysmic events that fundamentally altered their nature in a way we don’t fully understand, perhaps life once existed on these."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "polar-shift",
+    "name": "Polar Shift",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "Earth’s magnetic poles over time have shifted, and once they shift again, a cataclysmic event will occur, leading to a mass extinction.",
+    "evidence_for": [
+      "The previous 5 extinctions wiped out most life on Earth, but if these extinctions are naturally occurring and not simply manifested by humanity itself, then perhaps humans achieving sentience is a way to finally break the cycle, allowing us to."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "large-hadron-collider",
+    "name": "Large Hadron Collider",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 1995,
+    "truth": 25,
+    "impact": 60,
+    "notoriety": 20,
+    "summary": "In Germany, a massive machine called the Large Hadron Collider was created to study physics by colliding small particles together. Previously, a new particle called the Higgs Boson particle was created, and the machine was rendered unusable. Some theories state that shockwaves rippled backward through time to prevent a black hole or other catastrophic event from occurring.",
+    "evidence_for": [
+      "If the universe is acting out a plan that can not be interrupted, perhaps when catastrophic events, like a black hole forming, will be prevented on a 4th dimensional level. Humans appear to only be able to act within the bounds of this plan, and."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "oumuamua",
+    "name": "Oumuamua",
+    "aliases": [],
+    "genre": "extraterrestrial",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "A collection of space debris that appeared to contain similar substances as found on earth, perhaps showing that a planet similar to earth once existed and was destroyed.",
+    "evidence_for": [
+      "Perhaps the reason we have yet to find another planet capable of containing life despite the sheer size of the universe, is because there is something finding planets similar to Earth and destroying them, maybe as a way of keeping earth as of prison."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "ww2-black-book",
+    "name": "WW2 Black Book",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 1995,
+    "truth": 25,
+    "impact": 60,
+    "notoriety": 20,
+    "summary": "A German book containing names and addresses of numerous important Ally figures, likely to have been used as a hitlist if the Axis won the war.",
+    "evidence_for": [
+      "If the Nazis had such a substantial research done into esoteric knowledge, then perhaps they discovered a form of reality controlling hypersigils that allowed them to control their opposition. If this were true, the book wasn’t a listing of Ally."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "fish-rain",
+    "name": "Fish Rain",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "A strange yet rare weather phenomenon where fish will fall from the sky for what appears to be no reason. Scientists have speculated that fish had been picked up by a tornado nearby and been dropped at the location during the storm.",
+    "evidence_for": [
+      "As mentioned in the “Cosmic Censorship Pretense” theory, the universe will attempt to realign itself if humans stray too far off its path, but this often results in unexplainable phenomena. Perhaps the universe has a “desire” to keep intelligent."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "clinton-body-doubles",
+    "name": "Clinton Body Doubles",
+    "aliases": [],
+    "genre": "health",
+    "year": 1995,
+    "truth": 25,
+    "impact": 60,
+    "notoriety": 20,
+    "summary": "The Clinton family is often accused of using body doubles during times of tense political turmoil or waning health in order to avoid scrutiny or assassination.",
+    "evidence_for": [
+      "Perhaps the way certain politicians can keep in the public view even in times of danger, is because cloning technologies have progressed well beyond what the  public is aware of. As stated in later theories, human consciousness can easily be shifted."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "butterfly-effect",
+    "name": "Butterfly Effect",
+    "aliases": [],
+    "genre": "government",
+    "year": 1995,
+    "truth": 25,
+    "impact": 60,
+    "notoriety": 20,
+    "summary": "Even small changes in the present can have substantial changes in the future. This concept is often associated with time travel.",
+    "evidence_for": [
+      "If even small changes can have extraordinary effects long-term, perhaps, if someone gets a troubling vision of the future, the best way to prevent it would be to simply tell as many people as possible, thus adding a new variable and altering the."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "ningens",
+    "name": "Ningens",
+    "aliases": [],
+    "genre": "deaths",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "A Japanese legend of massive, human-like porpoises that live in the ocean and will sing sailors to their deaths. Similar entities have been mentioned in other cultures such as Vikings and Indians.",
+    "evidence_for": [
+      "If these entities can supposedly be capable of influencing the human mind to be drawn towards a song, perhaps these songs can do other things as well. Perhaps the reason these entities are so elusive is because their songs may even be able to."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "patterson-gimlin-massacre",
+    "name": "Patterson-Gimlin Massacre",
+    "aliases": [],
+    "genre": "government",
+    "year": 1995,
+    "truth": 25,
+    "impact": 15,
+    "notoriety": 20,
+    "summary": "A tape supposedly showing a bigfoot sighting, The theory states that this tape was taken directly after the rest of the tribe of these creatures were slaughtered by the filmers.",
+    "evidence_for": [
+      "Just as evidence contrary to established history and sciences can be destroyed to maintain a common narrative, abnormal entities like a species of bigfoot could easily be hunted by secretive government workers, akin to the “Men In Black\"  theory"
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "oil-pit-squid",
+    "name": "Oil Pit Squid",
+    "aliases": [],
+    "genre": "finance",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "In Indiana, a small squid was discovered within a natural oil pit, miles away from any natural habitats of the squid.",
+    "evidence_for": [
+      "If the world is a simulation, then undoubtedly certain things would take more data than others, such as living creatures taking far more power to properly simulate than non living entities. If this is the case, then perhaps the compressed essence of."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "people-of-the-mount",
+    "name": "People of the Mount",
+    "aliases": [],
+    "genre": "extraterrestrial",
+    "year": 1904,
+    "truth": 25,
+    "impact": 15,
+    "notoriety": 20,
+    "summary": "Rumors of locals near Mount Shasta speak of a collection of large, hooded figures entering and exiting the mountain. This mountain is also adjacent to the supposed sunken continent named Lemuria. A researcher in 1904 went within the mountain and reported miles of hollow passageways filled with gold and jewels, but disappeared before a return journey could be made.",
+    "evidence_for": [
+      "If certain societies have evolved past the point of time travel, they haven’t much of a reason to stay in their current time, especially if they can bring themselves, their luxuries, or even entire sections of land from their futuristic world into."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "crystal-skulls",
+    "name": "Crystal Skulls",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 1995,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "A collection of 13 crystal skulls found in various areas across the planet, all identical in makeup, but found in wildly different areas. Some state that these skulls have energy and memories within them which can be accessed and contributed to by humans.",
+    "evidence_for": [
+      "In the modern-day, we are currently harvesting the earth for a number of nonrenewable natural resources. Perhaps in humanity’s previous cycles, they did the same, and had access to technology that is no longer able to be produced due to the."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  }
+]

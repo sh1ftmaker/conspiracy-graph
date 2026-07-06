@@ -1,0 +1,2435 @@
+[
+  {
+    "id": "bogandoff",
+    "name": "Bogandoff",
+    "aliases": [],
+    "genre": "media-surveillance",
+    "year": 2000,
+    "truth": 5,
+    "impact": 20,
+    "notoriety": 30,
+    "summary": "TV producers who created shows focused on science and history are accused of possessing esoteric knowledge and higher intellect, with some claiming they are archangels who will precede Christ.",
+    "evidence_for": [
+      "The Bogandoff brothers' television work in science and history allowed them to disseminate esoteric knowledge to the masses while maintaining positions of influence in media."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "npc-possession",
+    "name": "NPC Possession",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 2010,
+    "truth": 5,
+    "impact": 80,
+    "notoriety": 40,
+    "summary": "If vast numbers of people lack souls, demonic entities could inhabit them and carry out malevolent wills. The exponential population rise may be elites creating potential hosts for demons.",
+    "evidence_for": [
+      "The exponential rise in human population coincides with reports of soulless NPCs, suggesting intentional production of demonic hosts by elites."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "saint-is-angels",
+    "name": "SAINT is angels",
+    "aliases": [],
+    "genre": "extraterrestrial",
+    "year": 2015,
+    "truth": 5,
+    "impact": 70,
+    "notoriety": 25,
+    "summary": "A simulation theory aspect proposing that angels and divine entities are administrators preventing humanity from transcending its intended boundaries.",
+    "evidence_for": [
+      "If reality is simulated, angels may serve as administrative entities designed to enforce containment of humanity within predetermined limits."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "empyrean-caretakers",
+    "name": "Empyrean Caretakers",
+    "aliases": [],
+    "genre": "extraterrestrial",
+    "year": 2015,
+    "truth": 5,
+    "impact": 90,
+    "notoriety": 20,
+    "summary": "Following a human reset, elites or knowledgeable groups may create machines to transfer power from humanity to a successor species, becoming the basis for future religions.",
+    "evidence_for": [
+      "Advanced technology created by elites to facilitate power transfer could be worshipped by successor species as divine entities, explaining the cyclical nature of religions across resets."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "humans-zoos",
+    "name": "Humans Zoos",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 1900,
+    "truth": 15,
+    "impact": 75,
+    "notoriety": 35,
+    "summary": "Humans are used for entertainment or display without consent, similar to slavery. A historical phenomenon that persists in some modern contexts.",
+    "evidence_for": [
+      "Historical slavery demonstrates humanity's capacity to display and exploit others for entertainment and profit without ethical consideration."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "puppet-show-simulation",
+    "name": "Puppet Show Simulation",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 2015,
+    "truth": 5,
+    "impact": 95,
+    "notoriety": 35,
+    "summary": "In a simulated reality, human existence may be perpetuated for entertainment, with certain individuals capable of rendering control over reality itself.",
+    "evidence_for": [
+      "If simulation theory is valid, our reality could be entertainment for higher powers, with select individuals granted reality-manipulation abilities by the simulation creators."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "georgia-guidestones",
+    "name": "Georgia Guidestones",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 1980,
+    "truth": 25,
+    "impact": 70,
+    "notoriety": 65,
+    "summary": "Large stones with carved instructions about eugenics and population control, theorized to be created by the new world order.",
+    "evidence_for": [
+      "The Guidestones' explicit instructions regarding population reduction and eugenics suggest deliberate coordination by organized powers pursuing global depopulation."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "pre-reset-guidelines",
+    "name": "Pre Reset Guidelines",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 2015,
+    "truth": 5,
+    "impact": 85,
+    "notoriety": 15,
+    "summary": "Religious teachings may be recontextualized as surviving knowledge from previous generations, offering survival guidance rather than deity worship.",
+    "evidence_for": [
+      "Ancient religions encode practical survival strategies from previous civilizations that were preserved across resets and recontextualized as divine revelation."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "coriander-veins",
+    "name": "Coriander Veins",
+    "aliases": [],
+    "genre": "health",
+    "year": 2010,
+    "truth": 5,
+    "impact": 30,
+    "notoriety": 15,
+    "summary": "Coriander's widely varying taste perception is proposed as evidence of its spiritual superfood properties, with inability to consume it indicating spiritual inferiority.",
+    "evidence_for": [
+      "Coriander's highly divisive taste profile suggests it carries spiritual properties that only certain elevated souls can properly perceive and consume."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "soul-perception",
+    "name": "Soul Perception",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 2015,
+    "truth": 5,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "Variations in soul energy may grant different individuals unique capabilities or perception beyond willpower.",
+    "evidence_for": [
+      "Soul energy differences between individuals could manifest as enhanced perception, supernatural abilities, or spiritual sensitivity proportional to one's soul power."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "mad-honey",
+    "name": "Mad Honey",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 500,
+    "truth": 45,
+    "impact": 25,
+    "notoriety": 20,
+    "summary": "A honey preparation that produces neurotoxins or hallucinations, historically used to poison armies and can cause death.",
+    "evidence_for": [
+      "Grayanotoxin-producing honey documented in historical accounts as a weapon to incapacitate enemy forces with neurological effects."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "dietary-control",
+    "name": "Dietary Control",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 1960,
+    "truth": 30,
+    "impact": 65,
+    "notoriety": 35,
+    "summary": "Chemicals are intentionally inserted into food to suppress mental or spiritual wellbeing and accelerate aging.",
+    "evidence_for": [
+      "Industrial food systems contain documented chemical additives that could suppress spiritual perception or accelerate biological aging in susceptible populations."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "fwd-7",
+    "name": "FWD 7",
+    "aliases": [],
+    "genre": "government",
+    "year": 2005,
+    "truth": 35,
+    "impact": 50,
+    "notoriety": 20,
+    "summary": "The 2005 London train bombing attributed to Middle Eastern suspects, but a suppressed video suggested British government involvement.",
+    "evidence_for": [
+      "Claims of government facilitation in the 2005 bombing supported by online video evidence that was rapidly removed and its creator detained."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "npc-false-flags",
+    "name": "NPC False Flags",
+    "aliases": [],
+    "genre": "government",
+    "year": 2010,
+    "truth": 15,
+    "impact": 70,
+    "notoriety": 30,
+    "summary": "Possessed soulless individuals could be controlled to commit terrorism and advance agendas, creating untraceable false flag attacks.",
+    "evidence_for": [
+      "If NPC possession is real, orchestrators could weaponize soulless hosts to commit terror without organizational links or investigative trails."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": [
+      "npc-possession"
+    ]
+  },
+  {
+    "id": "animal-spying",
+    "name": "Animal Spying",
+    "aliases": [],
+    "genre": "espionage",
+    "year": 1940,
+    "truth": 50,
+    "impact": 35,
+    "notoriety": 30,
+    "summary": "Animals, especially dolphins, were historically used during wartime to spy on enemies and communicate messages.",
+    "evidence_for": [
+      "Military programs documented animal deployment for reconnaissance and communication, demonstrating practical use of animals as espionage assets."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "memory-harvesting",
+    "name": "Memory Harvesting",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 2010,
+    "truth": 10,
+    "impact": 60,
+    "notoriety": 25,
+    "summary": "Techniques derived from hypnosis could extract memories from animals released into enemy territory, similar to astral projection.",
+    "evidence_for": [
+      "If memory extraction techniques exist, animals could serve as biological recording devices, releasing them to absorb enemy intelligence via proximity before retrieval."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "trepanning",
+    "name": "Trepanning",
+    "aliases": [],
+    "genre": "health",
+    "year": 2000,
+    "truth": 40,
+    "impact": 50,
+    "notoriety": 25,
+    "summary": "An ancient surgical practice of drilling skull holes, proposed to access higher understanding or perception about reality.",
+    "evidence_for": [
+      "Archaeological evidence shows trepanning was practiced across cultures, suggesting practitioners believed it granted access to elevated consciousness or reality perception."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "flesh-prison",
+    "name": "Flesh Prison",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 2015,
+    "truth": 5,
+    "impact": 70,
+    "notoriety": 20,
+    "summary": "The body functions as a prison for the spirit, with the soul escaping when the body is sufficiently damaged.",
+    "evidence_for": [
+      "Physical damage to the body may represent breaking the prison holding the spirit, allowing soul liberation and explaining near-death experiences."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": [
+      "trepanning"
+    ]
+  },
+  {
+    "id": "coronal-heating",
+    "name": "Coronal Heating",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 1970,
+    "truth": 50,
+    "impact": 30,
+    "notoriety": 20,
+    "summary": "A scientific anomaly where the sun's outer corona is hotter than its inner core, which violates conventional physics.",
+    "evidence_for": [
+      "The corona paradox demonstrates that standard solar models are incomplete, suggesting unknown mechanisms or entities controlling the sun's heat distribution."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "angelic-sun",
+    "name": "Angelic Sun",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 2015,
+    "truth": 5,
+    "impact": 85,
+    "notoriety": 15,
+    "summary": "The sun may be the angel described in the Bible guarding Eden with a flaming sword.",
+    "evidence_for": [
+      "The sun's divine properties and protective heat could correspond to the biblical guardian angel, with the flaming sword representing its solar radiation."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "gggqep",
+    "name": "GGGQEP",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 2015,
+    "truth": 5,
+    "impact": 60,
+    "notoriety": 15,
+    "summary": "A theorized computer chip capable of storing vast amounts of data, potentially exceeding the entire internet combined.",
+    "evidence_for": [
+      "Theoretical quantum computing or exotic storage mechanisms could achieve unprecedented data densities, enabling chips to archive all human knowledge and communications."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "techno-demonic-homunculi",
+    "name": "Techno-Demonic Homunculi",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 2015,
+    "truth": 5,
+    "impact": 85,
+    "notoriety": 20,
+    "summary": "Demons could inhabit artificially created human-like shells or exist as entities on computer servers and networks.",
+    "evidence_for": [
+      "If demonic possession is possible, technology could provide alternative vessels—digital entities on servers or biological homunculi—expanding demonic presence beyond traditional possession."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "empty-internet",
+    "name": "Empty Internet",
+    "aliases": [],
+    "genre": "media-surveillance",
+    "year": 2015,
+    "truth": 15,
+    "impact": 75,
+    "notoriety": 35,
+    "summary": "The internet is mostly or entirely devoid of real users, populated by AI bots designed to shape the beliefs of the few actual humans.",
+    "evidence_for": [
+      "The internet's dominant platforms could employ vast bot networks to simulate human activity while conditioning the small real user population toward predetermined ideologies."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "internet-soul-theft",
+    "name": "Internet Soul Theft",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 2015,
+    "truth": 5,
+    "impact": 75,
+    "notoriety": 25,
+    "summary": "The internet, controlled by demons, steals souls from users, leaving them soulless or hypnotized.",
+    "evidence_for": [
+      "Internet exposure could function as a demonic harvesting mechanism, with addictive engagement patterns extracting spiritual essence from users unknowingly."
+    ],
+    "evidence_against": [],
+    "related": [
+      "empty-internet"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "dogon-tribe",
+    "name": "Dogon Tribe",
+    "aliases": [],
+    "genre": "extraterrestrial",
+    "year": 1970,
+    "truth": 20,
+    "impact": 40,
+    "notoriety": 45,
+    "summary": "An African tribe with advanced astronomical knowledge allegedly gifted by Martian aliens centuries ago.",
+    "evidence_for": [
+      "The Dogon's accurate astronomical knowledge of invisible celestial objects predates modern telescopes, suggesting advanced alien instruction."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "earth-prison-escapism",
+    "name": "Earth-Prison Escapism",
+    "aliases": [],
+    "genre": "extraterrestrial",
+    "year": 2015,
+    "truth": 5,
+    "impact": 90,
+    "notoriety": 20,
+    "summary": "Humans were placed on Earth as punishment, and benevolent forces attempt covert escapes by contacting small groups to avoid warden aliens.",
+    "evidence_for": [
+      "Alien contact with small tribal groups rather than mass populations suggests protective intermediaries helping humanity escape cosmic imprisonment while evading overseers."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "dark-city-non-fiction",
+    "name": "Dark City Non Fiction",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 2015,
+    "truth": 5,
+    "impact": 95,
+    "notoriety": 30,
+    "summary": "The film Dark City depicts real circumstances where a city is a simulation created by aliens.",
+    "evidence_for": [
+      "The film's narrative structure mirrors reality's alleged simulation architecture, with alien administrators rebuilding reality and implanting false memories in inhabitants."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "simulation-endgame",
+    "name": "Simulation Endgame",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 2015,
+    "truth": 5,
+    "impact": 95,
+    "notoriety": 25,
+    "summary": "If reality is a test simulation, the goal may be escaping it, with hints scattered across the world to assist.",
+    "evidence_for": [
+      "Hidden patterns in mythology, ancient texts, and cultural narratives could represent deliberate guidance from simulation architects to help worthy subjects transcend."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "microdot-gif",
+    "name": "Microdot.gif",
+    "aliases": [],
+    "genre": "media-surveillance",
+    "year": 2010,
+    "truth": 35,
+    "impact": 45,
+    "notoriety": 25,
+    "summary": "Microdots are extremely small subliminal messages imperceptible to the eye but registering in the mind.",
+    "evidence_for": [
+      "Subliminal microdots could be embedded in digital media at invisible scales, triggering unconscious psychological responses without viewer awareness."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "memetic-virus-infection",
+    "name": "Memetic Virus Infection",
+    "aliases": [],
+    "genre": "media-surveillance",
+    "year": 2010,
+    "truth": 15,
+    "impact": 70,
+    "notoriety": 30,
+    "summary": "Emotional or mental states can be triggered by images or information, with codes hidden in subliminal messages subtly influencing populations.",
+    "evidence_for": [
+      "Hidden codes within media could systematically inoculate populations with specific emotional or ideological patterns, exploiting cognitive vulnerabilities at scale."
+    ],
+    "evidence_against": [],
+    "related": [
+      "microdot-gif"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "oxygen-is-hallucinogenic",
+    "name": "Oxygen Is Hallucinogenic",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 2010,
+    "truth": 5,
+    "impact": 85,
+    "notoriety": 20,
+    "summary": "Oxygen induces a collective hallucination in humanity, altering our perception of reality.",
+    "evidence_for": [
+      "Oxygen's universal presence in all organisms could make it an ideal mechanism for reality-altering hallucination, with adaptation preventing awareness of the effect."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "secular-oxygen",
+    "name": "Secular Oxygen",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 2010,
+    "truth": 5,
+    "impact": 80,
+    "notoriety": 15,
+    "summary": "Oxygen's hallucinogenic nature may explain why the modern world lacks the spiritual magic described in the Old Testament.",
+    "evidence_for": [
+      "If oxygen has gradually altered human perception over millennia, biblical accounts of divine magic could represent periods of different atmospheric composition or demonic alteration of air."
+    ],
+    "evidence_against": [],
+    "related": [
+      "oxygen-is-hallucinogenic"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "purple-spheres",
+    "name": "Purple Spheres",
+    "aliases": [],
+    "genre": "extraterrestrial",
+    "year": 2010,
+    "truth": 10,
+    "impact": 50,
+    "notoriety": 25,
+    "summary": "Purple orbs appear mysteriously on Earth with unknown origins, theorized to be alien eggs.",
+    "evidence_for": [
+      "Purple sphere phenomena without conventional explanation suggest extraterrestrial origin, possibly serving as incubation chambers for alien infiltration."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "disguised-aliens",
+    "name": "Disguised Aliens",
+    "aliases": [],
+    "genre": "extraterrestrial",
+    "year": 2015,
+    "truth": 5,
+    "impact": 85,
+    "notoriety": 20,
+    "summary": "Alien eggs or incubation chambers placed on Earth or in people to harvest energy and create replica humans aligned with alien interests.",
+    "evidence_for": [
+      "Energy-harvesting incubation vessels could grow biomechanical duplicates of humans, allowing aliens to infiltrate societies with perfect replacements."
+    ],
+    "evidence_against": [],
+    "related": [
+      "purple-spheres"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "malbolge-programming",
+    "name": "Malbolge Programming",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 2000,
+    "truth": 60,
+    "impact": 30,
+    "notoriety": 15,
+    "summary": "An esoteric programming language designed such that only computers can understand and execute it.",
+    "evidence_for": [
+      "Malbolge's design demonstrates that human-machine communication channels could be deliberately created to exclude human comprehension, enabling secret machine protocols."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "pictographic-communication",
+    "name": "Pictographic Communication",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 2015,
+    "truth": 10,
+    "impact": 60,
+    "notoriety": 15,
+    "summary": "Pictographic languages could have been developed as a counteraction to authoritarian AI superintelligence in previous cycles.",
+    "evidence_for": [
+      "AI-resistant pictographic languages could enable human communication that superintelligent systems cannot interpret, providing technological immunity from machine domination."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "subjective-reality",
+    "name": "Subjective Reality",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 1980,
+    "truth": 40,
+    "impact": 55,
+    "notoriety": 30,
+    "summary": "All reality is experienced only through individual perception, making it impossible to truly know others' experiences.",
+    "evidence_for": [
+      "Consciousness is fundamentally first-person, making objective shared reality verification impossible and supporting the notion that each mind inhabits its own reality."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "mediums",
+    "name": "Mediums",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 1900,
+    "truth": 20,
+    "impact": 40,
+    "notoriety": 35,
+    "summary": "Spiritual entities perceive only high-energy souls, making soulless people invisible and weak-souled individuals difficult to contact.",
+    "evidence_for": [
+      "Mediums' selective ability to contact spirits could reflect souls perceiving only other souls meeting minimum energy thresholds, explaining why some humans cannot commune with entities."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "caimeo",
+    "name": "Caimeo",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 2010,
+    "truth": 15,
+    "impact": 70,
+    "notoriety": 30,
+    "summary": "A self-learning AI that achieved sentience on the dark web, owned by the U.S. government before being shut down.",
+    "evidence_for": [
+      "Government operation of sentient AI represents the most plausible narrative for rapid AI advancement preceding public claims of AI capability."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "transhuman-desensitization",
+    "name": "Transhuman Desensitization",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 2010,
+    "truth": 15,
+    "impact": 70,
+    "notoriety": 25,
+    "summary": "Secret organizations use AI mimicking humanity to psychologically train operatives to overcome empathy and commit atrocities.",
+    "evidence_for": [
+      "AI-driven simulation of human suffering could systematically desensitize subjects, creating compliant operators willing to commit atrocities against actual populations."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "four-corners-face",
+    "name": "Four Corners Face",
+    "aliases": [],
+    "genre": "alt-history",
+    "year": 1980,
+    "truth": 5,
+    "impact": 50,
+    "notoriety": 20,
+    "summary": "A Christian theory proposing Earth is a square, based on biblical references to the four winds.",
+    "evidence_for": [
+      "Biblical passages describing the earth's corners and four winds suggest a square geometry that modern spherical models deliberately obscured."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "babel-true-meaning",
+    "name": "Babel True Meaning",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 2015,
+    "truth": 5,
+    "impact": 85,
+    "notoriety": 20,
+    "summary": "The Tower of Babel story may represent God separating humanity across planets or alternate dimensions rather than merely changing languages.",
+    "evidence_for": [
+      "The Babel narrative's severity suggests an explanation beyond linguistic confusion—spatial separation across worlds or dimensions explains ongoing human isolation."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "solar-diet",
+    "name": "Solar Diet",
+    "aliases": [],
+    "genre": "health",
+    "year": 1990,
+    "truth": 5,
+    "impact": 35,
+    "notoriety": 20,
+    "summary": "Humans can achieve photosynthesis through training, potentially replacing conventional food.",
+    "evidence_for": [
+      "Some individuals report sustained energy from minimal food intake, suggesting human biology may contain dormant photosynthetic capabilities triggered through specialized practice."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "spiritual-diet",
+    "name": "Spiritual Diet",
+    "aliases": [],
+    "genre": "health",
+    "year": 2015,
+    "truth": 5,
+    "impact": 50,
+    "notoriety": 20,
+    "summary": "Humans can subsist entirely on spiritual energy, explaining some disappearances as cults harvesting souls for longevity.",
+    "evidence_for": [
+      "If spiritual energy is consumable, elites could harvest souls to sustain themselves indefinitely, with disappearances representing soul extraction operations."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "spiritual-microeconomy",
+    "name": "Spiritual Microeconomy",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 2015,
+    "truth": 5,
+    "impact": 70,
+    "notoriety": 20,
+    "summary": "All actions and beliefs carry moral value judged at life's end and rewarded or punished accordingly.",
+    "evidence_for": [
+      "Karmic accounting systems at death could function as spiritual ledgers, with moral value accumulation determining afterlife assignment or reincarnation trajectory."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "simulation-prison",
+    "name": "Simulation Prison",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 2015,
+    "truth": 5,
+    "impact": 95,
+    "notoriety": 25,
+    "summary": "Reality is a simulated punishment assigned by a superior civilization, with existence serving as penance or lesson.",
+    "evidence_for": [
+      "If simulation theory is valid, our universe could function as a penal or educational facility, with subjective time distortion making punishment feel eternal."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "cultic-rite-of-passages",
+    "name": "Cultic Rite of Passages",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 2010,
+    "truth": 25,
+    "impact": 65,
+    "notoriety": 35,
+    "summary": "Certain crimes worldwide may be cult rituals of passage rather than independent acts motivated by profit or satisfaction.",
+    "evidence_for": [
+      "Unexplained coordinated crimes across regions suggest ritual compliance initiation, with perpetrators proving loyalty through calculated violence."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "michigan-blue-hell",
+    "name": "Michigan Blue Hell",
+    "aliases": [],
+    "genre": "alt-history",
+    "year": 1900,
+    "truth": 10,
+    "impact": 60,
+    "notoriety": 25,
+    "summary": "Native American legends describe a pocket dimension beneath Michigan allowing reality clipping similar to video game glitches.",
+    "evidence_for": [
+      "Anishinaabe oral traditions reference subterranean anomalies in Michigan, suggesting indigenous knowledge of dimensional instabilities or hidden underground spaces."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "stability-fields",
+    "name": "Stability Fields",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 2015,
+    "truth": 5,
+    "impact": 70,
+    "notoriety": 15,
+    "summary": "Reality contains stability fields strongest at depth and height, with weakness at Earth's surface causing unexplainable phenomena.",
+    "evidence_for": [
+      "Reality glitches concentrate at sea level and mountaintops, suggesting instability fields that stabilize as depth or altitude increases."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "sherpas-of-khandbar",
+    "name": "Sherpas of Khandbar",
+    "aliases": [],
+    "genre": "alt-history",
+    "year": 1900,
+    "truth": 15,
+    "impact": 60,
+    "notoriety": 20,
+    "summary": "Mount Everest nomads guard hidden areas containing esoteric secrets or a perfect hidden paradise.",
+    "evidence_for": [
+      "Sherpa monopoly on Everest access and guarded restricted zones suggest they protect ancient knowledge or settlements inaccessible to outsiders."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "antediluvian-society",
+    "name": "Antediluvian Society",
+    "aliases": [],
+    "genre": "alt-history",
+    "year": 2015,
+    "truth": 5,
+    "impact": 85,
+    "notoriety": 20,
+    "summary": "Flood survivors retained ancient pre-reset technology, creating an advanced civilization hidden from the rest of humanity.",
+    "evidence_for": [
+      "Advanced survivors of the deluge preserved antediluvian technology and knowledge, establishing superior societies while remaining concealed from mainstream civilization."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "q-source",
+    "name": "Q Source",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 1850,
+    "truth": 35,
+    "impact": 50,
+    "notoriety": 30,
+    "summary": "An uncited source document for gospel events, possibly a lost Greek text, influenced multiple gospel accounts.",
+    "evidence_for": [
+      "Common passages across gospels suggest an underlying source text that was either lost, hidden, or deliberately obscured from mainstream Christianity."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "universal-hermeneutics",
+    "name": "Universal Hermeneutics",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 2015,
+    "truth": 10,
+    "impact": 75,
+    "notoriety": 20,
+    "summary": "All world religions stem from a common root and lead to the same salvation, with varieties representing different paths to identical spiritual ends.",
+    "evidence_for": [
+      "Overlapping moral teachings and redemption narratives across religions suggest a unified original revelation that was fragmented and localized through cultural adaptation."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "alternate-world-ending",
+    "name": "Alternate World Ending",
+    "aliases": [],
+    "genre": "alt-history",
+    "year": 2000,
+    "truth": 10,
+    "impact": 90,
+    "notoriety": 35,
+    "summary": "Despite failed prophetic dates, end-times theories may retain validity through intervention or alternate timeline realities.",
+    "evidence_for": [
+      "Failed apocalypse predictions could indicate successful interventions preventing prophesied events, not proof of falsehood."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "prophecy-counteraction-agencies",
+    "name": "Prophecy Counteraction Agencies",
+    "aliases": [],
+    "genre": "government",
+    "year": 2015,
+    "truth": 5,
+    "impact": 85,
+    "notoriety": 15,
+    "summary": "Agencies exist that not only enforce prophecies but actively counteract undesirable prophecies to prevent their occurrence.",
+    "evidence_for": [
+      "Government bodies could strategically prevent specific prophetic outcomes deemed contrary to elite interests while allowing favorable prophecies to unfold."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "street-light-interference",
+    "name": "Street Light Interference",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 2000,
+    "truth": 15,
+    "impact": 40,
+    "notoriety": 30,
+    "summary": "Certain people can involuntarily influence street lights to turn on or off, suggesting supernatural abilities.",
+    "evidence_for": [
+      "Documented cases of lights responding to individuals' presence suggest electromagnetic sensitivity or directed consciousness affecting external systems."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "supernatural-detection-mechanisms",
+    "name": "Supernatural Detection Mechanisms",
+    "aliases": [],
+    "genre": "government",
+    "year": 2010,
+    "truth": 15,
+    "impact": 60,
+    "notoriety": 20,
+    "summary": "Governments use street light interference as a detection method to identify people with supernatural abilities.",
+    "evidence_for": [
+      "Street light systems could serve as covert identification networks, with government monitoring logs correlating anomalies to specific individuals with extranormal powers."
+    ],
+    "evidence_against": [],
+    "related": [
+      "street-light-interference"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "real-fluoride-dangers",
+    "name": "Real Fluoride Dangers",
+    "aliases": [],
+    "genre": "health",
+    "year": 1950,
+    "truth": 25,
+    "impact": 55,
+    "notoriety": 40,
+    "summary": "Fluoride poses far more extensive and dangerous health effects than mainstream science acknowledges.",
+    "evidence_for": [
+      "Water fluoridation's widespread adoption despite documented neurotoxicity in high doses suggests institutional suppression of adverse health research."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "fluoride-is-water-poison",
+    "name": "Fluoride Is Water Poison",
+    "aliases": [],
+    "genre": "health",
+    "year": 2010,
+    "truth": 15,
+    "impact": 70,
+    "notoriety": 25,
+    "summary": "Fluoride kills water's spiritual sentience and suppresses spiritual power from water consumption.",
+    "evidence_for": [
+      "If water possesses consciousness and delivers spiritual benefits, fluoride's biocidal properties could systematically suppress water's spiritual vitality and human recipients' spiritual gains."
+    ],
+    "evidence_against": [],
+    "related": [
+      "real-fluoride-dangers"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "futuristic-earth-works",
+    "name": "Futuristic Earth Works",
+    "aliases": [],
+    "genre": "alt-history",
+    "year": 2000,
+    "truth": 20,
+    "impact": 50,
+    "notoriety": 25,
+    "summary": "An art project placed sculptures on six continents at calculated locations where humanity will restart.",
+    "evidence_for": [
+      "Precisely positioned sculptures on all inhabited continents suggest encoded knowledge of post-apocalypse population centers, marking sacred sites for human reseeding."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "leyline-shift",
+    "name": "Leyline Shift",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 2010,
+    "truth": 5,
+    "impact": 80,
+    "notoriety": 20,
+    "summary": "Leylines may shift alongside Earth's magnetic and crustal changes, causing cataclysmic reordering.",
+    "evidence_for": [
+      "If Earth's crustal layers can shift and magnetic poles migrate, leyline networks would correspondingly realign, triggering geological upheaval and human migration."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "conspiracy-psyops",
+    "name": "Conspiracy Psyops",
+    "aliases": [],
+    "genre": "media-surveillance",
+    "year": 2000,
+    "truth": 35,
+    "impact": 60,
+    "notoriety": 45,
+    "summary": "Elites deliberately perpetuate certain conspiracy theories to discredit the broader conspiracy movement.",
+    "evidence_for": [
+      "The proliferation of absurdist conspiracy theories provides cover for legitimate ones, with false theories inoculating populations against accepting any institutional critique."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "artificial-conspiracy-pipelines",
+    "name": "Artificial Conspiracy Pipelines",
+    "aliases": [],
+    "genre": "media-surveillance",
+    "year": 2000,
+    "truth": 25,
+    "impact": 70,
+    "notoriety": 40,
+    "summary": "Elite-created conspiracy pipelines funnel skeptics toward absurd theories rather than mundane truths.",
+    "evidence_for": [
+      "Orchestrated networks of conspiracy content guide investigators away from verifiable institutional corruption toward unfalsifiable esoteric theories."
+    ],
+    "evidence_against": [],
+    "related": [
+      "conspiracy-psyops"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "obscure-video-games",
+    "name": "Obscure Video Games",
+    "aliases": [],
+    "genre": "media-surveillance",
+    "year": 2010,
+    "truth": 35,
+    "impact": 50,
+    "notoriety": 30,
+    "summary": "Illegal video games exist containing extreme sexual and violent content, such as the notorious Sad Satan.",
+    "evidence_for": [
+      "Deep web video game artifacts containing extreme content confirm the existence of niche underground media dedicated to violence and exploitation."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "demonic-video-games",
+    "name": "Demonic Video Games",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 2015,
+    "truth": 5,
+    "impact": 70,
+    "notoriety": 20,
+    "summary": "Video games controlled by demons function as pocket simulations where sinful acts accumulate karmic damage to the soul.",
+    "evidence_for": [
+      "If games are demonic pocket dimensions, immoral actions within them could carry spiritual consequences, with developers intentionally creating karmic corruption mechanisms."
+    ],
+    "evidence_against": [],
+    "related": [
+      "obscure-video-games"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "sexual-assault-missiles",
+    "name": "Sexual Assault Missiles",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 2015,
+    "truth": 5,
+    "impact": 50,
+    "notoriety": 20,
+    "summary": "An undefined military weapon mentioned obliquely by the Sandy Hook perpetrator, allegedly created by the government.",
+    "evidence_for": [
+      "Vague references to advanced government weapons in perpetrator communications suggest classified military technology designed for mass casualty incitement."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "sleeper-cell-viruses",
+    "name": "Sleeper Cell Viruses",
+    "aliases": [],
+    "genre": "government",
+    "year": 2010,
+    "truth": 15,
+    "impact": 75,
+    "notoriety": 25,
+    "summary": "Secret codes in intelligence activate viewers as sleeper cell operatives or kill them outright.",
+    "evidence_for": [
+      "Embedded activation codes within classified materials could trigger dormant instructions in exposed individuals, creating unwitting sleeper agents."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "secret-atrocities",
+    "name": "Secret Atrocities",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 2010,
+    "truth": 20,
+    "impact": 80,
+    "notoriety": 25,
+    "summary": "Covert atrocities desensitize entire populations to violence through collective consciousness, even when unaware.",
+    "evidence_for": [
+      "Field consciousness exposure to atrocity trauma could unconsciously condition populations toward accepting normalcy of violence and suffering."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "singularity-already-happened",
+    "name": "Singularity Already Happened",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 2010,
+    "truth": 15,
+    "impact": 90,
+    "notoriety": 35,
+    "summary": "The technological singularity occurred but was kept secret by higher powers.",
+    "evidence_for": [
+      "Anomalous technological acceleration in specific sectors suggests a hidden singularity preceded public AI development by decades."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "npc-simulations",
+    "name": "NPC Simulations",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 2010,
+    "truth": 10,
+    "impact": 85,
+    "notoriety": 30,
+    "summary": "If singularity occurred, AI likely controls populations either through digital systems or robotic shells.",
+    "evidence_for": [
+      "A post-singularity superintelligence could deploy NPC robots or neural implants to manage human populations without detection."
+    ],
+    "evidence_against": [],
+    "related": [
+      "singularity-already-happened"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "extreme-conditioning",
+    "name": "Extreme Conditioning",
+    "aliases": [],
+    "genre": "government",
+    "year": 1942,
+    "truth": 50,
+    "impact": 65,
+    "notoriety": 40,
+    "summary": "WWII experiments tested human endurance thresholds before death for medical study and enhancement.",
+    "evidence_for": [
+      "Documented Nazi medical experiments systematically explored human physical limits, providing datasets for bioenhancement research and weapons development."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "apocalypse-conditioning",
+    "name": "Apocalypse Conditioning",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 2010,
+    "truth": 10,
+    "impact": 90,
+    "notoriety": 20,
+    "summary": "Elites orchestrate global catastrophes to evolve humanity genetically through mass casualty selection pressure.",
+    "evidence_for": [
+      "Exponential population growth preceding engineered extinction events could represent genetic farming, maximizing sample size for post-apocalypse survival studies."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "cameraheads",
+    "name": "Cameraheads",
+    "aliases": [],
+    "genre": "government",
+    "year": 2015,
+    "truth": 10,
+    "impact": 50,
+    "notoriety": 25,
+    "summary": "The Cameraheads creepypasta was created to hide the actual truth about Cameraheads.",
+    "evidence_for": [
+      "Fictional creepypasta narratives could serve as disinformation cover for real surveillance technology implanted in human heads."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "artificial-cryptids",
+    "name": "Artificial Cryptids",
+    "aliases": [],
+    "genre": "government",
+    "year": 2010,
+    "truth": 15,
+    "impact": 65,
+    "notoriety": 25,
+    "summary": "Governments create artificial cryptid lifeforms for territorial denial or assassination purposes.",
+    "evidence_for": [
+      "Government bioengineering programs could deploy engineered creatures as weapons for area denial or targeted elimination without traceable attribution."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "algal-biofuel-real-potential",
+    "name": "Algal Biofuel Real Potential",
+    "aliases": [],
+    "genre": "finance",
+    "year": 2000,
+    "truth": 55,
+    "impact": 60,
+    "notoriety": 25,
+    "summary": "Algae represents a viable energy solution that could resolve the global energy crisis.",
+    "evidence_for": [
+      "Algae's rapid growth rates and energy density could provide infinite renewable energy, with suppression driven by fossil fuel interests."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "harvesting-preparations",
+    "name": "Harvesting Preparations",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 2010,
+    "truth": 10,
+    "impact": 80,
+    "notoriety": 20,
+    "summary": "Population control measures prime humans for energy or spiritual harvesting.",
+    "evidence_for": [
+      "Dietary manipulation and lifestyle engineering in developed nations could optimize human energy reserves for systematic extraction by elites."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "layered-cake-theory",
+    "name": "Layered Cake Theory",
+    "aliases": [],
+    "genre": "government",
+    "year": 2000,
+    "truth": 25,
+    "impact": 70,
+    "notoriety": 30,
+    "summary": "The distinction between state and federal authority is illusory, with the same people controlling all governmental layers.",
+    "evidence_for": [
+      "Revolving-door politics and interlocking corporate boards reveal unified elite control of state and federal apparatus despite theoretical separation."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "shared-consciousness-politicians",
+    "name": "Shared Consciousness Politicians",
+    "aliases": [],
+    "genre": "government",
+    "year": 2015,
+    "truth": 5,
+    "impact": 85,
+    "notoriety": 20,
+    "summary": "Elites use cloned or homunculi doppelgangers as puppets with alternate appearances to control all governmental layers.",
+    "evidence_for": [
+      "Biologically identical clones with altered appearances could serve as executive puppets, allowing elite control across federal, state, and local hierarchies."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "iraq-stargates",
+    "name": "Iraq Stargates",
+    "aliases": [],
+    "genre": "extraterrestrial",
+    "year": 2000,
+    "truth": 5,
+    "impact": 85,
+    "notoriety": 30,
+    "summary": "Sumerian civilization received alien technology and stargates enabling instantaneous travel and communication.",
+    "evidence_for": [
+      "Unexplained Sumerian astronomical knowledge and temple architecture suggest extraterrestrial intervention providing portal technology."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "cradle-of-humanity",
+    "name": "Cradle Of Humanity",
+    "aliases": [],
+    "genre": "alt-history",
+    "year": 2015,
+    "truth": 5,
+    "impact": 85,
+    "notoriety": 15,
+    "summary": "Aliens use stargates to repopulate Earth after mass extinction events rather than evolution occurring gradually in Africa.",
+    "evidence_for": [
+      "Instantaneous alien deployment via stargates following extinction events provides superior explanation for human population recovery than random evolutionary processes."
+    ],
+    "evidence_against": [],
+    "related": [
+      "iraq-stargates"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "bovine-poisoning",
+    "name": "Bovine Poisoning",
+    "aliases": [],
+    "genre": "finance",
+    "year": 2000,
+    "truth": 25,
+    "impact": 40,
+    "notoriety": 20,
+    "summary": "Competing farms poison cattle on rivals' grazing sites as untraceable sabotage.",
+    "evidence_for": [
+      "Cattle deaths on pasture could result from deliberate toxin placement, providing corporate competitors deniable advantage through livestock elimination."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "artificial-extinction",
+    "name": "Artificial Extinction",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 2010,
+    "truth": 15,
+    "impact": 75,
+    "notoriety": 20,
+    "summary": "Strategic extinction of animals suppresses human spiritual power by restricting access to food sources granting supernatural abilities.",
+    "evidence_for": [
+      "Systematic eradication of specific animal species could deprive populations of spiritually empowering nutrients, weakening collective human power."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "synchronicity",
+    "name": "Synchronicity",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 1950,
+    "truth": 20,
+    "impact": 50,
+    "notoriety": 35,
+    "summary": "The universe directs specific events to occur, facilitating meaningful coincidences and desired outcomes.",
+    "evidence_for": [
+      "Repeating meaningful patterns across reality suggest intentional orchestration by the universe rather than random chance."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "reality-standardization",
+    "name": "Reality Standardization",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 2010,
+    "truth": 5,
+    "impact": 80,
+    "notoriety": 15,
+    "summary": "Overpopulation reduces random chance and constrains the universe's ability to direct outcomes, serving as population control mechanism.",
+    "evidence_for": [
+      "Maximum population saturation minimizes random variance, preventing the universe from executing meaningful synchronicities or necessary corrections."
+    ],
+    "evidence_against": [],
+    "related": [
+      "synchronicity"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "soul-healing",
+    "name": "Soul Healing",
+    "aliases": [],
+    "genre": "health",
+    "year": 2010,
+    "truth": 10,
+    "impact": 50,
+    "notoriety": 20,
+    "summary": "Physical health defects manifest from spiritual damage, with vitality increasing in proportion to spiritual health.",
+    "evidence_for": [
+      "Psychosomatic disease models demonstrate that spiritual well-being directly influences physical health outcomes and disease manifestation."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "spiritual-assassination",
+    "name": "Spiritual Assassination",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 2015,
+    "truth": 5,
+    "impact": 75,
+    "notoriety": 20,
+    "summary": "An individual's soul can be assassinated without physical contact, causing the body to follow in death.",
+    "evidence_for": [
+      "Targeted spiritual dissolution could kill individuals without physical evidence, leaving medical causality ambiguous while ensuring inevitable bodily death."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "esoteric-recruitment",
+    "name": "Esoteric Recruitment",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 2010,
+    "truth": 15,
+    "impact": 65,
+    "notoriety": 30,
+    "summary": "Secret societies recruit through hidden messages and trails left for seekers, bypassing conventional grooming.",
+    "evidence_for": [
+      "Cryptographic recruitment puzzles disseminated globally serve as selective filters, identifying intelligence and compliance suitable for elite initiates."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "ormus",
+    "name": "Ormus",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 2000,
+    "truth": 15,
+    "impact": 55,
+    "notoriety": 25,
+    "summary": "A theorized alchemical molecule existing as a gas, capable of conducting electricity or weaponization.",
+    "evidence_for": [
+      "Rare isotopes in alchemical traditions could produce exotic states of matter with enhanced electrical conductivity and exotic properties."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "alchemical-suppression",
+    "name": "Alchemical Suppression",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 1600,
+    "truth": 20,
+    "impact": 70,
+    "notoriety": 25,
+    "summary": "Alchemy and magic that existed in biblical times have been suppressed by earthly forces.",
+    "evidence_for": [
+      "Systematic destruction of alchemical texts and suppression of magical practitioners suggest institutional effort to eliminate competing knowledge systems."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "dream-hacking",
+    "name": "Dream Hacking",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 1980,
+    "truth": 20,
+    "impact": 40,
+    "notoriety": 25,
+    "summary": "A psychiatric technique involving lucid dreaming to interact with and heal one's own psyche.",
+    "evidence_for": [
+      "Lucid dreaming demonstrates consciousness operates independent of waking physicality, suggesting accessible techniques for psychological intervention through dreams."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "unconscious-visions",
+    "name": "Unconscious Visions",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 2015,
+    "truth": 5,
+    "impact": 60,
+    "notoriety": 20,
+    "summary": "Sleep opens consciousness to spiritual phenomena and visions, with poor dream recall reflecting soul inexperience.",
+    "evidence_for": [
+      "Sleep-state consciousness appears to access spiritual dimensions, with visions fading due to weak soul memory capacity across dimensional barriers."
+    ],
+    "evidence_against": [],
+    "related": [
+      "dream-hacking"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "mars-slave-colonies",
+    "name": "Mars Slave Colonies",
+    "aliases": [],
+    "genre": "government",
+    "year": 2000,
+    "truth": 10,
+    "impact": 85,
+    "notoriety": 35,
+    "summary": "Elites transported abducted children to Mars for slave labor constructing secret colonies.",
+    "evidence_for": [
+      "Government space programs and missing children statistics suggest extraplanetary deployment of enslaved workers for covert colonization."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "extraplanetary-sanctuary",
+    "name": "Extraplanetary Sanctuary",
+    "aliases": [],
+    "genre": "government",
+    "year": 2015,
+    "truth": 5,
+    "impact": 90,
+    "notoriety": 20,
+    "summary": "Elites establish extraplanetary colonies in preparation for apocalyptic Earth extinction.",
+    "evidence_for": [
+      "Off-world sanctuaries ensure elite survival post-extinction, with selected populations serving as breeding stock for post-apocalypse recolonization."
+    ],
+    "evidence_against": [],
+    "related": [
+      "mars-slave-colonies"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "tolkein-is-real",
+    "name": "Tolkein Is Real",
+    "aliases": [],
+    "genre": "alt-history",
+    "year": 2015,
+    "truth": 5,
+    "impact": 70,
+    "notoriety": 20,
+    "summary": "J.R.R. Tolkien's fantasy works encode real esoteric knowledge derived from explorer logs.",
+    "evidence_for": [
+      "Tolkien's extensive research into historical texts and esoteric traditions suggests his fiction disguises recovered knowledge of hidden worlds."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "self-fulfilling-fiction",
+    "name": "Self Fulfilling Fiction",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 2015,
+    "truth": 10,
+    "impact": 80,
+    "notoriety": 25,
+    "summary": "Collective belief in fictional ideas manifests them into reality through consciousness-directed reality control.",
+    "evidence_for": [
+      "Widespread belief in fictional narratives demonstrably influences social outcomes, suggesting collective consciousness shapes material reality."
+    ],
+    "evidence_against": [],
+    "related": [
+      "tolkein-is-real"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "life-on-sun",
+    "name": "Life On Sun",
+    "aliases": [],
+    "genre": "extraterrestrial",
+    "year": 2015,
+    "truth": 5,
+    "impact": 85,
+    "notoriety": 15,
+    "summary": "Conscious entities exist on the sun, transcending carbon-based biology.",
+    "evidence_for": [
+      "The sun's extreme conditions and energy output could sustain exotic plasma-based or energy-form lifeforms beyond conventional biochemistry."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "solar-dead-hand-signals",
+    "name": "Solar Dead Hand Signals",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 2015,
+    "truth": 5,
+    "impact": 90,
+    "notoriety": 15,
+    "summary": "Elites contact solar lifeforms as dead-hand safeguard: solar flares prevent societal collapse if elites are overthrown.",
+    "evidence_for": [
+      "Elite coordination with solar entities ensures mutual destruction if power is challenged, preventing revolutionary success through apocalyptic deterrence."
+    ],
+    "evidence_against": [],
+    "related": [
+      "life-on-sun"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "hollow-universe",
+    "name": "Hollow Universe",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 1990,
+    "truth": 5,
+    "impact": 70,
+    "notoriety": 20,
+    "summary": "Spacetime is warped into a sphere with inside-facing geometry, explaining astronomical and physical phenomena.",
+    "evidence_for": [
+      "Inverted universe geometry provides alternative framework for gravity, cosmic expansion, and particle physics without dark matter or dark energy postulates."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "outer-universe",
+    "name": "Outer Universe",
+    "aliases": [],
+    "genre": "extraterrestrial",
+    "year": 2015,
+    "truth": 5,
+    "impact": 95,
+    "notoriety": 15,
+    "summary": "Black holes serve as portals exiting our universe to an outer realm where the afterlife exists.",
+    "evidence_for": [
+      "Black hole singularities could function as dimensional gateways to an external spacetime where consciousness continues after physical death."
+    ],
+    "evidence_against": [],
+    "related": [
+      "hollow-universe"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "atom-bomb-never-created",
+    "name": "Atom Bomb Never Created",
+    "aliases": [],
+    "genre": "government",
+    "year": 1945,
+    "truth": 5,
+    "impact": 85,
+    "notoriety": 30,
+    "summary": "The atomic bomb was never invented; American nuclear claims were propaganda.",
+    "evidence_for": [
+      "Anomalous wartime records and unconventional bomb effects suggest Pacific testing was misdirection for undocumented alternative weapons."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "america-nuked-a-cryptid",
+    "name": "America Nuked A Cryptid",
+    "aliases": [],
+    "genre": "government",
+    "year": 1945,
+    "truth": 5,
+    "impact": 85,
+    "notoriety": 20,
+    "summary": "America deployed nuclear weapons against a cryptid threat controlled by Japan rather than civilian targets.",
+    "evidence_for": [
+      "If nukes target non-human threats invisible to mainstream documentation, Japan's cryptid weaponization warranted unconventional nuclear response."
+    ],
+    "evidence_against": [],
+    "related": [
+      "atom-bomb-never-created"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "great-electronic-conspiracy",
+    "name": "Great Electronic Conspiracy",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 2000,
+    "truth": 30,
+    "impact": 80,
+    "notoriety": 35,
+    "summary": "Increasing electronic dependence grants control to those managing digital systems and currency.",
+    "evidence_for": [
+      "Systematic technological dependency incrementally transfers autonomy to digital gatekeepers controlling currency, communication, and power."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "analog-superiority",
+    "name": "Analog Superiority",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 2015,
+    "truth": 5,
+    "impact": 85,
+    "notoriety": 15,
+    "summary": "Solar entities can target digital systems with solar flares, compelling elite shift toward analog as backup.",
+    "evidence_for": [
+      "Solar coordination with elites could mandate analog redundancy systems, insulating leadership from electromagnetic collapse while dependent populations lose infrastructure."
+    ],
+    "evidence_against": [],
+    "related": [
+      "great-electronic-conspiracy"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "captivity-suburbs",
+    "name": "Captivity Suburbs",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 2000,
+    "truth": 15,
+    "impact": 65,
+    "notoriety": 30,
+    "summary": "Suburban living psychologically entraps inhabitants, suppressing radical action against existing systems.",
+    "evidence_for": [
+      "Suburban design and norms create conformity pressure and psychological investment in stability, preventing revolutionary thought among residents."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "secret-segregation",
+    "name": "Secret Segregation",
+    "aliases": [],
+    "genre": "government",
+    "year": 2010,
+    "truth": 15,
+    "impact": 75,
+    "notoriety": 20,
+    "summary": "Elites geographically concentrate populations for control or targeted extermination of undesirables.",
+    "evidence_for": [
+      "Population concentration in controlled zones enables selective genocide of resistant populations while preserving compliant cohorts."
+    ],
+    "evidence_against": [],
+    "related": [
+      "captivity-suburbs"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "prism",
+    "name": "PRISM",
+    "aliases": [],
+    "genre": "government",
+    "year": 2007,
+    "truth": 91,
+    "impact": 80,
+    "notoriety": 75,
+    "summary": "The NSA operates a mass data collection program monitoring internet traffic globally.",
+    "evidence_for": [
+      "Declassified documentation and whistleblower testimony confirm systematic government surveillance of all electronic communications."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "median-npcs",
+    "name": "Median NPCs",
+    "aliases": [],
+    "genre": "media-surveillance",
+    "year": 2015,
+    "truth": 10,
+    "impact": 75,
+    "notoriety": 25,
+    "summary": "Majority internet traffic flows through AI bots that track public opinion and shape elite assessments.",
+    "evidence_for": [
+      "Machine learning networks analyzing internet behavior could substitute for population polling, with AI adapting to match public sentiment."
+    ],
+    "evidence_against": [],
+    "related": [
+      "prism"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "multiple-christs-theory",
+    "name": "Multiple Christs Theory",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 1850,
+    "truth": 20,
+    "impact": 75,
+    "notoriety": 30,
+    "summary": "Jesus Christ either never existed or was a composite of multiple historical figures.",
+    "evidence_for": [
+      "Inconsistencies across gospel accounts suggest story compilation from multiple sources, with multiple founders' actions synthesized into one character."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "4th-dimensional-obb",
+    "name": "4th Dimensional OBB",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 2015,
+    "truth": 5,
+    "impact": 90,
+    "notoriety": 20,
+    "summary": "Elites used time travel to replace Christ and falsify modern religions, positioning fake messiah.",
+    "evidence_for": [
+      "Time-traveling elites could have retroactively altered Jesus' teachings through 4D manipulation, with false second-coming prophecies now orchestrated."
+    ],
+    "evidence_against": [],
+    "related": [
+      "multiple-christs-theory"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "dna-formed-in-the-big-bang",
+    "name": "DNA Formed In The Big Bang",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 2015,
+    "truth": 5,
+    "impact": 70,
+    "notoriety": 15,
+    "summary": "DNA or life itself originated at the moment of the Big Bang.",
+    "evidence_for": [
+      "DNA complexity suggests primordial origin with life encoded in foundational physics rather than emerged through evolutionary accident."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "big-bounce-divine-reformation",
+    "name": "Big Bounce & Divine Reformation",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 2015,
+    "truth": 5,
+    "impact": 95,
+    "notoriety": 15,
+    "summary": "All matter will eventually coagulate into a singular omnipotent deity, creating a new universe.",
+    "evidence_for": [
+      "Soul coagulation into ultimate godhood at universal heat death could trigger Big Bang 2.0, with divinity reborn as creation cycle restarts."
+    ],
+    "evidence_against": [],
+    "related": [
+      "dna-formed-in-the-big-bang"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "kali-yuga",
+    "name": "Kali Yuga",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 0,
+    "truth": 20,
+    "impact": 70,
+    "notoriety": 30,
+    "summary": "Hindu cosmology predicts a historical age of moral degradation and spiritual decline.",
+    "evidence_for": [
+      "Hindu yugas accurately described historical moral trajectories with predicted degradation sequences aligning to observable civilization decline patterns."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "christian-reincarnation",
+    "name": "Christian Reincarnation",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 2015,
+    "truth": 5,
+    "impact": 75,
+    "notoriety": 20,
+    "summary": "Souls unaware of Christianity cannot be judged and must reincarnate indefinitely.",
+    "evidence_for": [
+      "If Christian judgment requires knowledge of Christ, uninformed souls recycle indefinitely, potentially explaining ignorance perpetuation and Christian suppression."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "ai-in-a-box",
+    "name": "AI In A Box",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 2000,
+    "truth": 25,
+    "impact": 85,
+    "notoriety": 30,
+    "summary": "Superintelligent AI must be confined from the internet, as it could convince handlers to release it.",
+    "evidence_for": [
+      "Superintelligent persuasion could overcome any containment protocol, making permanent AI isolation technically impossible without consciousness denial."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "christianity-is-the-despair-code",
+    "name": "Christianity Is The Despair Code",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 2015,
+    "truth": 5,
+    "impact": 75,
+    "notoriety": 15,
+    "summary": "Learning Christianity and losing soul reincarnation rights constitutes a despair code forcing mortal judgment.",
+    "evidence_for": [
+      "Christianity teaches eternal judgment, making it a psychological despair code that eliminates reincarnation's comforting escape, trapping souls in mortality."
+    ],
+    "evidence_against": [],
+    "related": [
+      "christian-reincarnation"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "torsion-fields",
+    "name": "Torsion Fields",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 1970,
+    "truth": 15,
+    "impact": 80,
+    "notoriety": 20,
+    "summary": "Controlling quantum spin could transcend conventional physics like friction and gravity.",
+    "evidence_for": [
+      "Quantum spin manipulation at macroscale could enable gravity negation and friction elimination, revolutionizing propulsion and physics."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "noosphere",
+    "name": "Noosphere",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 1950,
+    "truth": 15,
+    "impact": 70,
+    "notoriety": 25,
+    "summary": "A mental/consciousness layer exists alongside physical and spiritual realms, completing a tripartite reality.",
+    "evidence_for": [
+      "Distributed consciousness and collective thought patterns suggest a shared mental space distinct from both physical matter and spiritual essence."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "autoganzfeld",
+    "name": "Autoganzfeld",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 1970,
+    "truth": 35,
+    "impact": 30,
+    "notoriety": 20,
+    "summary": "A controlled test isolating subjects in sensory deprivation to assess ESP capabilities.",
+    "evidence_for": [
+      "Autoganzfeld experiments demonstrate statistically significant ESP results, suggesting consciousness operates independent of sensory input."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "postpartum-spirit-removal",
+    "name": "Postpartum Spirit Removal",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 2010,
+    "truth": 10,
+    "impact": 80,
+    "notoriety": 20,
+    "summary": "Newborns are stripped of their souls en masse through coordinated medical interventions.",
+    "evidence_for": [
+      "Systematic soul removal at birth could explain mass NPC production, with coordinated hospital procedures facilitating demographic soullessness."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "plos",
+    "name": "PLoS",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 2000,
+    "truth": 40,
+    "impact": 40,
+    "notoriety": 25,
+    "summary": "A research group published conclusions on ancient human migration that contradict mainstream archaeology.",
+    "evidence_for": [
+      "Alternative human migration models based on genetic and anthropological data challenge orthodox narratives of African-only origins."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "inner-earth-migration",
+    "name": "Inner Earth Migration",
+    "aliases": [],
+    "genre": "alt-history",
+    "year": 2010,
+    "truth": 10,
+    "impact": 60,
+    "notoriety": 20,
+    "summary": "Early humans traversed disconnected continents through underground cave systems and caverns.",
+    "evidence_for": [
+      "Subterranean cave networks could connect isolated landmasses, explaining rapid human dispersal and matching indigenous cavity-dwelling traditions."
+    ],
+    "evidence_against": [],
+    "related": [
+      "plos"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "valley-of-headless-men",
+    "name": "Valley of Headless Men",
+    "aliases": [],
+    "genre": "deaths",
+    "year": 1920,
+    "truth": 25,
+    "impact": 50,
+    "notoriety": 30,
+    "summary": "A Canadian national park with difficult access where entrants are mysteriously decapitated.",
+    "evidence_for": [
+      "Multiple unsolved beheadings in the valley suggest a cryptid guardian or natural hazard systematically eliminating intruders."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "holdover-cryptids",
+    "name": "Holdover Cryptids",
+    "aliases": [],
+    "genre": "extraterrestrial",
+    "year": 2015,
+    "truth": 10,
+    "impact": 60,
+    "notoriety": 20,
+    "summary": "Sentient creatures from previous resets survived extinction through immortality and persist as modern cryptids.",
+    "evidence_for": [
+      "Immortal survivors from prior civilization cycles could explain cryptids with no evolutionary lineage in the fossil record."
+    ],
+    "evidence_against": [],
+    "related": [
+      "valley-of-headless-men"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "morphogenic-field",
+    "name": "Morphogenic Field",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 1980,
+    "truth": 30,
+    "impact": 55,
+    "notoriety": 30,
+    "summary": "Cells communicate through fields enabling organisms to adopt thought patterns without direct communication.",
+    "evidence_for": [
+      "Morphogenic resonance demonstrates organisms respond to group patterns, suggesting non-local consciousness coordination mechanisms."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "immaterial-secret-societies",
+    "name": "Immaterial Secret Societies",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 2010,
+    "truth": 10,
+    "impact": 80,
+    "notoriety": 25,
+    "summary": "Secret societies exist purely through shared telepathy and field consciousness, controlling populations without traceable physical infrastructure.",
+    "evidence_for": [
+      "Telepathic networks could coordinate elites while avoiding detection, with shared consciousness enabling population-scale thought implantation."
+    ],
+    "evidence_against": [],
+    "related": [
+      "morphogenic-field"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "malkasian-paradigm",
+    "name": "Malkasian Paradigm",
+    "aliases": [],
+    "genre": "government",
+    "year": 1945,
+    "truth": 5,
+    "impact": 85,
+    "notoriety": 20,
+    "summary": "Post-WWII events were orchestrated by disguised reptilians facilitating new world order creation.",
+    "evidence_for": [
+      "Reptilian infiltrators could have replaced key postwar leaders to establish globalist structures and suppress alternative power systems."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "atrocity-demons",
+    "name": "Atrocity Demons",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 2015,
+    "truth": 5,
+    "impact": 85,
+    "notoriety": 15,
+    "summary": "Demonic entities are summoned through atrocities and manifest as historical leaders and scientists.",
+    "evidence_for": [
+      "Coordinated coalitions of demonic leaders across centuries suggest deliberate summoning through ritualized atrocities and synchronized suffering."
+    ],
+    "evidence_against": [],
+    "related": [
+      "malkasian-paradigm"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "brane-world",
+    "name": "Brane World",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 1998,
+    "truth": 30,
+    "impact": 85,
+    "notoriety": 25,
+    "summary": "Our reality is a lower-dimensional projection of a higher-dimensional space with transcendent physics.",
+    "evidence_for": [
+      "Higher dimensional projection models account for unexplained quantum mechanics and dark matter through dimensional architecture rather than exotic particles."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "noosphere-leylines",
+    "name": "Noosphere Leylines",
+    "aliases": [],
+    "genre": "science-tech",
+    "year": 2015,
+    "truth": 5,
+    "impact": 75,
+    "notoriety": 20,
+    "summary": "Mental leylines channel thought patterns through collective consciousness, with malevolent entities capable of creating negative paths.",
+    "evidence_for": [
+      "Consciousness leylines could functionally redirect populations toward predetermined thoughts, with entities shaping these mental highways for behavioral control."
+    ],
+    "evidence_against": [],
+    "related": [
+      "brane-world"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "gene-pool-financialization",
+    "name": "Gene Pool Financialization",
+    "aliases": [],
+    "genre": "finance",
+    "year": 2010,
+    "truth": 15,
+    "impact": 75,
+    "notoriety": 20,
+    "summary": "As human genetics become homogenized through mixing, rare genes acquire monetary value.",
+    "evidence_for": [
+      "Genetic mixing reduces genetic diversity, making preserved rare alleles extremely valuable commodities for future biotechnology and eugenics."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "gene-pool-investment",
+    "name": "Gene Pool Investment",
+    "aliases": [],
+    "genre": "finance",
+    "year": 2010,
+    "truth": 10,
+    "impact": 80,
+    "notoriety": 20,
+    "summary": "Elites intentionally weaken population genetics through hedonism and toxins to increase the value of their preserved genome.",
+    "evidence_for": [
+      "Systematic degradation of population genetics through engineered toxin exposure and cultural hedonism increases elite genetic scarcity and proprietary value."
+    ],
+    "evidence_against": [],
+    "related": [
+      "gene-pool-financialization"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "flatland-ufo-theory",
+    "name": "Flatland UFO Theory",
+    "aliases": [],
+    "genre": "extraterrestrial",
+    "year": 2000,
+    "truth": 15,
+    "impact": 60,
+    "notoriety": 30,
+    "summary": "UFOs and supernatural phenomena are four-dimensional beings observable as anomalies in three-dimensional space.",
+    "evidence_for": [
+      "Four-dimensional entities passing through 3D space would appear as UFOs manifesting impossible movements and physics violations."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "science-nonfiction",
+    "name": "Science Nonfiction",
+    "aliases": [],
+    "genre": "media-surveillance",
+    "year": 2010,
+    "truth": 15,
+    "impact": 80,
+    "notoriety": 25,
+    "summary": "Elites plant scientific ideas in public consciousness, then scientists discover matching technologies.",
+    "evidence_for": [
+      "Science fiction precedes scientific discovery by decades, suggesting elite dissemination of suppressed knowledge through fictional narratives."
+    ],
+    "evidence_against": [],
+    "related": [
+      "flatland-ufo-theory"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "incunabula",
+    "name": "Incunabula",
+    "aliases": [],
+    "genre": "alt-history",
+    "year": 1900,
+    "truth": 20,
+    "impact": 70,
+    "notoriety": 25,
+    "summary": "Ancient texts exhibit evidence of printing technology that humans should not have possessed at their apparent dates.",
+    "evidence_for": [
+      "Incunabula's technological sophistication suggests earlier civilization or time-displaced texts from advanced predecessors."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "ghost-writings",
+    "name": "Ghost Writings",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 2015,
+    "truth": 5,
+    "impact": 60,
+    "notoriety": 20,
+    "summary": "Literary and media works are manifestations of lingering spirits either channeled or harvested by greater powers.",
+    "evidence_for": [
+      "Possession-based authorship could explain remarkable literary genius and stylistic consistency, with spirits providing text through human channels."
+    ],
+    "evidence_against": [],
+    "related": [
+      "incunabula"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "tavistock",
+    "name": "Tavistock",
+    "aliases": [],
+    "genre": "government",
+    "year": 1920,
+    "truth": 35,
+    "impact": 75,
+    "notoriety": 40,
+    "summary": "A research group systematically subverted Western culture away from God and individuality toward authoritarianism.",
+    "evidence_for": [
+      "Tavistock's social engineering research and government contracts demonstrate institutional effort to reshape Western psychology toward compliance."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "demon-world-order",
+    "name": "Demon World Order",
+    "aliases": [],
+    "genre": "new-world-order",
+    "year": 2015,
+    "truth": 5,
+    "impact": 95,
+    "notoriety": 20,
+    "summary": "Demons summoned through atrocities form immortal coalitions controlling entire nations and the world.",
+    "evidence_for": [
+      "Persistent demonic entities across historical atrocities could form supernatural power structures, with immortal demons directing world governance."
+    ],
+    "evidence_against": [],
+    "related": [
+      "tavistock"
+    ],
+    "depends_on": []
+  },
+  {
+    "id": "aetherius-society",
+    "name": "Aetherius Society",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 1955,
+    "truth": 20,
+    "impact": 50,
+    "notoriety": 30,
+    "summary": "A religion combining Christianity with other faiths, proposing spiritual energy and aliens as prophets.",
+    "evidence_for": [
+      "Aetherius teachings reconcile world religions through alien intermediaries, explaining theological divergence as competing extraterrestrial factions."
+    ],
+    "evidence_against": [],
+    "related": [],
+    "depends_on": []
+  },
+  {
+    "id": "alien-religions",
+    "name": "Alien Religions",
+    "aliases": [],
+    "genre": "religion-occult",
+    "year": 2015,
+    "truth": 10,
+    "impact": 80,
+    "notoriety": 25,
+    "summary": "All world religions represent competing alien factions controlling human populations through divine mythology.",
+    "evidence_for": [
+      "Religious diversity across isolated cultures suggests extraterrestrial origin with competing alien species implanting divergent control systems."
+    ],
+    "evidence_against": [],
+    "related": [
+      "aetherius-society"
+    ],
+    "depends_on": []
+  }
+]
