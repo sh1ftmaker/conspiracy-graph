@@ -1,0 +1,123 @@
+{
+ "prior_clamp": [
+  -4.0,
+  0.2
+ ],
+ "impossible_prior": -4.0,
+ "prior_smoothing": 1.0,
+ "stance_strength": {
+  "proves": 4.0,
+  "supports": 1.5,
+  "context": 0.0,
+  "debunks": -2.5,
+  "disproves": -4.0
+ },
+ "stance_legacy": {
+  "documents": "context",
+  "supports": "supports",
+  "debunks": "debunks",
+  "contested": "context"
+ },
+ "proof_q_floor": 0.75,
+ "proof_q_floor_min_bias": 2,
+ "quality_div": 5.0,
+ "ev_cap": 6.0,
+ "prose_w": 0.35,
+ "prose_max": 3,
+ "leak_p": 4e-06,
+ "leak_t_max": 60,
+ "leak_cap": 2.5,
+ "leak_proof_bias": 4,
+ "now_year": 2026,
+ "impact_gain": 20.0,
+ "impact_floor": 0.5,
+ "noto_log_off": 1.5,
+ "noto_log_div": 5.5,
+ "noto_tier_band": 20,
+ "att_ladder": [
+  3,
+  10,
+  22,
+  40,
+  58,
+  75
+ ],
+ "classes": {
+  "surveillance-op": [
+   10,
+   46
+  ],
+  "experiment-public": [
+   13,
+   49
+  ],
+  "false-flag": [
+   7,
+   37
+  ],
+  "hidden-policy": [
+   9,
+   89
+  ],
+  "corporate-collusion": [
+   15,
+   60
+  ],
+  "influence-psyop": [
+   4,
+   71
+  ],
+  "grand-control": [
+   0,
+   89
+  ],
+  "assassination": [
+   2,
+   37
+  ],
+  "alien": [
+   0,
+   80
+  ],
+  "fabricated-history": [
+   0,
+   94
+  ],
+  "depopulation-harm": [
+   6,
+   55
+  ],
+  "suppressed-science": [
+   0,
+   99
+  ],
+  "identity-secret": [
+   0,
+   25
+  ],
+  "paranormal-occult": [
+   0,
+   326
+  ],
+  "election-rigging": [
+   0,
+   7
+  ],
+  "regulatory-capture": [
+   0,
+   4
+  ]
+ },
+ "bias_weights": {
+  "court": 5,
+  "declassified": 4,
+  "academic": 4,
+  "investigative": 4,
+  "government": 3,
+  "mainstream": 3,
+  "book": 2,
+  "wikipedia": 2,
+  "advocacy": 1,
+  "fringe": 0
+ }
+}

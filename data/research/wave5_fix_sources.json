@@ -1,0 +1,277 @@
+[
+  {
+    "id": "watergate",
+    "sources": [
+      {
+        "title": "Records of the Watergate Special Prosecution Force",
+        "url": "https://www.archives.gov/research/investigations/watergate",
+        "type": "government",
+        "stance": "documents"
+      },
+      {
+        "title": "United States v. Nixon (1974)",
+        "url": "https://www.oyez.org/cases/1973/73-1766",
+        "type": "court",
+        "stance": "documents"
+      },
+      {
+        "title": "The Nixon Tapes: The Tapes - National Security Archive",
+        "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB95/sidebar3.htm",
+        "type": "declassified",
+        "stance": "documents"
+      }
+    ]
+  },
+  {
+    "id": "pentagon-papers",
+    "sources": [
+      {
+        "title": "Pentagon Papers | National Archives",
+        "url": "https://www.archives.gov/research/pentagon-papers",
+        "type": "declassified",
+        "stance": "documents"
+      },
+      {
+        "title": "New York Times Co. v. United States, 403 U.S. 713 (1971)",
+        "url": "https://supreme.justia.com/cases/federal/us/403/713/",
+        "type": "court",
+        "stance": "documents"
+      },
+      {
+        "title": "After 40 Years, Pentagon Papers Declassified In Full",
+        "url": "https://www.npr.org/2011/06/13/137150344/after-40-years-pentagon-papers-declassified-in-full",
+        "type": "news",
+        "stance": "documents"
+      }
+    ]
+  },
+  {
+    "id": "gulf-of-tonkin",
+    "sources": [
+      {
+        "title": "The Gulf of Tonkin Mystery, 2-4 August 1964 (NSA declassified study)",
+        "url": "https://www.nsa.gov/portals/75/documents/news-features/declassified-documents/gulf-of-tonkin/articles/release-1/rel1_skunks_bogies.pdf",
+        "type": "declassified",
+        "stance": "documents"
+      },
+      {
+        "title": "The Truth About Tonkin - Naval History Magazine",
+        "url": "https://www.usni.org/magazines/naval-history-magazine/2008/february/truth-about-tonkin",
+        "type": "academic",
+        "stance": "documents"
+      },
+      {
+        "title": "Gulf of Tonkin incident - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Gulf_of_Tonkin_incident",
+        "type": "wikipedia",
+        "stance": "documents"
+      }
+    ]
+  },
+  {
+    "id": "big-tobacco",
+    "sources": [
+      {
+        "title": "Civil Division - Litigation Against Tobacco Companies (DOJ)",
+        "url": "https://www.justice.gov/civil/case-4",
+        "type": "government",
+        "stance": "documents"
+      },
+      {
+        "title": "United States v. Philip Morris - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/United_States_v._Philip_Morris",
+        "type": "wikipedia",
+        "stance": "documents"
+      },
+      {
+        "title": "Everything You Ever Wanted to Know about U.S. v. Philip Morris",
+        "url": "https://www.publichealthlawcenter.org/sites/default/files/resources/tclc-fs-DOJ-litigation-overview-2015.pdf",
+        "type": "academic",
+        "stance": "documents"
+      }
+    ]
+  },
+  {
+    "id": "big-oil-climate",
+    "sources": [
+      {
+        "title": "Exxon's Own Research Confirmed Fossil Fuels' Role in Global Warming Decades Ago",
+        "url": "https://insideclimatenews.org/news/16092015/exxons-own-research-confirmed-fossil-fuels-role-in-global-warming/",
+        "type": "investigative",
+        "stance": "documents"
+      },
+      {
+        "title": "Exxon's Oil Industry Peers Knew About Climate Dangers in the 1970s, Too",
+        "url": "https://insideclimatenews.org/news/22122015/exxon-mobil-oil-industry-peers-knew-about-climate-change-dangers-1970s-american-petroleum-institute-api-shell-chevron-texaco/",
+        "type": "investigative",
+        "stance": "documents"
+      },
+      {
+        "title": "Harvard-led analysis finds ExxonMobil internal research accurately predicted climate change",
+        "url": "https://news.harvard.edu/gazette/story/2023/01/harvard-led-analysis-finds-exxonmobil-internal-research-accurately-predicted-climate-change/",
+        "type": "academic",
+        "stance": "documents"
+      }
+    ]
+  },
+  {
+    "id": "operation-gladio",
+    "sources": [
+      {
+        "title": "Operation Gladio - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Operation_Gladio",
+        "type": "wikipedia",
+        "stance": "documents"
+      },
+      {
+        "title": "The Puzzling Story of NATO's Secret Armies During the Cold War",
+        "url": "https://www.hnn.us/article/the-puzzling-story-of-natos-secret-armies-during-t",
+        "type": "academic",
+        "stance": "documents"
+      },
+      {
+        "title": "The Italian 'Stay-Behind' network - The origins of operation 'Gladio'",
+        "url": "https://www.researchgate.net/publication/233435315_The_Italian_'Stay-Behind'_network_-_The_origins_of_operation_'Gladio'",
+        "type": "academic",
+        "stance": "documents"
+      }
+    ]
+  },
+  {
+    "id": "operation-mockingbird",
+    "sources": [
+      {
+        "title": "Church Committee Final Report, Book I: Foreign and Military Intelligence (1976)",
+        "url": "https://www.andrew.cmu.edu/user/rp3h/lansberry/Church_Committee_I.pdf",
+        "type": "government",
+        "stance": "documents"
+      },
+      {
+        "title": "Carl Bernstein, \"The CIA and the Media\" - Rolling Stone, Oct 20 1977",
+        "url": "https://archive.org/stream/nsia-BernsteinRollingStoneArticlesCIA/nsia-BernsteinRollingStoneArticlesCIA/Bernstein%20CIA%2001_djvu.txt",
+        "type": "investigative",
+        "stance": "documents"
+      },
+      {
+        "title": "Operation Mockingbird - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Operation_Mockingbird",
+        "type": "wikipedia",
+        "stance": "contested"
+      }
+    ]
+  },
+  {
+    "id": "lincoln-assassination-broader-conspiracy",
+    "sources": [
+      {
+        "title": "The assassination of President Lincoln and the trial of the conspirators (Library of Congress)",
+        "url": "https://www.loc.gov/item/12002579/",
+        "type": "government",
+        "stance": "documents"
+      },
+      {
+        "title": "The Trial of the Conspirators - Ford's Theatre",
+        "url": "https://fords.org/lincolns-assassination/investigating-the-assassination/the-trial-of-the-conspirators/",
+        "type": "academic",
+        "stance": "documents"
+      },
+      {
+        "title": "Lincoln Assassination Conspirators - Famous Trials (UMKC)",
+        "url": "https://famous-trials.com/lincoln/2161-conspirators",
+        "type": "academic",
+        "stance": "documents"
+      }
+    ]
+  },
+  {
+    "id": "weather-modification",
+    "sources": [
+      {
+        "title": "Operation Popeye - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Operation_Popeye",
+        "type": "wikipedia",
+        "stance": "documents"
+      },
+      {
+        "title": "Project Popeye - Foreign Relations of the United States, 1964-1968 (State Dept. Office of the Historian)",
+        "url": "https://history.state.gov/historicaldocuments/frus1964-68v28/d274",
+        "type": "declassified",
+        "stance": "documents"
+      },
+      {
+        "title": "Operation Popeye / Project Popeye - GlobalSecurity.org",
+        "url": "https://www.globalsecurity.org/military/ops/popeye.htm",
+        "type": "academic",
+        "stance": "documents"
+      }
+    ]
+  },
+  {
+    "id": "iran-regime-change-plan-hidden",
+    "sources": [
+      {
+        "title": "How Trump decided to strike Iran as aides dismissed Netanyahu's regime change plan",
+        "url": "https://www.ynetnews.com/article/hkaherz2bx",
+        "type": "investigative",
+        "stance": "documents"
+      },
+      {
+        "title": "Top Trump aides told him PM's prewar regime change forecast was 'farcical' - report",
+        "url": "https://www.timesofisrael.com/top-trump-aides-told-him-pms-prewar-regime-change-forecast-was-farcical-report/",
+        "type": "news",
+        "stance": "documents"
+      }
+    ]
+  },
+  {
+    "id": "antikythera-mechanism",
+    "sources": [
+      {
+        "title": "A Model of the Cosmos in the ancient Greek Antikythera Mechanism - Scientific Reports (Nature)",
+        "url": "https://www.nature.com/articles/s41598-021-84310-w",
+        "type": "academic",
+        "stance": "documents"
+      },
+      {
+        "title": "Author Correction: A Model of the Cosmos in the ancient Greek Antikythera Mechanism - Scientific Reports (Nature)",
+        "url": "https://www.nature.com/articles/s41598-021-96382-9",
+        "type": "academic",
+        "stance": "documents"
+      },
+      {
+        "title": "The Antikythera Mechanism: an ancient Greek machine rewriting the history of technology",
+        "url": "https://the-past.com/feature/the-antikythera-mechanism-an-ancient-greek-machine-rewriting-the-history-of-technology/",
+        "type": "academic",
+        "stance": "documents"
+      }
+    ]
+  },
+  {
+    "id": "big-pharma",
+    "sources": [
+      {
+        "title": "Viral videos on Facebook promote unproven cancer cures; no evidence pharmaceutical companies and FDA are hiding the cure for cancer - Science Feedback",
+        "url": "https://science.feedback.org/review/viral-videos-promote-unproven-cancer-cures-no-evidence-pharmaceutical-companies-fda-hiding-cure/",
+        "type": "academic",
+        "stance": "debunks"
+      }
+    ]
+  },
+  {
+    "id": "john-babacombe-lee",
+    "sources": [
+      {
+        "title": "John 'Babbacombe' Lee - Babbacombe & St Marychurch History Society",
+        "url": "https://www.babbacombelhs.org.uk/people/john-babbacombe-lee/",
+        "type": "academic",
+        "stance": "documents"
+      },
+      {
+        "title": "The Man They Could Not Hang - Ian Waugh",
+        "url": "https://ianwaugh.com/johnlee/",
+        "type": "academic",
+        "stance": "documents"
+      }
+    ]
+  }
+]

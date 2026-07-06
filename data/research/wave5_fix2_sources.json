@@ -1,0 +1,206 @@
+[
+  {
+    "id": "pentagon-uap-disclosure",
+    "sources": [
+      {
+        "title": "Glowing Auras and 'Black Money': The Pentagon's Mysterious U.F.O. Program",
+        "url": "https://www.nytimes.com/2017/12/16/us/politics/ufo-intelligence-pentagon-program.html",
+        "type": "news",
+        "stance": "supports"
+      },
+      {
+        "title": "Statement by the Department of Defense on the Release of Historical Navy Videos",
+        "url": "https://www.defense.gov/News/Releases/Release/article/2165713/statement-by-the-department-of-defense-on-the-release-of-historical-navy-videos/",
+        "type": "government",
+        "stance": "documents"
+      },
+      {
+        "title": "DoD Announces the Establishment of the All-domain Anomaly Resolution Office",
+        "url": "https://www.war.gov/News/Releases/Release/Article/3100053/dod-announces-the-establishment-of-the-all-domain-anomaly-resolution-office/",
+        "type": "government",
+        "stance": "documents"
+      },
+      {
+        "title": "Pentagon UFO videos - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pentagon_UFO_videos",
+        "type": "wikipedia",
+        "stance": "documents"
+      }
+    ]
+  },
+  {
+    "id": "planned-obsolescence",
+    "sources": [
+      {
+        "title": "The Great Lightbulb Conspiracy - IEEE Spectrum",
+        "url": "https://spectrum.ieee.org/the-great-lightbulb-conspiracy",
+        "type": "investigative",
+        "stance": "documents"
+      },
+      {
+        "title": "Phoebus cartel - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Phoebus_cartel",
+        "type": "wikipedia",
+        "stance": "documents"
+      }
+    ]
+  },
+  {
+    "id": "pre-columbian-transoceanic-contact",
+    "sources": [
+      {
+        "title": "Evidence for European presence in the Americas in AD 1021 - Nature",
+        "url": "https://www.nature.com/articles/s41586-021-03972-8",
+        "type": "academic",
+        "stance": "documents"
+      },
+      {
+        "title": "Native American gene flow into Polynesia predating Easter Island settlement - Nature",
+        "url": "https://www.nature.com/articles/s41586-020-2487-2",
+        "type": "academic",
+        "stance": "documents"
+      }
+    ]
+  },
+  {
+    "id": "genocide-denials",
+    "sources": [
+      {
+        "title": "IAGS Resolution on the Armenian Genocide (International Association of Genocide Scholars)",
+        "url": "https://genocidescholars.org/wp-content/uploads/2019/04/IAGSArmenian-Genocide-Resolution-_0.pdf",
+        "type": "academic",
+        "stance": "documents"
+      }
+    ]
+  },
+  {
+    "id": "nazi-gold-hidden-treasure",
+    "sources": [
+      {
+        "title": "U.S. and Allied Efforts To Recover and Restore Gold and Other Assets Stolen or Hidden by Germany During World War II (Eizenstat Report)",
+        "url": "https://1997-2001.state.gov/policy_remarks/1998/980602_eizenstat_nazigld.html",
+        "type": "government",
+        "stance": "documents"
+      },
+      {
+        "title": "Swiss Bank Settlement - U.S. Department of State",
+        "url": "https://www.state.gov/swiss-bank-settlement",
+        "type": "government",
+        "stance": "documents"
+      }
+    ]
+  },
+  {
+    "id": "project-cumulus",
+    "sources": [
+      {
+        "title": "Project Cumulus - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Project_Cumulus",
+        "type": "wikipedia",
+        "stance": "documents"
+      },
+      {
+        "title": "RAF rainmakers 'caused 1952 flood' - The Guardian",
+        "url": "https://www.theguardian.com/uk/2001/aug/30/sillyseason.physicalsciences",
+        "type": "news",
+        "stance": "supports"
+      },
+      {
+        "title": "The 1952 Lynmouth floods revisited - Weather (Royal Meteorological Society / McGinnigle 2002)",
+        "url": "https://rmets.onlinelibrary.wiley.com/doi/abs/10.1256/004316502760195894",
+        "type": "academic",
+        "stance": "debunks"
+      }
+    ]
+  },
+  {
+    "id": "cia-crack-contra",
+    "sources": [
+      {
+        "title": "CIA Inspector General Report of Investigation, Volume II: The Contra Story (1998)",
+        "url": "https://www.cia.gov/readingroom/docs/REPORT%20OF%20INVESTIGATION%20A%5B16500518%5D.pdf",
+        "type": "government",
+        "stance": "documents"
+      },
+      {
+        "title": "Dark Alliance - original San Jose Mercury News series (Gary Webb, 1996)",
+        "url": "https://archive.org/details/dark_alliance_original_series-gary_webb_cia_cocaine",
+        "type": "investigative",
+        "stance": "supports"
+      }
+    ]
+  },
+  {
+    "id": "toxoplasmosis",
+    "sources": [
+      {
+        "title": "Influence of latent Toxoplasma infection on human personality, physiology and morphology - PubMed (Flegr 2013)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23225875/",
+        "type": "academic",
+        "stance": "supports"
+      }
+    ]
+  },
+  {
+    "id": "pro-war-buddhism",
+    "sources": [
+      {
+        "title": "Zen at War - Brian Daizen Victoria (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Zen_at_War",
+        "type": "book",
+        "stance": "documents"
+      }
+    ]
+  },
+  {
+    "id": "business-plot",
+    "sources": [
+      {
+        "title": "Public Statement of Special Committee on Un-American Activities (McCormack-Dickstein Committee, 1934)",
+        "url": "https://archive.org/details/CommitteeOnUnamericanActivitiesReport",
+        "type": "government",
+        "stance": "documents"
+      },
+      {
+        "title": "Business Plot - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Business_Plot",
+        "type": "wikipedia",
+        "stance": "documents"
+      }
+    ]
+  },
+  {
+    "id": "the-vela-incident",
+    "sources": [
+      {
+        "title": "The Vela Incident: South Atlantic Mystery Flash in September 1979 Raised Questions about Nuclear Test - National Security Archive",
+        "url": "https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2016-12-06/vela-incident-south-atlantic-mystery-flash-september-1979-raised-questions-about-nuclear-test",
+        "type": "academic",
+        "stance": "documents"
+      },
+      {
+        "title": "Vela incident - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Vela_incident",
+        "type": "wikipedia",
+        "stance": "documents"
+      }
+    ]
+  },
+  {
+    "id": "declassified-documents",
+    "sources": [
+      {
+        "title": "National Declassification Center - National Archives",
+        "url": "https://www.archives.gov/declassification",
+        "type": "government",
+        "stance": "documents"
+      },
+      {
+        "title": "CIA Freedom of Information Act Electronic Reading Room",
+        "url": "https://www.cia.gov/readingroom/",
+        "type": "government",
+        "stance": "documents"
+      }
+    ]
+  }
+]

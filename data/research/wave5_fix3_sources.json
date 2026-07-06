@@ -1,0 +1,18 @@
+[
+ {"id": "iran-contra", "sources": [
+  {"title": "Final Report of the Independent Counsel for Iran/Contra Matters (Walsh Report, 1993)", "url": "https://irp.fas.org/offdocs/walsh/", "type": "government", "stance": "documents"},
+  {"title": "National Archives: Records of the Iran-Contra Investigation", "url": "https://www.archives.gov/research/investigations/iran-contra", "type": "declassified", "stance": "documents"},
+  {"title": "Understanding the Iran-Contra Affairs (Brown University)", "url": "https://www.brown.edu/Research/Understanding_the_Iran_Contra_Affair/", "type": "academic", "stance": "documents"}
+ ]},
+ {"id": "jfk-assassination", "sources": [
+  {"title": "HSCA Final Report (1979): committee found a 'probable conspiracy'", "url": "https://www.archives.gov/research/jfk/select-committee-report", "type": "declassified", "stance": "supports"},
+  {"title": "Warren Commission Report (1964): lone-gunman conclusion", "url": "https://www.archives.gov/research/jfk/warren-commission-report", "type": "declassified", "stance": "debunks"},
+  {"title": "NAS Committee on Ballistic Acoustics (1982): HSCA acoustic evidence unreliable", "url": "https://nap.nationalacademies.org/catalog/19464/report-of-the-committee-on-ballistic-acoustics", "type": "academic", "stance": "debunks"}
+ ]},
+ {"id": "covid-lab-leak", "sources": [
+  {"title": "FBI assesses COVID-19 origin 'most likely a potential lab incident' (Dir. Wray, 2023)", "url": "https://www.npr.org/2023/02/28/1160214557/fbi-covid-origins-investigation-wray", "type": "news", "stance": "supports"},
+  {"title": "CIA assesses lab origin more likely than natural, low confidence (2025)", "url": "https://www.cbsnews.com/news/cia-covid-likely-originated-lab-low-confidence-assessment/", "type": "news", "stance": "supports"},
+  {"title": "ODNI Declassified Assessment on COVID-19 Origins (2021): intelligence community divided", "url": "https://www.dni.gov/files/ODNI/documents/assessments/Declassified-Assessment-on-COVID-19-Origins.pdf", "type": "declassified", "stance": "documents"},
+  {"title": "Andersen et al., 'The proximal origin of SARS-CoV-2', Nature Medicine (2020)", "url": "https://www.nature.com/articles/s41591-020-0820-9", "type": "academic", "stance": "debunks"}
+ ]}
+]

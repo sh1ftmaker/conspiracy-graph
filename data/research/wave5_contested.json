@@ -1,0 +1,23 @@
+[
+ {
+  "id": "covid-lab-leak",
+  "sources": [
+   {"title": "FBI Director Wray: COVID origins 'most likely' a lab incident in Wuhan", "url": "https://www.cnn.com/2023/02/28/politics/wray-fbi-covid-origins-lab-china/index.html", "type": "news", "stance": "supports"},
+   {"title": "CIA assesses lab leak most plausible source of Covid-19, with low confidence", "url": "https://www.cnn.com/2025/01/25/politics/covid-19-lab-leak-cia-ratcliffe/index.html", "type": "news", "stance": "supports"},
+   {"title": "FBI Director says bureau believes COVID most likely resulted from lab leak", "url": "https://www.axios.com/2023/03/01/fbi-director-covid-origins", "type": "news", "stance": "supports"}
+  ]
+ },
+ {
+  "id": "jfk-assassination",
+  "sources": [
+   {"title": "HSCA Final Report (1979): probable conspiracy in the assassination of President Kennedy", "url": "https://www.archives.gov/research/jfk/select-committee-report", "type": "government", "stance": "supports"}
+  ]
+ },
+ {
+  "id": "epstein-killed",
+  "sources": [
+   {"title": "Forensic pathologist Michael Baden: Epstein injuries more consistent with homicidal strangulation", "url": "https://www.reuters.com/article/us-people-jeffrey-epstein-idUSKBN1X716X", "type": "news", "stance": "supports"},
+   {"title": "DOJ Inspector General report on the Federal Bureau of Prisons' custody, care of Jeffrey Epstein", "url": "https://oig.justice.gov/reports/investigation-federal-bureau-prisons-custody-care-and-supervision-jeffrey-epstein", "type": "government", "stance": "debunks"}
+  ]
+ }
+]

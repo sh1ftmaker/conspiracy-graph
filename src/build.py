@@ -235,6 +235,9 @@ def classify_bias(src):
         return "academic" if typ == "academic" else "investigative"
     if hit(MAINSTREAM_HOSTS) or typ == "news":
         return "mainstream"
+    # declared types for hosts we don't recognise (host matches above win)
+    if typ in ("court", "declassified", "investigative", "advocacy", "fringe"):
+        return typ
     if typ in ("book", "archive"):
         return "book"
     return "fringe" if typ in ("forum", "blog", "social") else "book"
@@ -243,6 +246,49 @@ for rid in order:
     for s_ in records[rid]["sources"]:
         if isinstance(s_, dict):
             s_["bias"] = classify_bias(s_)
+
+# ---- stance audit overlays (data/stances/st_*.json) ----
+# Strict evidence stances for scoring: proves | supports | context | debunks |
+# disproves. The original free-form `stance` is left untouched for display.
+STANCES = {"proves", "supports", "context", "debunks", "disproves"}
+st_map = {}
+for sf in sorted(glob.glob(p("data", "stances", "st_*.json"))):
+    for e in load(sf):
+        if e.get("st") in STANCES:
+            st_map[(e["id"], e["url"])] = e["st"]
+if st_map:
+    applied = 0
+    for rid in order:
+        for s_ in records[rid]["sources"]:
+            if isinstance(s_, dict):
+                st = st_map.get((rid, s_.get("url")))
+                if st:
+                    s_["st"] = st
+                    applied += 1
+
+# ---- formula scoring (src/score.py): truth/impact/notoriety from factors ----
+# Manual scores are preserved as *_manual; records without factor annotations
+# keep their manual scores and get no breakdown.
+import score as scoring
+from urllib.parse import unquote
+SC = scoring.load_constants()
+SC["bias_weights"] = {b["key"]: b["weight"] for b in BIAS_SCALE}
+factors = scoring.load_factors()
+pv_path = p("data", "pageviews.json")
+pageviews = load(pv_path) if os.path.exists(pv_path) else {}
+def pv_for(rec):
+    w = rec.get("wikipedia") or ""
+    if "en.wikipedia.org/wiki/" not in w:
+        return None
+    title = unquote(w.split("/wiki/", 1)[1].split("#")[0].split("?")[0]).replace("_", " ")
+    return pageviews.get(title, pageviews.get(title.replace(" ", "_")))
+scored = 0
+if factors and SC.get("classes"):
+    for rid in order:
+        f = factors.get(rid)
+        if f:
+            scoring.score_theory(records[rid], f, pv_for(records[rid]), SC)
+            scored += 1
 
 # ---- load-bearing: in-degree over depends_on ----
 for rid in order:
@@ -278,6 +324,12 @@ out = {
         "by_status": by_status,
         "sourced": sourced,
         "bias_scale": BIAS_SCALE,
+        "scored": scored,
+        "score_constants": {k: SC[k] for k in
+            ("prior_clamp", "impossible_prior", "stance_strength", "ev_cap",
+             "prose_w", "leak_p", "leak_cap", "impact_gain",
+             "noto_log_off", "noto_log_div", "noto_tier_band", "att_ladder",
+             "classes", "bias_weights")},
     },
     "theories": theories,
 }
@@ -289,7 +341,7 @@ with io.open(p("docs", "data.json"), "w", encoding="utf-8") as f:
 # also drop a .nojekyll for Pages
 open(p("docs", ".nojekyll"), "w").close()
 
-msg = [f"built docs/data.json  theories={len(theories)}  dangling_edges_dropped={dangling}"]
+msg = [f"built docs/data.json  theories={len(theories)}  dangling_edges_dropped={dangling}  formula_scored={scored}"]
 msg.append("by_status: " + ", ".join(f"{k}={v}" for k,v in by_status.items() if v))
 top = sorted(theories, key=lambda r: r["load_bearing"], reverse=True)[:6]
 msg.append("top load-bearing: " + ", ".join(f"{r['id']}({r['load_bearing']})" for r in top))
