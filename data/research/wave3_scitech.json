@@ -1,0 +1,85 @@
+[
+  {
+    "id": "technology-suppression",
+    "truth": 55,
+    "steelman": "If real, broader suppression of competing technologies fits the documented pattern of the Phoebus lightbulb cartel embedded in this very claim, plus the confirmed Oil Industry Climate Denial campaign and Volkswagen Dieselgate, which show incumbent industries are willing to fund doubt campaigns or secretly defeat regulators to protect revenue streams. No comparable direct evidence -- internal memos, whistleblowers, or discovery documents -- has surfaced showing a coordinated campaign to specifically bury the GM EV1 or a wireless-power breakthrough.",
+    "precedents": [
+      "big-oil-climate",
+      "volkswagen-dieselgate"
+    ]
+  },
+  {
+    "id": "montauk-project",
+    "truth": 17,
+    "steelman": "If the mind-control and psychic-amplification elements are real, they would fit the documented pattern of MKUltra and Project 112/SHAD: secret, unconsented experimentation on people at U.S. military installations, concealed for decades and only surfacing through later document releases or whistleblowers. The time-travel and teleportation elements have no such precedent anywhere in the declassified record; no comparable direct evidence has surfaced for experiments at Camp Hero specifically.",
+    "precedents": [
+      "mkultra",
+      "project-112-shad"
+    ]
+  },
+  {
+    "id": "caimeo",
+    "truth": 15,
+    "steelman": "If real, a classified self-learning AI program run by the state would fit the documented pattern of secret capabilities denied for years: NSA bulk collection (PRISM) was operational and officially denied until the 2013 Snowden disclosures, and the ECHELON network ran for decades before being confirmed. No comparable evidence supports the specific claim of a sentient dark-web AI, machine sentience is not an established capability, and the recency of the alleged program means an absent paper trail is only weak evidence either way.",
+    "precedents": [
+      "nsa-mass-surveillance",
+      "echelon"
+    ]
+  },
+  {
+    "id": "sycamore-knoll",
+    "steelman": "If real, a concealed underwater military installation would fit the documented pattern of the U.S. military operating and denying classified sites and programs: the Pentagon denied Project 112/SHAD existed for decades, and the Army long resisted acknowledging its activities at Dugway Proving Ground. No sonar survey, dive, or documentary evidence supports the specific claim that the Sycamore Knoll plateau is an artificial base rather than a natural seafloor feature.",
+    "precedents": [
+      "project-112-shad",
+      "dugway-proving-ground-tests"
+    ]
+  },
+  {
+    "id": "eastern-cloning",
+    "steelman": "If real, a covert state cloning program would fit the documented pattern of governments running secret, ethically fraught bioscience programs concealed from the public: the U.S. conducted Project 112/SHAD biological-agent tests and the Guatemala syphilis experiments in secret for years. No evidence -- defectors, samples, or documents -- supports the specific claim that China has fielded mass human cloning, and doing so at population scale would be a logistical undertaking on a scale that weighs against it.",
+    "precedents": [
+      "project-112-shad",
+      "guatemala-syphilis-experiments"
+    ]
+  },
+  {
+    "id": "transhumanist-reality",
+    "steelman": "If real, covertly implanting infants under the cover of routine medical procedures would fit the documented pattern of nonconsensual human experimentation concealed for decades: MKUltra dosed unwitting subjects and the Guatemala syphilis experiments infected patients without consent. No evidence supports the specific claim, and executing it at the described scale would require the silent complicity of vast numbers of clinicians, which weighs heavily against it.",
+    "precedents": [
+      "mkultra",
+      "guatemala-syphilis-experiments"
+    ]
+  },
+  {
+    "id": "memory-harvesting",
+    "steelman": "If real, using hypnosis-derived techniques on animals released into enemy territory would fit two documented patterns: the historical military use of animals for espionage, and MKUltra's exploration of hypnosis for intelligence purposes. No evidence supports the specific claim that memories can be extracted from animals this way, and the memory-transfer mechanism it posits is not an established capability.",
+    "precedents": [
+      "animal-spying",
+      "mkultra"
+    ]
+  },
+  {
+    "id": "cold-fusion-suppression",
+    "steelman": "If real, an orchestrated campaign to bury cold-fusion research would resemble the documented pattern of industries funding science to protect their interests, as the Sugar Research Foundation and tobacco companies both did to shape scientific consensus. However, the swift rejection of the 1989 announcement followed genuine, independent failures to replicate the results, and no evidence indicates the hot-fusion establishment orchestrated that outcome; this remains a case where institutional gatekeeping has not been shown to be suppression.",
+    "precedents": [
+      "sugar-research-foundation-coverup",
+      "big-tobacco"
+    ]
+  },
+  {
+    "id": "iceberg-knowledge-psyops",
+    "steelman": "If real, deliberately seeding misleading information formats to misdirect the public would fit the documented pattern of state information operations aimed at domestic and foreign audiences: the Pentagon's military-analyst program planted talking points through ostensibly independent commentators, and the British Army's 77th Brigade conducts online information operations that have included monitoring domestic posts. No evidence connects any specific actor to the manufacture of these particular internet formats.",
+    "precedents": [
+      "pentagon-military-analyst-program",
+      "british-army-77th-brigade"
+    ]
+  },
+  {
+    "id": "singularity-already-happened",
+    "steelman": "If a technological singularity had occurred, concealing it would follow the documented pattern of major state capabilities kept secret for years: NSA bulk-collection systems were operational and denied until 2013, and ECHELON ran for decades before official confirmation. No evidence indicates any such superintelligence exists, and the claim requires a capability that has not been demonstrated, which weighs strongly against it.",
+    "precedents": [
+      "nsa-mass-surveillance",
+      "echelon"
+    ]
+  }
+]

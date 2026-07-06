@@ -1,0 +1,210 @@
+[
+  {
+    "id": "deep-state",
+    "truth": 50,
+    "steelman": "If real, this would fit the documented pattern of the Church Committee findings: entrenched intelligence and law-enforcement bureaucracies (CIA, FBI, NSA) ran surveillance and policy programs like COINTELPRO largely independent of, and sometimes concealed from, elected oversight. No comparable evidence has surfaced of a unified, still-active network overriding current elected leadership as a whole.",
+    "precedents": [
+      "church-committee",
+      "cointelpro"
+    ]
+  },
+  {
+    "id": "kol-007-shootdown",
+    "truth": 50,
+    "steelman": "If real, a deliberate intelligence-gathering mission using ambiguous civilian-adjacent cover would fit the documented pattern of Cold War signals-intelligence collection under networks like ECHELON. No declassified document has confirmed KAL 007 itself was an espionage flight rather than a navigational error.",
+    "precedents": [
+      "echelon"
+    ]
+  },
+  {
+    "id": "waco-cover-up",
+    "truth": 51,
+    "steelman": "The federal government's own 1999 Danforth investigation confirmed FBI use of pyrotechnic tear gas rounds after years of denial, fitting the documented pattern of official minimization following lethal state use of force seen in the MOVE bombing. Claims that agents deliberately started the fatal fire were not substantiated by that same investigation.",
+    "precedents": [
+      "move-bombing-1985",
+      "church-committee"
+    ]
+  },
+  {
+    "id": "secret-societies-today",
+    "truth": 53,
+    "steelman": "Operation Snow White and Operation Gladio both show that organized groups can secretly embed operatives across dozens of government agencies or maintain clandestine cross-border networks for decades before exposure. No comparable evidence has surfaced identifying a specific secret society operating with that scope today.",
+    "precedents": [
+      "operation-snow-white",
+      "operation-gladio"
+    ]
+  },
+  {
+    "id": "false-flag-propagation",
+    "truth": 50,
+    "steelman": "State-staged pretexts are a documented tactic, not a hypothetical one: the Gleiwitz incident, the Mukden Incident, the Lavon Affair, and the drafted (if unexecuted) Operation Northwoods plan all show governments preparing or executing false-flag operations for tactical and propaganda purposes alike. No specific modern instance has been confirmed to the same evidentiary standard as these precedents.",
+    "precedents": [
+      "operation-himmler",
+      "mukden-incident",
+      "lavon-affair",
+      "operation-northwoods"
+    ]
+  },
+  {
+    "id": "stuxnet-revival-studies",
+    "truth": 55,
+    "steelman": "If real, continued development of offensive cyber tools would fit the documented pattern of GCHQ's JTRIG and the NSA's mass-surveillance programs, both of which show Western intelligence services maintaining and expanding covert digital capabilities long after their capabilities were first built. Absence of a new leak is the expected observation for a program this recent, not evidence it doesn't exist.",
+    "precedents": [
+      "gchq-jtrig",
+      "nsa-mass-surveillance"
+    ]
+  },
+  {
+    "id": "public-target-practice-biological",
+    "truth": 55,
+    "steelman": "This is precisely the documented pattern of Operation Sea-Spray, Project 112/SHAD, and the Dugway Proving Ground and Edgewood Arsenal tests, all involving the US government exposing unwitting civilians or service members to biological or chemical agents. No specific ongoing program matching this exact description has been confirmed, but the precedent for the general practice is extensive and repeated.",
+    "precedents": [
+      "operation-sea-spray",
+      "project-112-shad",
+      "dugway-proving-ground-tests",
+      "edgewood-arsenal-experiments"
+    ]
+  },
+  {
+    "id": "january-6-false-flag",
+    "truth": 11,
+    "steelman": "The FBI's documented history of embedding informants inside domestic political movements, as in COINTELPRO, shows the bureau has both the capability and institutional habit of monitoring groups it investigates from the inside. Congressional and inspector-general reviews specifically examined this claim for January 6 and found evidence of routine informant presence but not orchestration.",
+    "precedents": [
+      "cointelpro"
+    ]
+  },
+  {
+    "id": "nba-frozen-envelope-draft",
+    "truth": 40,
+    "steelman": "The Libor and forex-rigging scandals demonstrate that insiders entrusted with a supposedly neutral process have, in real documented cases, manipulated it for institutional benefit. No physical evidence or testimony has ever substantiated tampering with the 1985 lottery specifically.",
+    "precedents": [
+      "libor-scandal",
+      "forex-rigging-scandal"
+    ]
+  },
+  {
+    "id": "perestroika-deception",
+    "truth": 53,
+    "steelman": "Modern Russian information operations, as documented in the Internet Research Agency indictment, confirm that covert, long-horizon state influence campaigns are a real and ongoing tool of statecraft. That verified pattern of deception does not, however, establish that Soviet-era reforms themselves were staged.",
+    "precedents": [
+      "internet-research-agency"
+    ]
+  },
+  {
+    "id": "cloud-farming",
+    "truth": 55,
+    "steelman": "Operation Sea-Spray and Project 112/SHAD both confirm the US government has, in the past, dispersed substances over populated areas without public knowledge or consent to study effects. Weather modification itself is openly practiced by several governments today; harmful covert additives specifically have not been documented.",
+    "precedents": [
+      "operation-sea-spray",
+      "project-112-shad"
+    ]
+  },
+  {
+    "id": "oklahoma-city-second-bomb",
+    "truth": 23,
+    "steelman": "The Lincoln assassination shows that an official narrative naming a small number of actors can, in rare confirmed cases, understate the true number of co-conspirators later established by investigation. No forensic or testimonial evidence has substantiated additional devices or conspirators beyond McVeigh and Nichols despite extensive review.",
+    "precedents": [
+      "lincoln-assassination-broader-conspiracy"
+    ]
+  },
+  {
+    "id": "fracking-deaths",
+    "truth": 40,
+    "steelman": "The Tuskegee Syphilis Study and the Fernald School experiments both show a documented US willingness to allow or inflict health harms on specific communities without informed consent, particularly poorer or marginalized populations. No comparable evidence of deliberate intent, as opposed to regulatory negligence, has surfaced for fracking-related harm.",
+    "precedents": [
+      "tuskegee",
+      "fernald-radioactive-oatmeal"
+    ]
+  },
+  {
+    "id": "tavistock",
+    "truth": 42,
+    "steelman": "Operation CHAOS and COINTELPRO confirm that intelligence agencies have run real, long-running covert programs to monitor and shape domestic social and political movements. No document has linked the Tavistock Institute itself to any comparable operation.",
+    "precedents": [
+      "operation-chaos",
+      "cointelpro"
+    ]
+  },
+  {
+    "id": "mk-ultra-supernatural-detection",
+    "truth": 38,
+    "steelman": "MKUltra and its Operation Midnight Climax subproject confirm the CIA experimented on unwitting subjects with unconventional and pseudoscientific methods well outside mainstream science of the era. No declassified MKUltra document specifically describes testing for 'supernatural' ability, though the program's tolerance for unorthodox research directions is well documented.",
+    "precedents": [
+      "mkultra",
+      "operation-midnight-climax"
+    ]
+  },
+  {
+    "id": "chinas-real-population",
+    "truth": 43,
+    "steelman": "The Holodomor and the Great Purge both show that authoritarian states have historically suppressed or falsified demographic and mortality data for decades before any acknowledgment. No independent leak or defector account has confirmed deliberate falsification of modern Chinese census figures at the scale alleged.",
+    "precedents": [
+      "holodomor",
+      "great-purge"
+    ]
+  },
+  {
+    "id": "jonestown-mkultra",
+    "truth": 26,
+    "steelman": "MKUltra's confirmed subprojects on behavioral control, combined with the CIA's 1973 destruction of most MKUltra records, mean the absence of a documented paper trail is weaker evidence than it would otherwise be. No positive evidence -- documents, testimony, or funding records -- has surfaced tying Jim Jones's Peoples Temple to any CIA program.",
+    "precedents": [
+      "mkultra",
+      "church-committee"
+    ]
+  },
+  {
+    "id": "mass-govt-secrecy",
+    "truth": 35,
+    "steelman": "This is the load-bearing premise behind several now-proven cases: Operation Gladio stayed hidden for roughly 40 years, the Katyn Massacre for 50, and Operation Paperclip's true scope for decades, confirming governments can and do keep major operations secret for extended periods. This establishes the mechanism is possible, not that any specific unconfirmed operation today is actually one of them.",
+    "precedents": [
+      "operation-gladio",
+      "katyn-massacre",
+      "operation-paperclip",
+      "mkultra"
+    ]
+  },
+  {
+    "id": "non-urban-testing-grounds",
+    "truth": 40,
+    "steelman": "The Dugway Proving Ground tests and Project 112/SHAD confirm the US military has conducted secret biological and chemical testing in remote, rural areas, at times with lethal off-site effects on nearby residents and livestock. No evidence supports the cryptid-sighting element of this claim, which remains unsubstantiated.",
+    "precedents": [
+      "dugway-proving-ground-tests",
+      "project-112-shad"
+    ]
+  },
+  {
+    "id": "red-squads",
+    "truth": 40,
+    "steelman": "This is the direct historical predecessor to COINTELPRO, and the Church Committee documented an extensive pattern of local and federal police surveilling and disrupting suspected political dissidents throughout the 20th century. Many individual red squad units' full records remain incompletely documented, consistent with how such programs have historically come to light only gradually.",
+    "precedents": [
+      "cointelpro",
+      "church-committee"
+    ]
+  },
+  {
+    "id": "null-compliance-security",
+    "truth": 45,
+    "steelman": "The Edgewood Arsenal experiments and the political abuse of psychiatry in the USSR both confirm that captive or institutionalized populations have been subjected to chemical or psychiatric control without full consent, historically framed as medical necessity. No specific program under this name has been documented.",
+    "precedents": [
+      "edgewood-arsenal-experiments",
+      "soviet-psychiatry-abuse"
+    ]
+  },
+  {
+    "id": "internet-created-for-crime",
+    "truth": 33,
+    "steelman": "NSA mass surveillance and the ECHELON network confirm that state actors have built and exploited global communications infrastructure for covert purposes. There is no evidence that the internet's origins as a DARPA research network were intended to serve elite or criminal untraceable communication rather than military and academic needs.",
+    "precedents": [
+      "nsa-mass-surveillance",
+      "echelon"
+    ]
+  },
+  {
+    "id": "mh370-disappearance",
+    "truth": 26,
+    "steelman": "Government mischaracterization of a military or aviation incident's true cause has real precedent, most notably how the Gulf of Tonkin incident was misrepresented to the public to serve a policy narrative. No physical evidence contradicts the internationally accepted account that MH370 crashed in the southern Indian Ocean; recovered debris is consistent with that finding.",
+    "precedents": [
+      "gulf-of-tonkin"
+    ]
+  }
+]

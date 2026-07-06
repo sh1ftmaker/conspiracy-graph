@@ -1,0 +1,90 @@
+[
+  {
+    "id": "illuminati",
+    "truth": 24,
+    "steelman": "If a Bavarian Illuminati successor network survived its 1785 ban in some form, that would fit a documented pattern: Operation Gladio shows a secret cross-national network really did operate embedded in state institutions for decades before its 1990 disclosure, and Operation Snow White shows an organization can plant operatives across dozens of agencies. No comparable evidence -- documents, defector testimony, or discovery -- has surfaced for a centuries-long Illuminati successor, and the claimed scope of continuous world-event control since 1776 is far beyond any bounded operation on record.",
+    "precedents": [
+      "operation-gladio",
+      "operation-snow-white"
+    ]
+  },
+  {
+    "id": "freemasons",
+    "truth": 26,
+    "steelman": "The claim that Freemasons quietly influence courts and finance echoes the proven pattern of covert organizational networks embedded in institutions, as with Operation Gladio's decades-long stay-behind cells or Operation Snow White's infiltration of over 100 US agencies. Unlike those cases, no adversarial investigation has produced documents or convictions showing coordinated Masonic manipulation of government or markets.",
+    "precedents": [
+      "operation-gladio",
+      "operation-snow-white"
+    ]
+  },
+  {
+    "id": "skull-and-bones",
+    "truth": 32,
+    "steelman": "An elite alumni network quietly favoring its own in intelligence and finance would resemble the real dynamic behind Operation Gladio's multi-decade embedded cells or Operation Snow White's institutional infiltration, and old-boy patronage networks are a documented feature of elite institutions generally. What's missing is any equivalent leak, prosecution, or document trail showing Skull and Bones itself coordinates intelligence or banking policy rather than merely producing alumni who later hold power independently.",
+    "precedents": [
+      "operation-gladio",
+      "operation-snow-white"
+    ]
+  },
+  {
+    "id": "third-secret-fatima",
+    "truth": 55,
+    "steelman": "A church-controlled document kept sealed by Vatican decision for four decades before partial release fits the pattern of Katyn, where a state suppressed an inconvenient document for fifty years before admitting it, and the Magdalene Laundries case, where a religious institution's internal secrecy long outlasted public scrutiny. Whether the released 2000 text is the complete original remains disputed among some believers, but no adversarial investigation has demonstrated suppression of additional content.",
+    "precedents": [
+      "katyn-massacre",
+      "magdalene-laundries"
+    ]
+  },
+  {
+    "id": "bohemian-grove",
+    "truth": 38,
+    "steelman": "Elite figures coordinating informally at closed retreats away from press and public accountability matches a documented pattern: the Pentagon's military-analyst program shows officials quietly enlisting influential figures off the record, and oil companies' climate-denial campaigns show elites coordinating messaging in private for decades before exposure. The specific claims of binding occult ritual and formal secret decision-making at Bohemian Grove itself remain undocumented beyond the acknowledged, avowedly theatrical Cremation of Care ceremony.",
+    "precedents": [
+      "pentagon-military-analyst-program",
+      "big-oil-climate"
+    ]
+  },
+  {
+    "id": "falun-gong",
+    "truth": 55,
+    "steelman": "State persecution of a religious movement through fabricated diagnoses, detention, and disruption campaigns closely matches two proven cases: the Soviet Union's use of psychiatric commitment to punish dissidents, and the FBI's COINTELPRO campaign of surveillance and disruption against a targeted domestic group. The scale and details of harm to Falun Gong practitioners specifically are extensively documented by outside human-rights investigators, which is why this sits near the ceiling for this wave rather than being treated as a bare theory.",
+    "precedents": [
+      "soviet-psychiatry-abuse",
+      "cointelpro"
+    ]
+  },
+  {
+    "id": "christian-illuminati",
+    "truth": 25,
+    "steelman": "A religious organization covertly planting operatives inside institutions it wants to influence is a proven operational kind -- Operation Snow White shows the Church of Scientology did exactly this to more than 100 US agencies. No comparable operatives, documents, or convictions have surfaced showing any group infiltrating non-Christian religions toward Christian dominion specifically.",
+    "precedents": [
+      "operation-snow-white"
+    ]
+  },
+  {
+    "id": "bilderberg-meetings",
+    "truth": 35,
+    "steelman": "An annual off-record gathering of elites shaping policy consensus without public minutes parallels the documented pattern of the Pentagon's military-analyst program and oil-industry climate coordination, where influential actors privately aligned messaging or policy positions for years before exposure. Bilderberg's off-record format is itself openly acknowledged rather than secret in the conspiratorial sense, and no leaked minutes or whistleblower account has shown it functions as a coordinating body with binding outcomes.",
+    "precedents": [
+      "pentagon-military-analyst-program",
+      "big-oil-climate"
+    ]
+  },
+  {
+    "id": "cultic-rite-of-passages",
+    "truth": 35,
+    "steelman": "Cults committing serious crimes as loyalty tests or initiation rites is a proven operational kind: the Rajneeshee commune's leadership orchestrated a mass salmonella poisoning to serve the group's goals, showing insular religious groups can and do direct real-world crimes. Attributing any specific unsolved crime to ritual initiation rather than ordinary criminal motive remains speculative absent case-specific evidence tying it to a known group.",
+    "precedents": [
+      "rajneeshee-bioterror-1984"
+    ]
+  },
+  {
+    "id": "science-worship",
+    "truth": 32,
+    "steelman": "Institutions manufacturing or distorting science to shape public belief is a proven operational kind: the Sugar Research Foundation secretly paid Harvard scientists to shift blame for heart disease away from sugar, and the NFL suppressed its own concussion data to protect its business model. The specific claim that this is coordinated by government to secularize populations is a much larger and more particular intent than any proven case, for which no comparable evidence exists.",
+    "precedents": [
+      "sugar-research-foundation-coverup",
+      "nfl-concussion-coverup"
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "masking-chemicals",
+    "truth": 35,
+    "steelman": "If real, this would fit the documented pattern of covert domestic exposure operations such as Operation Sea-Spray, where the US Navy sprayed bacteria over San Francisco Bay without public knowledge to study vulnerability, and the federal government's Prohibition-era policy of poisoning industrial alcohol supplies. No comparable specific evidence has surfaced for an ongoing program of adding harmful additives to food, water, or air to weaken the population.",
+    "precedents": [
+      "operation-sea-spray",
+      "prohibition-alcohol-poisoning"
+    ]
+  },
+  {
+    "id": "rendlesham-forest",
+    "truth": 47,
+    "steelman": "If real, prolonged military reticence about the Rendlesham incident would fit the pattern of Project SHAD and the Dugway VX sheep-kill, both of which the Pentagon and Army downplayed or denied for years before internal documents and investigations confirmed the events occurred. No comparable independent confirmation of the object's nature -- mundane, foreign, or otherwise -- has been declassified for Rendlesham.",
+    "precedents": [
+      "project-112-shad",
+      "dugway-proving-ground-tests"
+    ]
+  },
+  {
+    "id": "men-in-black",
+    "truth": 36,
+    "steelman": "If real, intimidation visits to silence witnesses would fit the documented COINTELPRO pattern of the FBI using harassment, surveillance, and psychological pressure to discourage individuals from speaking out. No verified case has tied such tactics specifically to UFO witnesses rather than political or activist targets.",
+    "precedents": [
+      "cointelpro",
+      "cointelpro-black-panther"
+    ]
+  },
+  {
+    "id": "die-glocke",
+    "truth": 15,
+    "steelman": "If real, a confiscated German research program would fit the confirmed pattern of Operation Paperclip, in which the US secretly acquired and covered up the origins of Nazi-era scientific and military research. Unlike Paperclip, no declassified archival documents or physical evidence have corroborated Die Glocke's existence.",
+    "precedents": [
+      "operation-paperclip"
+    ]
+  },
+  {
+    "id": "cattle-mutilation",
+    "truth": 30,
+    "steelman": "If real, a government-testing explanation for cattle mutilations would fit the documented pattern of the Dugway VX nerve-agent test that killed thousands of sheep in 1968, an incident the Army resisted acknowledging for years, and Project SHAD's undisclosed field tests of chemical and biological agents. No comparable specific evidence links documented mutilations to an identified ongoing program.",
+    "precedents": [
+      "dugway-proving-ground-tests",
+      "project-112-shad"
+    ]
+  },
+  {
+    "id": "the-missing-cosmonauts",
+    "truth": 53,
+    "steelman": "If real, this would fit the well-established Soviet pattern of concealing embarrassing or fatal state failures for decades, as with the Katyn Massacre, blamed on Germany for 50 years, and the Holodomor, suppressed until glasnost. No specific named cosmonaut casualty from this claim has surfaced in the declassified Soviet space-program records released since 1991.",
+    "precedents": [
+      "katyn-massacre",
+      "holodomor",
+      "great-purge"
+    ]
+  }
+]

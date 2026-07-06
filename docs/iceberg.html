@@ -114,6 +114,12 @@
   ul.ev li::before{position:absolute;left:0;top:2px;font-weight:700}
   ul.ev.for li::before{content:"✓";color:#4ade80}
   ul.ev.against li::before{content:"✗";color:#f87171}
+  .steel{border-left:3px solid #fbbf24;padding:6px 10px;background:rgba(251,191,36,.06);
+    color:#d9dcea;font-size:12px;border-radius:0 8px 8px 0;margin:2px 0 6px}
+  .prec{display:inline-block;margin:3px 6px 0 0;padding:2px 9px;border-radius:14px;
+    border:1px solid rgba(74,222,128,.4);color:#4ade80;font-size:11px;cursor:pointer}
+  .prec:hover{background:rgba(74,222,128,.12)}
+  .btag{font-size:9.5px;border-radius:8px;padding:0 6px;margin-left:4px;white-space:nowrap}
   a.src{color:var(--accent);text-decoration:none;font-size:11.5px}
   .metric{margin:7px 0}
   .metric .ml{display:flex;justify-content:space-between;font-size:10.5px;color:var(--dim);margin-bottom:3px}
@@ -180,11 +186,14 @@
 <div id="loading"><div class="spin"></div><div>lowering the sonar…</div></div>
 
 <script>
-const DATA_URL='data.json?v=5';
+const DATA_URL='data.json?v=6';
 const esc=s=>(s||'').replace(/[&<>]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[m]));
 const pill=(t,c)=>`<span class="pill" style="background:${c}22;color:${c};border:1px solid ${c}55">${esc(t)}</span>`;
 function statusCol(tr){return tr>=91?'#4ade80':tr>=76?'#86efac':tr>=56?'#bef264':tr>=31?'#fbbf24':tr>=11?'#fb923c':'#f87171';}
 const fmtYear=y=>y<0?(-y)+' BC':y;
+const biasTag=s=>{const b=((META&&META.bias_scale)||[]).find(x=>x.key===s.bias);
+  return b?` <span class="btag" style="color:${b.color};border:1px solid ${b.color}44" title="independence weight ${b.weight}/5">${esc(b.label)}</span>`
+        :(s.type?` <span style="color:var(--dim);font-size:10px">${esc(s.type)}</span>`:'');};
 
 /* ten levels of descent: title, blurb, depth label, background top→bottom colors */
 const LEVELS=[
@@ -317,19 +326,27 @@ function openDetail(i){
   if(t.evidence_for&&t.evidence_for.length)ev+=`<h4 class="sec">Evidence / claims for</h4><ul class="ev for">${t.evidence_for.map(evLi).join('')}</ul>`;
   if(t.evidence_against&&t.evidence_against.length)ev+=`<h4 class="sec">Evidence against</h4><ul class="ev against">${t.evidence_against.map(evLi).join('')}</ul>`;
   const srcs=(t.sources||[]).slice();
-  if(t.wikipedia && !srcs.some(x=>x.url===t.wikipedia))srcs.unshift({title:'Wikipedia',url:t.wikipedia,type:'wikipedia'});
+  if(t.wikipedia && !srcs.some(x=>x.url===t.wikipedia))srcs.unshift({title:'Wikipedia',url:t.wikipedia,type:'wikipedia',bias:'wikipedia'});
   const srcHtml=srcs.length?`<h4 class="sec">Sources (${srcs.length})</h4>`+srcs.map(x=>
     `<div style="padding:2px 0"><a class="src" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title||x.url)} ↗</a>`+
-    (x.type?` <span style="color:var(--dim);font-size:10px">${esc(x.type)}</span>`:'')+`</div>`).join(''):'';
+    biasTag(x)+`</div>`).join(''):'';
+  let steel='';
+  if(t.steelman||(t.precedents&&t.precedents.length)){
+    steel=`<h4 class="sec">🛡 Steelman · proven precedent</h4>`;
+    if(t.steelman)steel+=`<div class="steel">${esc(t.steelman)}</div>`;
+    if(t.precedents&&t.precedents.length)
+      steel+=t.precedents.map(id=>idx[id]!=null?`<span class="prec" data-pid="${esc(id)}">⚖ ${esc(T[idx[id]].name)}</span>`:'').join('');
+  }
   const nb=NNi[i].map(j=>`<div class="nbr" data-j="${j}">→ ${esc(T[j].name)}</div>`).join('');
   document.getElementById('dbd').innerHTML=
     `<div class="sub">${esc(glbl(t.genre))} · ${fmtYear(t.year)}</div>`+
     pill(glbl(t.genre),gc(t.genre))+pill(s.label,statusCol(t.truth))+
     `<div class="desc">${esc(t.summary||'')}</div>`+
     bar('How true',t.truth,statusCol(t.truth))+bar('Impact if true',t.impact,'#60a5fa')+bar('Notoriety',t.notoriety,'#a855f7')+
-    ev+srcHtml+
+    ev+steel+srcHtml+
     (nb?`<h4 class="sec">Nearest neighbors (semantic)</h4>${nb}`:'');
   document.getElementById('dbd').querySelectorAll('.nbr').forEach(el=>el.onclick=()=>openDetail(+el.dataset.j));
+  document.getElementById('dbd').querySelectorAll('.prec').forEach(el=>el.onclick=()=>openDetail(idx[el.dataset.pid]));
   document.getElementById('dbd').scrollTop=0;
   ov.classList.add('show');
 }

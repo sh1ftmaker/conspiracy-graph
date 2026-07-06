@@ -81,9 +81,16 @@ for rf in sorted(glob.glob(p("data", "research", "*.json"))):
             warnings.append(f"{os.path.basename(rf)}: unknown id '{rid}'")
             continue
         for fld in ("summary", "wikipedia", "wikidata", "year",
-                    "truth", "impact", "notoriety", "research_note"):
+                    "truth", "impact", "notoriety", "research_note", "steelman"):
             if fld in o and o[fld] not in (None, ""):
                 r[fld] = o[fld]
+        # precedents: proven-theory ids that steelman this claim's class (append, dedup)
+        if isinstance(o.get("precedents"), list):
+            cur = r.get("precedents") if isinstance(r.get("precedents"), list) else []
+            for x in o["precedents"]:
+                if isinstance(x, str) and x not in cur:
+                    cur.append(x)
+            r["precedents"] = cur
         for fld in ("evidence_for", "evidence_against"):
             if isinstance(o.get(fld), list):
                 base = [x for x in (r.get(fld) or []) if ev_text(x)]
@@ -130,7 +137,8 @@ for rid in order:
     r["year"] = clampi(r.get("year"), -3000, 2100, 2000)
     for fld in ("summary",):
         r.setdefault(fld, "")
-    for fld in ("evidence_for", "evidence_against", "related", "depends_on", "sources"):
+    for fld in ("evidence_for", "evidence_against", "related", "depends_on", "sources",
+                "precedents"):
         v = r.get(fld)
         r[fld] = v if isinstance(v, list) else []
     for fld in ("evidence_for", "evidence_against"):
@@ -152,16 +160,89 @@ def resolve(lst):
 dangling = 0
 for rid in order:
     r = records[rid]
-    before = len(r["related"]) + len(r["depends_on"])
+    before = len(r["related"]) + len(r["depends_on"]) + len(r["precedents"])
     r["related"] = [x for x in resolve(r["related"]) if x != rid]
     r["depends_on"] = [x for x in resolve(r["depends_on"]) if x != rid]
-    dangling += before - (len(r["related"]) + len(r["depends_on"]))
+    r["precedents"] = [x for x in resolve(r["precedents"]) if x != rid]
+    dangling += before - (len(r["related"]) + len(r["depends_on"]) + len(r["precedents"]))
+    # precedents also count as related so they show up as graph edges
+    for x in r["precedents"]:
+        if x not in r["related"]:
+            r["related"].append(x)
 
 # make related symmetric (nice for graph)
 for rid in order:
     for o in records[rid]["related"]:
         if rid not in records[o]["related"]:
             records[o]["related"].append(rid)
+
+# ---- source bias classification ----
+# Every source gets a `bias` class inferred from its domain + declared type.
+# The point: a court record, a declassified file, a government self-report,
+# adversarial journalism and Wikipedia are NOT interchangeable kinds of evidence.
+# Declassified/state sources only show what the state chose to release
+# (survivorship bias); Wikipedia is systematically conservative on ongoing ops.
+BIAS_SCALE = [  # key, label, weight (how much independent probative force), color
+    {"key": "court",       "label": "Court / legal record",     "weight": 5, "color": "#4ade80"},
+    {"key": "declassified","label": "Declassified document",    "weight": 4, "color": "#86efac"},
+    {"key": "academic",    "label": "Academic / peer-reviewed", "weight": 4, "color": "#22d3ee"},
+    {"key": "investigative","label": "Investigative journalism","weight": 4, "color": "#bef264"},
+    {"key": "government",  "label": "Government self-report",   "weight": 3, "color": "#fbbf24"},
+    {"key": "mainstream",  "label": "Mainstream press",         "weight": 3, "color": "#60a5fa"},
+    {"key": "book",        "label": "Book / archive",           "weight": 2, "color": "#a78bfa"},
+    {"key": "wikipedia",   "label": "Wikipedia (tertiary)",     "weight": 2, "color": "#9aa1bb"},
+    {"key": "advocacy",    "label": "Advocacy / partisan",      "weight": 1, "color": "#fb923c"},
+    {"key": "fringe",      "label": "Fringe / unverified",      "weight": 0, "color": "#f87171"},
+]
+COURT_HOSTS = ("courtlistener", "supremecourt.gov", "uscourts.gov", "pacer",
+               "casetext", "justia", "law.justia")
+DECLASS_HOSTS = ("nsarchive", "nsarchive2", "cia.gov/readingroom", "governmentattic",
+                 "archives.gov", "foia.", "theblackvault", "documentcloud",
+                 "intelligence.senate.gov", "aarclibrary", "maryferrell")
+INVESTIGATIVE_HOSTS = ("propublica", "theintercept", "icij.org", "bellingcat",
+                       "occrp.org", "revealnews", "consortiumnews", "muckrock")
+ACADEMIC_HOSTS = (".edu", "jstor", "doi.org", "nature.com", "sciencedirect", "springer",
+                  "ncbi.nlm.nih.gov", "pubmed", "nejm.org", "thelancet", "bmj.com",
+                  "jamanetwork", "academic.oup", "tandfonline", "sagepub", "cambridge.org",
+                  "wiley.com", "plos.org", "arxiv.org", "ssrn.com", "researchgate")
+MAINSTREAM_HOSTS = ("nytimes", "washingtonpost", "theguardian", "bbc.", "reuters",
+                    "apnews", "npr.org", "wsj.com", "latimes", "cnn.com", "cbsnews",
+                    "nbcnews", "abcnews", "aljazeera", "economist", "ft.com", "time.com",
+                    "theatlantic", "newyorker", "politico", "axios", "bloomberg",
+                    "usatoday", "pbs.org", "cbc.ca", "dw.com", "france24", "spiegel",
+                    "lemonde", "haaretz", "timesofisrael", "smh.com.au", "independent.co.uk",
+                    "telegraph.co.uk", "vice.com", "wired.com", "arstechnica", "vox.com")
+DEBUNKER_HOSTS = ("snopes", "politifact", "factcheck.org", "fullfact", "skeptic",
+                  "rationalwiki", "metabunk", "quackwatch", "sciencebasedmedicine")
+def classify_bias(src):
+    url = (src.get("url") or "").lower()
+    typ = (src.get("type") or "").lower()
+    host = url.split("//")[-1].split("/")[0]
+    def hit(hosts): return any(h in url for h in hosts)
+    if hit(COURT_HOSTS) or "justice.gov" in url and ("case" in url or "opa" in url or "usao" in url):
+        return "court"
+    if hit(DECLASS_HOSTS):
+        return "declassified"
+    if hit(INVESTIGATIVE_HOSTS):
+        return "investigative"
+    if hit(ACADEMIC_HOSTS) or typ == "academic":
+        return "academic"
+    if "wikipedia.org" in host or typ == "wikipedia":
+        return "wikipedia"
+    if host.endswith(".gov") or ".gov/" in url or ".mil" in host or typ == "government":
+        return "government"
+    if hit(DEBUNKER_HOSTS) or typ == "debunker":
+        return "academic" if typ == "academic" else "investigative"
+    if hit(MAINSTREAM_HOSTS) or typ == "news":
+        return "mainstream"
+    if typ in ("book", "archive"):
+        return "book"
+    return "fringe" if typ in ("forum", "blog", "social") else "book"
+
+for rid in order:
+    for s_ in records[rid]["sources"]:
+        if isinstance(s_, dict):
+            s_["bias"] = classify_bias(s_)
 
 # ---- load-bearing: in-degree over depends_on ----
 for rid in order:
@@ -196,6 +277,7 @@ out = {
         "by_genre": by_genre,
         "by_status": by_status,
         "sourced": sourced,
+        "bias_scale": BIAS_SCALE,
     },
     "theories": theories,
 }

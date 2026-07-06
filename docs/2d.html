@@ -107,6 +107,12 @@
   ul.ev li::before{position:absolute;left:0;top:2px;font-weight:700}
   ul.ev.for li::before{content:"✓";color:var(--for)}
   ul.ev.against li::before{content:"✗";color:var(--against)}
+  .steel{border-left:3px solid #fbbf24;padding:6px 10px;background:rgba(251,191,36,.06);
+    color:#d9dcea;font-size:12px;border-radius:0 8px 8px 0;margin:2px 0 6px}
+  .prec{display:inline-block;margin:3px 6px 0 0;padding:2px 9px;border-radius:14px;
+    border:1px solid rgba(74,222,128,.4);color:#4ade80;font-size:11px;cursor:pointer}
+  .prec:hover{background:rgba(74,222,128,.12)}
+  .btag{font-size:9.5px;border-radius:8px;padding:0 6px;margin-left:4px;white-space:nowrap}
   #nbrs div{padding:3px 6px;border-radius:6px;cursor:pointer;color:var(--accent);font-size:11.5px}
   #nbrs div:hover{background:rgba(124,242,214,.1)}
   a.src{color:var(--accent);text-decoration:none;font-size:11.5px}
@@ -216,12 +222,23 @@ const gl=glc.getContext('webgl2',{antialias:true,premultipliedAlpha:false});
 const fx=fxc.getContext('2d');
 
 function statusOf(tr){for(const s of META.truth_scale){if(tr>=s.min&&tr<=s.max)return s;}return{label:'?'};}
+const biasTag=s=>{const b=((META&&META.bias_scale)||[]).find(x=>x.key===s.bias);
+  return b?` <span class="btag" style="color:${b.color};border:1px solid ${b.color}44" title="independence weight ${b.weight}/5">${esc(b.label)}</span>`
+        :(s.type?` <span style="color:var(--dim2);font-size:10px">${esc(s.type)}</span>`:'');};
+function steelHtml(t){
+  if(!t.steelman&&!(t.precedents&&t.precedents.length))return'';
+  let h=`<h4>🛡 Steelman · proven precedent</h4>`;
+  if(t.steelman)h+=`<div class="steel">${esc(t.steelman)}</div>`;
+  if(t.precedents&&t.precedents.length)
+    h+=t.precedents.map(id=>byId[id]?`<span class="prec" data-pid="${esc(id)}">⚖ ${esc(byId[id].name)}</span>`:'').join('');
+  return h;
+}
 const gc=k=>{const g=GEN.find(x=>x.key===k);return g?g.color:'#888';};
 const gl_=k=>{const g=GEN.find(x=>x.key===k);return g?g.label:k;};
 function statusCol(tr){return tr>=91?'#4ade80':tr>=76?'#86efac':tr>=56?'#bef264':tr>=31?'#fbbf24':tr>=11?'#fb923c':'#f87171';}
 
 // ---------- load ----------
-fetch('data.json?v=5').then(r=>r.json()).then(d=>{
+fetch('data.json?v=6').then(r=>r.json()).then(d=>{
   T=d.theories; META=d.meta; GEN=META.genres;
   T.forEach(t=>byId[t.id]=t);
   N=T.length;
@@ -488,13 +505,14 @@ function selectTheory(i){
   h+=bar('Notoriety',t.notoriety,'#a855f7');
   if(t.evidence_for&&t.evidence_for.length){ h+=`<h4>Evidence / claims for</h4><ul class="ev for">${t.evidence_for.map(evLi).join('')}</ul>`; }
   if(t.evidence_against&&t.evidence_against.length){ h+=`<h4>Evidence against</h4><ul class="ev against">${t.evidence_against.map(evLi).join('')}</ul>`; }
+  h+=steelHtml(t);
   h+=`<h4>Nearest neighbors (semantic)</h4><div id="nbrs"></div>`;
   const srcs=(t.sources||[]).slice();
-  if(t.wikipedia && !srcs.some(s=>s.url===t.wikipedia)) srcs.unshift({title:'Wikipedia',url:t.wikipedia,type:'wikipedia',stance:'documents'});
+  if(t.wikipedia && !srcs.some(s=>s.url===t.wikipedia)) srcs.unshift({title:'Wikipedia',url:t.wikipedia,type:'wikipedia',stance:'documents',bias:'wikipedia'});
   if(srcs.length){
     h+=`<h4>Sources (${srcs.length})</h4>`+srcs.map(s=>
       `<div style="padding:2px 0"><a class="src" href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title||s.url)} ↗</a>`+
-      (s.type?` <span style="color:var(--dim2);font-size:10px">${esc(s.type)}${s.stance&&s.stance!=='documents'?' · '+esc(s.stance):''}</span>`:'')+`</div>`).join('');
+      biasTag(s)+`</div>`).join('');
   } else if(t.research_note){
     h+=`<h4>Sources</h4><div style="color:var(--dim2);font-size:11px">${esc(t.research_note)}</div>`;
   }
@@ -505,6 +523,8 @@ function selectTheory(i){
   for(const j of NN[i]){ const div=document.createElement('div');
     div.textContent='→ '+T[j].name;
     div.onclick=()=>{selectTheory(j); flyTo(j);}; nb.appendChild(div); }
+  document.querySelectorAll('#cBody .prec').forEach(el=>el.onclick=()=>{
+    const j=T.findIndex(x=>x.id===el.dataset.pid); if(j>=0){selectTheory(j); flyTo(j);}});
 }
 function deselect(){sel=-1;document.getElementById('card').classList.remove('show');invalidate();}
 document.getElementById('cClose').onclick=deselect;

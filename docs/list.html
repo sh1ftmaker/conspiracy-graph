@@ -32,6 +32,12 @@
   .tools label.ck{display:flex;align-items:center;gap:5px;color:var(--dim);font-size:11.5px;cursor:pointer;white-space:nowrap}
   .tools input[type=checkbox]{accent-color:var(--accent)}
   #count{color:var(--dim);font-size:11px;margin-left:auto;white-space:nowrap}
+  .msort{display:none;align-items:center;gap:6px}
+  .msort .msort-lbl{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.6px}
+  .msort select{max-width:none}
+  #mSortDir{padding:6px 10px;background:#0c0f1a;border:1px solid var(--line);border-radius:7px;
+    color:var(--accent);font-size:12px;line-height:1;cursor:pointer;outline:none}
+  #mSortDir:hover{border-color:rgba(255,255,255,.25)}
 
   #wrap{max-width:1180px;margin:0 auto;padding:14px 14px 60px;overflow-x:auto}
   table{width:100%;border-collapse:collapse;min-width:760px}
@@ -66,6 +72,12 @@
   ul.ev li::before{position:absolute;left:0;top:2px;font-weight:700}
   ul.ev.for li::before{content:"✓";color:#4ade80}
   ul.ev.against li::before{content:"✗";color:#f87171}
+  .steel{border-left:3px solid #fbbf24;padding:6px 10px;background:rgba(251,191,36,.06);
+    color:#d9dcea;font-size:12px;border-radius:0 8px 8px 0;margin:2px 0 6px}
+  .prec{display:inline-block;margin:3px 6px 0 0;padding:2px 9px;border-radius:14px;
+    border:1px solid rgba(74,222,128,.4);color:#4ade80;font-size:11px;cursor:pointer}
+  .prec:hover{background:rgba(74,222,128,.12)}
+  .btag{font-size:9.5px;border-radius:8px;padding:0 6px;margin-left:4px;white-space:nowrap}
   a.src{color:var(--accent);text-decoration:none;font-size:11.5px}
   .metric{margin:7px 0}
   .metric .ml{display:flex;justify-content:space-between;font-size:10.5px;color:var(--dim);margin-bottom:3px}
@@ -81,6 +93,37 @@
   @media(max-width:680px){
     #q{flex:1;width:auto}
     #count{width:100%;margin-left:0}
+    .msort{display:flex;width:100%}
+    .msort select{flex:1}
+
+    /* stacked card layout replaces the 8-col table */
+    #wrap{overflow-x:hidden;padding:12px 12px 60px}
+    table{min-width:0;width:100%;display:block}
+    thead{display:none}
+    tbody{display:block}
+    tbody tr.row{
+      display:flex;flex-wrap:wrap;align-items:center;gap:6px 7px;
+      border:1px solid var(--line);border-radius:11px;margin:0 0 10px;
+      padding:11px 13px;background:var(--panel)}
+    tbody tr.row.open{background:rgba(124,242,214,.06);border-color:rgba(124,242,214,.35)}
+    tbody tr.row td{border:none;padding:0}
+    td.name{flex:1 0 100%;max-width:none;font-size:14px;margin-bottom:1px}
+    td.name .al{white-space:normal}
+    td.c-genre{order:2;flex:0 0 auto}
+    td.c-truth{order:3;flex:1 0 100%;margin:1px 0 2px}
+    td.c-truth .tcell{min-width:0}
+    td[data-label]{order:4;flex:0 0 auto;display:inline-flex;align-items:center;gap:5px;
+      background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:8px;
+      padding:3px 9px;font-size:11px;color:var(--txt)}
+    td[data-label]::before{content:attr(data-label);color:var(--dim);
+      font-size:9px;text-transform:uppercase;letter-spacing:.6px}
+    td.c-lvl .lv{width:auto;padding:0;background:none;border:none;font-size:11px}
+
+    /* expanded detail stacks to one column, long urls wrap */
+    tr.detail{display:block}
+    tr.detail td{display:block;padding:12px 13px}
+    .dgrid{grid-template-columns:1fr}
+    a.src,.prec,.steel{overflow-wrap:anywhere;word-break:break-word}
   }
 </style>
 </head>
@@ -98,6 +141,11 @@
     <select id="genreSel"><option value="">all genres</option></select>
     <select id="statusSel"><option value="">all truth levels</option></select>
     <label class="ck"><input type="checkbox" id="srcOnly"> sourced only</label>
+    <div id="mSort" class="msort">
+      <span class="msort-lbl">sort</span>
+      <select id="mSortSel"></select>
+      <button id="mSortDir" type="button" title="toggle ascending / descending">▼</button>
+    </div>
     <span id="count"></span>
   </div>
 </header>
@@ -112,10 +160,13 @@
 <div id="loading"><div class="spin"></div><div>tabulating the plots…</div></div>
 
 <script>
-const DATA_URL='data.json?v=5';
+const DATA_URL='data.json?v=6';
 const esc=s=>(s||'').replace(/[&<>]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[m]));
 function statusCol(tr){return tr>=91?'#4ade80':tr>=76?'#86efac':tr>=56?'#bef264':tr>=31?'#fbbf24':tr>=11?'#fb923c':'#f87171';}
 const fmtYear=y=>y<0?(-y)+' BC':y;
+const biasTag=s=>{const b=((META&&META.bias_scale)||[]).find(x=>x.key===s.bias);
+  return b?` <span class="btag" style="color:${b.color};border:1px solid ${b.color}44" title="independence weight ${b.weight}/5">${esc(b.label)}</span>`
+        :(s.type?` <span style="color:var(--dim);font-size:10px">${esc(s.type)}</span>`:'');};
 
 /* same level assignment as iceberg.html — keeps the two views consistent */
 function assignLevels(T){
@@ -172,6 +223,11 @@ function buildUI(){
   const ss=document.getElementById('statusSel');
   META.truth_scale.slice().sort((a,b)=>b.min-a.min).forEach(s=>{
     const o=document.createElement('option');o.value=s.label;o.textContent=`${s.label} (${s.min}–${s.max})`;ss.appendChild(o);});
+  // mobile sort control (drives the same sortK / sortAsc state as the header)
+  const msel=document.getElementById('mSortSel');
+  COLS.forEach(c=>{const o=document.createElement('option');o.value=c.k;o.textContent=c.label;msel.appendChild(o);});
+  msel.onchange=()=>{const c=COLS.find(x=>x.k===msel.value);sortK=c.k;sortAsc=c.asc;render();};
+  document.getElementById('mSortDir').onclick=()=>{sortAsc=!sortAsc;render();};
   document.getElementById('q').oninput=render;
   gs.onchange=render; ss.onchange=render;
   document.getElementById('srcOnly').onchange=render;
@@ -201,6 +257,11 @@ function render(){
   // header arrows
   document.querySelectorAll('#headRow th').forEach(th=>{
     th.querySelector('.arr').textContent=th.dataset.k===sortK?(sortAsc?'▲':'▼'):'';});
+  // keep mobile sort control in sync with current state
+  const msel=document.getElementById('mSortSel');
+  if(msel)msel.value=sortK;
+  const mdir=document.getElementById('mSortDir');
+  if(mdir)mdir.textContent=sortAsc?'▲':'▼';
   document.getElementById('count').textContent=`${rows.length} / ${T.length} theories`;
 
   const tb=document.getElementById('tb');
@@ -209,13 +270,13 @@ function render(){
     const nsrc=(t.sources||[]).length+((t.wikipedia&&!(t.sources||[]).some(s=>s.url===t.wikipedia))?1:0);
     return `<tr class="row" data-id="${esc(t.id)}">
       <td class="name">${esc(t.name)}${t.aliases&&t.aliases.length?`<span class="al">${esc(t.aliases.join(' · '))}</span>`:''}</td>
-      <td><span class="gpill" style="background:${g}22;color:${g};border:1px solid ${g}55">${esc(glbl(t.genre))}</span></td>
-      <td class="num">${fmtYear(t.year)}</td>
-      <td><div class="tcell"><span class="tval" style="color:${sc}">${t.truth}</span><span class="tbar"><i style="width:${t.truth}%;background:${sc}"></i></span></div></td>
-      <td class="num">${t.impact}</td>
-      <td class="num">${t.notoriety}</td>
-      <td><span class="lv">${t._lvl}</span></td>
-      <td class="num">${nsrc}</td>
+      <td class="c-genre"><span class="gpill" style="background:${g}22;color:${g};border:1px solid ${g}55">${esc(glbl(t.genre))}</span></td>
+      <td class="num" data-label="Year">${fmtYear(t.year)}</td>
+      <td class="c-truth"><div class="tcell"><span class="tval" style="color:${sc}">${t.truth}</span><span class="tbar"><i style="width:${t.truth}%;background:${sc}"></i></span></div></td>
+      <td class="num" data-label="Impact">${t.impact}</td>
+      <td class="num" data-label="Notoriety">${t.notoriety}</td>
+      <td class="c-lvl" data-label="Iceberg"><span class="lv">${t._lvl}</span></td>
+      <td class="num" data-label="Sources">${nsrc}</td>
     </tr>`;
   }).join('');
   tb.innerHTML=html;
@@ -243,16 +304,25 @@ function toggleDetail(tr){
   if(t.evidence_for&&t.evidence_for.length)ev+=`<h4 class="sec">Evidence / claims for</h4><ul class="ev for">${t.evidence_for.map(evLi).join('')}</ul>`;
   if(t.evidence_against&&t.evidence_against.length)ev+=`<h4 class="sec">Evidence against</h4><ul class="ev against">${t.evidence_against.map(evLi).join('')}</ul>`;
   const srcs=(t.sources||[]).slice();
-  if(t.wikipedia && !srcs.some(x=>x.url===t.wikipedia))srcs.unshift({title:'Wikipedia',url:t.wikipedia,type:'wikipedia'});
+  if(t.wikipedia && !srcs.some(x=>x.url===t.wikipedia))srcs.unshift({title:'Wikipedia',url:t.wikipedia,type:'wikipedia',bias:'wikipedia'});
   const srcHtml=srcs.length?`<h4 class="sec">Sources (${srcs.length})</h4>`+srcs.map(x=>
     `<div style="padding:2px 0"><a class="src" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title||x.url)} ↗</a>`+
-    (x.type?` <span style="color:var(--dim);font-size:10px">${esc(x.type)}</span>`:'')+`</div>`).join(''):'';
+    biasTag(x)+`</div>`).join(''):'';
+  let steel='';
+  if(t.steelman||(t.precedents&&t.precedents.length)){
+    steel=`<h4 class="sec">🛡 Steelman · proven precedent</h4>`;
+    if(t.steelman)steel+=`<div class="steel">${esc(t.steelman)}</div>`;
+    if(t.precedents&&t.precedents.length)
+      steel+=t.precedents.map(id=>idx[id]!=null?`<span class="prec" data-pid="${esc(id)}">⚖ ${esc(T[idx[id]].name)}</span>`:'').join('');
+  }
   const dtr=document.createElement('tr');dtr.className='detail';
   dtr.innerHTML=`<td colspan="${COLS.length}"><div class="dgrid">
-    <div><div class="desc">${esc(t.summary||'')}</div>${ev}</div>
+    <div><div class="desc">${esc(t.summary||'')}</div>${ev}${steel}</div>
     <div>${bar('How true',t.truth,statusCol(t.truth))}${bar('Impact if true',t.impact,'#60a5fa')}${bar('Notoriety',t.notoriety,'#a855f7')}${srcHtml}</div>
   </div></td>`;
   tr.after(dtr);
+  dtr.querySelectorAll('.prec').forEach(el=>el.onclick=e=>{e.stopPropagation();
+    const q=document.getElementById('q'); q.value=T[idx[el.dataset.pid]].name; render();});
 }
 </script>
 </body>

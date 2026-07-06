@@ -96,6 +96,12 @@
   ul.ev li::before{position:absolute;left:0;top:2px;font-weight:700}
   ul.ev.for li::before{content:"✓";color:#4ade80}
   ul.ev.against li::before{content:"✗";color:#f87171}
+  .steel{border-left:3px solid #fbbf24;padding:6px 10px;background:rgba(251,191,36,.06);
+    color:#d9dcea;font-size:12px;border-radius:0 8px 8px 0;margin:2px 0 6px}
+  .prec{display:inline-block;margin:3px 6px 0 0;padding:2px 9px;border-radius:14px;
+    border:1px solid rgba(74,222,128,.4);color:#4ade80;font-size:11px;cursor:pointer}
+  .prec:hover{background:rgba(74,222,128,.12)}
+  .btag{font-size:9.5px;border-radius:8px;padding:0 6px;margin-left:4px;white-space:nowrap}
   .metric{margin:7px 0}
   .metric .ml{display:flex;justify-content:space-between;font-size:10.5px;color:var(--dim);margin-bottom:3px}
   .metric .mv{color:var(--txt);font-weight:650;font-variant-numeric:tabular-nums}
@@ -222,7 +228,7 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
-const DATA_URL='data.json?v=5';
+const DATA_URL='data.json?v=6';
 // ---- anonymous crowdsource submission config (feature stays dark until these are set) ----
 const INTAKE_URL='https://conspiracy-atlas-intake.sh1ftmaker.workers.dev';    // set after worker deploy, e.g. https://intake.example.workers.dev
 const TURNSTILE_KEY='0x4AAAAAADwTCPdKa2lBXF9N'; // Cloudflare Turnstile site key (optional; omit to skip bot widget)
@@ -484,16 +490,19 @@ function selectTheory(i){
   let ev='';
   if(t.evidence_for&&t.evidence_for.length) ev+=`<h4>Evidence / claims for</h4><ul class="ev for">${t.evidence_for.map(evLi).join('')}</ul>`;
   if(t.evidence_against&&t.evidence_against.length) ev+=`<h4>Evidence against</h4><ul class="ev against">${t.evidence_against.map(evLi).join('')}</ul>`;
+  ev+=steelHtml(t);
   document.getElementById('cEv').innerHTML=ev;
+  document.querySelectorAll('#cEv .prec').forEach(el=>el.onclick=()=>{
+    const j=T.findIndex(x=>x.id===el.dataset.pid); if(j>=0){selectTheory(j); flyTo(j);}});
   const nb=document.getElementById('nbrs'); nb.innerHTML='';
   for(const j of NN[i]){const div=document.createElement('div'); div.textContent='→ '+T[j].name;
     div.onclick=()=>{selectTheory(j); flyTo(j);}; nb.appendChild(div);}
   const srcs=(t.sources||[]).slice();
-  if(t.wikipedia && !srcs.some(s=>s.url===t.wikipedia)) srcs.unshift({title:'Wikipedia',url:t.wikipedia,type:'wikipedia'});
+  if(t.wikipedia && !srcs.some(s=>s.url===t.wikipedia)) srcs.unshift({title:'Wikipedia',url:t.wikipedia,type:'wikipedia',bias:'wikipedia'});
   document.getElementById('cSrcs').innerHTML = srcs.length ?
     `<h4>Sources (${srcs.length})</h4>`+srcs.map(s=>
       `<div style="padding:2px 0"><a class="src" href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title||s.url)} ↗</a>`+
-      (s.type?` <span style="color:var(--dim);font-size:10px">${esc(s.type)}</span>`:'')+`</div>`).join('') : '';
+      biasTag(s)+`</div>`).join('') : '';
   updateSelEdges(); buildSelLabels();
 }
 function deselect(){ sel=-1; document.getElementById('card').classList.remove('show');
@@ -587,6 +596,19 @@ function buildLegend(){
 }
 const pill=(t,c)=>`<span class="pill" style="background:${c}22;color:${c};border:1px solid ${c}55">${esc(t)}</span>`;
 const esc=s=>(s||'').replace(/[&<>]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[m]));
+// source bias tag (independence class computed at build time)
+const biasTag=s=>{const b=((META&&META.bias_scale)||[]).find(x=>x.key===s.bias);
+  return b?` <span class="btag" style="color:${b.color};border:1px solid ${b.color}44" title="independence weight ${b.weight}/5">${esc(b.label)}</span>`
+        :(s.type?` <span style="color:var(--dim);font-size:10px">${esc(s.type)}</span>`:'');};
+// steelman: precedent-based best case, kept visually separate from evidence
+function steelHtml(t){
+  if(!t.steelman&&!(t.precedents&&t.precedents.length))return'';
+  let h=`<h4>🛡 Steelman · proven precedent</h4>`;
+  if(t.steelman)h+=`<div class="steel">${esc(t.steelman)}</div>`;
+  if(t.precedents&&t.precedents.length)
+    h+=t.precedents.map(id=>byId[id]?`<span class="prec" data-pid="${esc(id)}">⚖ ${esc(byId[id].name)}</span>`:'').join('');
+  return h;
+}
 
 // ---------------- loop ----------------
 function animate(){

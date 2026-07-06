@@ -1,0 +1,116 @@
+[
+  {
+    "id": "monsanto",
+    "truth": 55,
+    "steelman": "If Monsanto/Bayer suppressed evidence of its products' health or agricultural risks for profit, it would fit the documented pattern of Big Tobacco and Merck concealing internal data on product harm to protect revenue. Real regulatory disputes over the underlying science exist, but no equivalent internal-document trove proving deliberate suppression has surfaced for Monsanto specifically.",
+    "precedents": ["big-tobacco", "merck-vioxx"]
+  },
+  {
+    "id": "smartphones-listening-ads",
+    "truth": 43,
+    "steelman": "If smartphones were covertly used to harvest behavioral signals for ad targeting, it would extend the documented pattern of Cambridge Analytica's covert psychological profiling built from platform data. Independent network-traffic audits have repeatedly failed to find evidence of always-on microphone eavesdropping specifically, so that particular mechanism remains unconfirmed even though covert data harvesting for targeting is proven elsewhere.",
+    "precedents": ["cambridge-analytica"]
+  },
+  {
+    "id": "dead-internet-theory",
+    "truth": 34,
+    "steelman": "If a coordinated effort to flood the internet with bot-driven content to shape perception were occurring at the scale claimed, it would mirror the documented tactics of the Internet Research Agency's troll-and-bot campaigns and Cambridge Analytica's data-driven targeting. Bot traffic volume is independently measurable and substantial, but no evidence supports a single centrally directed program to 'replace' most human content as described.",
+    "precedents": ["internet-research-agency", "cambridge-analytica"]
+  },
+  {
+    "id": "depopulation-funds",
+    "truth": 20,
+    "steelman": "If wealthy actors funded coercive population-control programs targeting marginalized groups, it would fit the documented pattern of the Ethiopian immigrant birth-control injections and the Guatemala syphilis experiments, where vulnerable populations were subjected to interventions without full informed consent. No evidence has surfaced of coordinated funds explicitly targeting the poor for depopulation as this theory describes.",
+    "precedents": ["israel-ethiopian-birth-control", "guatemala-syphilis-experiments"]
+  },
+  {
+    "id": "climate-lockdown",
+    "truth": 14,
+    "steelman": "If governments planned to use climate policy as a pretext for expanded control over movement, it would follow the documented pattern of manufactured or exploited pretexts such as the Gulf of Tonkin incident and the proposed Operation Northwoods plans. No evidence of any actual climate-lockdown planning exists; this remains speculative extrapolation from a real category of precedent.",
+    "precedents": ["gulf-of-tonkin", "operation-northwoods"]
+  },
+  {
+    "id": "panopticon",
+    "truth": 55,
+    "steelman": "The panopticon as a description of realized state surveillance capacity is substantially supported by the documented scale of NSA mass surveillance, ECHELON, and GCHQ JTRIG operations, which confirm that centralized interception of communications at national and international scale has actually been built and operated for decades.",
+    "precedents": ["nsa-mass-surveillance", "echelon", "gchq-jtrig"]
+  },
+  {
+    "id": "segregated-internet",
+    "truth": 45,
+    "steelman": "If online spaces were deliberately engineered along identity lines to prevent unified opposition, it would fit the documented tactics of the Internet Research Agency, which specifically targeted racial and political identity groups with divisive content to sow social discord. No evidence confirms a comparably centrally directed segregation effort beyond the IRA's documented 2016-era campaign.",
+    "precedents": ["internet-research-agency"]
+  },
+  {
+    "id": "conspiracy-psyops",
+    "truth": 45,
+    "steelman": "If authorities deliberately promoted absurd theories to discredit the broader conspiracy-research community, it would parallel COINTELPRO's and Operation CHAOS's documented use of infiltration and disinformation to disrupt and delegitimize movements the government viewed as threats. No direct evidence of such an operation targeting today's conspiracy-theory ecosystem specifically has surfaced.",
+    "precedents": ["cointelpro", "operation-chaos"]
+  },
+  {
+    "id": "predictive-programming",
+    "truth": 20,
+    "steelman": "If media content were deliberately used to precondition public acceptance of policy outcomes, it would echo the documented Pentagon Military Analyst Program and the Nayirah testimony, both showing government and PR actors shaping ostensibly independent media narratives toward a desired public response. No evidence supports the broader claim that fictional media systematically encodes advance notice of future events.",
+    "precedents": ["pentagon-military-analyst-program", "nayirah-testimony"]
+  },
+  {
+    "id": "artificial-conspiracy-pipelines",
+    "truth": 38,
+    "steelman": "If elites seeded absurd conspiracy narratives to divert scrutiny from real wrongdoing, it would resemble COINTELPRO's and Operation CHAOS's documented infiltration and manipulation of dissident movements. No specific evidence has surfaced of a comparable modern 'pipeline' operation, and the claim's diffuse, all-encompassing framing goes well beyond what those precedents document.",
+    "precedents": ["cointelpro", "operation-chaos"]
+  },
+  {
+    "id": "targeted-individuals",
+    "truth": 17,
+    "steelman": "Government covert harassment of specific individuals is a proven pattern, documented in COINTELPRO's campaigns against the Black Panther Party and other domestic targets, which used surveillance, infiltration, and disruption against people the state deemed threats. No evidence supports the broader 'gang stalking' and 'electronic torture' claims of a diffuse civilian-and-police harassment network, which independent investigations have not corroborated.",
+    "precedents": ["cointelpro", "cointelpro-black-panther"]
+  },
+  {
+    "id": "gold-standard-suppression",
+    "truth": 52,
+    "steelman": "Major banks have been proven to collude in rigging benchmark prices for profit, as shown in the Libor and forex-rigging scandals, and gold/silver price-fixing panels faced comparable regulatory fines and lawsuits for trader collusion. That precedent supports the possibility of periodic gold-price manipulation for trading profit, though no comparable evidence supports the theory's broader claim of a coordinated central-bank campaign to defend fiat currency by suppressing gold prices.",
+    "precedents": ["libor-scandal", "forex-rigging-scandal"]
+  },
+  {
+    "id": "dietary-control",
+    "truth": 36,
+    "steelman": "Governments have, in the past, deliberately adulterated a widely consumed substance for a policy purpose, as in the Prohibition-era poisoning of industrial alcohol, which killed thousands to deter bootlegging. That establishes the operational kind is not without precedent, though no evidence supports the far more sweeping and unfalsifiable claim of food additives engineered to suppress mental or spiritual wellbeing.",
+    "precedents": ["prohibition-alcohol-poisoning"]
+  },
+  {
+    "id": "obsolete-documents",
+    "truth": 28,
+    "steelman": "If some leaked government documents were deliberately falsified or planted as misdirection, it would fit COINTELPRO's documented use of forged letters and fabricated materials to manipulate targets and investigators. No specific evidence supports a systematic program of releasing fake 'obsolete' plans to mislead researchers today.",
+    "precedents": ["cointelpro"]
+  },
+  {
+    "id": "hypnosis",
+    "truth": 35,
+    "steelman": "Government-directed use of hypnosis and drugs for behavior and memory manipulation is proven history, documented in MKUltra and its Operation Midnight Climax subproject, which used hypnosis, LSD, and other techniques on non-consenting subjects. This establishes the underlying technique and institutional interest are real, though it does not establish that any specific modern instance of hypnosis is being used for covert control or memory implantation.",
+    "precedents": ["mkultra", "operation-midnight-climax"]
+  },
+  {
+    "id": "ww2-black-book",
+    "truth": 37,
+    "steelman": "Nazi Germany is documented to have compiled secret target rosters for use after planned invasions, in the same vein as other wartime secret plans and personnel lists later declassified and confirmed, such as those behind Operation Paperclip. A prepared arrest/target list for Britain sits well within the documented pattern of WWII-era covert state planning.",
+    "precedents": ["operation-paperclip", "great-purge"]
+  },
+  {
+    "id": "bilderberg-world-govt",
+    "truth": 42,
+    "steelman": "If informal elite gatherings translated into concrete coordinated policy action hidden from the public, it would echo the kind of hidden, multi-decade transnational coordination confirmed in Operation Gladio's secret NATO stay-behind network. No comparable evidence shows Bilderberg meetings issuing or coordinating actual policy directives beyond informal, off-the-record discussion among attendees.",
+    "precedents": ["operation-gladio"]
+  },
+  {
+    "id": "professional-sports-scripted",
+    "truth": 31,
+    "steelman": "Organized collusion to rig ostensibly fair competitive outcomes for financial gain is a proven pattern, as shown by the Libor and forex-rigging scandals in banking. Isolated real-world match-fixing scandals in sports history support that this kind of collusion occurs, but no evidence supports the theory's much broader claim of systemic, wholesale scripting of professional sports outcomes.",
+    "precedents": ["libor-scandal", "forex-rigging-scandal"]
+  },
+  {
+    "id": "great-electronic-conspiracy",
+    "truth": 38,
+    "steelman": "If those who administer digital communications and currency infrastructure hold outsized covert power, it would match the documented reality of NSA mass surveillance and ECHELON, both showing that control over digital interception infrastructure grants states real, exercised power over populations. No specific evidence ties this general pattern to today's private-sector 'digital dependence' framing beyond the state-surveillance precedent.",
+    "precedents": ["nsa-mass-surveillance", "echelon"]
+  }
+]

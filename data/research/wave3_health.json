@@ -1,0 +1,122 @@
+[
+  {
+    "id": "jfk-assassination",
+    "truth": 52,
+    "steelman": "If real, this would fit the documented pattern of state and non-state actors conspiring in the assassination of a sitting head of government, as with the multi-conspirator plot against Lincoln and the CIA's own admitted assassination programs against foreign leaders uncovered by the Church Committee. No comparable direct evidence -- confession, document, or informant testimony -- has surfaced implicating a specific conspiracy in Kennedy's death.",
+    "precedents": ["lincoln-assassination-broader-conspiracy", "church-committee"]
+  },
+  {
+    "id": "covid-lab-leak",
+    "truth": 55,
+    "steelman": "If real, this would fit the documented pattern of secretive government-linked pathogen research going undisclosed for years, as with Unit 731's biological-weapons program and the US Public Health Service's decades-hidden Guatemala experiments. No leaked internal document or defector testimony has directly confirmed an accidental release from the Wuhan Institute of Virology.",
+    "precedents": ["unit-731", "guatemala-syphilis-experiments"]
+  },
+  {
+    "id": "epstein-killed",
+    "truth": 52,
+    "steelman": "If real, this would fit the documented pattern of intelligence-linked figures being eliminated to protect a powerful patronage network, echoing the undetectable assassination tradecraft the CIA is confirmed to have developed and the protected-network violence uncovered in Operation Gladio. Documented jail-surveillance and protocol failures are suggestive but do not themselves establish homicide.",
+    "precedents": ["cia-heart-attack-gun", "operation-gladio"]
+  },
+  {
+    "id": "mlk-assassination",
+    "truth": 55,
+    "steelman": "If real, this would extend the FBI's own documented campaign against King -- surveillance, blackmail attempts, and stated institutional hostility under COINTELPRO -- into direct facilitation of his killing. No document or informant account has confirmed government direction of James Earl Ray specifically.",
+    "precedents": ["cointelpro", "cointelpro-black-panther"]
+  },
+  {
+    "id": "rfk-assassination",
+    "truth": 46,
+    "steelman": "If real, a second gunman would fit the precedent of multi-actor assassination conspiracies against American political leaders and the CIA's demonstrated capacity for untraceable killing methods. The disputed acoustic and bullet-count evidence remains contested rather than independently confirmed.",
+    "precedents": ["lincoln-assassination-broader-conspiracy", "cia-heart-attack-gun"]
+  },
+  {
+    "id": "olof-palme-assassination",
+    "truth": 48,
+    "steelman": "If real, foreign-intelligence involvement would fit the pattern of covert European political violence documented in Operation Gladio's stay-behind networks and the CIA's confirmed development of untraceable assassination tools. Sweden's 2020 closure of the case around a lone, deceased suspect remains disputed rather than conclusively proven.",
+    "precedents": ["operation-gladio", "cia-heart-attack-gun"]
+  },
+  {
+    "id": "pope-john-paul-i-murder",
+    "truth": 45,
+    "steelman": "If real, this would fit the documented entanglement of the Vatican Bank, Italian organized crime, and the P2 lodge with the same shadowy networks exposed in Operation Gladio, alongside the Catholic hierarchy's demonstrated willingness to conceal institutional wrongdoing seen in the Magdalene Laundries scandal. No autopsy or document has directly confirmed poisoning.",
+    "precedents": ["operation-gladio", "magdalene-laundries"]
+  },
+  {
+    "id": "marilyn-monroe",
+    "truth": 32,
+    "steelman": "If real, this would rely on the same kind of undetectable assassination methods the CIA is confirmed to have developed and demonstrated to the Church Committee. Multiple official reviews of the death have found no forensic evidence of foul play.",
+    "precedents": ["cia-heart-attack-gun"]
+  },
+  {
+    "id": "david-kelly-death",
+    "truth": 50,
+    "steelman": "If real, this would fit the pattern of a government silencing a credible internal critic after being caught overstating intelligence, as the Iraq WMD dossier was later confirmed to have done, using methods consistent with the CIA's documented untraceable-killing research. The Hutton Inquiry's suicide finding has been publicly disputed by several forensic physicians on evidentiary grounds.",
+    "precedents": ["iraq-wmd-dossier", "cia-heart-attack-gun"]
+  },
+  {
+    "id": "dag-hammarskjold",
+    "truth": 55,
+    "steelman": "If real, this would fit the documented pattern of Western intelligence services orchestrating fatal action against leaders threatening resource and Cold War interests, as in the CIA-backed removals of Arbenz and Mosaddegh. The UN's own 2015 Othman inquiry found the crash more likely resulted from external attack than accident, though it identified no definitive perpetrator.",
+    "precedents": ["guatemala-1954-coup", "operation-ajax-1953"]
+  },
+  {
+    "id": "dyaltov-pass",
+    "truth": 35,
+    "steelman": "If real, an official cover-up would fit the Soviet state's documented practice of concealing inconvenient deaths and events for decades, as with the 50-year concealment of the Katyn massacre and the secrecy surrounding the Great Purge. Declassified 2019 files point to an avalanche, though the injury pattern is still debated among independent researchers.",
+    "precedents": ["katyn-massacre", "great-purge"]
+  },
+  {
+    "id": "john-lennon-assassination-conspiracy",
+    "truth": 21,
+    "steelman": "If real, this would extend the CIA's confirmed use of hypnosis and drugs to manipulate unwitting subjects under MKUltra and its Operation Midnight Climax sub-project to a specific assassin. Psychiatric evaluations at Chapman's trial attributed his act to untreated psychosis rather than external programming, and no document ties him to any agency.",
+    "precedents": ["mkultra", "operation-midnight-climax"]
+  },
+  {
+    "id": "max-spiers",
+    "truth": 30,
+    "steelman": "If real, this would echo the CIA's confirmed history of covert mind-control experimentation on individuals and its documented development of assassination methods designed to mimic natural death. Toxicology on Spiers' death was inconclusive rather than confirmatory of foul play.",
+    "precedents": ["mkultra", "cia-heart-attack-gun"]
+  },
+  {
+    "id": "lyme-disease-bioweapon",
+    "truth": 22,
+    "steelman": "If real, this would fit the documented pattern of secret US government field-testing of biological agents on an unwitting public, as at Dugway and in Project 112/SHAD, combined with the confirmed postwar recruitment of German scientists into US programs under Operation Paperclip and Unit 731's precedent for biological-agent research. No document has confirmed Plum Island tested ticks as a bioweapon vector.",
+    "precedents": ["project-112-shad", "operation-paperclip", "unit-731"]
+  },
+  {
+    "id": "gain-of-function-pandemic-risk",
+    "truth": 53,
+    "steelman": "This concern fits the documented historical pattern of government and military bodies underestimating or concealing the risks of dangerous pathogen research, as at Dugway Proving Ground and Unit 731. It remains a live, mainstream scientific and regulatory debate rather than a settled cover-up.",
+    "precedents": ["dugway-proving-ground-tests", "unit-731"]
+  },
+  {
+    "id": "cell-phone-emf-cancer",
+    "truth": 40,
+    "steelman": "If real, industry suppression of risk data would fit the documented pattern of Big Tobacco and the Sugar Research Foundation funding science to manufacture doubt. The WHO's IARC classifies radiofrequency fields only as 'possibly carcinogenic,' reflecting genuine unresolved uncertainty rather than a confirmed cover-up.",
+    "precedents": ["big-tobacco", "sugar-research-foundation-coverup"]
+  },
+  {
+    "id": "aspartame-cancer",
+    "truth": 40,
+    "steelman": "If real, this would fit the documented pattern of industry funding research to downplay a product's health risks, as the Sugar Research Foundation did with sugar and heart disease and Big Tobacco did with smoking. IARC's 2023 'possibly carcinogenic' classification reflects genuine low-grade scientific concern, not a confirmed suppression campaign.",
+    "precedents": ["sugar-research-foundation-coverup", "big-tobacco"]
+  },
+  {
+    "id": "real-fluoride-dangers",
+    "truth": 36,
+    "steelman": "If real, understated risk from a public health additive would fit the documented pattern of industry- and institution-funded science downplaying harm, as with sugar and Vioxx. Recent US National Toxicology Program findings on fluoride and childhood IQ reflect a genuine, still-developing scientific question rather than a proven cover-up.",
+    "precedents": ["sugar-research-foundation-coverup", "merck-vioxx"]
+  },
+  {
+    "id": "kkk-funded-by-governments",
+    "truth": 53,
+    "steelman": "This fits the documented pattern of the FBI infiltrating and directing violent groups under COINTELPRO, including informants embedded in the Klan itself and campaigns that facilitated violence against the Black Panthers. It does not establish direct government funding of the Klan as an institution across its full history.",
+    "precedents": ["cointelpro", "cointelpro-black-panther"]
+  },
+  {
+    "id": "bovine-hormone-conditioning",
+    "truth": 36,
+    "steelman": "If real, this would fit the documented pattern of industry-funded science shaping food-safety regulation to obscure health risk, as with the Sugar Research Foundation's manipulation of nutrition science and Merck's suppression of Vioxx risk data. The claim as commonly stated is too unspecific to test against any single documented incident.",
+    "precedents": ["sugar-research-foundation-coverup", "merck-vioxx"]
+  }
+]
