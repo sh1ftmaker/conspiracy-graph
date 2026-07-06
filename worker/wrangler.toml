@@ -1,0 +1,20 @@
+name = "conspiracy-atlas-intake"
+main = "src/index.js"
+compatibility_date = "2026-07-01"
+
+# Fill database_id after running:
+#   npx wrangler d1 create conspiracy_queue
+[[d1_databases]]
+binding = "DB"
+database_name = "conspiracy_queue"
+database_id = "0ac35f24-661d-4727-8146-bba9c87a93ff"
+
+[vars]
+# Origins allowed to POST submissions (comma-separated)
+ALLOWED_ORIGINS = "https://sh1ftmaker.github.io,http://localhost:8123"
+# Kill switch: set to "1" to pause all submissions
+DISABLED = "0"
+
+# Secrets (set via CLI, never committed):
+#   npx wrangler secret put TURNSTILE_SECRET   (from dash.cloudflare.com -> Turnstile)
+#   npx wrangler secret put IP_SALT            (any long random string)

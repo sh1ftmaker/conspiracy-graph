@@ -236,6 +236,9 @@ const lerp=(a,b,t)=>a+(b-a)*t;
 const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
 const isMobile=()=>innerWidth<=760;
 const SCALE=60;
+// ---- anonymous crowdsource submission config (feature stays dark until these are set) ----
+const INTAKE_URL='https://conspiracy-atlas-intake.sh1ftmaker.workers.dev';    // set after worker deploy, e.g. https://intake.example.workers.dev
+const TURNSTILE_KEY=''; // Cloudflare Turnstile site key (optional; omit to skip bot widget)
 
 fetch('data.json?v=4').then(r=>r.json()).then(d=>{
   DATA=d; T=d.theories; META=d.meta; GEN=META.genres;
@@ -711,8 +714,10 @@ function showCard(t){
       `<div style="padding:2px 0"><a class="src" href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title||s.url)} ↗</a>`+
       (s.type?` <span style="color:var(--dim2);font-size:10px">${esc(s.type)}</span>`:'')+`</div>`).join('');
   }
+  if(INTAKE_URL) h+=`<div style="margin-top:16px"><button type="button" class="sg-pill" id="sgEdit">✏️ Suggest an edit</button></div>`;
   const bd=document.getElementById('cBody'); bd.innerHTML=h;
   bd.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{ select(byId[c.dataset.id]); focusOn(byId[c.dataset.id]); });
+  const eb=document.getElementById('sgEdit'); if(eb) eb.onclick=()=>SUGGEST.open('edit',t);
 }
 document.getElementById('cClose').onclick=deselect;
 
@@ -875,6 +880,198 @@ function resize(){
   });
 }
 updateLegend();
+
+// ============================================================
+//  Anonymous crowdsource submission UI (self-contained)
+//  POSTs {kind, theory_id?, payload, turnstile, website, elapsedMs}
+//  to INTAKE_URL + "/submit". Dark (no buttons) until INTAKE_URL is set.
+// ============================================================
+const SUGGEST = (function(){
+  const ENABLED = !!INTAKE_URL;
+  let ov, hd, bd, ft, curKind='new', curTheory=null, openedAt=0, tsToken='', cssDone=false;
+  const $ = s => ov.querySelector(s);
+
+  function injectCSS(){
+    if(cssDone) return; cssDone=true;
+    const css=`
+.sg-ov{position:fixed;inset:0;z-index:99999;display:none;align-items:center;justify-content:center;background:rgba(4,5,10,.72);backdrop-filter:blur(3px);padding:16px}
+.sg-ov.show{display:flex}
+.sg-dlg{background:var(--panel);border:1px solid var(--line);border-radius:14px;box-shadow:0 24px 70px rgba(0,0,0,.62);width:100%;max-width:420px;max-height:calc(100vh - 32px);display:flex;flex-direction:column;color:var(--txt)}
+.sg-hd{display:flex;align-items:flex-start;gap:10px;padding:14px 16px 11px;border-bottom:1px solid var(--line);flex:none}
+.sg-hd h3{margin:0;font-size:15px;font-weight:700;flex:1}
+.sg-x{cursor:pointer;color:var(--dim);font-size:20px;line-height:1;flex:none}
+.sg-x:hover{color:var(--txt)}
+.sg-bd{padding:14px 16px 16px;overflow:auto;flex:1;min-height:0;font-size:12.5px}
+.sg-bd label{display:block;font-size:10px;text-transform:uppercase;letter-spacing:.9px;color:var(--dim);margin:12px 0 4px;font-weight:650}
+.sg-bd>label:first-child{margin-top:0}
+.sg-bd input[type=text],.sg-bd input[type=number],.sg-bd input[type=url],.sg-bd textarea,.sg-bd select{width:100%;padding:8px 10px;background:rgba(0,0,0,.32);border:1px solid var(--line);border-radius:8px;color:var(--txt);font:inherit;font-size:12.5px;outline:none;margin-bottom:2px}
+.sg-src{margin-bottom:6px!important}
+.sg-bd input:focus,.sg-bd textarea:focus,.sg-bd select:focus{border-color:var(--accent)}
+.sg-bd textarea{resize:vertical;min-height:62px;line-height:1.45}
+.sg-add{color:var(--accent);font-size:11px;cursor:pointer;display:inline-block;margin-top:2px;text-decoration:underline;opacity:.85}
+.sg-add:hover{opacity:1}
+.sg-disc{display:flex;align-items:center;gap:8px;margin:14px 0 2px;cursor:pointer;font-size:12px;color:var(--dim);text-transform:none;letter-spacing:0;font-weight:500}
+.sg-disc input{width:auto!important;margin:0}
+.sg-num{font-variant-numeric:tabular-nums;color:var(--txt);font-size:11px}
+.sg-cur{color:var(--dim2,#6b7291);font-size:10px}
+.sg-row{display:flex;align-items:center;gap:8px;margin:2px 0 6px}
+.sg-row input[type=range]{flex:1;accent-color:var(--accent)}
+.sg-ft{padding:12px 16px;border-top:1px solid var(--line);display:flex;gap:10px;flex:none}
+.sg-btn{flex:1;padding:9px 14px;border-radius:9px;border:1px solid var(--accent);background:var(--accent);color:#04130f;font-weight:650;font-size:13px;cursor:pointer}
+.sg-btn:disabled{opacity:.55;cursor:default}
+.sg-err{color:#f87171;font-size:11.5px;margin-top:10px;min-height:1px}
+.sg-hp{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden}
+.sg-ok{text-align:center;padding:14px 4px;font-size:12.5px}
+.sg-ok .n{color:var(--accent);font-weight:700;font-size:16px}
+.sg-pill{display:inline-flex;align-items:center;gap:5px;padding:4px 11px;border:1px solid var(--line);border-radius:20px;background:transparent;color:var(--accent);font-size:11px;cursor:pointer;font-family:inherit}
+.sg-pill:hover{border-color:var(--accent)}
+@media(max-width:760px){.sg-ov{align-items:flex-end;padding:0}.sg-dlg{max-width:none;border-radius:16px 16px 0 0;max-height:90vh}}`;
+    const st=document.createElement('style'); st.textContent=css; document.head.appendChild(st);
+  }
+
+  function build(){
+    if(ov) return;
+    injectCSS();
+    ov=document.createElement('div'); ov.className='sg-ov';
+    ov.innerHTML=`<div class="sg-dlg" role="dialog" aria-modal="true" aria-label="suggestion form">`+
+      `<div class="sg-hd"><h3></h3><span class="sg-x" id="sg-close" title="close">×</span></div>`+
+      `<div class="sg-bd"></div>`+
+      `<div class="sg-ft"><button class="sg-btn" id="sg-submit" type="button">Submit</button></div></div>`;
+    document.body.appendChild(ov);
+    hd=ov.querySelector('.sg-hd'); bd=ov.querySelector('.sg-bd'); ft=ov.querySelector('.sg-ft');
+    ['pointerdown','pointerup','pointermove','mousedown','mouseup','mousemove','click','dblclick','wheel','touchstart','touchmove','touchend','contextmenu']
+      .forEach(ev=>ov.addEventListener(ev,e=>e.stopPropagation(),{passive:false}));
+    ov.addEventListener('click',e=>{ if(e.target===ov) close(); });
+    $('#sg-close').onclick=close;
+    $('#sg-submit').onclick=submit;
+    window.addEventListener('keydown',e=>{ if(ov.classList.contains('show') && e.key==='Escape'){ e.stopImmediatePropagation(); e.preventDefault(); close(); } }, true);
+  }
+
+  const genreOpts=()=>GEN.map(g=>`<option value="${esc(g.key)}">${esc(g.label)}</option>`).join('');
+
+  function formNew(){
+    return `<label>Name of the theory *</label>
+<input type="text" id="sg-name" maxlength="120" autocomplete="off" placeholder="e.g. Operation Northwoods">
+<label>The claim *</label>
+<textarea id="sg-claim" maxlength="2000" placeholder="1–3 neutral sentences stating what the theory actually claims — plainly, without editorializing."></textarea>
+<label>Genre</label>
+<select id="sg-genre"><option value="">— pick a genre —</option>${genreOpts()}</select>
+<label>Year</label>
+<input type="number" id="sg-year" placeholder="e.g. 1962">
+<label>Source URLs</label>
+<div id="sg-srcs"><input type="url" class="sg-src" placeholder="https://…"><input type="url" class="sg-src" placeholder="https://…"><input type="url" class="sg-src" placeholder="https://…"></div>
+<span class="sg-add" id="sg-addsrc">+ add another source</span>
+<label>Evidence points</label>
+<textarea id="sg-ev" placeholder="One claim or piece of evidence per line."></textarea>
+<label>Note (optional)</label>
+<textarea id="sg-note" placeholder="Anything else for the curators — context, caveats, why it belongs."></textarea>
+<div class="sg-err" id="sg-err"></div>`;
+  }
+  function slider(k,label,val){
+    return `<div style="margin:10px 0 2px"><div style="display:flex;justify-content:space-between;font-size:11px;color:var(--dim)"><span>${label}</span><span class="sg-num"><b id="sg-${k}v">${val}</b>/100 &nbsp;<span class="sg-cur">(current: ${val})</span></span></div>
+<div class="sg-row"><input type="range" min="0" max="100" value="${val}" id="sg-${k}" data-orig="${val}"></div></div>`;
+  }
+  function formEdit(t){
+    return `<div style="color:var(--dim);font-size:11px">Suggesting an edit to</div>
+<div style="font-weight:700;font-size:14px;margin:2px 0 4px">${esc(t.name)}</div>
+<label>What should change? *</label>
+<textarea id="sg-changes" maxlength="2000" placeholder="Describe the correction or addition — a wrong date, a missing source, a mischaracterized claim…"></textarea>
+<label class="sg-disc"><input type="checkbox" id="sg-scoreToggle"> Propose score changes</label>
+<div id="sg-scores" style="display:none">${slider('truth','How true',t.truth)}${slider('impact','Impact if true',t.impact)}${slider('notoriety','Notoriety',t.notoriety)}</div>
+<label>Rationale (optional)</label>
+<textarea id="sg-rat" maxlength="2000" placeholder="Why? Cite reasoning or evidence."></textarea>
+<label>Source URLs</label>
+<div id="sg-srcs"><input type="url" class="sg-src" placeholder="https://…"><input type="url" class="sg-src" placeholder="https://…"><input type="url" class="sg-src" placeholder="https://…"></div>
+<div class="sg-err" id="sg-err"></div>`;
+  }
+
+  function wireForm(){
+    const addBtn=$('#sg-addsrc');
+    if(addBtn) addBtn.onclick=()=>{ const box=$('#sg-srcs');
+      if(box.querySelectorAll('.sg-src').length>=6) return;
+      const i=document.createElement('input'); i.type='url'; i.className='sg-src'; i.placeholder='https://…'; box.appendChild(i);
+      if(box.querySelectorAll('.sg-src').length>=6) addBtn.style.display='none'; };
+    const tog=$('#sg-scoreToggle');
+    if(tog) tog.onchange=()=>{ $('#sg-scores').style.display=tog.checked?'':'none'; };
+    ['truth','impact','notoriety'].forEach(k=>{ const r=$('#sg-'+k);
+      if(r) r.oninput=()=>{ $('#sg-'+k+'v').textContent=r.value; }; });
+  }
+
+  const tval=s=>{ const el=$(s); return el?el.value.trim():''; };
+  const numVal=s=>{ const v=parseInt(($(s)||{}).value,10); return Number.isFinite(v)?v:null; };
+  const collectSrcs=()=>[].slice.call(ov.querySelectorAll('.sg-src')).map(i=>i.value.trim()).filter(Boolean);
+  const collectLines=s=>(($(s)||{}).value||'').split('\n').map(x=>x.trim()).filter(Boolean);
+
+  async function submit(){
+    const err=$('#sg-err'); if(err) err.textContent='';
+    const kind=curKind; let payload, theory_id;
+    if(kind==='new'){
+      const name=tval('#sg-name'), claim=tval('#sg-claim');
+      if(name.length<3){ err.textContent='Please enter a name (at least 3 characters).'; return; }
+      if(claim.length<20){ err.textContent='Please describe the claim (at least 20 characters).'; return; }
+      payload={ name, claim, genre:tval('#sg-genre')||null, year:numVal('#sg-year'),
+        sources:collectSrcs(), evidence:collectLines('#sg-ev'), note:tval('#sg-note')||null };
+    } else {
+      theory_id=curTheory.id;
+      const changes=tval('#sg-changes'); const scores={}; let proposed=false;
+      if($('#sg-scoreToggle') && $('#sg-scoreToggle').checked){
+        ['truth','impact','notoriety'].forEach(k=>{ const el=$('#sg-'+k);
+          if(el && +el.value!==+el.dataset.orig){ scores[k]=+el.value; proposed=true; } });
+      }
+      if(changes.length<10 && !proposed){ err.textContent='Describe the change (10+ chars) or propose a score change.'; return; }
+      payload=Object.assign({ changes:changes||null, rationale:tval('#sg-rat')||null, sources:collectSrcs() }, scores);
+    }
+    const body={ kind, payload, website:tval('.sg-hp'), elapsedMs:Date.now()-openedAt, turnstile:tsToken||'' };
+    if(theory_id) body.theory_id=theory_id;
+    const btn=$('#sg-submit'), old=btn.textContent; btn.disabled=true; btn.textContent='sending…';
+    try{
+      const r=await fetch(INTAKE_URL.replace(/\/+$/,'')+'/submit',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
+      const d=await r.json().catch(()=>({}));
+      if(r.ok && d && d.ok){ success(d.id); }
+      else { err.textContent=(d && d.error) ? d.error : ('Something went wrong ('+r.status+').'); btn.disabled=false; btn.textContent=old; }
+    }catch(e){ err.textContent='Network error — could not reach the server. Please try again.'; btn.disabled=false; btn.textContent=old; }
+  }
+
+  function success(id){
+    bd.innerHTML=`<div class="sg-ok"><p>Received as suggestion <span class="n">#${esc(String(id))}</span>.</p>
+<p style="color:var(--dim);margin-top:8px">Save this number — check back later; accepted suggestions get merged into the atlas.</p>
+<p style="margin-top:14px"><span class="sg-add" id="sg-again">submit another</span></p></div>`;
+    ft.style.display='none';
+    $('#sg-again').onclick=()=>open(curKind, curTheory);
+  }
+
+  function ensureTurnstile(){
+    if(!TURNSTILE_KEY) return;
+    const cont=$('#sg-ts'); if(!cont) return;
+    const render=()=>{ try{ window.turnstile.render(cont,{sitekey:TURNSTILE_KEY, callback:t=>{tsToken=t;}, 'error-callback':()=>{tsToken='';}}); }catch(e){} };
+    if(window.turnstile && window.turnstile.render){ render(); return; }
+    if(!document.getElementById('sg-ts-js')){
+      const s=document.createElement('script'); s.id='sg-ts-js'; s.async=true; s.defer=true;
+      s.src='https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit';
+      s.onload=render; document.head.appendChild(s);
+    } else { let n=0; const iv=setInterval(()=>{ if(window.turnstile&&window.turnstile.render){ clearInterval(iv); render(); } else if(++n>50) clearInterval(iv); },200); }
+  }
+
+  function open(kind, theory){
+    if(!ENABLED) return;
+    build();
+    curKind=kind; curTheory=theory||null; tsToken='';
+    hd.querySelector('h3').textContent = kind==='new'?'➕ Suggest a theory':'✏️ Suggest an edit';
+    bd.innerHTML = (kind==='new'?formNew():formEdit(theory))
+      + `<input class="sg-hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">`
+      + `<div id="sg-ts" style="margin-top:12px"></div>`;
+    ft.style.display='flex';
+    const sb=$('#sg-submit'); sb.disabled=false; sb.textContent = kind==='new'?'Submit theory':'Submit edit';
+    wireForm();
+    ov.classList.add('show'); openedAt=Date.now();
+    ensureTurnstile();
+    setTimeout(()=>{ const f=bd.querySelector('input:not(.sg-hp),textarea'); if(f) f.focus(); },40);
+  }
+  function close(){ if(ov) ov.classList.remove('show'); }
+
+  if(ENABLED) injectCSS();
+  return { open, on:ENABLED };
+})();
 </script>
 </body>
 </html>
