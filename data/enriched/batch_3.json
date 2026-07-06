@@ -2,7 +2,10 @@
   {
     "id": "predictive-programming",
     "name": "Predictive Programming",
-    "aliases": ["Predictive Programming Theory", "Hollywood predictive programming"],
+    "aliases": [
+      "Predictive Programming Theory",
+      "Hollywood predictive programming"
+    ],
     "genre": "media-surveillance",
     "year": 2001,
     "truth": 12,
@@ -20,14 +23,21 @@
       "Media scholars note that fiction routinely explores plausible near-future scenarios for dramatic reasons, which produces coincidental hits without any coordinating conspiracy",
       "The most-cited examples (e.g., cartoons 'predicting' events) rely on cherry-picked, often misremembered or digitally altered clips"
     ],
-    "related": ["operation-mockingbird"],
+    "related": [
+      "operation-mockingbird"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Predictive_programming"
   },
   {
     "id": "targeted-individuals",
     "name": "Targeted Individuals / Gang Stalking",
-    "aliases": ["Gang stalking", "TI community", "organized stalking"],
+    "aliases": [
+      "Gang stalking",
+      "Gangstalking",
+      "TI community",
+      "organized stalking"
+    ],
     "genre": "media-surveillance",
     "year": 2003,
     "truth": 9,
@@ -37,7 +47,8 @@
     "evidence_for": [
       "Real historical precedents exist for coordinated, multi-agency harassment of civilians — COINTELPRO's FBI campaigns against activists genuinely used neighbors, informants, and staged 'street theater' to destabilize targets",
       "Some documented individual stalking and workplace-mobbing cases share surface features with TI accounts (multiple people coordinating harassment), making the broader claim feel plausible to those affected",
-      "A 2020 clinical study found TIs report serious, measurable psychological and social harm regardless of the objective cause, suggesting the distress itself is real even where the attribution is contested"
+      "A 2020 clinical study found TIs report serious, measurable psychological and social harm regardless of the objective cause, suggesting the distress itself is real even where the attribution is contested",
+      "As mentioned in the “Hook Operators” theory, certain people can take control of others remotely through psychological means. Perhaps rather than certain innocuous people being employed by the government, they are instead being controlled by these."
     ],
     "evidence_against": [
       "Clinical research comparing TI reports to documented stalking cases found the pattern (diffuse, unfalsifiable, escalating in scope, no physical evidence) matches a recognized delusional syndrome; one study found all 128 'gang stalking' claimants examined met criteria for delusional disorder versus only 5 among individually-stalked victims",
@@ -45,14 +56,21 @@
       "The alleged tactics (radio-frequency 'voice to skull' harassment, neighborhood-wide coordination) are not supported by any known technology or logistics at the claimed scale",
       "Online TI communities show clear contagion effects, with narratives and terminology spreading and standardizing across unrelated individuals via shared forums"
     ],
-    "related": ["cointelpro", "mkultra"],
+    "related": [
+      "cointelpro",
+      "mkultra"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Gang_stalking"
   },
   {
     "id": "rfid-mark-of-the-beast",
     "name": "RFID Chip Implantation ('Mark of the Beast')",
-    "aliases": ["Mark of the Beast microchip theory", "VeriChip conspiracy", "implantable ID chip conspiracy"],
+    "aliases": [
+      "Mark of the Beast microchip theory",
+      "VeriChip conspiracy",
+      "implantable ID chip conspiracy"
+    ],
     "genre": "media-surveillance",
     "year": 1999,
     "truth": 9,
@@ -70,14 +88,20 @@
       "The prophetic reading of Revelation 13 is a theological interpretation, not a verifiable historical or technological claim, and mainstream biblical scholarship disputes the literal 'RFID' reading",
       "The passive RFID tags used in implants have short read ranges and no GPS capability, making them useless for the mass real-time tracking proponents describe"
     ],
-    "related": ["new-world-order", "great-reset"],
+    "related": [
+      "new-world-order",
+      "great-reset"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Microchip_implant_(human)"
   },
   {
     "id": "smartphones-listening-ads",
     "name": "Smartphones Are Secretly Listening for Ad Targeting",
-    "aliases": ["Facebook is listening", "phone eavesdropping ads theory"],
+    "aliases": [
+      "Facebook is listening",
+      "phone eavesdropping ads theory"
+    ],
     "genre": "media-surveillance",
     "year": 2016,
     "truth": 33,
@@ -96,13 +120,18 @@
       "Facebook, Google, and Apple have all formally denied microphone-based ad targeting, and no forensic network analysis by outside security researchers has ever caught it happening",
       "The 'coincidence' is well explained by the ordinary ad-tech ecosystem: cross-app tracking, location data, purchase histories, social-graph inference, and confirmation bias (people forget the many non-matching ads) account for the perceived accuracy"
     ],
-    "related": ["nsa-mass-surveillance"],
+    "related": [
+      "nsa-mass-surveillance"
+    ],
     "depends_on": []
   },
   {
     "id": "dead-internet-theory",
     "name": "Dead Internet Theory",
-    "aliases": ["Dead Internet"],
+    "aliases": [
+      "Dead Internet",
+      "Empty Internet"
+    ],
     "genre": "media-surveillance",
     "year": 2021,
     "truth": 24,
@@ -112,7 +141,8 @@
     "evidence_for": [
       "Independent bot-traffic reports (e.g., Imperva's annual 'Bad Bot Report') have repeatedly found automated traffic constitutes roughly half of all internet traffic in recent years, a real and measurable phenomenon",
       "The rapid, verifiable rise of generative AI since 2022 means a large and growing share of new text, images, and even social posts genuinely is machine-generated, lending new teeth to a theory first floated before generative AI existed",
-      "Documented state and commercial astroturfing operations (troll farms, bot networks used in elections and marketing) confirm that inauthentic coordinated activity at scale is a real, if narrower, phenomenon"
+      "Documented state and commercial astroturfing operations (troll farms, bot networks used in elections and marketing) confirm that inauthentic coordinated activity at scale is a real, if narrower, phenomenon",
+      "The internet's dominant platforms could employ vast bot networks to simulate human activity while conditioning the small real user population toward predetermined ideologies."
     ],
     "evidence_against": [
       "The strong version of the theory — a centrally coordinated program to fake most human activity online — has no supporting leak, whistleblower, or document; the bot traffic that does exist is fragmented across many uncoordinated commercial and criminal actors, not a single conspiracy",
@@ -120,13 +150,18 @@
       "Much of the 'evidence' cited is subjective — a feeling that content feels formulaic or repetitive — which is also explained by algorithmic content optimization and platform homogenization rather than fakery",
       "The theory's own originators on Wizardchan and Agora Road described it as speculative pattern-noticing rather than a documented finding"
     ],
-    "related": ["nsa-mass-surveillance"],
+    "related": [
+      "nsa-mass-surveillance"
+    ],
     "depends_on": []
   },
   {
     "id": "bitcoin-government-creation",
     "name": "Bitcoin Was Created by a Government Agency",
-    "aliases": ["Bitcoin NSA/CIA creation theory", "Satoshi Nakamoto is the NSA"],
+    "aliases": [
+      "Bitcoin NSA/CIA creation theory",
+      "Satoshi Nakamoto is the NSA"
+    ],
     "genre": "finance",
     "year": 2013,
     "truth": 7,
@@ -145,13 +180,18 @@
       "No leaked document, whistleblower, or forensic analysis has ever tied Nakamoto's original code commits, writing style, or wallet activity to any intelligence agency",
       "Bitcoin's early adoption was driven by cypherpunk and libertarian communities explicitly hostile to government monetary control, an odd outcome for an intelligence-agency product"
     ],
-    "related": ["federal-reserve-cabal"],
+    "related": [
+      "federal-reserve-cabal"
+    ],
     "depends_on": []
   },
   {
     "id": "gold-standard-suppression",
     "name": "Gold Price / Gold Standard Suppression",
-    "aliases": ["Gold price manipulation theory", "GATA thesis"],
+    "aliases": [
+      "Gold price manipulation theory",
+      "GATA thesis"
+    ],
     "genre": "finance",
     "year": 1999,
     "truth": 38,
@@ -170,14 +210,19 @@
       "GATA's specific claims about hidden central-bank gold reserves and leasing volumes have never been substantiated by an independent audit or leak",
       "No systemic 'suppression' conspiracy has been confirmed by any regulator, despite the aggressive scrutiny that followed the JPMorgan prosecutions"
     ],
-    "related": ["federal-reserve-cabal"],
+    "related": [
+      "federal-reserve-cabal"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Gold_Anti-Trust_Action_Committee"
   },
   {
     "id": "diana-assassination",
     "name": "Death of Diana, Princess of Wales — Assassination Theory",
-    "aliases": ["Diana was murdered", "MI6 killed Diana"],
+    "aliases": [
+      "Diana was murdered",
+      "MI6 killed Diana"
+    ],
     "genre": "deaths",
     "year": 1997,
     "truth": 4,
@@ -203,7 +248,9 @@
   {
     "id": "elvis-faked-death",
     "name": "Elvis Presley Faked His Death",
-    "aliases": ["Elvis is alive"],
+    "aliases": [
+      "Elvis is alive"
+    ],
     "genre": "deaths",
     "year": 1977,
     "truth": 3,
@@ -222,14 +269,19 @@
       "A 1997 Gallup poll found only 4% of Americans believed Presley was alive, versus 93% certain he had died, reflecting the near-total absence of the theory even in the era it was most actively promoted",
       "No verified sighting, DNA sample, or fingerprint match has ever substantiated any specific claim of Presley's survival in the 45+ years since his death"
     ],
-    "related": ["paul-is-dead"],
+    "related": [
+      "paul-is-dead"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Elvis_Presley_death_conspiracy_theories"
   },
   {
     "id": "hitler-survived-argentina",
     "name": "Hitler Survived and Escaped to Argentina",
-    "aliases": ["Hitler in Argentina", "Hitler escape theory"],
+    "aliases": [
+      "Hitler in Argentina",
+      "Hitler escape theory"
+    ],
     "genre": "alt-history",
     "year": 1945,
     "truth": 4,
@@ -255,7 +307,10 @@
   {
     "id": "tupac-shakur-alive",
     "name": "Tupac Shakur Is Alive",
-    "aliases": ["Tupac faked his death", "2Pac is alive"],
+    "aliases": [
+      "Tupac faked his death",
+      "2Pac is alive"
+    ],
     "genre": "deaths",
     "year": 1996,
     "truth": 4,
@@ -274,14 +329,19 @@
       "The 2023 arrest and prosecution of Duane 'Keffe D' Davis for orchestrating the shooting further anchored the case in documented, adversarial criminal proceedings inconsistent with a staged death",
       "No verified photograph, fingerprint, or DNA sample has ever surfaced supporting Shakur's survival in the nearly three decades since"
     ],
-    "related": ["paul-is-dead"],
+    "related": [
+      "paul-is-dead"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Murder_of_Tupac_Shakur"
   },
   {
     "id": "avril-lavigne-replacement",
     "name": "Avril Lavigne Was Replaced by a Body Double ('Melissa')",
-    "aliases": ["Avril is dead", "Melissa Vandella theory"],
+    "aliases": [
+      "Avril is dead",
+      "Melissa Vandella theory"
+    ],
     "genre": "deaths",
     "year": 2011,
     "truth": 2,
@@ -299,14 +359,19 @@
       "No missing-persons report, death certificate, obituary, or family statement regarding a 2003 death has ever surfaced, despite the claim requiring a concealment that would need cooperation from her entire family, label, and management",
       "Claimed physical differences are consistent with normal aging, weight changes, cosmetic choices, and photo/lighting variation documented in countless other public figures over a 20-year career"
     ],
-    "related": ["paul-is-dead"],
+    "related": [
+      "paul-is-dead"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Avril_Lavigne_replacement_conspiracy_theory"
   },
   {
     "id": "kurt-cobain-murder",
     "name": "Kurt Cobain Was Murdered",
-    "aliases": ["Cobain murder theory", "Who Killed Kurt Cobain"],
+    "aliases": [
+      "Cobain murder theory",
+      "Who Killed Kurt Cobain"
+    ],
     "genre": "deaths",
     "year": 1994,
     "truth": 32,
@@ -332,7 +397,10 @@
   {
     "id": "john-lennon-assassination-conspiracy",
     "name": "John Lennon Assassination Conspiracy (CIA/MKUltra Theory)",
-    "aliases": ["Mark David Chapman was CIA-programmed", "Lennon was silenced"],
+    "aliases": [
+      "Mark David Chapman was CIA-programmed",
+      "Lennon was silenced"
+    ],
     "genre": "deaths",
     "year": 1989,
     "truth": 11,
@@ -351,14 +419,22 @@
       "No document, whistleblower, or declassified file has ever linked MKUltra or any CIA program specifically to Chapman by name",
       "The theory's key claims (Beirut drugging, doorman's CIA ties) rely on circumstantial coincidence and secondary sourcing rather than any primary evidence directly connecting Chapman to an intelligence operation"
     ],
-    "related": ["mkultra", "cointelpro"],
-    "depends_on": ["mkultra"],
+    "related": [
+      "mkultra",
+      "cointelpro"
+    ],
+    "depends_on": [
+      "mkultra"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Murder_of_John_Lennon"
   },
   {
     "id": "pope-john-paul-i-murder",
     "name": "Pope John Paul I Murder Theory",
-    "aliases": ["Murder of Pope John Paul I", "Vatican Bank assassination theory"],
+    "aliases": [
+      "Murder of Pope John Paul I",
+      "Vatican Bank assassination theory"
+    ],
     "genre": "deaths",
     "year": 1984,
     "truth": 33,
@@ -384,7 +460,10 @@
   {
     "id": "olof-palme-assassination",
     "name": "Olof Palme Assassination Conspiracy",
-    "aliases": ["Who killed Olof Palme", "Palme murder mystery"],
+    "aliases": [
+      "Who killed Olof Palme",
+      "Palme murder mystery"
+    ],
     "genre": "deaths",
     "year": 1986,
     "truth": 40,
@@ -410,7 +489,10 @@
   {
     "id": "david-kelly-death",
     "name": "Death of David Kelly",
-    "aliases": ["David Kelly murder theory", "Dr. David Kelly conspiracy"],
+    "aliases": [
+      "David Kelly murder theory",
+      "Dr. David Kelly conspiracy"
+    ],
     "genre": "deaths",
     "year": 2003,
     "truth": 38,
@@ -436,7 +518,9 @@
   {
     "id": "zachary-taylor-poisoning",
     "name": "Zachary Taylor Poisoning Theory",
-    "aliases": ["Taylor arsenic poisoning theory"],
+    "aliases": [
+      "Taylor arsenic poisoning theory"
+    ],
     "genre": "deaths",
     "year": 1850,
     "truth": 5,
@@ -461,7 +545,10 @@
   {
     "id": "lincoln-assassination-broader-conspiracy",
     "name": "Lincoln Assassination — Broader Conspiracy",
-    "aliases": ["Lincoln conspiracy trial", "Confederate-authorized assassination plot"],
+    "aliases": [
+      "Lincoln conspiracy trial",
+      "Confederate-authorized assassination plot"
+    ],
     "genre": "deaths",
     "year": 1865,
     "truth": 90,
@@ -487,7 +574,11 @@
   {
     "id": "subhas-chandra-bose-survival",
     "name": "Subhas Chandra Bose Survival Theory",
-    "aliases": ["Netaji survived", "Gumnami Baba theory", "Bose escape to USSR theory"],
+    "aliases": [
+      "Netaji survived",
+      "Gumnami Baba theory",
+      "Bose escape to USSR theory"
+    ],
     "genre": "deaths",
     "year": 1946,
     "truth": 33,

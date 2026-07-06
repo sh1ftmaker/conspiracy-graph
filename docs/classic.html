@@ -237,7 +237,7 @@ const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
 const isMobile=()=>innerWidth<=760;
 const SCALE=60;
 
-fetch('data.json?v=2').then(r=>r.json()).then(d=>{
+fetch('data.json?v=3').then(r=>r.json()).then(d=>{
   DATA=d; T=d.theories; META=d.meta; GEN=META.genres;
   T.forEach(t=>byId[t.id]=t);
   GEN.forEach(g=>activeGenres.add(g.key));

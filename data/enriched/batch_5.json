@@ -2,7 +2,10 @@
   {
     "id": "phantom-time-hypothesis",
     "name": "Phantom Time Hypothesis",
-    "aliases": ["Illig thesis", "missing Middle Ages"],
+    "aliases": [
+      "Illig thesis",
+      "missing Middle Ages"
+    ],
     "genre": "alt-history",
     "year": 1991,
     "truth": 5,
@@ -20,14 +23,20 @@
       "Astronomical records — eclipses, comets, and supernovae — are independently calculable and confirm medieval dates",
       "The Gregorian correction discrepancy Illig cited was based on a miscalculation rejected by calendar historians"
     ],
-    "related": ["new-chronology-fomenko", "mandela-effect"],
+    "related": [
+      "new-chronology-fomenko",
+      "mandela-effect"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Phantom_time_conspiracy_theory"
   },
   {
     "id": "new-chronology-fomenko",
     "name": "New Chronology (Fomenko)",
-    "aliases": ["Fomenko chronology", "New Chronology"],
+    "aliases": [
+      "Fomenko chronology",
+      "New Chronology"
+    ],
     "genre": "alt-history",
     "year": 1981,
     "truth": 4,
@@ -44,14 +53,20 @@
       "Fomenko's statistical methods have been shown to be based on flawed premises and cherry-picked data",
       "No credible academic historian or archaeologist outside his circle supports the framework"
     ],
-    "related": ["phantom-time-hypothesis", "mandela-effect"],
+    "related": [
+      "phantom-time-hypothesis",
+      "mandela-effect"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/New_chronology_(Fomenko)"
   },
   {
     "id": "pre-columbian-transoceanic-contact",
     "name": "Pre-Columbian Transoceanic Contact",
-    "aliases": ["pre-Columbian contact", "ancient transoceanic voyages"],
+    "aliases": [
+      "pre-Columbian contact",
+      "ancient transoceanic voyages"
+    ],
     "genre": "alt-history",
     "year": 1960,
     "truth": 63,
@@ -70,14 +85,20 @@
       "The scale of confirmed contact was limited and did not produce lasting cultural exchange beyond specific items",
       "Many transoceanic-contact claims rely on superficial cultural parallels that arise independently"
     ],
-    "related": ["ancient-aliens"],
+    "related": [
+      "ancient-aliens"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Pre-Columbian_trans-oceanic_contact_theories"
   },
   {
     "id": "nazi-gold-hidden-treasure",
     "name": "Nazi Gold / Hidden Treasure",
-    "aliases": ["Nazi gold train", "Lake Toplitz gold", "Nazi looted gold"],
+    "aliases": [
+      "Nazi gold train",
+      "Lake Toplitz gold",
+      "Nazi looted gold"
+    ],
     "genre": "alt-history",
     "year": 1945,
     "truth": 65,
@@ -96,14 +117,20 @@
       "Many 'hidden cache' stories originate with postwar rumors and treasure hunters with financial motives",
       "The total unaccounted amount is genuinely uncertain; estimates vary widely and some gold may simply have been melted and dispersed"
     ],
-    "related": ["nazi-ufos-antarctic-base"],
+    "related": [
+      "nazi-ufos-antarctic-base"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Nazi_gold"
   },
   {
     "id": "nazi-ufos-antarctic-base",
     "name": "Nazi UFOs / Antarctic Base",
-    "aliases": ["Nazi flying saucers", "Base 211", "New Berlin"],
+    "aliases": [
+      "Nazi flying saucers",
+      "Base 211",
+      "New Berlin"
+    ],
     "genre": "alt-history",
     "year": 1978,
     "truth": 7,
@@ -121,14 +148,20 @@
       "German wartime disc aircraft designs never flew successfully and were conventional aircraft programs",
       "The Antarctic Treaty (1959) brought international scientific presence to the entire continent, making a hidden base impossible to sustain"
     ],
-    "related": ["ufo-coverup", "nazi-gold-hidden-treasure"],
+    "related": [
+      "ufo-coverup",
+      "nazi-gold-hidden-treasure"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Nazi_UFOs"
   },
   {
     "id": "birds-arent-real",
     "name": "Birds Aren't Real",
-    "aliases": ["birds are drones", "bird surveillance drones"],
+    "aliases": [
+      "birds are drones",
+      "bird surveillance drones"
+    ],
     "genre": "science-tech",
     "year": 2017,
     "truth": 0,
@@ -144,14 +177,21 @@
       "Ornithology, avian genomics, and wildlife biology provide overwhelming evidence of bird existence",
       "No technology exists to create billions of lifelike autonomous flying drones at the scale required"
     ],
-    "related": ["nsa-mass-surveillance", "dead-internet-theory"],
+    "related": [
+      "nsa-mass-surveillance",
+      "dead-internet-theory"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Birds_Aren%27t_Real"
   },
   {
     "id": "bielefeld-conspiracy",
     "name": "Bielefeld Conspiracy",
-    "aliases": ["Bielefeld does not exist", "Bielefeld-Verschwoerung"],
+    "aliases": [
+      "Bielefeld Psyops",
+      "Bielefeld does not exist",
+      "Bielefeld-Verschwoerung"
+    ],
     "genre": "alt-history",
     "year": 1994,
     "truth": 0,
@@ -159,21 +199,27 @@
     "notoriety": 48,
     "summary": "A famous German internet joke, started by Achim Held in 1994, claiming the city of Bielefeld does not exist and is a fabrication maintained by an unnamed powerful group called 'THEM.' It became a long-running cultural phenomenon; in 2019 the city of Bielefeld offered €1 million to anyone who could prove it does not exist, and Chancellor Angela Merkel playfully referenced it.",
     "evidence_for": [
-      "None — the theory originated as a deliberate internet joke and has always been presented as such by its creator"
+      "None — the theory originated as a deliberate internet joke and has always been presented as such by its creator",
+      "Reality may manifest through collective belief; entire places and events could be brought into existence solely through large group conviction, and conversely, if no significant population believes in something, it may not instantiate into shared reality."
     ],
     "evidence_against": [
       "Bielefeld is a verifiable German city of approximately 340,000 residents with documented history dating to the 9th century",
       "Its existence is confirmed by satellite imagery, census data, transport connections, and millions of visitors and residents",
       "The joke's own creator acknowledged it as pure satire; no one has ever claimed it seriously"
     ],
-    "related": ["finland-doesnt-exist"],
+    "related": [
+      "finland-doesnt-exist"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Bielefeld_conspiracy"
   },
   {
     "id": "loch-ness-monster-cover-up",
     "name": "Loch Ness Monster Cover-up",
-    "aliases": ["Nessie", "Loch Ness cover-up"],
+    "aliases": [
+      "Nessie",
+      "Loch Ness cover-up"
+    ],
     "genre": "science-tech",
     "year": 1933,
     "truth": 12,
@@ -191,14 +237,19 @@
       "The loch's prey biomass is insufficient to sustain a population of large predators; no bones, carcasses, or physical remains have been found",
       "Most sonar contacts have been attributed to boat wakes, gas bubbles, or schools of fish"
     ],
-    "related": ["bigfoot-cover-up"],
+    "related": [
+      "bigfoot-cover-up"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Loch_Ness_Monster"
   },
   {
     "id": "bigfoot-cover-up",
     "name": "Bigfoot Cover-up",
-    "aliases": ["Sasquatch", "Bigfoot suppression"],
+    "aliases": [
+      "Sasquatch",
+      "Bigfoot suppression"
+    ],
     "genre": "science-tech",
     "year": 1958,
     "truth": 12,
@@ -216,14 +267,19 @@
       "DNA analysis of alleged Bigfoot samples consistently matches known species (bears, humans, or other animals)",
       "A breeding population large enough to sustain itself would leave unavoidable ecological traces and occasional road casualties"
     ],
-    "related": ["loch-ness-monster-cover-up"],
+    "related": [
+      "loch-ness-monster-cover-up"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Bigfoot"
   },
   {
     "id": "melania-trump-body-double",
     "name": "Melania Trump Body Double",
-    "aliases": ["fake Melania", "Melania impersonator"],
+    "aliases": [
+      "fake Melania",
+      "Melania impersonator"
+    ],
     "genre": "deaths",
     "year": 2017,
     "truth": 6,
@@ -240,14 +296,20 @@
       "The Secret Service, White House staff, and press corps would collectively witness any impersonation",
       "No corroborating evidence, witnesses, or documented motive for using a body double at routine press events exists"
     ],
-    "related": ["deep-state", "dave-chappelle-clone"],
+    "related": [
+      "deep-state",
+      "dave-chappelle-clone"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Melania_Trump#Body_double_conspiracy_theory"
   },
   {
     "id": "dave-chappelle-clone",
     "name": "Dave Chappelle Clone",
-    "aliases": ["Chappelle clone theory", "fake Dave Chappelle"],
+    "aliases": [
+      "Chappelle clone theory",
+      "fake Dave Chappelle"
+    ],
     "genre": "media-surveillance",
     "year": 2006,
     "truth": 2,
@@ -264,14 +326,20 @@
       "No physical or forensic evidence of replacement exists",
       "Personality changes are consistent with the documented stress and burnout he described"
     ],
-    "related": ["paul-is-dead", "melania-trump-body-double"],
+    "related": [
+      "paul-is-dead",
+      "melania-trump-body-double"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Dave_Chappelle"
   },
   {
     "id": "kubrick-filmed-moon-landing",
     "name": "Stanley Kubrick Filmed the Moon Landing",
-    "aliases": ["Kubrick moon hoax", "Kubrick Apollo confession"],
+    "aliases": [
+      "Kubrick moon hoax",
+      "Kubrick Apollo confession"
+    ],
     "genre": "science-tech",
     "year": 2002,
     "truth": 3,
@@ -289,39 +357,22 @@
       "Moon landings are independently confirmed by Soviet tracking stations, retroreflectors still in use today, and returned samples analyzed by scientists worldwide",
       "The interpretations of 'The Shining' are subjective symbol-reading contradicted by Kubrick's own interviews about the film"
     ],
-    "related": ["moon-landing-hoax", "nasa-hoax-capacity"],
-    "depends_on": ["moon-landing-hoax"],
+    "related": [
+      "moon-landing-hoax",
+      "nasa-hoax-capacity"
+    ],
+    "depends_on": [
+      "moon-landing-hoax"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Moon_landing_conspiracy_theories#Stanley_Kubrick"
-  },
-  {
-    "id": "jonbenet-ramsey-cover-up",
-    "name": "JonBenét Ramsey Cover-up",
-    "aliases": ["JonBenet Ramsey murder conspiracy", "Ramsey case cover-up"],
-    "genre": "deaths",
-    "year": 1996,
-    "truth": 38,
-    "impact": 26,
-    "notoriety": 68,
-    "summary": "The 1996 murder of six-year-old beauty queen JonBenét Ramsey in Boulder, Colorado remains officially unsolved. Competing theories implicate her parents John and Patsy Ramsey, her brother Burke, or an unknown intruder — with allegations that Boulder police and prosecutors mishandled or suppressed evidence to protect the wealthy family.",
-    "evidence_for": [
-      "The original Boulder Police investigation was severely compromised: the crime scene was contaminated and potential evidence was mishandled in the first hours",
-      "A grand jury voted in 1999 to indict John and Patsy Ramsey on child abuse charges, but District Attorney Alex Hunter declined to sign the indictment",
-      "Unidentified male DNA found on JonBenét's clothing does not match any family member and has never been identified"
-    ],
-    "evidence_against": [
-      "The Ramseys were officially exonerated by Boulder prosecutors in 2008 based on the unidentified DNA evidence",
-      "The DNA may represent touch contamination from the clothing manufacturer rather than the killer",
-      "John Mark Karr's dramatic 2006 false confession illustrates how unreliable the case evidence is",
-      "The case remains an active cold case with no confirmed perpetrator, making 'cover-up' claims speculative"
-    ],
-    "related": ["madeleine-mccann-theories"],
-    "depends_on": [],
-    "wikipedia": "https://en.wikipedia.org/wiki/Murder_of_JonBen%C3%A9t_Ramsey"
   },
   {
     "id": "madeleine-mccann-theories",
     "name": "Madeleine McCann Theories",
-    "aliases": ["McCann conspiracy", "Maddie McCann"],
+    "aliases": [
+      "McCann conspiracy",
+      "Maddie McCann"
+    ],
     "genre": "deaths",
     "year": 2007,
     "truth": 35,
@@ -339,14 +390,19 @@
       "No physical evidence directly linking any named suspect to Madeleine's disappearance has been made public",
       "The case demonstrates genuine investigative uncertainty rather than a deliberate cover-up"
     ],
-    "related": ["jonbenet-ramsey-cover-up"],
+    "related": [
+      "jonbenet-ramsey-coverup"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Disappearance_of_Madeleine_McCann"
   },
   {
     "id": "harold-holt-chinese-submarine",
     "name": "Harold Holt Chinese Submarine",
-    "aliases": ["Harold Holt defection", "Holt spy theory"],
+    "aliases": [
+      "Harold Holt defection",
+      "Holt spy theory"
+    ],
     "genre": "deaths",
     "year": 1983,
     "truth": 6,
@@ -363,14 +419,20 @@
       "Holt's family, including his wife Zara, categorically dismissed the theory",
       "No Chinese records, diplomatic or military, have surfaced to corroborate a defection or extraction"
     ],
-    "related": ["deep-state", "epstein-killed"],
+    "related": [
+      "deep-state",
+      "epstein-killed"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Disappearance_of_Harold_Holt"
   },
   {
     "id": "gaylor-taylor-swift",
     "name": "Gaylor (Taylor Swift)",
-    "aliases": ["Gaylor Swift", "Taylor Swift secretly gay theory"],
+    "aliases": [
+      "Gaylor Swift",
+      "Taylor Swift secretly gay theory"
+    ],
     "genre": "media-surveillance",
     "year": 2019,
     "truth": 12,
@@ -387,14 +449,20 @@
       "Easter eggs are documented as part of Swift's marketing strategy, not evidence of suppressed identity",
       "The theory relies entirely on selective interpretation; the same imagery can be read as heterosexual or as general artistic expression"
     ],
-    "related": ["larries-one-direction", "operation-mockingbird"],
+    "related": [
+      "larries-one-direction",
+      "operation-mockingbird"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Taylor_Swift#Fandom_and_cultural_impact"
   },
   {
     "id": "larries-one-direction",
     "name": "Larries (One Direction)",
-    "aliases": ["Larry Stylinson", "Larry conspiracy"],
+    "aliases": [
+      "Larry Stylinson",
+      "Larry conspiracy"
+    ],
     "genre": "media-surveillance",
     "year": 2011,
     "truth": 15,
@@ -411,14 +479,20 @@
       "No credible firsthand account, leaked communication, or corroborating evidence has emerged despite over a decade of scrutiny",
       "The theory involves treating artists' private lives as public property and has caused documented distress to Tomlinson and his family"
     ],
-    "related": ["gaylor-taylor-swift", "operation-mockingbird"],
+    "related": [
+      "gaylor-taylor-swift",
+      "operation-mockingbird"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/One_Direction#Fandom"
   },
   {
     "id": "nba-frozen-envelope-draft",
     "name": "NBA Frozen Envelope Draft",
-    "aliases": ["1985 NBA draft lottery rigged", "frozen envelope conspiracy"],
+    "aliases": [
+      "1985 NBA draft lottery rigged",
+      "frozen envelope conspiracy"
+    ],
     "genre": "government",
     "year": 1985,
     "truth": 32,
@@ -436,14 +510,21 @@
       "The NBA subsequently redesigned the lottery system multiple times for transparency, citing a desire to eliminate doubt rather than admitting prior wrongdoing",
       "A creased envelope is consistent with routine handling during setup"
     ],
-    "related": ["ali-liston-phantom-punch", "1998-world-cup-ronaldo-fix"],
+    "related": [
+      "ali-liston-phantom-punch",
+      "1998-world-cup-ronaldo-fix"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/1985_NBA_draft"
   },
   {
     "id": "ali-liston-phantom-punch",
     "name": "Ali vs Liston Phantom Punch",
-    "aliases": ["Liston phantom punch", "Ali-Liston fix", "Sonny Liston dive"],
+    "aliases": [
+      "Liston phantom punch",
+      "Ali-Liston fix",
+      "Sonny Liston dive"
+    ],
     "genre": "government",
     "year": 1965,
     "truth": 32,
@@ -461,14 +542,20 @@
       "No definitive evidence of a prearranged fix has emerged; Liston died in 1970 and could not be questioned under oath",
       "The controversy is partly explained by poor camera angles and the chaos of the scene rather than an actual fix"
     ],
-    "related": ["nba-frozen-envelope-draft", "shergar-racehorse-theft"],
+    "related": [
+      "nba-frozen-envelope-draft",
+      "shergar-racehorse-theft"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Muhammad_Ali_vs._Sonny_Liston_(2)"
   },
   {
     "id": "1998-world-cup-ronaldo-fix",
     "name": "1998 World Cup Ronaldo Fix",
-    "aliases": ["Ronaldo 1998 conspiracy", "Brazil France final fix"],
+    "aliases": [
+      "Ronaldo 1998 conspiracy",
+      "Brazil France final fix"
+    ],
     "genre": "government",
     "year": 1998,
     "truth": 20,
@@ -486,14 +573,20 @@
       "Brazil's loss is consistent with France being the stronger team on the day and Ronaldo visibly underperforming due to illness",
       "No evidence of a match-fixing agreement or guaranteed World Cup hosting deal has emerged"
     ],
-    "related": ["nba-frozen-envelope-draft", "ali-liston-phantom-punch"],
+    "related": [
+      "nba-frozen-envelope-draft",
+      "ali-liston-phantom-punch"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/1998_FIFA_World_Cup_final"
   },
   {
     "id": "shergar-racehorse-theft",
     "name": "Shergar Racehorse Theft",
-    "aliases": ["Shergar kidnapping", "IRA Shergar"],
+    "aliases": [
+      "Shergar kidnapping",
+      "IRA Shergar"
+    ],
     "genre": "government",
     "year": 1983,
     "truth": 45,
@@ -511,14 +604,19 @@
       "No arrests have been made in over 40 years; the full operational details remain unverified",
       "Alternative theories involving European organized crime gangs have been proposed and cannot be ruled out"
     ],
-    "related": ["ali-liston-phantom-punch"],
+    "related": [
+      "ali-liston-phantom-punch"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Shergar"
   },
   {
     "id": "new-coke-deliberate-failure",
     "name": "New Coke Deliberate Failure",
-    "aliases": ["New Coke conspiracy", "Coke Classic plot"],
+    "aliases": [
+      "New Coke conspiracy",
+      "Coke Classic plot"
+    ],
     "genre": "finance",
     "year": 1985,
     "truth": 8,
@@ -535,14 +633,20 @@
       "Deliberately destroying a century-old brand identity carried enormous financial risk and no credible insider has ever described a deliberate failure plan",
       "The corn syrup switch had already been partially implemented before New Coke launched, making it an unlikely hidden motive"
     ],
-    "related": ["big-tobacco", "federal-reserve-cabal"],
+    "related": [
+      "big-tobacco",
+      "federal-reserve-cabal"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/New_Coke"
   },
   {
     "id": "deepwater-horizon-sabotage",
     "name": "Deepwater Horizon Sabotage",
-    "aliases": ["BP oil spill conspiracy", "Deepwater Horizon deliberately sunk"],
+    "aliases": [
+      "BP oil spill conspiracy",
+      "Deepwater Horizon deliberately sunk"
+    ],
     "genre": "government",
     "year": 2010,
     "truth": 7,
@@ -559,7 +663,11 @@
       "Halliburton's cement job was later shown to have failed due to a faulty design, not deliberate action — Halliburton paid $1.1 billion in settlements",
       "A deliberate act would require coordination across multiple companies and regulatory agencies with no plausible motive or documented communication"
     ],
-    "related": ["haarp-weather", "deep-state", "big-oil-climate"],
+    "related": [
+      "haarp-weather",
+      "deep-state",
+      "big-oil-climate"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Deepwater_Horizon_explosion"
   }

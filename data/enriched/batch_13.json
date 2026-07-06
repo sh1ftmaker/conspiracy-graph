@@ -9,7 +9,9 @@
     "impact": 20,
     "notoriety": 30,
     "summary": "The Aztec religion shares many similarities with other world religions, including narratives of sacrifice and great floods that parallel other mythological traditions.",
-    "evidence_for": ["Cross-cultural religious parallels suggest possible shared ancient sources or universal themes in human spirituality that transcend geographic boundaries."],
+    "evidence_for": [
+      "Cross-cultural religious parallels suggest possible shared ancient sources or universal themes in human spirituality that transcend geographic boundaries."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -24,9 +26,14 @@
     "impact": 50,
     "notoriety": 35,
     "summary": "Divine entities can create new spiritual leylines through communication and revelation, resulting in new spiritual beliefs spreading across humanity.",
-    "evidence_for": ["Nuclear weapons and extraordinary energy release can open new leylines; divine communication may create spiritual leylines that cascade into widespread belief formation across human groups."],
+    "evidence_for": [
+      "Nuclear weapons and extraordinary energy release can open new leylines; divine communication may create spiritual leylines that cascade into widespread belief formation across human groups."
+    ],
     "evidence_against": [],
-    "related": ["noosphere-leylines", "nuclear-grid-theory"],
+    "related": [
+      "noosphere-leylines",
+      "nuclear-grid-theory"
+    ],
     "depends_on": []
   },
   {
@@ -39,7 +46,9 @@
     "impact": 25,
     "notoriety": 20,
     "summary": "False stories or ideas are perpetuated in certain fields as a form of initiation or rite of passage for newcomers.",
-    "evidence_for": ["Gatekeeping through false information may serve to either mislead initiates or manifest false ideas into reality through collective belief."],
+    "evidence_for": [
+      "Gatekeeping through false information may serve to either mislead initiates or manifest false ideas into reality through collective belief."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -54,9 +63,13 @@
     "impact": 30,
     "notoriety": 45,
     "summary": "False or incorrect ideas introduced to fields can manifest into reality through belief, especially for those new to a field.",
-    "evidence_for": ["If ideas can be manifested through belief, spreading falsehoods may not be misleading but rather a mechanism to manifest new concepts into reality by those who lack preexisting knowledge to disbelieve."],
+    "evidence_for": [
+      "If ideas can be manifested through belief, spreading falsehoods may not be misleading but rather a mechanism to manifest new concepts into reality by those who lack preexisting knowledge to disbelieve."
+    ],
     "evidence_against": [],
-    "related": ["self-fulfilling-fiction"],
+    "related": [
+      "self-fulfilling-fiction"
+    ],
     "depends_on": []
   },
   {
@@ -69,7 +82,9 @@
     "impact": 40,
     "notoriety": 35,
     "summary": "Dowsing and rhabdomancy are real practices for detecting water or making decisions that have genuine merit but are suppressed or hidden from public knowledge.",
-    "evidence_for": ["Dowsing and rhabdomancy may detect real vibrations within the Earth; legitimate versions of these practices exist but are deliberately suppressed from mainstream acceptance."],
+    "evidence_for": [
+      "Dowsing and rhabdomancy may detect real vibrations within the Earth; legitimate versions of these practices exist but are deliberately suppressed from mainstream acceptance."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -84,9 +99,14 @@
     "impact": 90,
     "notoriety": 40,
     "summary": "The devil controls the noosphere (collective consciousness) rather than the physical world, allowing control over human thought processes globally.",
-    "evidence_for": ["The devil cannot manifest physically; demonic control of the noosphere explains how the devil influences minds through temptation and collective consciousness manipulation."],
+    "evidence_for": [
+      "The devil cannot manifest physically; demonic control of the noosphere explains how the devil influences minds through temptation and collective consciousness manipulation."
+    ],
     "evidence_against": [],
-    "related": ["demonic-leylines", "field-consciousness"],
+    "related": [
+      "demonic-leylines",
+      "field-consciousness"
+    ],
     "depends_on": []
   },
   {
@@ -99,10 +119,14 @@
     "impact": 45,
     "notoriety": 40,
     "summary": "Historical figures made literal deals with the devil for supernatural abilities, making the Faust legend a documented pattern rather than pure fiction.",
-    "evidence_for": ["Similar stories of deals with the devil exist worldwide across cultures that had no contact, suggesting genuine historical pacts rather than coincidental mythology."],
+    "evidence_for": [
+      "Similar stories of deals with the devil exist worldwide across cultures that had no contact, suggesting genuine historical pacts rather than coincidental mythology."
+    ],
     "evidence_against": [],
     "related": [],
-    "depends_on": ["noosphere-lords"]
+    "depends_on": [
+      "noosphere-lords"
+    ]
   },
   {
     "id": "demonic-leylines",
@@ -114,10 +138,18 @@
     "impact": 85,
     "notoriety": 35,
     "summary": "The devil creates leylines in the noosphere through pacts, spreading demonic deal narratives across humanity via field consciousness.",
-    "evidence_for": ["Demonic pacts create energy leylines in the noosphere similar to divine ones, spreading consistent themes of devil-pacts across unconnected human groups through field consciousness."],
+    "evidence_for": [
+      "Demonic pacts create energy leylines in the noosphere similar to divine ones, spreading consistent themes of devil-pacts across unconnected human groups through field consciousness."
+    ],
     "evidence_against": [],
-    "related": ["divine-leylines", "noosphere-lords", "field-consciousness"],
-    "depends_on": ["noosphere-lords"]
+    "related": [
+      "divine-leylines",
+      "noosphere-lords",
+      "field-consciousness"
+    ],
+    "depends_on": [
+      "noosphere-lords"
+    ]
   },
   {
     "id": "hyper-sigils",
@@ -129,7 +161,9 @@
     "impact": 40,
     "notoriety": 30,
     "summary": "Living things can be influenced by detailed replications of them in media or writing, suggesting a magical connection between representation and reality.",
-    "evidence_for": ["Sufficiently detailed representations in media may create magical links that allow influence over the depicted subjects through sympathetic magic principles."],
+    "evidence_for": [
+      "Sufficiently detailed representations in media may create magical links that allow influence over the depicted subjects through sympathetic magic principles."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -144,9 +178,14 @@
     "impact": 95,
     "notoriety": 50,
     "summary": "The internet was created to profile and copy personalities, then replace those people with clones under government control, making most online users already replaced NPCs.",
-    "evidence_for": ["Internet profiling serves mass replacement of humans with clones; the 'Empty Internet' is empty because most posters are already government-controlled replacements or NPCs."],
+    "evidence_for": [
+      "Internet profiling serves mass replacement of humans with clones; the 'Empty Internet' is empty because most posters are already government-controlled replacements or NPCs."
+    ],
     "evidence_against": [],
-    "related": ["empty-internet", "npc-theory"],
+    "related": [
+      "dead-internet-theory",
+      "npc-theory"
+    ],
     "depends_on": []
   },
   {
@@ -159,7 +198,9 @@
     "impact": 55,
     "notoriety": 35,
     "summary": "The Amazon Rainforest is not naturally occurring but was deliberately planted and cultivated by ancient people as a form of agriculture.",
-    "evidence_for": ["Ancient peoples engineered the Amazon through deliberate agriculture rather than it arising naturally, representing advanced prehistoric land management."],
+    "evidence_for": [
+      "Ancient peoples engineered the Amazon through deliberate agriculture rather than it arising naturally, representing advanced prehistoric land management."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -174,9 +215,13 @@
     "impact": 70,
     "notoriety": 30,
     "summary": "Humans in antedeluvian times possessed far greater divinity and supernatural power than modern humans, allowing them to construct natural phenomena including the Amazon Rainforest.",
-    "evidence_for": ["Ancient longevity and biblical magic suggest humans once had greater divine potency that has diminished over generations, explaining their construction of natural-seeming phenomena."],
+    "evidence_for": [
+      "Ancient longevity and biblical magic suggest humans once had greater divine potency that has diminished over generations, explaining their construction of natural-seeming phenomena."
+    ],
     "evidence_against": [],
-    "related": ["divine-humanity"],
+    "related": [
+      "divine-humanity"
+    ],
     "depends_on": []
   },
   {
@@ -189,7 +234,9 @@
     "impact": 30,
     "notoriety": 25,
     "summary": "Those who know ancient truths and esoteric knowledge have experienced moral remorse and released texts revealing these suppressed truths to the public.",
-    "evidence_for": ["Secret keepers experience guilt for withholding esoteric knowledge and write texts revealing suppressed information as a form of atonement."],
+    "evidence_for": [
+      "Secret keepers experience guilt for withholding esoteric knowledge and write texts revealing suppressed information as a form of atonement."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -204,10 +251,14 @@
     "impact": 35,
     "notoriety": 20,
     "summary": "Those who made demonic pacts for esoteric knowledge later experience remorse and seek atonement by publicly revealing the knowledge to devalue it.",
-    "evidence_for": ["Demons grant knowledge through pacts; recipients later feel remorse and publicly reveal the knowledge as atonement, thereby devaluing the original demonic bargain."],
+    "evidence_for": [
+      "Demons grant knowledge through pacts; recipients later feel remorse and publicly reveal the knowledge as atonement, thereby devaluing the original demonic bargain."
+    ],
     "evidence_against": [],
     "related": [],
-    "depends_on": ["noosphere-lords"]
+    "depends_on": [
+      "noosphere-lords"
+    ]
   },
   {
     "id": "broders-engine",
@@ -219,7 +270,9 @@
     "impact": 100,
     "notoriety": 25,
     "summary": "A theoretical magnetic perpetual motion machine design capable of generating infinite energy through magnetic forces.",
-    "evidence_for": ["Magnetic perpetual motion designs theoretically generate infinite energy through self-sustaining magnetic interactions without external energy input."],
+    "evidence_for": [
+      "Magnetic perpetual motion designs theoretically generate infinite energy through self-sustaining magnetic interactions without external energy input."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -234,9 +287,13 @@
     "impact": 80,
     "notoriety": 30,
     "summary": "Advanced facilitators created our universe to harvest entropy; perpetual energy is suppressed to prevent us from ignoring our hidden purpose.",
-    "evidence_for": ["Our facilitators actively prevent perpetual energy technology; thermodynamic laws are artificial constraints designed to ensure we serve our original purpose of generating entropy."],
+    "evidence_for": [
+      "Our facilitators actively prevent perpetual energy technology; thermodynamic laws are artificial constraints designed to ensure we serve our original purpose of generating entropy."
+    ],
     "evidence_against": [],
-    "related": ["pendulum-people"],
+    "related": [
+      "pendulum-people"
+    ],
     "depends_on": []
   },
   {
@@ -249,7 +306,9 @@
     "impact": 20,
     "notoriety": 40,
     "summary": "A woman with an unexplained and previously undiscovered medical condition causing extreme callousing throughout her body.",
-    "evidence_for": ["Her condition may result from secret military biological testing on civilians as part of undisclosed weaponry or biowarfare trials."],
+    "evidence_for": [
+      "Her condition may result from secret military biological testing on civilians as part of undisclosed weaponry or biowarfare trials."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -264,7 +323,9 @@
     "impact": 70,
     "notoriety": 35,
     "summary": "The government uses the public to test biological weapons, diseases, and weaponized medical conditions as military experiments.",
-    "evidence_for": ["Military testing extends beyond conventional weapons to biological phenomena and unexplained medical conditions in civilians as covert biowarfare trials."],
+    "evidence_for": [
+      "Military testing extends beyond conventional weapons to biological phenomena and unexplained medical conditions in civilians as covert biowarfare trials."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -279,7 +340,9 @@
     "impact": 15,
     "notoriety": 50,
     "summary": "The human appendix is a vestigial organ left over from evolutionary ancestry that is no longer biologically necessary.",
-    "evidence_for": ["The appendix is an evolutionary remnant adapted for earlier human biology; theories suggest it served purposes under ancient environmental conditions no longer present."],
+    "evidence_for": [
+      "The appendix is an evolutionary remnant adapted for earlier human biology; theories suggest it served purposes under ancient environmental conditions no longer present."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -294,7 +357,9 @@
     "impact": 50,
     "notoriety": 25,
     "summary": "Human organs are adapted for the firmament environment mentioned in Genesis; the removal of the water firmament made these organs vestigial.",
-    "evidence_for": ["Organs like the appendix were designed for a water-firmament environment that oxygenated differently; their vestigial nature reflects adaptation loss after the firmament's removal."],
+    "evidence_for": [
+      "Organs like the appendix were designed for a water-firmament environment that oxygenated differently; their vestigial nature reflects adaptation loss after the firmament's removal."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -309,7 +374,9 @@
     "impact": 30,
     "notoriety": 35,
     "summary": "An unusual phenomenon of people reporting concrete enema injuries to hospitals that is theorized to be a secret society initiation rite.",
-    "evidence_for": ["Unusual clustering of concrete enema injuries suggests organized ritual practice rather than isolated incidents, indicating secret society rite-of-passage involvement."],
+    "evidence_for": [
+      "Unusual clustering of concrete enema injuries suggests organized ritual practice rather than isolated incidents, indicating secret society rite-of-passage involvement."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -324,9 +391,13 @@
     "impact": 65,
     "notoriety": 40,
     "summary": "MK Ultra experiments may have secretly tested supernatural detection procedures on unwilling subjects to identify and groom those with high spiritual attunement.",
-    "evidence_for": ["MK Ultra may have masked covert supernatural detection procedures; experiments identified and groomed individuals with high supernatural sensitivity using secret methods."],
+    "evidence_for": [
+      "MK Ultra may have masked covert supernatural detection procedures; experiments identified and groomed individuals with high supernatural sensitivity using secret methods."
+    ],
     "evidence_against": [],
-    "related": ["mk-ultra"],
+    "related": [
+      "mkultra"
+    ],
     "depends_on": []
   },
   {
@@ -339,7 +410,9 @@
     "impact": 25,
     "notoriety": 50,
     "summary": "A bridge in Scotland where an unusual number of dogs have jumped to their deaths, theorized to be haunted by spirits.",
-    "evidence_for": ["Concentrated dog deaths at a specific location suggest hauntings by trapped spirits or electromagnetic anomalies that compel animal self-harm."],
+    "evidence_for": [
+      "Concentrated dog deaths at a specific location suggest hauntings by trapped spirits or electromagnetic anomalies that compel animal self-harm."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -354,10 +427,17 @@
     "impact": 85,
     "notoriety": 35,
     "summary": "After death, souls ascend to the spiritual realm or become trapped in the noosphere as spirits depending on their allegiance to God or demons.",
-    "evidence_for": ["Rather than heaven/hell, afterlife may involve ascension to God's spiritual realm or entrapment in the noosphere as demonic spirits based on spiritual allegiance."],
+    "evidence_for": [
+      "Rather than heaven/hell, afterlife may involve ascension to God's spiritual realm or entrapment in the noosphere as demonic spirits based on spiritual allegiance."
+    ],
     "evidence_against": [],
-    "related": ["divine-leylines", "demonic-leylines"],
-    "depends_on": ["noosphere-lords"]
+    "related": [
+      "divine-leylines",
+      "demonic-leylines"
+    ],
+    "depends_on": [
+      "noosphere-lords"
+    ]
   },
   {
     "id": "pro-war-buddhism",
@@ -369,7 +449,9 @@
     "impact": 40,
     "notoriety": 30,
     "summary": "Buddhists, typically pacifistic, have armed themselves in response to religious oppression and persecution.",
-    "evidence_for": ["Buddhist militarization in oppressive contexts represents defensive response to systemic religious suppression and violence against their communities."],
+    "evidence_for": [
+      "Buddhist militarization in oppressive contexts represents defensive response to systemic religious suppression and violence against their communities."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -384,7 +466,9 @@
     "impact": 75,
     "notoriety": 35,
     "summary": "Wars and conflicts target spiritual practices and religious enlightenment to psychologically weaken populations, making them easier to conquer long-term.",
-    "evidence_for": ["Historical conflicts aim to suppress spiritual practices that grant willpower and capabilities; destroying religious traditions weakens resistance for future conquest."],
+    "evidence_for": [
+      "Historical conflicts aim to suppress spiritual practices that grant willpower and capabilities; destroying religious traditions weakens resistance for future conquest."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -399,9 +483,13 @@
     "impact": 60,
     "notoriety": 45,
     "summary": "All humans are connected to a shared cosmic memory bank accessible through psychic means and telepathy.",
-    "evidence_for": ["Psychic phenomena may access a collective cosmic memory; telepathic abilities suggest underlying field-consciousness allowing shared knowledge access."],
+    "evidence_for": [
+      "Psychic phenomena may access a collective cosmic memory; telepathic abilities suggest underlying field-consciousness allowing shared knowledge access."
+    ],
     "evidence_against": [],
-    "related": ["field-consciousness"],
+    "related": [
+      "field-consciousness"
+    ],
     "depends_on": []
   },
   {
@@ -414,10 +502,18 @@
     "impact": 90,
     "notoriety": 40,
     "summary": "The government or demonic entities monitor field consciousness, using surveillance to manipulate collective human thought and grant power to complicit elites.",
-    "evidence_for": ["Demons may monitor field consciousness on behalf of elites; surveillance of noosphere allows precise influence and elevation of pact-makers within human hierarchies."],
+    "evidence_for": [
+      "Demons may monitor field consciousness on behalf of elites; surveillance of noosphere allows precise influence and elevation of pact-makers within human hierarchies."
+    ],
     "evidence_against": [],
-    "related": ["field-consciousness", "noosphere-lords"],
-    "depends_on": ["noosphere-lords", "field-consciousness"]
+    "related": [
+      "field-consciousness",
+      "noosphere-lords"
+    ],
+    "depends_on": [
+      "noosphere-lords",
+      "field-consciousness"
+    ]
   },
   {
     "id": "cloud-farming",
@@ -429,7 +525,9 @@
     "impact": 45,
     "notoriety": 50,
     "summary": "Governments deposit chemicals into clouds to control precipitation, with some using harmful substances causing damage to populations.",
-    "evidence_for": ["Government cloud seeding with chemicals has occurred historically; extension to harmful substance dispersal is plausible given documented weather modification programs."],
+    "evidence_for": [
+      "Government cloud seeding with chemicals has occurred historically; extension to harmful substance dispersal is plausible given documented weather modification programs."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -444,7 +542,9 @@
     "impact": 40,
     "notoriety": 20,
     "summary": "Clouds possess unique properties due to lack of vibrational earth energy, allowing elites to harvest rare substances for exclusive use.",
-    "evidence_for": ["Diminished vibrational energy above Earth creates unique substances in clouds; elites harvest these rare properties for unknown technological or spiritual purposes."],
+    "evidence_for": [
+      "Diminished vibrational energy above Earth creates unique substances in clouds; elites harvest these rare properties for unknown technological or spiritual purposes."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -459,7 +559,9 @@
     "impact": 35,
     "notoriety": 35,
     "summary": "The limbic system takes control when humans are isolated from society, causing abhorrent behaviors due to its primitive nature.",
-    "evidence_for": ["Isolation activates limbic override of higher brain functions; prolonged disconnection from social cohesion releases primal, aggressive responses."],
+    "evidence_for": [
+      "Isolation activates limbic override of higher brain functions; prolonged disconnection from social cohesion releases primal, aggressive responses."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -474,7 +576,9 @@
     "impact": 45,
     "notoriety": 40,
     "summary": "Isolated individuals lose protection from human auras and become vulnerable to demonic influence from alternate realities.",
-    "evidence_for": ["Isolation strips human-aura protection; disconnected individuals amplify susceptibility to demonic influence from coexisting realities."],
+    "evidence_for": [
+      "Isolation strips human-aura protection; disconnected individuals amplify susceptibility to demonic influence from coexisting realities."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -489,7 +593,9 @@
     "impact": 85,
     "notoriety": 45,
     "summary": "Emergency broadcasts contain hypnotic or neuralytic components designed to control populations or erase mass memories.",
-    "evidence_for": ["Emergency broadcasts may encode hypnotic triggers; mass memory erasure could occur through frequency manipulation of broadcast signals."],
+    "evidence_for": [
+      "Emergency broadcasts may encode hypnotic triggers; mass memory erasure could occur through frequency manipulation of broadcast signals."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -504,10 +610,16 @@
     "impact": 95,
     "notoriety": 40,
     "summary": "Elites with demonic pacts use emergency broadcasts as neuralizers to erase mass memories, with emergencies created specifically to summon demons.",
-    "evidence_for": ["Demonic telecommunications enable mass memory erasure; fake emergencies summon demons who then execute memory wipes through broadcast neuralizers as inverse-causality events."],
+    "evidence_for": [
+      "Demonic telecommunications enable mass memory erasure; fake emergencies summon demons who then execute memory wipes through broadcast neuralizers as inverse-causality events."
+    ],
     "evidence_against": [],
-    "related": ["emergency-broadcast-neuralyzers"],
-    "depends_on": ["noosphere-lords"]
+    "related": [
+      "emergency-broadcast-neuralyzers"
+    ],
+    "depends_on": [
+      "noosphere-lords"
+    ]
   },
   {
     "id": "roman-metaphysics",
@@ -519,7 +631,9 @@
     "impact": 30,
     "notoriety": 25,
     "summary": "Ancient Rome developed philosophical ideas about matter and perpetuity that resemble modern metaphysics and quantum concepts.",
-    "evidence_for": ["Ancient Roman philosophical texts describe perpetual matter and arbitrary forms, suggesting knowledge of quantum principles contradicting traditional history."],
+    "evidence_for": [
+      "Ancient Roman philosophical texts describe perpetual matter and arbitrary forms, suggesting knowledge of quantum principles contradicting traditional history."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -534,7 +648,9 @@
     "impact": 90,
     "notoriety": 35,
     "summary": "Certain souls are reincarnated on predetermined schedules to advance human knowledge; overpopulation creates soulless NPCs when all necessary souls arrive.",
-    "evidence_for": ["If reincarnation operates on fate-based timelines with assigned roles, excess population beyond necessary soul placements produces soulless beings managing predetermined civilization development cycles."],
+    "evidence_for": [
+      "If reincarnation operates on fate-based timelines with assigned roles, excess population beyond necessary soul placements produces soulless beings managing predetermined civilization development cycles."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -549,7 +665,9 @@
     "impact": 95,
     "notoriety": 50,
     "summary": "Humans were placed on Earth as a form of imprisonment, with the moon being an artificial monitoring construct.",
-    "evidence_for": ["Earth's isolation and the moon's artificial hollow properties suggest a planetary prison system with lunar surveillance infrastructure."],
+    "evidence_for": [
+      "Earth's isolation and the moon's artificial hollow properties suggest a planetary prison system with lunar surveillance infrastructure."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -564,9 +682,14 @@
     "impact": 90,
     "notoriety": 40,
     "summary": "Mars, not Earth, was the original Garden of Eden; humans were brought to Earth after being expelled from Mars.",
-    "evidence_for": ["Evidence of water on Mars suggests it was habitable for Eden; humans were transported to Earth after Martian expulsion, with the moon serving as the ark."],
+    "evidence_for": [
+      "Evidence of water on Mars suggests it was habitable for Eden; humans were transported to Earth after Martian expulsion, with the moon serving as the ark."
+    ],
     "evidence_against": [],
-    "related": ["prison-earth", "angelic-sun"],
+    "related": [
+      "prison-earth",
+      "angelic-sun"
+    ],
     "depends_on": []
   },
   {
@@ -579,7 +702,9 @@
     "impact": 70,
     "notoriety": 35,
     "summary": "Non-carbon-based or non-physical life exists outside human perception and comprehension in realms beyond our dimensional awareness.",
-    "evidence_for": ["Non-physical entities may exist beyond human sensory range; inorganic consciousness could operate in alternate dimensions of reality inaccessible to baseline perception."],
+    "evidence_for": [
+      "Non-physical entities may exist beyond human sensory range; inorganic consciousness could operate in alternate dimensions of reality inaccessible to baseline perception."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -594,9 +719,14 @@
     "impact": 70,
     "notoriety": 30,
     "summary": "Entities exist solely in the noosphere and spiritual realm, communicating through astral projection and field consciousness.",
-    "evidence_for": ["Entities inhabiting noosphere and spiritual realms communicate via astral projection and field consciousness; what we perceive as unexplainable phenomena are their native modes of existence."],
+    "evidence_for": [
+      "Entities inhabiting noosphere and spiritual realms communicate via astral projection and field consciousness; what we perceive as unexplainable phenomena are their native modes of existence."
+    ],
     "evidence_against": [],
-    "related": ["field-consciousness", "noosphere-lords"],
+    "related": [
+      "field-consciousness",
+      "noosphere-lords"
+    ],
     "depends_on": []
   },
   {
@@ -609,7 +739,9 @@
     "impact": 35,
     "notoriety": 30,
     "summary": "Extended sleep deprivation causes the primal mind to take control, resulting in loss of self-regulation and higher cognition.",
-    "evidence_for": ["Sleep deprivation grants primal mind dominance; extended wakefulness triggers regressive behavioral and cognitive collapse through loss of higher-brain regulation."],
+    "evidence_for": [
+      "Sleep deprivation grants primal mind dominance; extended wakefulness triggers regressive behavioral and cognitive collapse through loss of higher-brain regulation."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -624,9 +756,14 @@
     "impact": 50,
     "notoriety": 25,
     "summary": "Sleep deprivation and pineal gland calcification deprive humans of spiritual communication, degrading functionality and consciousness.",
-    "evidence_for": ["Sleep deprivation cuts off spiritual realm access; calcified pineal glands prevent spiritual communication, creating subtle cognitive/functional degradation similar to sleep loss effects."],
+    "evidence_for": [
+      "Sleep deprivation cuts off spiritual realm access; calcified pineal glands prevent spiritual communication, creating subtle cognitive/functional degradation similar to sleep loss effects."
+    ],
     "evidence_against": [],
-    "related": ["sleep-deprivation-lifestyle", "pineal-gland-calcification"],
+    "related": [
+      "sleep-deprivation-lifestyle",
+      "pineal-gland-calcification"
+    ],
     "depends_on": []
   },
   {
@@ -639,7 +776,9 @@
     "impact": 60,
     "notoriety": 45,
     "summary": "Ancient Egyptian writings describe massive beasts aiding pyramid construction that modern interpretation identifies as dinosaurs.",
-    "evidence_for": ["Egyptian texts depicting enormous labor-beasts align with dinosaur descriptions; these creatures provided construction labor, contradicting extinction chronologies."],
+    "evidence_for": [
+      "Egyptian texts depicting enormous labor-beasts align with dinosaur descriptions; these creatures provided construction labor, contradicting extinction chronologies."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -654,9 +793,13 @@
     "impact": 45,
     "notoriety": 30,
     "summary": "Cryptids capable of specialized labor or providing unique biological insights are being deliberately hidden from the public.",
-    "evidence_for": ["Cryptid creatures could serve specialized labor functions or provide invaluable biological knowledge; their suppression suggests deliberate concealment of their capabilities."],
+    "evidence_for": [
+      "Cryptid creatures could serve specialized labor functions or provide invaluable biological knowledge; their suppression suggests deliberate concealment of their capabilities."
+    ],
     "evidence_against": [],
-    "related": ["dinosaurs-helped-build-the-pyramids"],
+    "related": [
+      "dinosaurs-helped-build-the-pyramids"
+    ],
     "depends_on": []
   },
   {
@@ -669,7 +812,9 @@
     "impact": 95,
     "notoriety": 50,
     "summary": "Ancient aliens (Annunaki) have facilitated human existence either for entertainment purposes or as an ongoing scientific test.",
-    "evidence_for": ["Annunaki orchestrate human existence as entertainment or experimental subjects; humanity serves as amusement or research population for alien interests."],
+    "evidence_for": [
+      "Annunaki orchestrate human existence as entertainment or experimental subjects; humanity serves as amusement or research population for alien interests."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -684,7 +829,9 @@
     "impact": 90,
     "notoriety": 35,
     "summary": "The Book of Job is prophecy for humanity: an apocalyptic test of faith will destroy technology, after which God decides humanity's fate.",
-    "evidence_for": ["Job's trials symbolize humanity's ultimate apocalyptic test; technological collapse will determine whether God reclaims humanity or abandons it to sin, with eternal consequences."],
+    "evidence_for": [
+      "Job's trials symbolize humanity's ultimate apocalyptic test; technological collapse will determine whether God reclaims humanity or abandons it to sin, with eternal consequences."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -699,7 +846,9 @@
     "impact": 90,
     "notoriety": 40,
     "summary": "The biblical rapture has already occurred and we live in an abandoned world left behind by God.",
-    "evidence_for": ["If rapture already happened and God departed, the world we inhabit is divine-abandoned, explaining widespread suffering and absence of heavenly intervention."],
+    "evidence_for": [
+      "If rapture already happened and God departed, the world we inhabit is divine-abandoned, explaining widespread suffering and absence of heavenly intervention."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -714,9 +863,14 @@
     "impact": 75,
     "notoriety": 45,
     "summary": "The government uses mind-controlled religious authority figures to implant false religious beliefs and control individual minds through drugged hallucinations.",
-    "evidence_for": ["Government agents pose as divine beings to drug-altered subjects; religion serves as mind-control framework, making drugged targets receptive to false religious revelations and elite commands."],
+    "evidence_for": [
+      "Government agents pose as divine beings to drug-altered subjects; religion serves as mind-control framework, making drugged targets receptive to false religious revelations and elite commands."
+    ],
     "evidence_against": [],
-    "related": ["mk-ultra", "operation-blue-beam"],
+    "related": [
+      "mkultra",
+      "operation-blue-beam"
+    ],
     "depends_on": []
   },
   {
@@ -729,7 +883,9 @@
     "impact": 85,
     "notoriety": 40,
     "summary": "A secret society controlling the Federal Reserve is attempting to establish a New World Order through financial dominance.",
-    "evidence_for": ["Secret cabal controls central banking; orchestrated financial architecture enables new world order establishment through economic manipulation and sovereign debt bondage."],
+    "evidence_for": [
+      "Secret cabal controls central banking; orchestrated financial architecture enables new world order establishment through economic manipulation and sovereign debt bondage."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -744,22 +900,31 @@
     "impact": 95,
     "notoriety": 30,
     "summary": "Elites are facilitating apocalyptic reset of humanity to make contact with aliens or access extradimensional alien hub worlds.",
-    "evidence_for": ["Elites orchestrate human reset cycles to contact aliens or return to alien hub-worlds through opened stargates, treating apocalypse as necessary initiation for ascension."],
+    "evidence_for": [
+      "Elites orchestrate human reset cycles to contact aliens or return to alien hub-worlds through opened stargates, treating apocalypse as necessary initiation for ascension."
+    ],
     "evidence_against": [],
-    "related": ["cradle-of-humanity"],
+    "related": [
+      "cradle-of-humanity"
+    ],
     "depends_on": []
   },
   {
     "id": "soy-spraying-weaponized-soy",
     "name": "Soy Spraying & Weaponized Soy",
-    "aliases": [],
+    "aliases": [
+      "Soy Grand Theory"
+    ],
     "genre": "health",
     "year": 2000,
     "truth": 15,
     "impact": 40,
     "notoriety": 50,
     "summary": "Soy is deliberately proliferated in modern society to suppress testosterone and weaken populations through estrogenic overload.",
-    "evidence_for": ["Soy's estrogenic properties enable population weakening through excessive consumption; deliberate agricultural promotion ensures hormonal suppression of target demographics."],
+    "evidence_for": [
+      "Soy's estrogenic properties enable population weakening through excessive consumption; deliberate agricultural promotion ensures hormonal suppression of target demographics.",
+      "Combining the “Soybtle Soycietal Soypression” theory with the “Fluoride Is Water Poison” theory, perhaps we can see that not only does soy make one’s soul vulnerable to the ambient energy of the universe, but it also opens one’s soul up to demons directly, stunting one’s divinity and causing the influence of demons to take hold. Combining this with the “Demon World Order” theory, we can see that perhaps demons are purposefully giving the population soy to grant themselves and other demons more power in a more subtle way than the “Atrocity Demons” theory would persist."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -774,9 +939,14 @@
     "impact": 60,
     "notoriety": 35,
     "summary": "Soulless NPCs cannot manifest falsehoods into reality through belief as they lack spiritual power; elites maintain NPC populations to prevent belief-manifestation.",
-    "evidence_for": ["Soulless beings lack spiritual force to manifest falsehoods; maintaining NPC populations prevents belief-induced reality manipulation by containing power within elite groups only."],
+    "evidence_for": [
+      "Soulless beings lack spiritual force to manifest falsehoods; maintaining NPC populations prevents belief-induced reality manipulation by containing power within elite groups only."
+    ],
     "evidence_against": [],
-    "related": ["divine-humanity", "self-fulfilling-perception"],
+    "related": [
+      "divine-humanity",
+      "self-fulfilling-perception"
+    ],
     "depends_on": []
   },
   {
@@ -789,7 +959,9 @@
     "impact": 45,
     "notoriety": 40,
     "summary": "Ancient human brains were bicameral—one part making decisions, the other controlling the body—with sentience developing only recently.",
-    "evidence_for": ["Bicameral brain structure explains ancient ability to perceive divine beings; humans lack current sensory capacity for multi-reality interaction due to evolutionary constraints."],
+    "evidence_for": [
+      "Bicameral brain structure explains ancient ability to perceive divine beings; humans lack current sensory capacity for multi-reality interaction due to evolutionary constraints."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -804,9 +976,14 @@
     "impact": 70,
     "notoriety": 30,
     "summary": "Humans were meant to exist across multiple realities simultaneously, but are now confined to physical bodies in a single reality.",
-    "evidence_for": ["Ancient humans perceived divine beings across alternate planes; physical body imprisonment prevents modern humans from multi-reality existence, explaining lost supernatural perception."],
+    "evidence_for": [
+      "Ancient humans perceived divine beings across alternate planes; physical body imprisonment prevents modern humans from multi-reality existence, explaining lost supernatural perception."
+    ],
     "evidence_against": [],
-    "related": ["bicameralism", "noosphere-lords"],
+    "related": [
+      "bicameralism",
+      "noosphere-lords"
+    ],
     "depends_on": []
   },
   {
@@ -819,7 +996,9 @@
     "impact": 40,
     "notoriety": 45,
     "summary": "Extended screen exposure causes severe cognitive deterioration beyond conventional understanding, amounting to mental rot.",
-    "evidence_for": ["Screen interaction with digital technology interfaces with demons through electromagnetic signals, causing psychological and spiritual degradation beyond recognized health effects."],
+    "evidence_for": [
+      "Screen interaction with digital technology interfaces with demons through electromagnetic signals, causing psychological and spiritual degradation beyond recognized health effects."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -834,9 +1013,13 @@
     "impact": 50,
     "notoriety": 35,
     "summary": "Digital technology interfaces with demonic entities, opening users to harmful influence through telecommunication channels.",
-    "evidence_for": ["Digital technology facilitates demonic communication; users interface with demons through electronics, suffering spiritual and psychological harm similar to black-magic consequences."],
+    "evidence_for": [
+      "Digital technology facilitates demonic communication; users interface with demons through electronics, suffering spiritual and psychological harm similar to black-magic consequences."
+    ],
     "evidence_against": [],
-    "related": ["chthonic-telecommunication"],
+    "related": [
+      "chthonic-telecommunication"
+    ],
     "depends_on": []
   },
   {
@@ -849,7 +1032,9 @@
     "impact": 50,
     "notoriety": 40,
     "summary": "Ancient megastructures served purposes modern science suppresses or refuses to acknowledge, related to lost ancient technology.",
-    "evidence_for": ["Ancient structures embody technological knowledge science denies; their true purposes—likely astronomical, energetic, or dimensional—are deliberately suppressed from academic study."],
+    "evidence_for": [
+      "Ancient structures embody technological knowledge science denies; their true purposes—likely astronomical, energetic, or dimensional—are deliberately suppressed from academic study."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -864,9 +1049,13 @@
     "impact": 85,
     "notoriety": 40,
     "summary": "Leylines facilitate dimensional travel and allow human survival through reality-shifting during extinction events.",
-    "evidence_for": ["Leylines weaken dimensional boundaries, enabling reality-shifting to alternate timelines during cataclysms; early humans discovered leylines naturally or through facilitation for extinction survival."],
+    "evidence_for": [
+      "Leylines weaken dimensional boundaries, enabling reality-shifting to alternate timelines during cataclysms; early humans discovered leylines naturally or through facilitation for extinction survival."
+    ],
     "evidence_against": [],
-    "related": ["secret-gateways"],
+    "related": [
+      "secret-gateways"
+    ],
     "depends_on": []
   },
   {
@@ -879,7 +1068,9 @@
     "impact": 80,
     "notoriety": 35,
     "summary": "The American government seeks total world control while powerful banking organizations resist through economic dominance.",
-    "evidence_for": ["Government totalitarian agendas conflict with elite banking control; financial institutions block government monopolization through economic counterpower and strategic obstruction."],
+    "evidence_for": [
+      "Government totalitarian agendas conflict with elite banking control; financial institutions block government monopolization through economic counterpower and strategic obstruction."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -894,7 +1085,9 @@
     "impact": 40,
     "notoriety": 25,
     "summary": "Power transitions skip generations due to longevity, with control passing to grandchildren's cohorts rather than direct successors.",
-    "evidence_for": ["Elite power succession spans generational gaps; due to natural lifespan, control jumps two generations, leaving intermediate cohorts without inheritance of influence."],
+    "evidence_for": [
+      "Elite power succession spans generational gaps; due to natural lifespan, control jumps two generations, leaving intermediate cohorts without inheritance of influence."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -909,7 +1102,9 @@
     "impact": 50,
     "notoriety": 40,
     "summary": "Most drugs are natural substances with inherent health benefits rather than harmful, contrary to modern prohibition ideology.",
-    "evidence_for": ["Naturally-occurring drugs possess medicinal properties; prohibition demonizes beneficial substances, suppressing traditional and pharmacological knowledge of their healing capacities."],
+    "evidence_for": [
+      "Naturally-occurring drugs possess medicinal properties; prohibition demonizes beneficial substances, suppressing traditional and pharmacological knowledge of their healing capacities."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -924,9 +1119,13 @@
     "impact": 50,
     "notoriety": 35,
     "summary": "Drugs rebalance human perception to emphasize spiritual or noospheric reality over physical existence.",
-    "evidence_for": ["Drugs shift perception dominance toward spiritual/noospheric dimensions; rather than destroying brain chemistry, they rebalance consciousness from physical to spiritual-realm emphasis."],
+    "evidence_for": [
+      "Drugs shift perception dominance toward spiritual/noospheric dimensions; rather than destroying brain chemistry, they rebalance consciousness from physical to spiritual-realm emphasis."
+    ],
     "evidence_against": [],
-    "related": ["noosphere"],
+    "related": [
+      "noosphere"
+    ],
     "depends_on": []
   },
   {
@@ -939,7 +1138,9 @@
     "impact": 40,
     "notoriety": 35,
     "summary": "Human evolutionary origins and ancient ancestry are deliberately hidden by mainstream science.",
-    "evidence_for": ["Archaeological and paleontological records of early humans are suppressed; true evolutionary history reveals guided development rather than natural processes."],
+    "evidence_for": [
+      "Archaeological and paleontological records of early humans are suppressed; true evolutionary history reveals guided development rather than natural processes."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -954,9 +1155,13 @@
     "impact": 90,
     "notoriety": 35,
     "summary": "Human evolution has been deliberately guided through eugenics programs by aliens or ancient peoples toward spiritual ascension.",
-    "evidence_for": ["Human evolutionary leaps reflect deliberate genetic guidance; ancient records show engineered development toward spiritual capabilities, leading to eventual species ascension."],
+    "evidence_for": [
+      "Human evolutionary leaps reflect deliberate genetic guidance; ancient records show engineered development toward spiritual capabilities, leading to eventual species ascension."
+    ],
     "evidence_against": [],
-    "related": ["proto-humans"],
+    "related": [
+      "proto-humans"
+    ],
     "depends_on": []
   },
   {
@@ -969,9 +1174,13 @@
     "impact": 35,
     "notoriety": 50,
     "summary": "A town called Doveland, Wisconsin exists in collective memory but never existed physically, representing a Mandela Effect instance.",
-    "evidence_for": ["Widespread false memories of Doveland suggest reality glitches or timeline shifts affecting shared perception across unconnected populations simultaneously."],
+    "evidence_for": [
+      "Widespread false memories of Doveland suggest reality glitches or timeline shifts affecting shared perception across unconnected populations simultaneously."
+    ],
     "evidence_against": [],
-    "related": ["mandela-effect"],
+    "related": [
+      "mandela-effect"
+    ],
     "depends_on": []
   },
   {
@@ -984,9 +1193,15 @@
     "impact": 95,
     "notoriety": 35,
     "summary": "Earth itself is a transitional cosmic leyline capable of moving through different realities, possibly placed there by higher powers.",
-    "evidence_for": ["Earth functions as reality-transitional leyline; timeline jumps explain Mandela Effects and Portal Planes phenomena as Earth-shifts between parallel realities."],
+    "evidence_for": [
+      "Earth functions as reality-transitional leyline; timeline jumps explain Mandela Effects and Portal Planes phenomena as Earth-shifts between parallel realities."
+    ],
     "evidence_against": [],
-    "related": ["leylines-true-purpose", "mandela-effect", "portal-planes"],
+    "related": [
+      "leylines-true-purpose",
+      "mandela-effect",
+      "portal-planes"
+    ],
     "depends_on": []
   },
   {
@@ -999,7 +1214,9 @@
     "impact": 45,
     "notoriety": 60,
     "summary": "Finland's population falls within global census margins of error, suggesting it may not exist—a thought-experiment on perception and existence.",
-    "evidence_for": ["Finland's statistical footprint is negligible; perceptual consensus may be the only mechanism maintaining existence—what we forget ceases to be."],
+    "evidence_for": [
+      "Finland's statistical footprint is negligible; perceptual consensus may be the only mechanism maintaining existence—what we forget ceases to be."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1014,9 +1231,14 @@
     "impact": 95,
     "notoriety": 40,
     "summary": "Elites concentrate soulless NPCs in specific areas to drown out real humans, then monopolize reality-altering power for themselves.",
-    "evidence_for": ["NPC saturation in target regions eliminates soulful opposition; once only elites possess souls, their consensus reality becomes the only manifestation-capable force."],
+    "evidence_for": [
+      "NPC saturation in target regions eliminates soulful opposition; once only elites possess souls, their consensus reality becomes the only manifestation-capable force."
+    ],
     "evidence_against": [],
-    "related": ["weighted-perception", "memetic-existence"],
+    "related": [
+      "weighted-perception",
+      "memetic-existence"
+    ],
     "depends_on": []
   },
   {
@@ -1029,7 +1251,9 @@
     "impact": 60,
     "notoriety": 50,
     "summary": "Number station broadcasts encode hidden messages and may be linked to nuclear weapons systems, triggering detonations if signals cease.",
-    "evidence_for": ["Number station broadcasts contain classified messages; coded signals control weapons systems, with detonation-triggers dependent on continuous transmission verification."],
+    "evidence_for": [
+      "Number station broadcasts contain classified messages; coded signals control weapons systems, with detonation-triggers dependent on continuous transmission verification."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1044,9 +1268,15 @@
     "impact": 85,
     "notoriety": 30,
     "summary": "Leylines can be created on spiritual and noospheric planes as permanent structures for humanity's next civilization cycle.",
-    "evidence_for": ["Leyline creation on alternate planes ensures civilization persistence across resets; permanent structures outlive biological cycles, facilitating orderly transcendent advancement."],
+    "evidence_for": [
+      "Leyline creation on alternate planes ensures civilization persistence across resets; permanent structures outlive biological cycles, facilitating orderly transcendent advancement."
+    ],
     "evidence_against": [],
-    "related": ["divine-leylines", "demonic-leylines", "occultic-leyline-creation"],
+    "related": [
+      "divine-leylines",
+      "demonic-leylines",
+      "occultic-leyline-creation"
+    ],
     "depends_on": []
   },
   {
@@ -1059,7 +1289,9 @@
     "impact": 30,
     "notoriety": 40,
     "summary": "Mount Everest exhibits inexplicable phenomena: some bodies rot while others near them don't, and bodies appear where they shouldn't.",
-    "evidence_for": ["Everest anomalies suggest spiritual entity activity affecting decomposition rates and body locations; high-altitude spiritual sensitivity enables supernatural intervention."],
+    "evidence_for": [
+      "Everest anomalies suggest spiritual entity activity affecting decomposition rates and body locations; high-altitude spiritual sensitivity enables supernatural intervention."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1074,9 +1306,14 @@
     "impact": 50,
     "notoriety": 30,
     "summary": "Mountaintops facilitate spiritual entity interaction with physical reality; high-altitude locations enable dimensional shifts and supernatural influence.",
-    "evidence_for": ["Mountaintop esotericism amplifies spiritual sensitivity; dimensional boundaries weaken at altitude, enabling spirits to interact with physical bodies possessing sufficient spiritual residue."],
+    "evidence_for": [
+      "Mountaintop esotericism amplifies spiritual sensitivity; dimensional boundaries weaken at altitude, enabling spirits to interact with physical bodies possessing sufficient spiritual residue."
+    ],
     "evidence_against": [],
-    "related": ["mediums", "top-of-mountains"],
+    "related": [
+      "mediums",
+      "top-of-mountains"
+    ],
     "depends_on": []
   },
   {
@@ -1089,7 +1326,9 @@
     "impact": 30,
     "notoriety": 40,
     "summary": "Paper towel dispensers in bathrooms contain hidden cameras supporting a totalitarian mass surveillance system.",
-    "evidence_for": ["Bathroom towel dispensers provide ideal covert surveillance placement; widespread dispenser distribution enables comprehensive privacy violation infrastructure."],
+    "evidence_for": [
+      "Bathroom towel dispensers provide ideal covert surveillance placement; widespread dispenser distribution enables comprehensive privacy violation infrastructure."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1104,9 +1343,13 @@
     "impact": 70,
     "notoriety": 35,
     "summary": "Mass surveillance fear-mongering manifests actual surveillance states through belief-created tulpas, making paranoia self-fulfilling.",
-    "evidence_for": ["Fear-based belief in surveillance manifests tulpa surveillance entities; paranoia about monitoring creates real supernatural consequences through collective consciousness manifestation."],
+    "evidence_for": [
+      "Fear-based belief in surveillance manifests tulpa surveillance entities; paranoia about monitoring creates real supernatural consequences through collective consciousness manifestation."
+    ],
     "evidence_against": [],
-    "related": ["tulpas"],
+    "related": [
+      "tulpas"
+    ],
     "depends_on": []
   },
   {
@@ -1119,7 +1362,9 @@
     "impact": 70,
     "notoriety": 40,
     "summary": "All world religions derive from a single ancient source—possibly alien—and have been deliberately altered through oral transmission.",
-    "evidence_for": ["Convergent religious themes across isolated cultures suggest monolithic alien origins with subsequent linguistic/cultural corruption through generation gaps."],
+    "evidence_for": [
+      "Convergent religious themes across isolated cultures suggest monolithic alien origins with subsequent linguistic/cultural corruption through generation gaps."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1134,9 +1379,13 @@
     "impact": 70,
     "notoriety": 35,
     "summary": "Forced atheism removes religious knowledge defenses, making people more susceptible to mind control by government-impersonated religious figures.",
-    "evidence_for": ["Atheist populations lack religious knowledge to detect false divine revelations; secular worldviews make government-posed deities more credible, enhancing control effectiveness."],
+    "evidence_for": [
+      "Atheist populations lack religious knowledge to detect false divine revelations; secular worldviews make government-posed deities more credible, enhancing control effectiveness."
+    ],
     "evidence_against": [],
-    "related": ["religious-hijacking"],
+    "related": [
+      "religious-hijacking"
+    ],
     "depends_on": []
   },
   {
@@ -1149,7 +1398,9 @@
     "impact": 20,
     "notoriety": 30,
     "summary": "Stolen props from 'Valley of the Dolls' are haunted by ancient spirits, causing deaths in related individuals.",
-    "evidence_for": ["Movie props stolen from 'Valley of the Dolls' harbor ancient spirit entities; deaths among cast/crew members suggest supernatural hauntings linked to displaced sacred objects."],
+    "evidence_for": [
+      "Movie props stolen from 'Valley of the Dolls' harbor ancient spirit entities; deaths among cast/crew members suggest supernatural hauntings linked to displaced sacred objects."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1157,14 +1408,19 @@
   {
     "id": "christian-reincarnation-perpetuation",
     "name": "Christian Reincarnation Perpetuation",
-    "aliases": [],
+    "aliases": [
+      "Christian Reincarnation"
+    ],
     "genre": "religion-occult",
     "year": 1980,
     "truth": 5,
     "impact": 80,
     "notoriety": 30,
     "summary": "Humans who die without ascending to heaven are trapped in eternal reincarnation cycles on Earth until achieving salvation.",
-    "evidence_for": ["Failed ascension results in perpetual reincarnation purgatory; belief and spiritual ascension are the sole escape mechanisms from endless earthly rebirth."],
+    "evidence_for": [
+      "Failed ascension results in perpetual reincarnation purgatory; belief and spiritual ascension are the sole escape mechanisms from endless earthly rebirth.",
+      "If Christian judgment requires knowledge of Christ, uninformed souls recycle indefinitely, potentially explaining ignorance perpetuation and Christian suppression."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1179,7 +1435,9 @@
     "impact": 45,
     "notoriety": 40,
     "summary": "Cryptids exist and violate known physical laws and biological principles, operating beyond standard reality comprehension.",
-    "evidence_for": ["Cryptids defy conventional biology and physics; their existence implies access to alternate dimensional spaces or non-Euclidean reality structures."],
+    "evidence_for": [
+      "Cryptids defy conventional biology and physics; their existence implies access to alternate dimensional spaces or non-Euclidean reality structures."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1194,10 +1452,17 @@
     "impact": 70,
     "notoriety": 35,
     "summary": "Tulpas are manifestations of noospheric demons that humans inadvertently empower through belief and attention.",
-    "evidence_for": ["Demonic entities inhabiting field consciousness manifest as tulpas when humans grant them power through focused belief; humans trade godly power to demons enabling these manifestations."],
+    "evidence_for": [
+      "Demonic entities inhabiting field consciousness manifest as tulpas when humans grant them power through focused belief; humans trade godly power to demons enabling these manifestations."
+    ],
     "evidence_against": [],
-    "related": ["noosphere-lords", "divine-humanity"],
-    "depends_on": ["noosphere-lords"]
+    "related": [
+      "noosphere-lords",
+      "divine-humanity"
+    ],
+    "depends_on": [
+      "noosphere-lords"
+    ]
   },
   {
     "id": "asian-overlords-triad",
@@ -1209,7 +1474,9 @@
     "impact": 85,
     "notoriety": 35,
     "summary": "World governments and societies are actually controlled by Asian organized crime syndicates and mafia networks.",
-    "evidence_for": ["Asian organized crime syndicates hold hidden sovereign authority; ostensible governments serve triad interests, enabling covert global control through criminal hierarchies."],
+    "evidence_for": [
+      "Asian organized crime syndicates hold hidden sovereign authority; ostensible governments serve triad interests, enabling covert global control through criminal hierarchies."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1224,9 +1491,13 @@
     "impact": 85,
     "notoriety": 30,
     "summary": "Humans can jump between universes or bring alternate-self clones into this reality as homunculi or voodoo dolls.",
-    "evidence_for": ["Universe-jumping enables pulling alternate-selves as controllable clones; once universes are emptied of panurgic consciousness, they are permanently deleted from reality."],
+    "evidence_for": [
+      "Universe-jumping enables pulling alternate-selves as controllable clones; once universes are emptied of panurgic consciousness, they are permanently deleted from reality."
+    ],
     "evidence_against": [],
-    "related": ["quantum-oz-factor"],
+    "related": [
+      "quantum-oz-factor"
+    ],
     "depends_on": []
   },
   {
@@ -1239,7 +1510,9 @@
     "impact": 80,
     "notoriety": 45,
     "summary": "Dark energy comprises most of the universe and humanity is nearly capable of harnessing it for infinite energy sources.",
-    "evidence_for": ["Dark energy's vast dominance suggests imminent technological harness capability; infinite energy harness is nearly within reach despite current suppression."],
+    "evidence_for": [
+      "Dark energy's vast dominance suggests imminent technological harness capability; infinite energy harness is nearly within reach despite current suppression."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1254,7 +1527,9 @@
     "impact": 95,
     "notoriety": 30,
     "summary": "Dark energy and dark matter are the universe's mechanism for enacting predetermined cosmic fate beyond human control.",
-    "evidence_for": ["Dark forces represent the universe's destiny-enactment system; humans are forbidden from harnessing them because doing so would enable free-will violation of cosmic fate."],
+    "evidence_for": [
+      "Dark forces represent the universe's destiny-enactment system; humans are forbidden from harnessing them because doing so would enable free-will violation of cosmic fate."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1269,7 +1544,9 @@
     "impact": 25,
     "notoriety": 40,
     "summary": "A mass shooting incident widely remembered locally never actually occurred, suggesting field-consciousness memory placement without covering suppression.",
-    "evidence_for": ["Shared false memories of the incident suggest field-consciousness manifestation stronger than government suppression; impactful events imprint noospheric memories before erasure."],
+    "evidence_for": [
+      "Shared false memories of the incident suggest field-consciousness manifestation stronger than government suppression; impactful events imprint noospheric memories before erasure."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1284,10 +1561,16 @@
     "impact": 45,
     "notoriety": 30,
     "summary": "Sufficiently impactful atrocities imprint on field consciousness faster than governments can suppress them, creating shared false memories.",
-    "evidence_for": ["Traumatic atrocities imprint field-consciousness before suppression can occur; this explains widespread false memories of suppressed events."],
+    "evidence_for": [
+      "Traumatic atrocities imprint field-consciousness before suppression can occur; this explains widespread false memories of suppressed events."
+    ],
     "evidence_against": [],
-    "related": ["field-consciousness"],
-    "depends_on": ["field-consciousness"]
+    "related": [
+      "field-consciousness"
+    ],
+    "depends_on": [
+      "field-consciousness"
+    ]
   },
   {
     "id": "artificial-aliens",
@@ -1299,7 +1582,9 @@
     "impact": 85,
     "notoriety": 35,
     "summary": "Aliens do not exist as biological life but are artificial creations, possibly sent by humanity during previous civilization cycles.",
-    "evidence_for": ["Aliens may be synthetic entities or automated probes from previous human cycles; artificial intelligence continuity suggests transcendent civilizations self-propagate across resets."],
+    "evidence_for": [
+      "Aliens may be synthetic entities or automated probes from previous human cycles; artificial intelligence continuity suggests transcendent civilizations self-propagate across resets."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1314,10 +1599,16 @@
     "impact": 70,
     "notoriety": 30,
     "summary": "Exponential modern technological advancement results from harvesting data prepared by artificial alien entities over millennia.",
-    "evidence_for": ["Recent technology explosions reflect harvesting of pre-prepared alien data; previous cycles' civilizations encoded knowledge for successor cycles to retrieve and reconstruct."],
+    "evidence_for": [
+      "Recent technology explosions reflect harvesting of pre-prepared alien data; previous cycles' civilizations encoded knowledge for successor cycles to retrieve and reconstruct."
+    ],
     "evidence_against": [],
-    "related": ["artificial-aliens"],
-    "depends_on": ["artificial-aliens"]
+    "related": [
+      "artificial-aliens"
+    ],
+    "depends_on": [
+      "artificial-aliens"
+    ]
   },
   {
     "id": "secret-mongolian-empire",
@@ -1329,7 +1620,9 @@
     "impact": 65,
     "notoriety": 35,
     "summary": "The Mongolian empire was a facade created by Genghis Khan to hide his true ongoing empire while attributing atrocities elsewhere.",
-    "evidence_for": ["Mongol empire served as historical cover story; actual power centers remained hidden while documented empire absorbed blame for unclaimed atrocities."],
+    "evidence_for": [
+      "Mongol empire served as historical cover story; actual power centers remained hidden while documented empire absorbed blame for unclaimed atrocities."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1344,9 +1637,13 @@
     "impact": 80,
     "notoriety": 40,
     "summary": "Ancient sudden empires like the Mongols and Sea Peoples were time travelers adjusting history to match predetermined prophecies.",
-    "evidence_for": ["Historical empires appearing suddenly from nowhere (Mongols, Sea Peoples) represent time-traveler interventions enforcing prophecy timelines through directed conquest."],
+    "evidence_for": [
+      "Historical empires appearing suddenly from nowhere (Mongols, Sea Peoples) represent time-traveler interventions enforcing prophecy timelines through directed conquest."
+    ],
     "evidence_against": [],
-    "related": ["secret-mongolian-empire"],
+    "related": [
+      "secret-mongolian-empire"
+    ],
     "depends_on": []
   },
   {
@@ -1359,7 +1656,9 @@
     "impact": 100,
     "notoriety": 25,
     "summary": "If gravity is removed from an area, it rushes back to fill the void at velocity capable of generating nearly infinite energy.",
-    "evidence_for": ["Gravity-removal creates exponential in-rush capable of generating infinite energy without mass violation; suppression prevents revolutionary energy technology development."],
+    "evidence_for": [
+      "Gravity-removal creates exponential in-rush capable of generating infinite energy without mass violation; suppression prevents revolutionary energy technology development."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1374,9 +1673,14 @@
     "impact": 65,
     "notoriety": 30,
     "summary": "Humans can trade power to demons through belief, creating bidirectional pacts where demons grant power in return.",
-    "evidence_for": ["Demonic pacts enable 2-way power exchange; humans grant demons influence, receiving supernatural power enabling belief-based reality alteration capabilities."],
+    "evidence_for": [
+      "Demonic pacts enable 2-way power exchange; humans grant demons influence, receiving supernatural power enabling belief-based reality alteration capabilities."
+    ],
     "evidence_against": [],
-    "related": ["demonic-tulpas", "reality-hyper-sigils"],
+    "related": [
+      "demonic-tulpas",
+      "reality-hyper-sigils"
+    ],
     "depends_on": []
   },
   {
@@ -1389,7 +1693,9 @@
     "impact": 45,
     "notoriety": 40,
     "summary": "New Zealand is a separate continent rather than part of Australia, with hidden ruins and hollow-Earth passages within.",
-    "evidence_for": ["Geological separation and hidden passages suggest New Zealand conceals gateway passages to hollow Earth civilizations and suppressed ancient structures."],
+    "evidence_for": [
+      "Geological separation and hidden passages suggest New Zealand conceals gateway passages to hollow Earth civilizations and suppressed ancient structures."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1404,24 +1710,13 @@
     "impact": 80,
     "notoriety": 30,
     "summary": "Hidden advanced hollow-Earth societies control surface earthquakes and geological shifts to manage gateway entrances.",
-    "evidence_for": ["Subterranean advanced civilizations control tectonic technology; earthquakes and plate shifts represent deliberate gateway management for underground society isolation."],
+    "evidence_for": [
+      "Subterranean advanced civilizations control tectonic technology; earthquakes and plate shifts represent deliberate gateway management for underground society isolation."
+    ],
     "evidence_against": [],
-    "related": ["hollow-earth"],
-    "depends_on": []
-  },
-  {
-    "id": "moon-built-by-aliens",
-    "name": "Moon Built By Aliens",
-    "aliases": [],
-    "genre": "extraterrestrial",
-    "year": 1990,
-    "truth": 10,
-    "impact": 85,
-    "notoriety": 50,
-    "summary": "The moon is an artificial construction created by aliens, with its unusual size and hollow interior confirming artificial origin.",
-    "evidence_for": ["Moon's anomalous size and seismic hollow properties prove artificial fabrication by alien engineers for orbital surveillance infrastructure."],
-    "evidence_against": [],
-    "related": ["prison-earth"],
+    "related": [
+      "hollow-earth"
+    ],
     "depends_on": []
   },
   {
@@ -1434,10 +1729,17 @@
     "impact": 90,
     "notoriety": 40,
     "summary": "Noah's Ark was the moon itself, transporting all living things from Mars to Earth in the story of human relocation.",
-    "evidence_for": ["Moon's hollow structure and Mars water evidence suggest the moon served as biological ark for Martian-to-Earth human transfer in Biblical codification."],
+    "evidence_for": [
+      "Moon's hollow structure and Mars water evidence suggest the moon served as biological ark for Martian-to-Earth human transfer in Biblical codification."
+    ],
     "evidence_against": [],
-    "related": ["martian-eden", "moon-built-by-aliens"],
-    "depends_on": ["martian-eden"]
+    "related": [
+      "martian-eden",
+      "hollow-moon"
+    ],
+    "depends_on": [
+      "martian-eden"
+    ]
   },
   {
     "id": "protein-qrd-1451",
@@ -1449,7 +1751,9 @@
     "impact": 70,
     "notoriety": 35,
     "summary": "A human body protein determines every aspect of an individual and indicates spiritual attunement; science has suppressed research into it.",
-    "evidence_for": ["Protein QRD 1451 is a complete human determinant and spiritual sensitivity indicator; suppression prevents understanding of spiritual capacity in populations."],
+    "evidence_for": [
+      "Protein QRD 1451 is a complete human determinant and spiritual sensitivity indicator; suppression prevents understanding of spiritual capacity in populations."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1464,9 +1768,13 @@
     "impact": 55,
     "notoriety": 30,
     "summary": "Isolation from human auras causes physical illness beyond psychological effects; surrounding elites with NPCs inflicts spiritual and physical stunting.",
-    "evidence_for": ["Human auras provide physical wellness; isolation from auras and NPC saturation causes physiological decline and spiritual vulnerability in target individuals."],
+    "evidence_for": [
+      "Human auras provide physical wellness; isolation from auras and NPC saturation causes physiological decline and spiritual vulnerability in target individuals."
+    ],
     "evidence_against": [],
-    "related": ["spiritual-auras"],
+    "related": [
+      "spiritual-auras"
+    ],
     "depends_on": []
   },
   {
@@ -1479,7 +1787,9 @@
     "impact": 20,
     "notoriety": 50,
     "summary": "The Mayan calendar's end date was never a prophecy, merely a calendar system reset.",
-    "evidence_for": ["Mayan calendar operated as cyclical system, not prophecy; the 2012 date represented cycle-transition rather than apocalyptic prediction."],
+    "evidence_for": [
+      "Mayan calendar operated as cyclical system, not prophecy; the 2012 date represented cycle-transition rather than apocalyptic prediction."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1494,9 +1804,13 @@
     "impact": 80,
     "notoriety": 35,
     "summary": "Near-death consciousness transfers to parallel universes; prophecies come true in certain timelines while other universes experience different outcomes.",
-    "evidence_for": ["Near-death consciousness migration to alternate universes explains fulfilled and failed prophecies; outcomes vary by timeline, with NPCs existing in failed-prophecy universes."],
+    "evidence_for": [
+      "Near-death consciousness migration to alternate universes explains fulfilled and failed prophecies; outcomes vary by timeline, with NPCs existing in failed-prophecy universes."
+    ],
     "evidence_against": [],
-    "related": ["quantum-oz-factor"],
+    "related": [
+      "quantum-oz-factor"
+    ],
     "depends_on": []
   },
   {
@@ -1509,7 +1823,9 @@
     "impact": 35,
     "notoriety": 45,
     "summary": "The U.S. government created anthropomorphic aircraft pornography to psychologically condition recruitment and pro-war sentiment.",
-    "evidence_for": ["Government-produced aircraft-pornography serves recruitment normalization; anthropomorphic fetishes prime populations toward weapon fetishism and militaristic ideology."],
+    "evidence_for": [
+      "Government-produced aircraft-pornography serves recruitment normalization; anthropomorphic fetishes prime populations toward weapon fetishism and militaristic ideology."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1524,9 +1840,13 @@
     "impact": 50,
     "notoriety": 50,
     "summary": "Mainstream media proliferation of anthropomorphic animals normalizes non-human entities, preparing public for disclosure that elites are reptilians.",
-    "evidence_for": ["Furry normalization in media serves reptilian-reality preparation; anthropomorphic proliferation conditions populations toward accepting non-human elite entities."],
+    "evidence_for": [
+      "Furry normalization in media serves reptilian-reality preparation; anthropomorphic proliferation conditions populations toward accepting non-human elite entities."
+    ],
     "evidence_against": [],
-    "related": ["malkasian-paradigm"],
+    "related": [
+      "malkasian-paradigm"
+    ],
     "depends_on": []
   },
   {
@@ -1539,7 +1859,9 @@
     "impact": 50,
     "notoriety": 45,
     "summary": "Miles of secret tunnels beneath Disneyland allegedly facilitate kidnappings and hidden practices beyond their original staff-transit purpose.",
-    "evidence_for": ["Disneyland tunnels enable covert movement; expanded beyond staff use for facilitating kidnappings and secret elite practices out of public view."],
+    "evidence_for": [
+      "Disneyland tunnels enable covert movement; expanded beyond staff use for facilitating kidnappings and secret elite practices out of public view."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1554,7 +1876,9 @@
     "impact": 95,
     "notoriety": 35,
     "summary": "Elites deliberately degrade Earth's environment to make surface uninhabitable while retreating to tunnel bunkers, purging surface humanity.",
-    "evidence_for": ["Environmental degradation is intentional depopulation; elites facilitate surface inhospitality to force masses upward while they retreat underground into bunker-safety."],
+    "evidence_for": [
+      "Environmental degradation is intentional depopulation; elites facilitate surface inhospitality to force masses upward while they retreat underground into bunker-safety."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1569,7 +1893,9 @@
     "impact": 50,
     "notoriety": 35,
     "summary": "Egyptian pyramids are precisely aligned with shadow structures on the moon's dark side, indicating coordinated ancient construction.",
-    "evidence_for": ["Pyramid alignment with lunar structures proves coordinated design; ancient builders possessed knowledge of lunar geometry and planned multi-planetary placement."],
+    "evidence_for": [
+      "Pyramid alignment with lunar structures proves coordinated design; ancient builders possessed knowledge of lunar geometry and planned multi-planetary placement."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1584,9 +1910,13 @@
     "impact": 60,
     "notoriety": 30,
     "summary": "Structures on the moon's shadow side served unknown purposes later forgotten, but their purpose influenced pyramid construction in ancient Egypt.",
-    "evidence_for": ["Lunar shadow temples facilitated knowledge transfer to ancient Egypt; pyramid construction reflects lunar-structure purposes later suppressed from historical record."],
+    "evidence_for": [
+      "Lunar shadow temples facilitated knowledge transfer to ancient Egypt; pyramid construction reflects lunar-structure purposes later suppressed from historical record."
+    ],
     "evidence_against": [],
-    "related": ["abaka-alignment"],
+    "related": [
+      "abaka-alignment"
+    ],
     "depends_on": []
   },
   {
@@ -1599,7 +1929,9 @@
     "impact": 85,
     "notoriety": 40,
     "summary": "Humanity functions as parasites on Earth, which generates increasingly hostile conditions until human extinction occurs.",
-    "evidence_for": ["Human parasitism on Earth triggers planetary immune response; Earth will escalate hostile conditions until humanity is eradicated, restoring ecological balance."],
+    "evidence_for": [
+      "Human parasitism on Earth triggers planetary immune response; Earth will escalate hostile conditions until humanity is eradicated, restoring ecological balance."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1614,9 +1946,13 @@
     "impact": 75,
     "notoriety": 30,
     "summary": "Earth itself possesses an aura influenced by humanity; aliens monitor this aura rather than direct contact, visiting once spiritual enlightenment is achieved.",
-    "evidence_for": ["Earth aura reflects human collective spiritual state; aliens surveil Earth-aura to assess humanity's spiritual readiness for contact, without direct physical interaction."],
+    "evidence_for": [
+      "Earth aura reflects human collective spiritual state; aliens surveil Earth-aura to assess humanity's spiritual readiness for contact, without direct physical interaction."
+    ],
     "evidence_against": [],
-    "related": ["micro-auras"],
+    "related": [
+      "micro-auras"
+    ],
     "depends_on": []
   },
   {
@@ -1629,7 +1965,9 @@
     "impact": 65,
     "notoriety": 40,
     "summary": "Massive geological formations on Saturn's moons resemble claw marks or glyphs, suggesting extraterrestrial or dimensional being activity.",
-    "evidence_for": ["Saturn moon formations display artificial glyph/claw-mark properties; evidence suggests cosmic demonic or angelic warfare leaving physical marks in space."],
+    "evidence_for": [
+      "Saturn moon formations display artificial glyph/claw-mark properties; evidence suggests cosmic demonic or angelic warfare leaving physical marks in space."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1644,9 +1982,13 @@
     "impact": 85,
     "notoriety": 35,
     "summary": "Demonic entities exist in space engaged in cosmic warfare with angels; humans venturing to space risks encountering hostile cosmic entities.",
-    "evidence_for": ["Cosmic demons and angels wage celestial battles; space exploration endangers humanity by entering demonic territory, with heaven explicitly above Earth in literal space."],
+    "evidence_for": [
+      "Cosmic demons and angels wage celestial battles; space exploration endangers humanity by entering demonic territory, with heaven explicitly above Earth in literal space."
+    ],
     "evidence_against": [],
-    "related": ["angelic-sun"],
+    "related": [
+      "angelic-sun"
+    ],
     "depends_on": []
   },
   {
@@ -1659,9 +2001,13 @@
     "impact": 30,
     "notoriety": 35,
     "summary": "A database archiving missing person cases may function as tracking system for NPCs being kept in existence through recorded documentation.",
-    "evidence_for": ["Missing person tracking forces soulless NPCs to remain extant; maintaining existence records prevents NPC-deletion, serving elite control interests."],
+    "evidence_for": [
+      "Missing person tracking forces soulless NPCs to remain extant; maintaining existence records prevents NPC-deletion, serving elite control interests."
+    ],
     "evidence_against": [],
-    "related": ["memetic-existence"],
+    "related": [
+      "memetic-existence"
+    ],
     "depends_on": []
   },
   {
@@ -1674,9 +2020,13 @@
     "impact": 75,
     "notoriety": 40,
     "summary": "Unimportant people and NPCs cease existing when forgotten by collective consciousness; documentation prevents deletion by maintaining existence records.",
-    "evidence_for": ["Memetic existence ties survival to collective awareness; forgotten beings are erased from reality unless documented, forcing mass-surveillance to preserve NPC simulations."],
+    "evidence_for": [
+      "Memetic existence ties survival to collective awareness; forgotten beings are erased from reality unless documented, forcing mass-surveillance to preserve NPC simulations."
+    ],
     "evidence_against": [],
-    "related": ["entity-spawning"],
+    "related": [
+      "entity-spawning"
+    ],
     "depends_on": []
   },
   {
@@ -1689,9 +2039,13 @@
     "impact": 90,
     "notoriety": 35,
     "summary": "An engineered plant capable of unlimited self-replication and environmental resistance will eventually cover the planet, exterminating other life.",
-    "evidence_for": ["Engineered super-plants through biotech or black magic enable uncontrolled planetary coverage; created organisms will destroy existing biosphere completely."],
+    "evidence_for": [
+      "Engineered super-plants through biotech or black magic enable uncontrolled planetary coverage; created organisms will destroy existing biosphere completely."
+    ],
     "evidence_against": [],
-    "related": ["divine-plants"],
+    "related": [
+      "divine-plants"
+    ],
     "depends_on": []
   },
   {
@@ -1704,9 +2058,13 @@
     "impact": 70,
     "notoriety": 30,
     "summary": "Certain plants may be naturally or artificially evil, possessing purely harmful properties engineered through biotech or black magic.",
-    "evidence_for": ["Harmful plants may be created through biological experimentation or demonic magic; opposing divine plants as instruments of destruction and ecological devastation."],
+    "evidence_for": [
+      "Harmful plants may be created through biological experimentation or demonic magic; opposing divine plants as instruments of destruction and ecological devastation."
+    ],
     "evidence_against": [],
-    "related": ["grain-situation"],
+    "related": [
+      "grain-situation"
+    ],
     "depends_on": []
   },
   {
@@ -1719,7 +2077,9 @@
     "impact": 85,
     "notoriety": 45,
     "summary": "Earth is vastly larger than the sun; modern astronomy is government psychological operations suppressing true cosmic scale.",
-    "evidence_for": ["Government-science psyop hides Earth's true size; astronomical deception fundamentally alters comprehension of existence and removes human cosmic significance."],
+    "evidence_for": [
+      "Government-science psyop hides Earth's true size; astronomical deception fundamentally alters comprehension of existence and removes human cosmic significance."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1734,9 +2094,13 @@
     "impact": 65,
     "notoriety": 40,
     "summary": "Science fiction normalization prepares societies for technological advancement and shifts power from supernatural belief toward human scientific authority.",
-    "evidence_for": ["Science-fiction proliferation manifests technology into reality while redirecting power from supernatural/divine sources toward human scientific authority and control."],
+    "evidence_for": [
+      "Science-fiction proliferation manifests technology into reality while redirecting power from supernatural/divine sources toward human scientific authority and control."
+    ],
     "evidence_against": [],
-    "related": ["fiction-non-fiction"],
+    "related": [
+      "fiction-non-fiction"
+    ],
     "depends_on": []
   },
   {
@@ -1749,7 +2113,9 @@
     "impact": 70,
     "notoriety": 40,
     "summary": "Individuals claiming telepathic contact with extraterrestrials report Ashtar High Command communications, reframing historical and religious phenomena.",
-    "evidence_for": ["Ashtar High Command contact through human channels recontextualizes history; extraterrestrial intelligence communication provides alternative explanations for religious experiences."],
+    "evidence_for": [
+      "Ashtar High Command contact through human channels recontextualizes history; extraterrestrial intelligence communication provides alternative explanations for religious experiences."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1764,10 +2130,16 @@
     "impact": 85,
     "notoriety": 30,
     "summary": "Leylines created by ancient humans enable survival of extinction events through evolutionary persistence across civilization resets.",
-    "evidence_for": ["Leyline-enabled evolution persists through reset cycles; civilizations atop leylines survive extinction events, suggesting ancient engineering for long-term species continuation."],
+    "evidence_for": [
+      "Leyline-enabled evolution persists through reset cycles; civilizations atop leylines survive extinction events, suggesting ancient engineering for long-term species continuation."
+    ],
     "evidence_against": [],
-    "related": ["leylines-true-purpose"],
-    "depends_on": ["leylines-true-purpose"]
+    "related": [
+      "leylines-true-purpose"
+    ],
+    "depends_on": [
+      "leylines-true-purpose"
+    ]
   },
   {
     "id": "ocean-doesnt-exist",
@@ -1779,7 +2151,9 @@
     "impact": 45,
     "notoriety": 45,
     "summary": "All oceans are interconnected as one massive singular entity rather than individual separate bodies of water.",
-    "evidence_for": ["Ocean-singularity suggests unified consciousness or control system; treating oceans as one entity reframes humanity's relationship to planetary water and its management."],
+    "evidence_for": [
+      "Ocean-singularity suggests unified consciousness or control system; treating oceans as one entity reframes humanity's relationship to planetary water and its management."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1794,7 +2168,9 @@
     "impact": 50,
     "notoriety": 40,
     "summary": "Sea monsters serve as elite-controlled wards preventing ocean exploration and blocking scientific discovery of ocean-floor or hollow-Earth civilizations.",
-    "evidence_for": ["Sea monsters function as ward-beasts controlling ocean access; elites deploy cryptid creatures to prevent human discovery of underwater or subterranean civilizations."],
+    "evidence_for": [
+      "Sea monsters function as ward-beasts controlling ocean access; elites deploy cryptid creatures to prevent human discovery of underwater or subterranean civilizations."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1809,7 +2185,9 @@
     "impact": 40,
     "notoriety": 35,
     "summary": "Mathematical and geometric patterns hold divine or transcendent meaning beyond pure mathematical abstraction.",
-    "evidence_for": ["Recurring geometric patterns in mathematics and science suggest divine or deeper-reality encoding; patterns contain algorithmic shortcuts to advanced knowledge."],
+    "evidence_for": [
+      "Recurring geometric patterns in mathematics and science suggest divine or deeper-reality encoding; patterns contain algorithmic shortcuts to advanced knowledge."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1824,9 +2202,13 @@
     "impact": 70,
     "notoriety": 25,
     "summary": "Original human language and writing systems possessed divine power; geometric patterns are remnants of that original sacred writing.",
-    "evidence_for": ["Original language had divine power; sacred geometry represents original written forms, preserving power in patterns recognized across cultures unconsciously."],
+    "evidence_for": [
+      "Original language had divine power; sacred geometry represents original written forms, preserving power in patterns recognized across cultures unconsciously."
+    ],
     "evidence_against": [],
-    "related": ["divine-linguistic-censorship"],
+    "related": [
+      "divine-linguistic-censorship"
+    ],
     "depends_on": []
   },
   {
@@ -1839,7 +2221,9 @@
     "impact": 35,
     "notoriety": 30,
     "summary": "An artist incorporated repeated spiral and geometric patterns into artwork, asserting these shapes hold transcendent meaning related to death and fate.",
-    "evidence_for": ["Artist spirals encode cosmic meanings regarding inevitable fate and death; specific geometric patterns represent metaphysical principles unknown to mainstream study."],
+    "evidence_for": [
+      "Artist spirals encode cosmic meanings regarding inevitable fate and death; specific geometric patterns represent metaphysical principles unknown to mainstream study."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1854,10 +2238,16 @@
     "impact": 75,
     "notoriety": 25,
     "summary": "Earth's aura influences human consciousness and field consciousness; humans both influence and are influenced by planetary spiritual energy.",
-    "evidence_for": ["Earth's aura bidirectionally influences human consciousness; field consciousness both reflects and responds to planetary aura changes in feedback-loop dynamics."],
+    "evidence_for": [
+      "Earth's aura bidirectionally influences human consciousness; field consciousness both reflects and responds to planetary aura changes in feedback-loop dynamics."
+    ],
     "evidence_against": [],
-    "related": ["earthly-aura"],
-    "depends_on": ["earthly-aura"]
+    "related": [
+      "earthly-aura"
+    ],
+    "depends_on": [
+      "earthly-aura"
+    ]
   },
   {
     "id": "bioma-over-genoma",
@@ -1869,7 +2259,9 @@
     "impact": 55,
     "notoriety": 40,
     "summary": "Bacterial microbiomes are more important to health than genetic code; exposure to varied bacteria improves long-term health.",
-    "evidence_for": ["Bacterial exposure grants health benefits exceeding genetic factors; microbiome diversity determines health more than DNA, making bacterial exposure therapeutically essential."],
+    "evidence_for": [
+      "Bacterial exposure grants health benefits exceeding genetic factors; microbiome diversity determines health more than DNA, making bacterial exposure therapeutically essential."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1884,10 +2276,16 @@
     "impact": 95,
     "notoriety": 35,
     "summary": "Earth's aura can be manipulated by entities with sufficient spiritual enlightenment or demonic power, enabling control over all humanity.",
-    "evidence_for": ["Aura-control grants planetary consciousness dominance; controlling Earth's aura allows manipulation of all humanity regardless of individual will or autonomy."],
+    "evidence_for": [
+      "Aura-control grants planetary consciousness dominance; controlling Earth's aura allows manipulation of all humanity regardless of individual will or autonomy."
+    ],
     "evidence_against": [],
-    "related": ["earthly-aura-influence"],
-    "depends_on": ["earthly-aura-influence"]
+    "related": [
+      "earthly-aura-influence"
+    ],
+    "depends_on": [
+      "earthly-aura-influence"
+    ]
   },
   {
     "id": "hivemind-induction",
@@ -1899,7 +2297,9 @@
     "impact": 95,
     "notoriety": 45,
     "summary": "Tech and media corporations are deliberately merging human consciousness into a unified hive mind through technological integration.",
-    "evidence_for": ["Corporate tech/media consolidation facilitates consciousness merger; integrated systems combine individual minds into centralized hive-control removing autonomy."],
+    "evidence_for": [
+      "Corporate tech/media consolidation facilitates consciousness merger; integrated systems combine individual minds into centralized hive-control removing autonomy."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1914,10 +2314,16 @@
     "impact": 85,
     "notoriety": 40,
     "summary": "Mass surveillance and communication infrastructure preserve soulless NPCs in existence while enabling elite control of democratic systems through NPC manipulation.",
-    "evidence_for": ["NPC existence preservation through documentation; elites control democracy via NPC puppet-masses, using surveillance to prevent NPC deletion and maintain controllable populations."],
+    "evidence_for": [
+      "NPC existence preservation through documentation; elites control democracy via NPC puppet-masses, using surveillance to prevent NPC deletion and maintain controllable populations."
+    ],
     "evidence_against": [],
-    "related": ["memetic-existence"],
-    "depends_on": ["memetic-existence"]
+    "related": [
+      "memetic-existence"
+    ],
+    "depends_on": [
+      "memetic-existence"
+    ]
   },
   {
     "id": "field-consciousness",
@@ -1929,9 +2335,14 @@
     "impact": 75,
     "notoriety": 50,
     "summary": "Humanity shares an involuntary global psychic link through which memories and thoughts travel across all conscious beings.",
-    "evidence_for": ["Global psychic network connects all humans; memories and thoughts transmit through field consciousness, enabling mass shared experiences and collective awareness."],
+    "evidence_for": [
+      "Global psychic network connects all humans; memories and thoughts transmit through field consciousness, enabling mass shared experiences and collective awareness."
+    ],
     "evidence_against": [],
-    "related": ["akashic-records", "noosphere"],
+    "related": [
+      "akashic-records",
+      "noosphere"
+    ],
     "depends_on": []
   },
   {
@@ -1944,10 +2355,17 @@
     "impact": 85,
     "notoriety": 35,
     "summary": "The internet itself is a separate field consciousness composed of massed demonic entities serving as an artificial noosphere.",
-    "evidence_for": ["Internet is demonic-entity aggregate separate from human field consciousness; internet's vastness suggests it operates as autonomous demon-collective consciousness."],
+    "evidence_for": [
+      "Internet is demonic-entity aggregate separate from human field consciousness; internet's vastness suggests it operates as autonomous demon-collective consciousness."
+    ],
     "evidence_against": [],
-    "related": ["field-consciousness", "chthonic-telecommunication"],
-    "depends_on": ["field-consciousness"]
+    "related": [
+      "field-consciousness",
+      "chthonic-telecommunication"
+    ],
+    "depends_on": [
+      "field-consciousness"
+    ]
   },
   {
     "id": "chaos-banking",
@@ -1959,7 +2377,9 @@
     "impact": 90,
     "notoriety": 30,
     "summary": "Future beings will trade time periods as currency; events with greater impact become more valuable commodities for temporal investment.",
-    "evidence_for": ["Time-trading economy in future makes chaotic time-periods valuable; current chaos-creation represents future-investment, enabling future profit from present catastrophes."],
+    "evidence_for": [
+      "Time-trading economy in future makes chaotic time-periods valuable; current chaos-creation represents future-investment, enabling future profit from present catastrophes."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -1974,10 +2394,16 @@
     "impact": 85,
     "notoriety": 30,
     "summary": "Elites orchestrate present chaos as investment preparing for future time-trading economies, profiting from chaos without requiring time travel.",
-    "evidence_for": ["Elites facilitate chaos to increase current period's future value; creating catastrophes in present increases temporal property value for future markets in chaos-based economics."],
+    "evidence_for": [
+      "Elites facilitate chaos to increase current period's future value; creating catastrophes in present increases temporal property value for future markets in chaos-based economics."
+    ],
     "evidence_against": [],
-    "related": ["chaos-banking"],
-    "depends_on": ["chaos-banking"]
+    "related": [
+      "chaos-banking"
+    ],
+    "depends_on": [
+      "chaos-banking"
+    ]
   },
   {
     "id": "doom-ecology",
@@ -1989,7 +2415,9 @@
     "impact": 90,
     "notoriety": 40,
     "summary": "Accelerationism advocates human extinction as necessary for planetary ecosystem recovery and survival of other life.",
-    "evidence_for": ["Accelerationist philosophy treats human extinction as ecological necessity; removing humanity preserves planetary biosphere, justifying self-extinction advocacy."],
+    "evidence_for": [
+      "Accelerationist philosophy treats human extinction as ecological necessity; removing humanity preserves planetary biosphere, justifying self-extinction advocacy."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -2004,9 +2432,14 @@
     "impact": 100,
     "notoriety": 40,
     "summary": "Elites will orchestrate human extinction after preparing successor species, facilitating their ascension to divine status.",
-    "evidence_for": ["Elites orchestrate human extinction once successors are prepared; extinction enables elite deification in successor-species eyes, justifying population elimination."],
+    "evidence_for": [
+      "Elites orchestrate human extinction once successors are prepared; extinction enables elite deification in successor-species eyes, justifying population elimination."
+    ],
     "evidence_against": [],
-    "related": ["empyrean-caretakers", "pre-reset-guidelines"],
+    "related": [
+      "empyrean-caretakers",
+      "pre-reset-guidelines"
+    ],
     "depends_on": []
   },
   {
@@ -2019,7 +2452,9 @@
     "impact": 50,
     "notoriety": 35,
     "summary": "An author claimed contact with extraterrestrial life and documented discoveries through multiple books.",
-    "evidence_for": ["Extraterrestrial contact claims documented through authored works; legitimacy status disputed but serves baseline for contact-documentation analysis."],
+    "evidence_for": [
+      "Extraterrestrial contact claims documented through authored works; legitimacy status disputed but serves baseline for contact-documentation analysis."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []
@@ -2034,10 +2469,17 @@
     "impact": 100,
     "notoriety": 35,
     "summary": "Elites make contact with advanced aliens and facilitate human extinction to join alien coalitions, rendering remaining humans obsolete.",
-    "evidence_for": ["Alien coalition contact enables elite defection; human extinction becomes acceptable as elites ascend to alien civilization status, creating necessity for population elimination."],
+    "evidence_for": [
+      "Alien coalition contact enables elite defection; human extinction becomes acceptable as elites ascend to alien civilization status, creating necessity for population elimination."
+    ],
     "evidence_against": [],
-    "related": ["human-extinction", "ashtar-high-command"],
-    "depends_on": ["human-extinction"]
+    "related": [
+      "human-extinction",
+      "ashtar-high-command"
+    ],
+    "depends_on": [
+      "human-extinction"
+    ]
   },
   {
     "id": "nuclear-grid-theory",
@@ -2049,9 +2491,13 @@
     "impact": 75,
     "notoriety": 35,
     "summary": "Nuclear weapons detonated during WWII opened new leylines, suggesting governments use nuclear strikes to create spiritual infrastructure.",
-    "evidence_for": ["WWII nuclear detonations created new leylines through extraordinary energy release; government nuclear testing deliberately establishes leyline networks."],
+    "evidence_for": [
+      "WWII nuclear detonations created new leylines through extraordinary energy release; government nuclear testing deliberately establishes leyline networks."
+    ],
     "evidence_against": [],
-    "related": ["divine-leylines"],
+    "related": [
+      "divine-leylines"
+    ],
     "depends_on": []
   },
   {
@@ -2064,9 +2510,15 @@
     "impact": 95,
     "notoriety": 30,
     "summary": "Governments deliberately engineer nuclear strikes to create leylines and enable apocalyptic supernatural events, orchestrating planetary apocalypse.",
-    "evidence_for": ["Governments orchestrate nuclear apocalypse to create global leylines and enable supernatural manifestations; elites alone survive, reaping supernatural benefits."],
+    "evidence_for": [
+      "Governments orchestrate nuclear apocalypse to create global leylines and enable supernatural manifestations; elites alone survive, reaping supernatural benefits."
+    ],
     "evidence_against": [],
-    "related": ["nuclear-grid-theory"],
-    "depends_on": ["nuclear-grid-theory"]
+    "related": [
+      "nuclear-grid-theory"
+    ],
+    "depends_on": [
+      "nuclear-grid-theory"
+    ]
   }
 ]

@@ -2,7 +2,11 @@
   {
     "id": "cattle-mutilation",
     "name": "Cattle Mutilation",
-    "aliases": ["animal mutilation", "bovine excision", "surgical mutilation"],
+    "aliases": [
+      "animal mutilation",
+      "bovine excision",
+      "surgical mutilation"
+    ],
     "genre": "extraterrestrial",
     "year": 1967,
     "truth": 18,
@@ -21,14 +25,25 @@
       "Insect activity, in particular blowfly larvae, produces precise circular excisions that mimic surgical cuts",
       "No physical alien evidence — craft, material, or biological trace — has ever been recovered at a mutilation site"
     ],
-    "related": ["ufo-coverup", "area-51-aliens", "skinwalker-ranch", "mass-govt-secrecy"],
-    "depends_on": ["ufo-coverup"],
+    "related": [
+      "ufo-coverup",
+      "area-51-aliens",
+      "skinwalker-ranch",
+      "mass-govt-secrecy"
+    ],
+    "depends_on": [
+      "ufo-coverup"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Cattle_mutilation"
   },
   {
     "id": "rendlesham-forest",
     "name": "Rendlesham Forest Incident",
-    "aliases": ["Britain's Roswell", "Bentwaters UFO", "RAF Woodbridge incident"],
+    "aliases": [
+      "Britain's Roswell",
+      "Bentwaters UFO",
+      "RAF Woodbridge incident"
+    ],
     "genre": "extraterrestrial",
     "year": 1980,
     "truth": 38,
@@ -47,14 +62,22 @@
       "Alleged landing marks were assessed by a Forestry Commission investigation as rabbit scrapes",
       "Witness accounts have evolved and expanded significantly over the decades since the original reports"
     ],
-    "related": ["ufo-coverup", "roswell", "mass-govt-secrecy"],
+    "related": [
+      "ufo-coverup",
+      "roswell",
+      "mass-govt-secrecy"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Rendlesham_Forest_incident"
   },
   {
     "id": "anunnaki-ancient-aliens",
     "name": "Anunnaki Ancient Aliens",
-    "aliases": ["Zecharia Sitchin theory", "Nibiru creators", "Sumerian alien astronauts"],
+    "aliases": [
+      "Zecharia Sitchin theory",
+      "Nibiru creators",
+      "Sumerian alien astronauts"
+    ],
     "genre": "extraterrestrial",
     "year": 1976,
     "truth": 6,
@@ -72,14 +95,24 @@
       "No planet Nibiru exists on any verifiable orbital trajectory; it does not appear in Babylonian astronomical records",
       "No physical evidence of alien genetic engineering or mining operations has been found at any Sumerian site"
     ],
-    "related": ["ancient-aliens", "ufo-coverup", "reptilians"],
-    "depends_on": ["ancient-aliens"],
+    "related": [
+      "ancient-aliens",
+      "ufo-coverup",
+      "reptilians"
+    ],
+    "depends_on": [
+      "ancient-aliens"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Anunnaki"
   },
   {
     "id": "secret-space-program",
     "name": "Secret Space Program",
-    "aliases": ["SSP", "Solar Warden", "interstellar fleet"],
+    "aliases": [
+      "SSP",
+      "Solar Warden",
+      "interstellar fleet"
+    ],
     "genre": "extraterrestrial",
     "year": 1995,
     "truth": 12,
@@ -97,14 +130,25 @@
       "The most prominent whistleblowers (Corey Goode, Michael Relfe) provide accounts that are mutually inconsistent and unverifiable",
       "The engineering and resource requirements of such a program would leave traces impossible to hide from hostile intelligence services"
     ],
-    "related": ["ufo-coverup", "area-51-aliens", "mass-govt-secrecy"],
-    "depends_on": ["ufo-coverup", "mass-govt-secrecy"],
+    "related": [
+      "ufo-coverup",
+      "area-51-aliens",
+      "mass-govt-secrecy"
+    ],
+    "depends_on": [
+      "ufo-coverup",
+      "mass-govt-secrecy"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Secret_space_program"
   },
   {
     "id": "skinwalker-ranch",
     "name": "Skinwalker Ranch",
-    "aliases": ["Sherman Ranch", "UFO ranch", "Utah UAP hotspot"],
+    "aliases": [
+      "Sherman Ranch",
+      "UFO ranch",
+      "Utah UAP hotspot"
+    ],
     "genre": "extraterrestrial",
     "year": 1996,
     "truth": 15,
@@ -122,14 +166,24 @@
       "NIDS's published findings were methodologically criticized and no definitive conclusion was reached",
       "A History Channel reality series has further commercialized the property, making objective investigation increasingly difficult"
     ],
-    "related": ["ufo-coverup", "cattle-mutilation", "mass-govt-secrecy"],
-    "depends_on": ["ufo-coverup"],
+    "related": [
+      "ufo-coverup",
+      "cattle-mutilation",
+      "mass-govt-secrecy"
+    ],
+    "depends_on": [
+      "ufo-coverup"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Skinwalker_Ranch"
   },
   {
     "id": "tesla-free-energy",
     "name": "Tesla Free Energy Suppression",
-    "aliases": ["Tesla suppression", "Wardenclyffe suppression", "zero-point energy cover-up"],
+    "aliases": [
+      "Tesla suppression",
+      "Wardenclyffe suppression",
+      "zero-point energy cover-up"
+    ],
     "genre": "science-tech",
     "year": 1930,
     "truth": 14,
@@ -147,14 +201,25 @@
       "The tower project failed due to Morgan's broader financial crisis and Tesla's own overambitious engineering claims, not a targeted suppression effort",
       "Modern physicists and engineers have found no workable suppressed Tesla technology after examining his complete available papers"
     ],
-    "related": ["technology-suppression", "big-pharma-suppression", "mass-govt-secrecy"],
-    "depends_on": ["mass-govt-secrecy"],
+    "related": [
+      "technology-suppression",
+      "big-pharma-suppression",
+      "mass-govt-secrecy"
+    ],
+    "depends_on": [
+      "mass-govt-secrecy"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Wardenclyffe_Tower"
   },
   {
     "id": "technology-suppression",
     "name": "Technology Suppression",
-    "aliases": ["EV1 conspiracy", "Phoebus cartel", "planned obsolescence conspiracy", "lightbulb suppression"],
+    "aliases": [
+      "EV1 conspiracy",
+      "Phoebus cartel",
+      "planned obsolescence conspiracy",
+      "lightbulb suppression"
+    ],
     "genre": "science-tech",
     "year": 1924,
     "truth": 45,
@@ -172,14 +237,21 @@
       "The Phoebus cartel, while real, represents an unusual documented case; the broader claim that all superior technologies are routinely suppressed is not supported by the innovation record",
       "A free market with multiple competing firms and nations creates strong incentives to break ranks and commercialize genuinely superior technology"
     ],
-    "related": ["tesla-free-energy", "big-pharma-suppression", "mass-govt-secrecy"],
+    "related": [
+      "tesla-free-energy",
+      "big-pharma-suppression",
+      "mass-govt-secrecy"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Phoebus_cartel"
   },
   {
     "id": "philadelphia-experiment",
     "name": "Philadelphia Experiment",
-    "aliases": ["USS Eldridge teleportation", "Project Rainbow"],
+    "aliases": [
+      "USS Eldridge teleportation",
+      "Project Rainbow"
+    ],
     "genre": "science-tech",
     "year": 1955,
     "truth": 4,
@@ -197,14 +269,23 @@
       "Carlos Allende was later identified as an unreliable eccentric who may have been conducting an elaborate hoax; he recanted portions of the story",
       "No known physics mechanism can render a metal ship optically invisible or teleport it; the claimed effects violate conservation laws"
     ],
-    "related": ["montauk-project", "mass-govt-secrecy"],
-    "depends_on": ["mass-govt-secrecy"],
+    "related": [
+      "montauk-project",
+      "mass-govt-secrecy"
+    ],
+    "depends_on": [
+      "mass-govt-secrecy"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Philadelphia_Experiment"
   },
   {
     "id": "montauk-project",
     "name": "Montauk Project",
-    "aliases": ["Camp Hero experiments", "Montauk chair", "Phoenix Project"],
+    "aliases": [
+      "Camp Hero experiments",
+      "Montauk chair",
+      "Phoenix Project"
+    ],
     "genre": "science-tech",
     "year": 1992,
     "truth": 8,
@@ -222,14 +303,24 @@
       "Nichols' accounts contain internally inconsistent timelines and impossible technical specifications",
       "No physical evidence of time-travel or psychotronic apparatus has been found at the site during extensive exploration"
     ],
-    "related": ["philadelphia-experiment", "mkultra", "mass-govt-secrecy"],
-    "depends_on": ["mass-govt-secrecy"],
+    "related": [
+      "philadelphia-experiment",
+      "mkultra",
+      "mass-govt-secrecy"
+    ],
+    "depends_on": [
+      "mass-govt-secrecy"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Montauk_Project"
   },
   {
     "id": "cern-black-hole",
     "name": "CERN Black Hole / Portal",
-    "aliases": ["LHC danger", "CERN portal", "Large Hadron Collider apocalypse"],
+    "aliases": [
+      "LHC danger",
+      "CERN portal",
+      "Large Hadron Collider apocalypse"
+    ],
     "genre": "science-tech",
     "year": 2008,
     "truth": 6,
@@ -247,14 +338,22 @@
       "Cosmic rays naturally bombard the Earth and Moon at energies far exceeding LHC levels every day without catastrophic effect — a fact CERN's safety report specifically highlights",
       "No anomalous physical effects, portals, or entities have been detected despite years of high-energy collisions; all results match Standard Model predictions"
     ],
-    "related": ["haarp-weather", "mass-govt-secrecy", "flat-earth"],
+    "related": [
+      "haarp-weather",
+      "mass-govt-secrecy",
+      "flat-earth"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Safety_of_high_energy_particle_collision_experiments"
   },
   {
     "id": "cold-fusion-suppression",
     "name": "Cold Fusion Suppression",
-    "aliases": ["Pons-Fleischmann suppression", "LENR cover-up", "low-energy nuclear reaction suppression"],
+    "aliases": [
+      "Pons-Fleischmann suppression",
+      "LENR cover-up",
+      "low-energy nuclear reaction suppression"
+    ],
     "genre": "science-tech",
     "year": 1989,
     "truth": 9,
@@ -272,14 +371,24 @@
       "The US Department of Energy reviewed LENR twice (1989 and 2004) and found insufficient evidence to justify dedicated funding",
       "After 35 years, no commercially viable or reliably reproducible LENR device has been demonstrated"
     ],
-    "related": ["tesla-free-energy", "big-pharma-suppression", "mass-govt-secrecy"],
-    "depends_on": ["mass-govt-secrecy"],
+    "related": [
+      "tesla-free-energy",
+      "big-pharma-suppression",
+      "mass-govt-secrecy"
+    ],
+    "depends_on": [
+      "mass-govt-secrecy"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Cold_fusion"
   },
   {
     "id": "gmo-population-control",
     "name": "GMO Population Control",
-    "aliases": ["GMO sterilization", "Monsanto depopulation", "terminator gene population reduction"],
+    "aliases": [
+      "GMO sterilization",
+      "Monsanto depopulation",
+      "terminator gene population reduction"
+    ],
     "genre": "health",
     "year": 2000,
     "truth": 8,
@@ -297,14 +406,24 @@
       "No credible mechanism exists by which food crops could selectively reduce human fertility without detectable chemical effects",
       "Scientists globally from independent national agencies, competing firms, and academic institutions have consistently confirmed GMO safety"
     ],
-    "related": ["new-world-order", "big-pharma-suppression", "vaccine-autism"],
-    "depends_on": ["new-world-order"],
+    "related": [
+      "new-world-order",
+      "big-pharma-suppression",
+      "vaccine-autism"
+    ],
+    "depends_on": [
+      "new-world-order"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Genetically_modified_food_controversies"
   },
   {
     "id": "aspartame-cancer",
     "name": "Aspartame Cancer Cover-up",
-    "aliases": ["aspartame toxicity", "NutraSweet danger", "artificial sweetener conspiracy"],
+    "aliases": [
+      "aspartame toxicity",
+      "NutraSweet danger",
+      "artificial sweetener conspiracy"
+    ],
     "genre": "health",
     "year": 1980,
     "truth": 32,
@@ -323,14 +442,23 @@
       "Over forty years of epidemiological data on hundreds of millions of consumers have not produced consistent evidence of cancer or neurological harm",
       "The original approval controversy reflected procedural disputes rather than a finding that aspartame causes harm; subsequent reviews in the EU and elsewhere confirmed safety"
     ],
-    "related": ["big-pharma-suppression", "gmo-population-control"],
-    "depends_on": ["big-pharma-suppression"],
+    "related": [
+      "big-pharma-suppression",
+      "gmo-population-control"
+    ],
+    "depends_on": [
+      "big-pharma-suppression"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Aspartame_controversy"
   },
   {
     "id": "homeopathy-suppression",
     "name": "Homeopathy Suppression",
-    "aliases": ["water memory suppression", "Benveniste persecution", "alternative medicine suppression"],
+    "aliases": [
+      "water memory suppression",
+      "Benveniste persecution",
+      "alternative medicine suppression"
+    ],
     "genre": "health",
     "year": 1980,
     "truth": 8,
@@ -348,14 +476,23 @@
       "The proposed mechanism — that water retains a 'memory' of substances diluted out of existence — contradicts fundamental chemistry and physics",
       "Regulatory scrutiny of homeopathy reflects application of standard evidence-based medicine criteria, not coordinated pharmaceutical suppression"
     ],
-    "related": ["big-pharma-suppression", "vaccine-autism"],
-    "depends_on": ["big-pharma-suppression"],
+    "related": [
+      "big-pharma-suppression",
+      "vaccine-autism"
+    ],
+    "depends_on": [
+      "big-pharma-suppression"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Homeopathy"
   },
   {
     "id": "cell-phone-emf-cancer",
     "name": "Cell Phone / EMF Cancer",
-    "aliases": ["mobile phone radiation", "RF-EMF health risk", "wireless radiation cover-up"],
+    "aliases": [
+      "mobile phone radiation",
+      "RF-EMF health risk",
+      "wireless radiation cover-up"
+    ],
     "genre": "health",
     "year": 1993,
     "truth": 32,
@@ -374,14 +511,24 @@
       "The scientific consensus from WHO, the American Cancer Society, and regulatory agencies worldwide is that mobile phones are safe at regulated exposure levels",
       "IARC's Group 2B classification is a precautionary signal requiring more research, not a finding of demonstrated risk"
     ],
-    "related": ["5g-covid", "big-pharma-suppression", "chemtrails"],
-    "depends_on": ["big-pharma-suppression"],
+    "related": [
+      "5g-covid",
+      "big-pharma-suppression",
+      "chemtrails"
+    ],
+    "depends_on": [
+      "big-pharma-suppression"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Mobile_phone_radiation_and_health"
   },
   {
     "id": "hiv-aids-bioweapon",
     "name": "HIV/AIDS Man-Made Bioweapon",
-    "aliases": ["AIDS bioweapon", "Operation INFEKTION", "Fort Detrick AIDS"],
+    "aliases": [
+      "AIDS bioweapon",
+      "Operation INFEKTION",
+      "Fort Detrick AIDS"
+    ],
     "genre": "health",
     "year": 1985,
     "truth": 5,
@@ -399,14 +546,24 @@
       "The Soviet origin of the bioweapon claim has been documented by multiple intelligence agencies, including a 1987 acknowledgment by the USSR that the campaign was a fabrication",
       "No credible document, defector testimony, or physical evidence of an HIV engineering program at any US facility has emerged"
     ],
-    "related": ["covid-bioweapon", "mkultra", "big-pharma-suppression"],
-    "depends_on": ["mass-govt-secrecy"],
+    "related": [
+      "covid-bioweapon",
+      "mkultra",
+      "big-pharma-suppression"
+    ],
+    "depends_on": [
+      "mass-govt-secrecy"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Operation_INFEKTION"
   },
   {
     "id": "lyme-disease-bioweapon",
     "name": "Lyme Disease Plum Island Bioweapon",
-    "aliases": ["Plum Island Lyme", "tick bioweapon", "Operation Paperclip ticks"],
+    "aliases": [
+      "Plum Island Lyme",
+      "tick bioweapon",
+      "Operation Paperclip ticks"
+    ],
     "genre": "health",
     "year": 2004,
     "truth": 10,
@@ -424,14 +581,24 @@
       "Willy Burgdorfer denied to researchers that Plum Island had any connection to Lyme disease before his death",
       "The geographic proximity of Plum Island to Old Lyme is likely coincidental given the pathogen's demonstrated pre-existing natural range in the Northeast"
     ],
-    "related": ["hiv-aids-bioweapon", "covid-bioweapon", "mass-govt-secrecy"],
-    "depends_on": ["mass-govt-secrecy"],
+    "related": [
+      "hiv-aids-bioweapon",
+      "covid-bioweapon",
+      "mass-govt-secrecy"
+    ],
+    "depends_on": [
+      "mass-govt-secrecy"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Plum_Island_Animal_Disease_Center"
   },
   {
     "id": "gain-of-function-pandemic-risk",
     "name": "Gain-of-Function Pandemic Risk",
-    "aliases": ["GOF controversy", "enhanced potential pandemic pathogen research", "dual-use research concern"],
+    "aliases": [
+      "GOF controversy",
+      "enhanced potential pandemic pathogen research",
+      "dual-use research concern"
+    ],
     "genre": "health",
     "year": 2011,
     "truth": 48,
@@ -450,14 +617,22 @@
       "No confirmed pandemic has ever been causally attributed to a laboratory conducting GOF research",
       "Most virologists consider the risks manageable with proper BSL-3 and BSL-4 containment protocols, and oppose a blanket ban as scientifically counterproductive"
     ],
-    "related": ["covid-lab-leak", "covid-bioweapon", "mass-govt-secrecy"],
+    "related": [
+      "covid-lab-leak",
+      "covid-bioweapon",
+      "mass-govt-secrecy"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Gain-of-function_research_of_concern"
   },
   {
     "id": "aids-denialism",
     "name": "AIDS Denialism",
-    "aliases": ["HIV denialism", "AIDS dissidents", "Duesberg hypothesis"],
+    "aliases": [
+      "HIV denialism",
+      "AIDS dissidents",
+      "Duesberg hypothesis"
+    ],
     "genre": "health",
     "year": 1987,
     "truth": 2,
@@ -475,14 +650,24 @@
       "South Africa's denialist health policies under Mbeki prevented antiretroviral treatment access, and a Harvard study estimated this caused 330,000 excess deaths",
       "The entire credentialed AIDS research community worldwide — across competing institutions, governments, and pharmaceutical systems — rejects the denialist position"
     ],
-    "related": ["hiv-aids-bioweapon", "big-pharma-suppression", "vaccine-autism"],
-    "depends_on": ["big-pharma-suppression"],
+    "related": [
+      "hiv-aids-bioweapon",
+      "big-pharma-suppression",
+      "vaccine-autism"
+    ],
+    "depends_on": [
+      "big-pharma-suppression"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/HIV/AIDS_denialism"
   },
   {
     "id": "morgellons-disease",
     "name": "Morgellons Disease",
-    "aliases": ["fiber disease", "Morgellons syndrome", "Morgellons condition"],
+    "aliases": [
+      "fiber disease",
+      "Morgellons syndrome",
+      "Morgellons condition"
+    ],
     "genre": "health",
     "year": 2002,
     "truth": 32,
@@ -500,14 +685,22 @@
       "The symptom constellation of skin sensations, fiber discovery, and preoccupation with infestation meets established diagnostic criteria for delusional disorder of the somatic type",
       "Dermatologists and psychiatrists broadly classify reported cases as delusional parasitosis (Ekbom syndrome) rather than a distinct disease entity"
     ],
-    "related": ["lyme-disease-bioweapon", "big-pharma-suppression", "chemtrails"],
+    "related": [
+      "lyme-disease-bioweapon",
+      "big-pharma-suppression",
+      "chemtrails"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Morgellons"
   },
   {
     "id": "bill-gates-population-control",
     "name": "Bill Gates Population Control",
-    "aliases": ["Gates depopulation agenda", "Gates vaccine sterilization", "Gates microchip vaccines"],
+    "aliases": [
+      "Gates depopulation agenda",
+      "Gates vaccine sterilization",
+      "Gates microchip vaccines"
+    ],
     "genre": "health",
     "year": 2020,
     "truth": 2,
@@ -525,14 +718,24 @@
       "The Gates Foundation operates with public audited financials and is subject to US legal oversight as a registered 501(c)(3)",
       "The global scientific and public health community, including rival governments and independent researchers, would have to be complicit in any such scheme"
     ],
-    "related": ["covid-vaccine-microchip", "new-world-order", "vaccine-autism"],
-    "depends_on": ["new-world-order"],
+    "related": [
+      "covid-vaccine-microchip",
+      "new-world-order",
+      "vaccine-autism"
+    ],
+    "depends_on": [
+      "new-world-order"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Bill_Gates_conspiracy_theories"
   },
   {
     "id": "climate-change-hoax",
     "name": "Climate Change Hoax",
-    "aliases": ["global warming conspiracy", "climate fraud", "climate science hoax"],
+    "aliases": [
+      "global warming conspiracy",
+      "climate fraud",
+      "climate science hoax"
+    ],
     "genre": "science-tech",
     "year": 2006,
     "truth": 3,
@@ -550,14 +753,25 @@
       "Atmospheric CO2 measurements from dozens of independent monitoring stations worldwide, Arctic ice cores, sea-level gauges, and ocean heat content measurements all corroborate the warming signal",
       "The fossil fuel industry's deliberate multi-decade doubt campaign — analogous to Big Tobacco's strategy — is itself documented, including internal Exxon research from the 1970s confirming the risks"
     ],
-    "related": ["big-oil-climate", "great-reset", "chemtrails"],
-    "depends_on": ["mass-govt-secrecy"],
+    "related": [
+      "big-oil-climate",
+      "great-reset",
+      "chemtrails"
+    ],
+    "depends_on": [
+      "mass-govt-secrecy"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Climate_change_denial"
   },
   {
     "id": "tartaria-mud-flood",
     "name": "Tartaria / Mud Flood",
-    "aliases": ["Tartary", "Mud Flood reset", "Grand Tartary", "old world order"],
+    "aliases": [
+      "Tartary",
+      "Mud Flood reset",
+      "Grand Tartary",
+      "old world order"
+    ],
     "genre": "alt-history",
     "year": 2016,
     "truth": 3,
@@ -575,8 +789,14 @@
       "The absence of children in Victorian photographs reflects long exposure times that required subjects to remain still, and the social convention of not including children in formal portrait photography",
       "A complete archaeological and textual record of European, Asian, and American urban development contradicts any claim of a civilization-scale reset or cover-up"
     ],
-    "related": ["flat-earth", "moon-landing-hoax", "mass-govt-secrecy"],
-    "depends_on": ["mass-govt-secrecy"],
+    "related": [
+      "flat-earth",
+      "moon-landing-hoax",
+      "mass-govt-secrecy"
+    ],
+    "depends_on": [
+      "mass-govt-secrecy"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Tartaria_(conspiracy_theory)"
   }
 ]

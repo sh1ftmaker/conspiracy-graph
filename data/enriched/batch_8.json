@@ -136,23 +136,6 @@
     "depends_on": []
   },
   {
-    "id": "nibriu-cataclysm",
-    "name": "Nibriu Cataclysm",
-    "aliases": [],
-    "genre": "new-world-order",
-    "year": 2003,
-    "truth": 25,
-    "impact": 40,
-    "notoriety": 20,
-    "summary": "Nibriu (or planet X) was predicted by a scientist in 2003 to collide with the earth within the year, but is now used more broadly to speak about an apocalyptic meteoric or planetary collision.",
-    "evidence_for": [
-      "According to geographic dating, the earth has existed for millions of years even before humanity, and similarly, the existence of life required extraordinary circumstances. Perhaps there is more than just phenomenal luck at play that facilitated and."
-    ],
-    "evidence_against": [],
-    "related": [],
-    "depends_on": []
-  },
-  {
     "id": "bilderberg-meetings",
     "name": "Bilderberg Meetings",
     "aliases": [],
@@ -544,23 +527,6 @@
     "depends_on": []
   },
   {
-    "id": "mk-ultra",
-    "name": "MK Ultra",
-    "aliases": [],
-    "genre": "health",
-    "year": 1960,
-    "truth": 90,
-    "impact": 60,
-    "notoriety": 85,
-    "summary": "A CIA experiment that involved people being influenced by mind-altering drugs to view their effects for the purpose of PSYOPS. While it was stated to be shut down, it, or its findings, may still be in use today.",
-    "evidence_for": [
-      "If humans can be controlled through their stimuli or through chemicals, perhaps the government will soon not require a major police state like usual dystopian visions. With the rise of digital media and heavily processed foods, perhaps much of."
-    ],
-    "evidence_against": [],
-    "related": [],
-    "depends_on": []
-  },
-  {
     "id": "hypnosis",
     "name": "Hypnosis",
     "aliases": [],
@@ -572,23 +538,6 @@
     "summary": "An act that involves a level of mind control over a subject. This can be done to help the subject remember certain events or can even be used to implant memories.",
     "evidence_for": [
       "Perhaps rather than simply making certain people more susceptible to suggestion, hypnosis is much more akin to a form of psychological surgery. Just as the mind heals itself when unconscious, it can be naturally influenced through certain means"
-    ],
-    "evidence_against": [],
-    "related": [],
-    "depends_on": []
-  },
-  {
-    "id": "fluoride",
-    "name": "Fluoride",
-    "aliases": [],
-    "genre": "health",
-    "year": 1995,
-    "truth": 25,
-    "impact": 40,
-    "notoriety": 20,
-    "summary": "In the United States, the chemical fluoride is put into tap water for health purposes. Being a chemical, it may have some adverse effects not known to the public.",
-    "evidence_for": [
-      "If, like in the “Physicality Obsoletion” theory, the government is attempting to control the population through chemicals, the best way to do it would be to contaminate something humans absolutely can not live without. Perhaps all the pushes towards."
     ],
     "evidence_against": [],
     "related": [],
@@ -691,23 +640,6 @@
     "summary": "A civilization located within the earth, backed up by many similar accounts throughout history of entities coming from within the earth.",
     "evidence_for": [
       "If the earth is hollow and the interior works as a centrifugal force, then there must be a point in the crust of the earth where the force of gravity and this centrifugal force are at equal measure, and thusly the highest pressure point on earth.."
-    ],
-    "evidence_against": [],
-    "related": [],
-    "depends_on": []
-  },
-  {
-    "id": "weather-control-haarp",
-    "name": "Weather Control (HAARP)",
-    "aliases": [],
-    "genre": "government",
-    "year": 1995,
-    "truth": 25,
-    "impact": 60,
-    "notoriety": 20,
-    "summary": "A United States military base located in Alaska that has been the subject of many accusations of controlling the weather.",
-    "evidence_for": [
-      "If the government controls the weather, perhaps they have been using this power to exert some form of control over the population, either creating disasters to send specific groups of people into disarray by targeting their headquarters, or by."
     ],
     "evidence_against": [],
     "related": [],
@@ -1337,23 +1269,6 @@
     "summary": "A type of media that is illegal both to produce and distribute, often depicting violence and torture.",
     "evidence_for": [
       "Accusations of those in power worshiping demons or other evil entities to attain their status are quite common, perhaps if these theories are true, a corrupting influence of these practices could lead them to more degenerative desires, seeking out."
-    ],
-    "evidence_against": [],
-    "related": [],
-    "depends_on": []
-  },
-  {
-    "id": "gangstalking",
-    "name": "Gangstalking",
-    "aliases": [],
-    "genre": "government",
-    "year": 1995,
-    "truth": 25,
-    "impact": 60,
-    "notoriety": 20,
-    "summary": "A paranoid belief that certain individuals that appear to be normal are watching you throughout your day, often employed by the government or other higher authorities.",
-    "evidence_for": [
-      "As mentioned in the “Hook Operators” theory, certain people can take control of others remotely through psychological means. Perhaps rather than certain innocuous people being employed by the government, they are instead being controlled by these."
     ],
     "evidence_against": [],
     "related": [],

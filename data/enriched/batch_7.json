@@ -2,7 +2,10 @@
   {
     "id": "third-secret-fatima",
     "name": "Third Secret of Fatima",
-    "aliases": ["Fatima secret conspiracy", "Vatican suppression of Fatima"],
+    "aliases": [
+      "Fatima secret conspiracy",
+      "Vatican suppression of Fatima"
+    ],
     "genre": "religion-occult",
     "year": 1960,
     "truth": 45,
@@ -21,14 +24,20 @@
       "Multiple Vatican officials have repeatedly confirmed no fourth secret exists",
       "The suppression delay itself is explained as prudence during Cold War tensions, not evidence of falsification"
     ],
-    "related": ["religion-occult"],
+    "related": [
+      "religion-occult"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Three_Secrets_of_F%C3%A1tima"
   },
   {
     "id": "jesus-bloodline",
     "name": "Holy Blood, Holy Grail / Jesus Bloodline Theory",
-    "aliases": ["Jesus married Mary Magdalene", "Merovingian bloodline conspiracy", "Sacred bloodline"],
+    "aliases": [
+      "Jesus married Mary Magdalene",
+      "Merovingian bloodline conspiracy",
+      "Sacred bloodline"
+    ],
     "genre": "religion-occult",
     "year": 1982,
     "truth": 8,
@@ -47,14 +56,20 @@
       "Multiple independent investigations (60 Minutes, BBC, Discovery Channel, historians) concluded the book's central claims are pseudohistorical",
       "A court ruled in 2006 that Brown did not plagiarize from the authors, and the claims themselves are not factual"
     ],
-    "related": ["religion-occult"],
+    "related": [
+      "religion-occult"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/The_Holy_Blood_and_the_Holy_Grail"
   },
   {
     "id": "shakespeare-authorship",
     "name": "Shakespeare Authorship Question",
-    "aliases": ["Edward de Vere authorship", "Oxfordian theory", "Anti-Stratfordian"],
+    "aliases": [
+      "Edward de Vere authorship",
+      "Oxfordian theory",
+      "Anti-Stratfordian"
+    ],
     "genre": "alt-history",
     "year": 1857,
     "truth": 42,
@@ -73,14 +88,19 @@
       "Oxford's contemporaries, including Cecil, never attributed the plays to him; he was known for other writings",
       "Mainstream literary scholarship and the scholarly consensus overwhelmingly support Shakespeare authorship based on documentary evidence"
     ],
-    "related": ["alt-history"],
+    "related": [
+      "alt-history"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Shakespeare_authorship_question"
   },
   {
     "id": "warming-pause-climategate",
     "name": "Global Warming Pause / Climategate Conspiracy",
-    "aliases": ["Climategate hoax", "climate fraud conspiracy"],
+    "aliases": [
+      "Climategate hoax",
+      "climate fraud conspiracy"
+    ],
     "genre": "science-tech",
     "year": 2009,
     "truth": 5,
@@ -99,14 +119,19 @@
       "Global temperatures in the 2000s did NOT pause; the 2000-2009 decade was the warmest on record at the time",
       "The myth of a 'pause' conflates short-term variability with long-term warming trend; climate data continues to show warming"
     ],
-    "related": ["science-tech"],
+    "related": [
+      "science-tech"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Climatic_Research_Unit_email_controversy"
   },
   {
     "id": "fake-snow",
     "name": "Fake Snow / 'Government Snow' Conspiracy",
-    "aliases": ["fake snow hoax", "Bill Gates snow"],
+    "aliases": [
+      "fake snow hoax",
+      "Bill Gates snow"
+    ],
     "genre": "science-tech",
     "year": 2021,
     "truth": 2,
@@ -124,14 +149,18 @@
       "Snopes had already debunked the identical claim in 2014; no new evidence of fake snow has ever emerged",
       "Atmospheric scientists unanimously reject the claim; no mechanism for large-scale artificial snow exists"
     ],
-    "related": ["science-tech"],
+    "related": [
+      "science-tech"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Fake_snow_conspiracy_theory"
   },
   {
     "id": "mh370-diego-garcia",
     "name": "MH370 Diego Garcia Landing Theory",
-    "aliases": ["Malaysia Airlines MH370 Diego Garcia"],
+    "aliases": [
+      "Malaysia Airlines MH370 Diego Garcia"
+    ],
     "genre": "government",
     "year": 2014,
     "truth": 6,
@@ -151,14 +180,19 @@
       "The FBI investigated the simulator claims and found them 'unsubstantiated and unsourced'",
       "The U.S. military and CIA both denied the claim; no credible radar or tracking evidence supports Diego Garcia"
     ],
-    "related": ["government"],
+    "related": [
+      "government"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Malaysia_Airlines_Flight_370_disappearance_theories"
   },
   {
     "id": "amelia-earhart-japan",
     "name": "Amelia Earhart Japanese Capture Theory",
-    "aliases": ["Earhart captured by Japan", "Earhart Saipan theory"],
+    "aliases": [
+      "Earhart captured by Japan",
+      "Earhart Saipan theory"
+    ],
     "genre": "deaths",
     "year": 1943,
     "truth": 32,
@@ -177,14 +211,19 @@
       "Geographic and aeronautical evidence rules out a flight path to the Marshall Islands; the plane's fuel and range would not allow it",
       "No credible physical evidence (remains, documents, witnesses with verifiable proximity) has ever been produced"
     ],
-    "related": ["deaths"],
+    "related": [
+      "deaths"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Disappearance_of_Amelia_Earhart"
   },
   {
     "id": "roswell-alien-autopsy",
     "name": "Roswell Alien Autopsy Film",
-    "aliases": ["1995 autopsy film", "Ray Santilli alien footage"],
+    "aliases": [
+      "1995 autopsy film",
+      "Ray Santilli alien footage"
+    ],
     "genre": "extraterrestrial",
     "year": 1995,
     "truth": 3,
@@ -204,14 +243,21 @@
       "The film reels labeled 'Department of Defense' used anachronistic terminology (the agency wasn't named that until 1949, not 1947)",
       "Sculptor John Humphreys confirmed he fabricated the alien body per Santilli's specifications"
     ],
-    "related": ["extraterrestrial", "roswell", "ufo-coverup"],
+    "related": [
+      "extraterrestrial",
+      "roswell",
+      "ufo-coverup"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Alien_Autopsy_(1995_film)"
   },
   {
     "id": "men-in-black",
     "name": "Men in Black",
-    "aliases": ["MIB UFO intimidation", "mysterious visitors"],
+    "aliases": [
+      "MIB UFO intimidation",
+      "mysterious visitors"
+    ],
     "genre": "extraterrestrial",
     "year": 1953,
     "truth": 28,
@@ -231,14 +277,20 @@
       "No physical evidence, photographs, or verifiable witness testimony has ever been produced",
       "The narrative parallels folklore and psychological patterns more closely than documented events"
     ],
-    "related": ["extraterrestrial", "ufo-coverup"],
+    "related": [
+      "extraterrestrial",
+      "ufo-coverup"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Men_in_black"
   },
   {
     "id": "disclosure-project",
     "name": "Disclosure Project",
-    "aliases": ["Steven Greer disclosure", "National Press Club hearing"],
+    "aliases": [
+      "Steven Greer disclosure",
+      "National Press Club hearing"
+    ],
     "genre": "extraterrestrial",
     "year": 2001,
     "truth": 48,
@@ -259,14 +311,22 @@
       "Greer has made additional claims about energy suppression and extraterrestrial contact that remain unverified",
       "The 2001 press conference did not result in immediate government disclosure; official acknowledgment came slowly and from independent investigations"
     ],
-    "related": ["extraterrestrial", "ufo-coverup", "pentagon-uap-disclosure"],
+    "related": [
+      "extraterrestrial",
+      "ufo-coverup",
+      "pentagon-uap-disclosure"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Steven_M._Greer"
   },
   {
     "id": "pentagon-uap-disclosure",
     "name": "Pentagon UAP Disclosure / 2017-2023 UAP Videos",
-    "aliases": ["Navy UAP videos", "Nimitz encounter footage", "official UFO videos"],
+    "aliases": [
+      "Navy UAP videos",
+      "Nimitz encounter footage",
+      "official UFO videos"
+    ],
     "genre": "extraterrestrial",
     "year": 2017,
     "truth": 65,
@@ -286,14 +346,22 @@
       "The Pentagon has not produced physical alien evidence despite decades of UAP investigations",
       "Recent AARO reports (2024) suggest most UAP have earthly explanations; the 'mystery' persists mainly among unexplained cases, not confirmed alien contact"
     ],
-    "related": ["extraterrestrial", "ufo-coverup", "disclosure-project"],
+    "related": [
+      "extraterrestrial",
+      "ufo-coverup",
+      "disclosure-project"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Pentagon_UFO_videos"
   },
   {
     "id": "wow-signal",
     "name": "Wow! Signal Alien Contact",
-    "aliases": ["Wow signal", "Chi Sagittarii signal", "Ohio State radio signal"],
+    "aliases": [
+      "Wow signal",
+      "Chi Sagittarii signal",
+      "Ohio State radio signal"
+    ],
     "genre": "extraterrestrial",
     "year": 1977,
     "truth": 48,
@@ -313,14 +381,22 @@
       "No follow-up survey by other observatories has corroborated the signal",
       "The signal remains unidentified but 'unidentified' does not equal 'extraterrestrial'; natural astrophysical phenomena, terrestrial interference, or instrumental error remain possible"
     ],
-    "related": ["extraterrestrial", "ufo-coverup"],
+    "related": [
+      "extraterrestrial",
+      "ufo-coverup"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Wow!_signal"
   },
   {
     "id": "hollow-moon",
     "name": "Moon Is Hollow / Artificial Moon Theory",
-    "aliases": ["Spaceship moon", "artificial moon", "hollow moon hypothesis"],
+    "aliases": [
+      "Moon Built By Aliens",
+      "Spaceship moon",
+      "artificial moon",
+      "hollow moon hypothesis"
+    ],
     "genre": "extraterrestrial",
     "year": 1970,
     "truth": 6,
@@ -331,7 +407,8 @@
       "The Moon's mean density (3.3 g/cm³) is lower than Earth's (5.5 g/cm³), which believers cite as evidence of hollowness",
       "Apollo 12 astronauts deliberately crashed the Lunar Module, and NASA reported the Moon 'rang like a bell' for almost an hour",
       "The Moon's size relative to Earth and its orbit are geometrically unusual compared to other planetary moons",
-      "The Vasin-Shcherbakov 1970 paper offered a speculative hypothesis with the appearance of scientific reasoning"
+      "The Vasin-Shcherbakov 1970 paper offered a speculative hypothesis with the appearance of scientific reasoning",
+      "Moon's anomalous size and seismic hollow properties prove artificial fabrication by alien engineers for orbital surveillance infrastructure."
     ],
     "evidence_against": [
       "The Moon's density is explained by its composition and formation; it is compositionally different from Earth, making direct density comparison misleading",
@@ -340,14 +417,20 @@
       "No physical evidence of artificial construction or internal voids exists",
       "The theory is unfalsifiable and contradicted by well-established lunar science"
     ],
-    "related": ["extraterrestrial"],
+    "related": [
+      "extraterrestrial"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Hollow_Moon"
   },
   {
     "id": "antarctica-hidden",
     "name": "Antarctica Hidden Truth Theories",
-    "aliases": ["Antarctica mysteries", "Antarctic secrets", "Antarctica discoveries"],
+    "aliases": [
+      "Antarctica mysteries",
+      "Antarctic secrets",
+      "Antarctica discoveries"
+    ],
     "genre": "alt-history",
     "year": 2016,
     "truth": 18,
@@ -368,14 +451,20 @@
       "Nazi base in Antarctica was a modest whaling station and research facility, documented and ordinary for its time",
       "Scientific stations in Antarctica operate transparently; international treaties and multinational presence prevent secret projects"
     ],
-    "related": ["alt-history", "extraterrestrial"],
+    "related": [
+      "alt-history",
+      "extraterrestrial"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Antarctica"
   },
   {
     "id": "flat-earth-ice-wall",
     "name": "Flat Earth Ice Wall / Antarctica Guard Theory",
-    "aliases": ["flat earth Antarctica", "ice wall conspiracy", "Operation Fishbowl"],
+    "aliases": [
+      "flat earth Antarctica",
+      "ice wall conspiracy"
+    ],
     "genre": "science-tech",
     "year": 2015,
     "truth": 1,
@@ -395,7 +484,9 @@
       "A flat-Earth expedition in 2024 to Antarctica explicitly aimed to test the theory; a prominent flat-Earth advocate acknowledged witnessing the midnight sun, which disproves flat Earth",
       "The conspiracy would require impossible coordination among rival nations, private companies, and independent scientists globally"
     ],
-    "related": ["science-tech"],
+    "related": [
+      "science-tech"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Modern_flat_Earth_beliefs"
   }

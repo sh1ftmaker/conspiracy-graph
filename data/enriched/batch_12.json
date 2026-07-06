@@ -378,23 +378,6 @@
     "depends_on": []
   },
   {
-    "id": "empty-internet",
-    "name": "Empty Internet",
-    "aliases": [],
-    "genre": "media-surveillance",
-    "year": 2015,
-    "truth": 15,
-    "impact": 75,
-    "notoriety": 35,
-    "summary": "The internet is mostly or entirely devoid of real users, populated by AI bots designed to shape the beliefs of the few actual humans.",
-    "evidence_for": [
-      "The internet's dominant platforms could employ vast bot networks to simulate human activity while conditioning the small real user population toward predetermined ideologies."
-    ],
-    "evidence_against": [],
-    "related": [],
-    "depends_on": []
-  },
-  {
     "id": "internet-soul-theft",
     "name": "Internet Soul Theft",
     "aliases": [],
@@ -409,7 +392,7 @@
     ],
     "evidence_against": [],
     "related": [
-      "empty-internet"
+      "dead-internet-theory"
     ],
     "depends_on": []
   },
@@ -518,23 +501,6 @@
     "depends_on": []
   },
   {
-    "id": "oxygen-is-hallucinogenic",
-    "name": "Oxygen Is Hallucinogenic",
-    "aliases": [],
-    "genre": "science-tech",
-    "year": 2010,
-    "truth": 5,
-    "impact": 85,
-    "notoriety": 20,
-    "summary": "Oxygen induces a collective hallucination in humanity, altering our perception of reality.",
-    "evidence_for": [
-      "Oxygen's universal presence in all organisms could make it an ideal mechanism for reality-altering hallucination, with adaptation preventing awareness of the effect."
-    ],
-    "evidence_against": [],
-    "related": [],
-    "depends_on": []
-  },
-  {
     "id": "secular-oxygen",
     "name": "Secular Oxygen",
     "aliases": [],
@@ -549,7 +515,7 @@
     ],
     "evidence_against": [],
     "related": [
-      "oxygen-is-hallucinogenic"
+      "air-is-poison"
     ],
     "depends_on": []
   },
@@ -985,7 +951,9 @@
   {
     "id": "real-fluoride-dangers",
     "name": "Real Fluoride Dangers",
-    "aliases": [],
+    "aliases": [
+      "Fluoride"
+    ],
     "genre": "health",
     "year": 1950,
     "truth": 25,
@@ -993,7 +961,8 @@
     "notoriety": 40,
     "summary": "Fluoride poses far more extensive and dangerous health effects than mainstream science acknowledges.",
     "evidence_for": [
-      "Water fluoridation's widespread adoption despite documented neurotoxicity in high doses suggests institutional suppression of adverse health research."
+      "Water fluoridation's widespread adoption despite documented neurotoxicity in high doses suggests institutional suppression of adverse health research.",
+      "If, like in the “Physicality Obsoletion” theory, the government is attempting to control the population through chemicals, the best way to do it would be to contaminate something humans absolutely can not live without. Perhaps all the pushes towards."
     ],
     "evidence_against": [],
     "related": [],
@@ -1827,23 +1796,6 @@
     "depends_on": []
   },
   {
-    "id": "prism",
-    "name": "PRISM",
-    "aliases": [],
-    "genre": "government",
-    "year": 2007,
-    "truth": 91,
-    "impact": 80,
-    "notoriety": 75,
-    "summary": "The NSA operates a mass data collection program monitoring internet traffic globally.",
-    "evidence_for": [
-      "Declassified documentation and whistleblower testimony confirm systematic government surveillance of all electronic communications."
-    ],
-    "evidence_against": [],
-    "related": [],
-    "depends_on": []
-  },
-  {
     "id": "median-npcs",
     "name": "Median NPCs",
     "aliases": [],
@@ -1858,7 +1810,7 @@
     ],
     "evidence_against": [],
     "related": [
-      "prism"
+      "nsa-mass-surveillance"
     ],
     "depends_on": []
   },
@@ -1952,23 +1904,6 @@
     "depends_on": []
   },
   {
-    "id": "christian-reincarnation",
-    "name": "Christian Reincarnation",
-    "aliases": [],
-    "genre": "religion-occult",
-    "year": 2015,
-    "truth": 5,
-    "impact": 75,
-    "notoriety": 20,
-    "summary": "Souls unaware of Christianity cannot be judged and must reincarnate indefinitely.",
-    "evidence_for": [
-      "If Christian judgment requires knowledge of Christ, uninformed souls recycle indefinitely, potentially explaining ignorance perpetuation and Christian suppression."
-    ],
-    "evidence_against": [],
-    "related": [],
-    "depends_on": []
-  },
-  {
     "id": "ai-in-a-box",
     "name": "AI In A Box",
     "aliases": [],
@@ -2000,7 +1935,7 @@
     ],
     "evidence_against": [],
     "related": [
-      "christian-reincarnation"
+      "christian-reincarnation-perpetuation"
     ],
     "depends_on": []
   },

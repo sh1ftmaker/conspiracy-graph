@@ -1708,14 +1708,18 @@
   {
     "id": "air-is-poison",
     "name": "Air Is Poison",
-    "aliases": [],
+    "aliases": [
+      "Oxygen Is Hallucinogenic"
+    ],
     "genre": "health",
     "year": 2010,
     "truth": 40,
     "impact": 80,
     "notoriety": 35,
     "summary": "The theory that air is a form of hallucinogenic that puts all of humanity into a trance like state for their entire lives.",
-    "evidence_for": [],
+    "evidence_for": [
+      "Oxygen's universal presence in all organisms could make it an ideal mechanism for reality-altering hallucination, with adaptation preventing awareness of the effect."
+    ],
     "evidence_against": [],
     "related": [],
     "depends_on": []

@@ -2,7 +2,11 @@
   {
     "id": "operation-gladio",
     "name": "Operation Gladio",
-    "aliases": ["Gladio", "NATO stay-behind networks", "strategy of tension"],
+    "aliases": [
+      "Gladio",
+      "NATO stay-behind networks",
+      "strategy of tension"
+    ],
     "genre": "espionage",
     "year": 1990,
     "truth": 93,
@@ -20,14 +24,22 @@
       "The direct link between the central Gladio program and specific terrorist acts is contested; some attacks may have been genuine far-left operations",
       "No single document conclusively shows NATO headquarters ordered domestic bombings"
     ],
-    "related": ["cointelpro", "operation-northwoods", "deep-state", "church-committee"],
+    "related": [
+      "cointelpro",
+      "operation-northwoods",
+      "deep-state",
+      "church-committee"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Operation_Gladio"
   },
   {
     "id": "pentagon-papers",
     "name": "Pentagon Papers",
-    "aliases": ["History of U.S. Decision-Making in Vietnam", "McNamara study"],
+    "aliases": [
+      "History of U.S. Decision-Making in Vietnam",
+      "McNamara study"
+    ],
     "genre": "government",
     "year": 1971,
     "truth": 100,
@@ -43,14 +55,23 @@
     "evidence_against": [
       "None — proven historical fact"
     ],
-    "related": ["gulf-of-tonkin", "watergate", "deep-state", "operation-gladio"],
+    "related": [
+      "gulf-of-tonkin",
+      "watergate",
+      "deep-state",
+      "operation-gladio"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Pentagon_Papers"
   },
   {
     "id": "bay-of-pigs",
     "name": "Bay of Pigs Invasion",
-    "aliases": ["Brigade 2506", "Operation Zapata", "La Batalla de Girón"],
+    "aliases": [
+      "Brigade 2506",
+      "Operation Zapata",
+      "La Batalla de Girón"
+    ],
     "genre": "government",
     "year": 1961,
     "truth": 100,
@@ -66,14 +87,22 @@
     "evidence_against": [
       "None — proven historical fact"
     ],
-    "related": ["operation-northwoods", "cia-crack-contra", "deep-state", "gulf-of-tonkin"],
+    "related": [
+      "operation-northwoods",
+      "cia-crack-contra",
+      "deep-state",
+      "gulf-of-tonkin"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Bay_of_Pigs_Invasion"
   },
   {
     "id": "operation-paperclip",
     "name": "Operation Paperclip",
-    "aliases": ["Operation Overcast", "Joint Intelligence Objectives Agency program"],
+    "aliases": [
+      "Operation Overcast",
+      "Joint Intelligence Objectives Agency program"
+    ],
     "genre": "government",
     "year": 1946,
     "truth": 98,
@@ -89,14 +118,21 @@
     "evidence_against": [
       "None — proven historical fact"
     ],
-    "related": ["deep-state", "church-committee", "operation-midnight-climax"],
+    "related": [
+      "deep-state",
+      "church-committee",
+      "operation-midnight-climax"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Operation_Paperclip"
   },
   {
     "id": "operation-midnight-climax",
     "name": "Operation Midnight Climax",
-    "aliases": ["MKUltra subproject 42", "CIA safe-house LSD experiments"],
+    "aliases": [
+      "MKUltra subproject 42",
+      "CIA safe-house LSD experiments"
+    ],
     "genre": "espionage",
     "year": 1977,
     "truth": 95,
@@ -112,14 +148,23 @@
     "evidence_against": [
       "None — proven fact; the CIA publicly admitted the program"
     ],
-    "related": ["mkultra", "cointelpro", "church-committee", "deep-state"],
-    "depends_on": ["mkultra"],
+    "related": [
+      "mkultra",
+      "cointelpro",
+      "church-committee",
+      "deep-state"
+    ],
+    "depends_on": [
+      "mkultra"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Operation_Midnight_Climax"
   },
   {
     "id": "operation-snow-white",
     "name": "Operation Snow White",
-    "aliases": ["Scientology government infiltration"],
+    "aliases": [
+      "Scientology government infiltration"
+    ],
     "genre": "religion-occult",
     "year": 1977,
     "truth": 97,
@@ -135,14 +180,21 @@
     "evidence_against": [
       "None — proven by court convictions and documentary record"
     ],
-    "related": ["cointelpro", "deep-state", "operation-mockingbird"],
+    "related": [
+      "cointelpro",
+      "deep-state",
+      "operation-mockingbird"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Operation_Snow_White"
   },
   {
     "id": "cointelpro-black-panther",
     "name": "COINTELPRO: Black Panther Targeting",
-    "aliases": ["FBI Black Panther counterintelligence", "Fred Hampton assassination plot"],
+    "aliases": [
+      "FBI Black Panther counterintelligence",
+      "Fred Hampton assassination plot"
+    ],
     "genre": "espionage",
     "year": 1969,
     "truth": 97,
@@ -158,14 +210,24 @@
     "evidence_against": [
       "None — the program's existence and specific tactics are proven fact"
     ],
-    "related": ["cointelpro", "mlk-assassination", "deep-state", "church-committee"],
-    "depends_on": ["cointelpro"],
+    "related": [
+      "cointelpro",
+      "mlk-assassination",
+      "deep-state",
+      "church-committee"
+    ],
+    "depends_on": [
+      "cointelpro"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/COINTELPRO#Black_Panther_Party"
   },
   {
     "id": "church-committee",
     "name": "Church Committee Revelations",
-    "aliases": ["Senate intelligence investigations 1975", "Select Committee to Study Governmental Operations"],
+    "aliases": [
+      "Senate intelligence investigations 1975",
+      "Select Committee to Study Governmental Operations"
+    ],
     "genre": "government",
     "year": 1975,
     "truth": 99,
@@ -181,14 +243,23 @@
     "evidence_against": [
       "None — proven congressional fact"
     ],
-    "related": ["mkultra", "cointelpro", "operation-mockingbird", "deep-state", "operation-gladio"],
+    "related": [
+      "mkultra",
+      "cointelpro",
+      "operation-mockingbird",
+      "deep-state",
+      "operation-gladio"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Church_Committee"
   },
   {
     "id": "pearl-harbor-foreknowledge",
     "name": "Pearl Harbor Advance Knowledge",
-    "aliases": ["FDR knew Pearl Harbor", "Pearl Harbor conspiracy"],
+    "aliases": [
+      "FDR knew Pearl Harbor",
+      "Pearl Harbor conspiracy"
+    ],
     "genre": "government",
     "year": 1944,
     "truth": 22,
@@ -207,14 +278,21 @@
       "No document has emerged showing FDR or senior officials knew Pearl Harbor specifically would be attacked",
       "The consensus of historians is that inter-agency coordination failures, not a conspiracy, explain the surprise"
     ],
-    "related": ["gulf-of-tonkin", "operation-northwoods", "deep-state"],
+    "related": [
+      "gulf-of-tonkin",
+      "operation-northwoods",
+      "deep-state"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Pearl_Harbor_advance-knowledge_conspiracy_theory"
   },
   {
     "id": "waco-cover-up",
     "name": "Waco Siege Cover-up",
-    "aliases": ["Branch Davidian conspiracy", "Waco massacre"],
+    "aliases": [
+      "Branch Davidian conspiracy",
+      "Waco massacre"
+    ],
     "genre": "government",
     "year": 1993,
     "truth": 36,
@@ -233,14 +311,21 @@
       "The pyrotechnic rounds were fired away from the main structure and are not linked to the fatal fire",
       "Most specific cover-up allegations have been put to independent review and rejected"
     ],
-    "related": ["deep-state", "oklahoma-city-second-bomb", "fema-camps"],
+    "related": [
+      "deep-state",
+      "oklahoma-city-second-bomb",
+      "fema-camps"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Waco_siege"
   },
   {
     "id": "oklahoma-city-second-bomb",
     "name": "Oklahoma City Bombing Second Bomb",
-    "aliases": ["OKC bombing conspiracy", "John Doe No. 2 mystery"],
+    "aliases": [
+      "OKC bombing conspiracy",
+      "John Doe No. 2 mystery"
+    ],
     "genre": "government",
     "year": 1995,
     "truth": 15,
@@ -259,14 +344,21 @@
       "The FBI concluded that John Doe No. 2 was a case of mistaken witness identification and there was no additional conspirator",
       "The initial 'second device' reports were erroneous based on misidentified unexploded ordnance belonging to McVeigh's vehicle"
     ],
-    "related": ["waco-cover-up", "deep-state", "911-inside-job"],
+    "related": [
+      "waco-cover-up",
+      "deep-state",
+      "911-inside-job"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Oklahoma_City_bombing_conspiracy_theories"
   },
   {
     "id": "twa-flight-800-missile",
     "name": "TWA Flight 800 Missile Theory",
-    "aliases": ["TWA 800 conspiracy", "Flight 800 shoot-down"],
+    "aliases": [
+      "TWA 800 conspiracy",
+      "Flight 800 shoot-down"
+    ],
     "genre": "government",
     "year": 1996,
     "truth": 8,
@@ -285,14 +377,20 @@
       "No military exercise in the vicinity involved live weapons; Navy ships in the area are accounted for",
       "Physical debris reconstruction and chemical analysis found no evidence of a missile strike"
     ],
-    "related": ["deep-state", "mass-govt-secrecy"],
+    "related": [
+      "deep-state",
+      "mass-govt-secrecy"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/TWA_Flight_800_conspiracy_theories"
   },
   {
     "id": "jonestown-mkultra",
     "name": "Jonestown MKUltra Connection",
-    "aliases": ["Jonestown CIA experiment", "Peoples Temple mind control"],
+    "aliases": [
+      "Jonestown CIA experiment",
+      "Peoples Temple mind control"
+    ],
     "genre": "government",
     "year": 1978,
     "truth": 14,
@@ -311,14 +409,22 @@
       "Dwyer's presence is explained by his diplomatic role in Guyana, not a covert operation",
       "Forensic evidence is consistent with the documented murder-suicide scenario"
     ],
-    "related": ["mkultra", "deep-state", "cointelpro", "church-committee"],
+    "related": [
+      "mkultra",
+      "deep-state",
+      "cointelpro",
+      "church-committee"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Peoples_Temple"
   },
   {
     "id": "fema-camps",
     "name": "FEMA Concentration Camps",
-    "aliases": ["FEMA camps", "Rex 84 detention centers"],
+    "aliases": [
+      "FEMA camps",
+      "Rex 84 detention centers"
+    ],
     "genre": "government",
     "year": 2009,
     "truth": 6,
@@ -337,14 +443,24 @@
       "Journalists, politicians, and activists have visited claimed sites and documented them as mundane",
       "No credible whistleblower or document has substantiated the network of camps"
     ],
-    "related": ["deep-state", "new-world-order", "agenda-21", "waco-cover-up"],
-    "depends_on": ["mass-govt-secrecy"],
+    "related": [
+      "deep-state",
+      "new-world-order",
+      "agenda-21",
+      "waco-cover-up"
+    ],
+    "depends_on": [
+      "mass-govt-secrecy"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/FEMA_camps_conspiracy_theory"
   },
   {
     "id": "agenda-21",
     "name": "Agenda 21 Control Plot",
-    "aliases": ["UN Agenda 21", "Agenda 2030 depopulation"],
+    "aliases": [
+      "UN Agenda 21",
+      "Agenda 2030 depopulation"
+    ],
     "genre": "new-world-order",
     "year": 1992,
     "truth": 7,
@@ -363,14 +479,24 @@
       "Hundreds of municipalities adopted Agenda 21 plans openly, with no accompanying loss of autonomy",
       "Detailed reading of the text contradicts virtually every specific claim made by conspiracy proponents"
     ],
-    "related": ["new-world-order", "great-reset", "fema-camps", "climate-lockdown"],
-    "depends_on": ["new-world-order"],
+    "related": [
+      "new-world-order",
+      "great-reset",
+      "fema-camps",
+      "climate-lockdown"
+    ],
+    "depends_on": [
+      "new-world-order"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Agenda_21"
   },
   {
     "id": "project-blue-beam",
     "name": "Project Blue Beam",
-    "aliases": ["NASA Blue Beam", "holographic Second Coming"],
+    "aliases": [
+      "NASA Blue Beam",
+      "holographic Second Coming"
+    ],
     "genre": "new-world-order",
     "year": 1994,
     "truth": 4,
@@ -388,14 +514,24 @@
       "Monast provided no verifiable sources; his claims have been traced to no documentary origin",
       "Monast died in 1996; subsequent 'updates' are unverifiable internet embellishments"
     ],
-    "related": ["new-world-order", "illuminati", "ufo-coverup", "nasa-hoax-capacity"],
-    "depends_on": ["new-world-order"],
+    "related": [
+      "new-world-order",
+      "illuminati",
+      "ufo-coverup",
+      "nasa-hoax-capacity"
+    ],
+    "depends_on": [
+      "new-world-order"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Project_Blue_Beam"
   },
   {
     "id": "georgia-guidestones",
     "name": "Georgia Guidestones",
-    "aliases": ["American Stonehenge", "Guidestones depopulation agenda"],
+    "aliases": [
+      "American Stonehenge",
+      "Guidestones depopulation agenda"
+    ],
     "genre": "new-world-order",
     "year": 1980,
     "truth": 8,
@@ -414,14 +550,22 @@
       "No organization has claimed authorship or acted on the 'guidelines' in any documented way",
       "The monument's destruction in 2022 by unknown assailants produced no conspiracy revelations"
     ],
-    "related": ["new-world-order", "agenda-21", "illuminati"],
+    "related": [
+      "new-world-order",
+      "agenda-21",
+      "illuminati"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Georgia_Guidestones"
   },
   {
     "id": "denver-airport-conspiracy",
     "name": "Denver International Airport Conspiracy",
-    "aliases": ["DIA murals conspiracy", "Denver airport New World Order"],
+    "aliases": [
+      "DIA murals conspiracy",
+      "Denver Airport",
+      "Denver airport New World Order"
+    ],
     "genre": "new-world-order",
     "year": 1995,
     "truth": 6,
@@ -432,7 +576,8 @@
       "The murals by Leo Tanguma depict vivid apocalyptic imagery — a uniformed figure with a sword, dead children, burning cities — which are genuinely unsettling and controversial",
       "A Masonic time-capsule capstone is present at the airport with a reference to the 'New World Airport Commission'",
       "The airport's construction was significantly over budget and delayed, feeding suspicion about hidden purposes",
-      "Underground tunnels (the automated baggage system) are extensive and were partly unused for years"
+      "Underground tunnels (the automated baggage system) are extensive and were partly unused for years",
+      "Major government-owned facilities like airports experience massive foot traffic; some or all major airports may contain secret installations designed to drain and store the physical and spiritual energy of passing travelers, explaining the otherworldly lethargy many experience."
     ],
     "evidence_against": [
       "Artist Leo Tanguma publicly explained the murals as depicting humanity overcoming war, genocide, and environmental destruction — a peace narrative, not a blueprint",
@@ -440,14 +585,23 @@
       "The 'underground tunnels' are the airport's documented automated baggage system",
       "The airport has leaned into the conspiracies with humor, posting self-referential jokey signage about being a secret base"
     ],
-    "related": ["new-world-order", "illuminati", "georgia-guidestones", "freemasons"],
+    "related": [
+      "new-world-order",
+      "illuminati",
+      "georgia-guidestones",
+      "freemasons"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Denver_International_Airport#Conspiracy_theories"
   },
   {
     "id": "skull-and-bones",
     "name": "Skull and Bones",
-    "aliases": ["The Order", "322", "Yale secret society cabal"],
+    "aliases": [
+      "The Order",
+      "322",
+      "Yale secret society cabal"
+    ],
     "genre": "religion-occult",
     "year": 1983,
     "truth": 22,
@@ -466,14 +620,22 @@
       "No evidence of coordinated policy direction beyond alumni networking and mutual sponsorship",
       "The society's influence, while real as a social network, is qualitatively similar to other elite fraternal organizations"
     ],
-    "related": ["illuminati", "new-world-order", "bohemian-grove", "freemasons"],
+    "related": [
+      "illuminati",
+      "new-world-order",
+      "bohemian-grove",
+      "freemasons"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Skull_and_Bones"
   },
   {
     "id": "soros-puppet-master",
     "name": "George Soros Puppet Master",
-    "aliases": ["Soros funds everything", "Soros open borders conspiracy"],
+    "aliases": [
+      "Soros funds everything",
+      "Soros open borders conspiracy"
+    ],
     "genre": "finance",
     "year": 2016,
     "truth": 7,
@@ -492,14 +654,23 @@
       "Diverse protest movements attributed to Soros have documented organic origins unrelated to OSF funding",
       "The theory was explicitly linked to the 2018 Pittsburgh synagogue shooting and multiple bomb threats against Soros"
     ],
-    "related": ["rothschild-banking", "protocols-elders-zion", "new-world-order", "great-replacement"],
+    "related": [
+      "rothschild-banking",
+      "protocols-elders-zion",
+      "new-world-order",
+      "great-replacement"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/George_Soros#Conspiracy_theories"
   },
   {
     "id": "cultural-marxism",
     "name": "Cultural Marxism Conspiracy",
-    "aliases": ["Frankfurt School plot", "Gramscian cultural takeover", "cultural Bolshevism"],
+    "aliases": [
+      "Frankfurt School plot",
+      "Gramscian cultural takeover",
+      "cultural Bolshevism"
+    ],
     "genre": "new-world-order",
     "year": 1998,
     "truth": 6,
@@ -518,14 +689,24 @@
       "The theory closely mirrors pre-existing antisemitic conspiracy narratives about Jewish intellectuals corrupting host cultures ('cultural Bolshevism' in Nazi Germany)",
       "Cultural change in Western societies has multiple documented drivers; attributing it to a small academic school is unfalsifiable reductionism"
     ],
-    "related": ["new-world-order", "great-replacement", "soros-puppet-master", "protocols-elders-zion"],
-    "depends_on": ["new-world-order"],
+    "related": [
+      "new-world-order",
+      "great-replacement",
+      "soros-puppet-master",
+      "protocols-elders-zion"
+    ],
+    "depends_on": [
+      "new-world-order"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Cultural_Marxism_conspiracy_theory"
   },
   {
     "id": "great-replacement",
     "name": "The Great Replacement",
-    "aliases": ["replacement theory", "demographic replacement"],
+    "aliases": [
+      "replacement theory",
+      "demographic replacement"
+    ],
     "genre": "ethnic-religious",
     "year": 2011,
     "truth": 6,
@@ -542,32 +723,12 @@
       "The theory repackages earlier antisemitic canards (white genocide, Protocols) in updated language",
       "Directly linked to real-world terror attacks: Christchurch (2019), El Paso (2019), and the Buffalo shooting (2022)"
     ],
-    "related": ["white-genocide", "protocols-elders-zion", "cultural-marxism", "new-world-order"],
+    "related": [
+      "protocols-elders-zion",
+      "cultural-marxism",
+      "new-world-order"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Great_Replacement"
-  },
-  {
-    "id": "white-genocide",
-    "name": "White Genocide",
-    "aliases": ["white replacement", "white extinction conspiracy", "White Genocide Manifesto"],
-    "genre": "ethnic-religious",
-    "year": 1995,
-    "truth": 3,
-    "impact": 62,
-    "notoriety": 55,
-    "summary": "A white nationalist theory claiming that white people are being deliberately exterminated through mass immigration, interracial marriage, abortion, and low birth rates, engineered by a Jewish or globalist elite. Catalogued to document a harmful, violence-linked, and thoroughly debunked trope that has inspired multiple terrorist attacks.",
-    "evidence_for": [
-      "Demographic projections show white majorities declining in some Western nations over coming decades",
-      "Immigration rates are high in many Western countries, representing real policy choices"
-    ],
-    "evidence_against": [
-      "Demographic change driven by economics, migration, and personal reproductive choices does not constitute genocide by any legal or moral definition",
-      "The claim of deliberate orchestration by a cabal has no evidentiary basis",
-      "The term 'genocide' is legally defined under international law and requires intent to destroy a group; voluntary demographic trends do not qualify",
-      "Directly linked to terrorist attacks including the Christchurch mosque shootings (51 dead, 2019), the Pittsburgh Tree of Life shooting (11 dead, 2018), and the El Paso Walmart shooting (23 dead, 2019)"
-    ],
-    "related": ["great-replacement", "protocols-elders-zion", "cultural-marxism", "soros-puppet-master"],
-    "depends_on": [],
-    "wikipedia": "https://en.wikipedia.org/wiki/White_genocide_conspiracy_theory"
   }
 ]

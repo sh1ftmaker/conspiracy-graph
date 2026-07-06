@@ -2,7 +2,11 @@
   {
     "id": "mh370-disappearance",
     "name": "Malaysia Airlines MH370 Disappearance Conspiracy Theories",
-    "aliases": ["MH370 coverup", "MH370 government conspiracy", "Malaysia Airlines Flight 370"],
+    "aliases": [
+      "MH370 coverup",
+      "MH370 government conspiracy",
+      "Malaysia Airlines Flight 370"
+    ],
     "genre": "government",
     "year": 2014,
     "truth": 18,
@@ -23,14 +27,20 @@
       "Crash physics and satellite data analysis support an accidental flight path ending in the southern Indian Ocean",
       "No credible evidence has emerged linking any government to the disappearance despite extensive investigation"
     ],
-    "related": ["mh17-coverup"],
+    "related": [
+      "mh17-coverup"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Malaysia_Airlines_Flight_370"
   },
   {
     "id": "mh17-coverup",
     "name": "Malaysia Airlines MH17 Cover-up",
-    "aliases": ["MH17 conspiracy", "MH17 Buk missile", "Malaysia Airlines Flight 17"],
+    "aliases": [
+      "MH17 conspiracy",
+      "MH17 Buk missile",
+      "Malaysia Airlines Flight 17"
+    ],
     "genre": "government",
     "year": 2014,
     "truth": 25,
@@ -51,14 +61,20 @@
       "Ukrainian aircraft could not have reached the 33,000-foot cruising altitude with available weapons",
       "Criminal charges were filed against Russian military officers by the international court"
     ],
-    "related": ["mh370-disappearance"],
+    "related": [
+      "mh370-disappearance"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Malaysia_Airlines_Flight_17"
   },
   {
     "id": "kol-007-shootdown",
     "name": "Korean Air Lines Flight 007 Shootdown Conspiracy",
-    "aliases": ["KAL 007 coverup", "Korean Air Lines 007", "Flight 007 spy plane"],
+    "aliases": [
+      "KAL 007 coverup",
+      "Korean Air Lines 007",
+      "Flight 007 spy plane"
+    ],
     "genre": "espionage",
     "year": 1983,
     "truth": 45,
@@ -86,7 +102,13 @@
   {
     "id": "nibiru-planet-x",
     "name": "Nibiru / Planet X Cataclysm",
-    "aliases": ["Nibiru collision", "Planet X apocalypse", "Nibiru 2012", "tenth planet"],
+    "aliases": [
+      "Nibiru 2012",
+      "Nibiru collision",
+      "Nibriu Cataclysm",
+      "Planet X apocalypse",
+      "tenth planet"
+    ],
     "genre": "extraterrestrial",
     "year": 1995,
     "truth": 3,
@@ -97,7 +119,8 @@
       "Legitimate astronomical surveys have searched for undiscovered large objects in the solar system",
       "Anomalies in the orbits of outer planets were historically attributed to unknown gravitational influences",
       "Ancient Sumerian texts (misinterpreted by proponents) were claimed to describe Nibiru",
-      "Some amateur astronomers reported unusual astronomical observations interpreted as Nibiru sightings"
+      "Some amateur astronomers reported unusual astronomical observations interpreted as Nibiru sightings",
+      "According to geographic dating, the earth has existed for millions of years even before humanity, and similarly, the existence of life required extraordinary circumstances. Perhaps there is more than just phenomenal luck at play that facilitated and."
     ],
     "evidence_against": [
       "Modern astronomical surveys (WISE, Pan-STARRS, etc.) have definitively ruled out any planet-sized object approaching Earth in the near term",
@@ -113,7 +136,11 @@
   {
     "id": "hollow-earth",
     "name": "Hollow Earth Theory",
-    "aliases": ["Earth is hollow", "interior sun", "subterranean civilizations", "Agartha"],
+    "aliases": [
+      "Earth is hollow",
+      "interior sun",
+      "subterranean civilizations"
+    ],
     "genre": "alt-history",
     "year": 1818,
     "truth": 2,
@@ -140,7 +167,11 @@
   {
     "id": "black-knight-satellite",
     "name": "Black Knight Satellite",
-    "aliases": ["Black Knight spacecraft", "ancient space probe", "13,000-year-old satellite"],
+    "aliases": [
+      "Black Knight spacecraft",
+      "ancient space probe",
+      "13,000-year-old satellite"
+    ],
     "genre": "extraterrestrial",
     "year": 1954,
     "truth": 12,
@@ -167,7 +198,11 @@
   {
     "id": "bermuda-triangle",
     "name": "Bermuda Triangle",
-    "aliases": ["Devil's Triangle", "Sargasso Sea mystery", "Atlantic anomaly zone"],
+    "aliases": [
+      "Devil's Triangle",
+      "Sargasso Sea mystery",
+      "Atlantic anomaly zone"
+    ],
     "genre": "science-tech",
     "year": 1964,
     "truth": 16,
@@ -194,7 +229,11 @@
   {
     "id": "mars-face-cydonia",
     "name": "Mars Face at Cydonia",
-    "aliases": ["Cydonia face", "Martian sphinx", "Cydonia pyramids"],
+    "aliases": [
+      "Cydonia face",
+      "Martian sphinx",
+      "Cydonia pyramids"
+    ],
     "genre": "extraterrestrial",
     "year": 1976,
     "truth": 5,
@@ -221,7 +260,11 @@
   {
     "id": "nazca-lines-aliens",
     "name": "Nazca Lines Alien Runways Theory",
-    "aliases": ["Nazca lines extraterrestrials", "Nazca airfield", "ancient astronauts Nazca"],
+    "aliases": [
+      "Nazca lines extraterrestrials",
+      "Nazca airfield",
+      "ancient astronauts Nazca"
+    ],
     "genre": "extraterrestrial",
     "year": 1968,
     "truth": 14,
@@ -248,7 +291,12 @@
   {
     "id": "majestic-12",
     "name": "Majestic 12",
-    "aliases": ["MJ-12", "Majestic Twelve", "blue team", "UFO research committee"],
+    "aliases": [
+      "MJ-12",
+      "Majestic Twelve",
+      "blue team",
+      "UFO research committee"
+    ],
     "genre": "extraterrestrial",
     "year": 1984,
     "truth": 8,
@@ -275,7 +323,12 @@
   {
     "id": "technology-suppression",
     "name": "Technology Suppression",
-    "aliases": ["suppressed technology", "GM EV1 suppression", "Phoebus cartel", "lightbulb conspiracy"],
+    "aliases": [
+      "suppressed technology",
+      "GM EV1 suppression",
+      "Phoebus cartel",
+      "lightbulb conspiracy"
+    ],
     "genre": "science-tech",
     "year": 1924,
     "truth": 52,
@@ -302,7 +355,15 @@
   {
     "id": "jonbenet-ramsey-coverup",
     "name": "JonBenét Ramsey Cover-up Theories",
-    "aliases": ["JonBenet murder", "Ramsey coverup", "intruder theory", "grand jury indictment"],
+    "aliases": [
+      "JonBenet Ramsey murder conspiracy",
+      "JonBenet murder",
+      "JonBenét Ramsey Cover-up",
+      "Ramsey case cover-up",
+      "Ramsey coverup",
+      "grand jury indictment",
+      "intruder theory"
+    ],
     "genre": "deaths",
     "year": 1996,
     "truth": 48,
@@ -314,7 +375,8 @@
       "Contaminated crime scene evidence and evolving investigative theories suggest investigative errors",
       "An unidentified DNA profile from the crime scene has never been matched, raising questions about the investigation's completeness",
       "Ransom note details and crime scene staging suggest possible inside knowledge of the family's routines",
-      "Some legal experts argue the evidence was insufficient to charge the known suspects but too suggestive to clear them entirely"
+      "Some legal experts argue the evidence was insufficient to charge the known suspects but too suggestive to clear them entirely",
+      "The original Boulder Police investigation was severely compromised: the crime scene was contaminated and potential evidence was mishandled in the first hours"
     ],
     "evidence_against": [
       "Modern DNA evidence clears the Ramsey family of direct involvement; the unidentified DNA likely belongs to the killer",
@@ -330,7 +392,11 @@
   {
     "id": "tsunami-bomb-2004",
     "name": "Tsunami Bomb / 2004 Indian Ocean Tsunami Weapon Theory",
-    "aliases": ["tsunami weapon 2004", "earthquake bomb", "HAARP tsunami"],
+    "aliases": [
+      "tsunami weapon 2004",
+      "earthquake bomb",
+      "HAARP tsunami"
+    ],
     "genre": "science-tech",
     "year": 2005,
     "truth": 6,
@@ -350,14 +416,21 @@
       "Hundreds of independent seismologists and oceanographers have analyzed the tsunami; none have identified artificial causation",
       "Creating such a weapon would require energy equivalent to thousands of nuclear bombs, with no conceivable delivery mechanism"
     ],
-    "related": ["haiti-earthquake-weapon", "project-cumulus"],
+    "related": [
+      "haiti-earthquake-weapon",
+      "project-cumulus"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami"
   },
   {
     "id": "haiti-earthquake-weapon",
     "name": "Haiti Earthquake Weapon Theory (2010)",
-    "aliases": ["HAARP Haiti earthquake", "earthquake weapon 2010", "secret earthquake technology"],
+    "aliases": [
+      "HAARP Haiti earthquake",
+      "earthquake weapon 2010",
+      "secret earthquake technology"
+    ],
     "genre": "science-tech",
     "year": 2010,
     "truth": 5,
@@ -377,14 +450,21 @@
       "Dozens of independent seismic experts have confirmed the natural origin; no credible seismologist supports the weapon theory",
       "The energy required to trigger a 7.0 earthquake would exceed anything HAARP could generate by orders of magnitude"
     ],
-    "related": ["tsunami-bomb-2004", "project-cumulus"],
+    "related": [
+      "tsunami-bomb-2004",
+      "project-cumulus"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/2010_Haiti_earthquake"
   },
   {
     "id": "project-cumulus",
     "name": "Project Cumulus / 1952 Lynmouth Flood Theory",
-    "aliases": ["Lynmouth disaster", "weather weapon 1952", "cloud seeding Lynmouth"],
+    "aliases": [
+      "Lynmouth disaster",
+      "weather weapon 1952",
+      "cloud seeding Lynmouth"
+    ],
     "genre": "science-tech",
     "year": 1952,
     "truth": 62,
@@ -405,14 +485,21 @@
       "Modern cloud-seeding research shows effects are marginal and localized; scaling to catastrophic flood is implausible",
       "The UK government declassified Project Cumulus files in 2001; while confirming the trials, they concluded seeding did not trigger the Lynmouth flood"
     ],
-    "related": ["tsunami-bomb-2004", "haiti-earthquake-weapon"],
+    "related": [
+      "tsunami-bomb-2004",
+      "haiti-earthquake-weapon"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Lynmouth_disaster"
   },
   {
     "id": "weather-modification",
     "name": "Weather Modification / Cloud Seeding Programs",
-    "aliases": ["chemtrails weather control", "HAARP weather modification", "geoengineering secrecy"],
+    "aliases": [
+      "chemtrails weather control",
+      "HAARP weather modification",
+      "geoengineering secrecy"
+    ],
     "genre": "science-tech",
     "year": 1947,
     "truth": 78,
@@ -433,14 +520,18 @@
       "Scientific consensus on geoengineering acknowledges substantial technical and governance challenges that prevent current implementation at scale",
       "Transparency about cloud-seeding programs has increased in recent decades; results are peer-reviewed and generally confirm modest, localized effects"
     ],
-    "related": ["project-cumulus"],
+    "related": [
+      "project-cumulus"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Cloud_seeding"
   },
   {
     "id": "anti-fluoridation-communist",
     "name": "Anti-Fluoridation Communist Plot",
-    "aliases": ["fluoridation communist conspiracy", "fluoride mind control", "water fluoridation plot"],
+    "aliases": [
+      "fluoridation communist conspiracy"
+    ],
     "genre": "health",
     "year": 1955,
     "truth": 4,
@@ -467,7 +558,11 @@
   {
     "id": "titanic-olympic-switch",
     "name": "Titanic / Olympic Switch Theory",
-    "aliases": ["Titanic insurance fraud", "Olympic sank not Titanic", "White Star Line conspiracy"],
+    "aliases": [
+      "Titanic insurance fraud",
+      "Olympic sank not Titanic",
+      "White Star Line conspiracy"
+    ],
     "genre": "alt-history",
     "year": 1995,
     "truth": 2,
@@ -494,7 +589,11 @@
   {
     "id": "denver-airport-blucifer",
     "name": "Denver Airport Blue Mustang \"Blucifer\" Statue Conspiracy Theories",
-    "aliases": ["Denver Blue Mustang conspiracy", "DIA demon horse", "Blucifer apocalypse"],
+    "aliases": [
+      "Denver Blue Mustang conspiracy",
+      "DIA demon horse",
+      "Blucifer apocalypse"
+    ],
     "genre": "new-world-order",
     "year": 2008,
     "truth": 9,
@@ -514,7 +613,9 @@
       "The airport authorities have leaned into the tongue-in-cheek conspiracy narrative, selling t-shirts and jokingly referring to it as a 'demonic horse'",
       "No occult symbolism or hidden meaning has been discovered in the statue's construction or inscription"
     ],
-    "related": ["denver-airport-conspiracy"],
+    "related": [
+      "denver-airport-conspiracy"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Denver_International_Airport#Conspiracy_theories"
   }

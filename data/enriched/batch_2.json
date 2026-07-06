@@ -2,7 +2,10 @@
   {
     "id": "cointelpro-black-panther",
     "name": "COINTELPRO: Black Panther Targeting",
-    "aliases": ["FBI Black Panther counterintelligence program", "Fred Hampton assassination COINTELPRO"],
+    "aliases": [
+      "FBI Black Panther counterintelligence program",
+      "Fred Hampton assassination COINTELPRO"
+    ],
     "genre": "espionage",
     "year": 1969,
     "truth": 97,
@@ -19,14 +22,24 @@
       "None credible — the program's existence, its specific tactics, and the Hampton case are established historical and legal fact",
       "The main residual debate among historians is how far up the chain of command explicit approval for lethal outcomes reached, not whether the program targeted the Panthers"
     ],
-    "related": ["cointelpro", "mlk-assassination", "deep-state", "church-committee"],
-    "depends_on": ["cointelpro"],
+    "related": [
+      "cointelpro",
+      "mlk-assassination",
+      "deep-state",
+      "church-committee"
+    ],
+    "depends_on": [
+      "cointelpro"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/COINTELPRO#Black_Panther_Party"
   },
   {
     "id": "church-committee",
     "name": "Church Committee Revelations",
-    "aliases": ["Senate Select Committee to Study Governmental Operations", "Frank Church Committee"],
+    "aliases": [
+      "Senate Select Committee to Study Governmental Operations",
+      "Frank Church Committee"
+    ],
     "genre": "government",
     "year": 1975,
     "truth": 99,
@@ -43,14 +56,24 @@
       "None — a proven, government-acknowledged historical record",
       "Some critics argue the committee's reforms were incomplete and agencies later found workarounds (e.g., post-9/11 surveillance expansion), but this doesn't undercut the historical findings themselves"
     ],
-    "related": ["mkultra", "cointelpro", "operation-mockingbird", "deep-state", "operation-gladio", "cointelpro-black-panther"],
+    "related": [
+      "mkultra",
+      "cointelpro",
+      "operation-mockingbird",
+      "deep-state",
+      "operation-gladio",
+      "cointelpro-black-panther"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Church_Committee"
   },
   {
     "id": "jonestown-mkultra",
     "name": "Jonestown MKUltra Theory",
-    "aliases": ["Jonestown CIA experiment theory", "Peoples Temple mind-control theory"],
+    "aliases": [
+      "Jonestown CIA experiment theory",
+      "Peoples Temple mind-control theory"
+    ],
     "genre": "government",
     "year": 1985,
     "truth": 12,
@@ -69,14 +92,25 @@
       "Dwyer's presence is explained by his ordinary consular duties in Guyana, not covert direction of the commune",
       "MKUltra had already been shut down and exposed publicly in 1975, three years before Jonestown, making a secret continuation requiring implausible, undetected concealment"
     ],
-    "related": ["mkultra", "deep-state", "cointelpro", "church-committee"],
-    "depends_on": ["mkultra"],
+    "related": [
+      "mkultra",
+      "deep-state",
+      "cointelpro",
+      "church-committee"
+    ],
+    "depends_on": [
+      "mkultra"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Jonestown"
   },
   {
     "id": "fema-camps",
     "name": "FEMA Camps",
-    "aliases": ["FEMA concentration camps", "FEMA detention centers", "Rex 84 camps"],
+    "aliases": [
+      "FEMA concentration camps",
+      "FEMA detention centers",
+      "Rex 84 camps"
+    ],
     "genre": "government",
     "year": 2009,
     "truth": 4,
@@ -95,14 +129,25 @@
       "No leaked document, contractor, or whistleblower has ever substantiated the alleged camp network despite the theory circulating for over 40 years",
       "The claim requires perfect, permanent secrecy around a supposedly vast logistical operation — the kind of large-scale secret-keeping that reliably fails elsewhere (Watergate, Snowden)"
     ],
-    "related": ["deep-state", "new-world-order", "agenda-21", "mass-govt-secrecy"],
-    "depends_on": ["mass-govt-secrecy"],
+    "related": [
+      "deep-state",
+      "new-world-order",
+      "agenda-21",
+      "mass-govt-secrecy"
+    ],
+    "depends_on": [
+      "mass-govt-secrecy"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/FEMA_camps_conspiracy_theory"
   },
   {
     "id": "agenda-21",
     "name": "Agenda 21",
-    "aliases": ["UN Agenda 21", "Agenda 21 depopulation plot", "Agenda 2030 conspiracy"],
+    "aliases": [
+      "UN Agenda 21",
+      "Agenda 21 depopulation plot",
+      "Agenda 2030 conspiracy"
+    ],
     "genre": "new-world-order",
     "year": 1992,
     "truth": 6,
@@ -121,14 +166,25 @@
       "Municipalities that adopted Agenda 21-inspired plans did so through normal, public local government processes, with no loss of sovereignty or coercion involved",
       "Three decades after adoption, none of the theory's predicted outcomes (forced urbanization, abolished property rights, population culls) have materialized"
     ],
-    "related": ["new-world-order", "great-reset", "fema-camps", "climate-lockdown"],
-    "depends_on": ["new-world-order"],
+    "related": [
+      "new-world-order",
+      "great-reset",
+      "fema-camps",
+      "climate-lockdown"
+    ],
+    "depends_on": [
+      "new-world-order"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Agenda_21"
   },
   {
     "id": "denver-airport-conspiracy",
     "name": "Denver International Airport Conspiracy Theories",
-    "aliases": ["DIA conspiracy", "Denver airport New World Order theory", "DIA murals conspiracy"],
+    "aliases": [
+      "DIA conspiracy",
+      "Denver airport New World Order theory",
+      "DIA murals conspiracy"
+    ],
     "genre": "new-world-order",
     "year": 1995,
     "truth": 4,
@@ -147,14 +203,25 @@
       "The 'secret tunnels' are the documented, publicly toured automated baggage system, which notoriously malfunctioned and was partly abandoned — explaining both its existence and the delays",
       "The airport itself now leans into the joke, publishing tongue-in-cheek content about being a secret base"
     ],
-    "related": ["new-world-order", "illuminati", "freemasons", "georgia-guidestones"],
-    "depends_on": ["new-world-order"],
+    "related": [
+      "new-world-order",
+      "illuminati",
+      "freemasons",
+      "georgia-guidestones"
+    ],
+    "depends_on": [
+      "new-world-order"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Denver_International_Airport#Conspiracy_theories"
   },
   {
     "id": "cultural-marxism",
     "name": "Cultural Marxism",
-    "aliases": ["Frankfurt School conspiracy", "cultural Bolshevism", "Gramscian conspiracy"],
+    "aliases": [
+      "Frankfurt School conspiracy",
+      "cultural Bolshevism",
+      "Gramscian conspiracy"
+    ],
     "genre": "new-world-order",
     "year": 1998,
     "truth": 5,
@@ -174,14 +241,24 @@
       "It was directly cited in Anders Breivik's 2011 manifesto justifying his mass killings in Norway",
       "Large-scale cultural change has many well-documented drivers (economic growth, contraception, mass media, urbanization); attributing it to a single small academic school is empirically unsupported"
     ],
-    "related": ["new-world-order", "great-replacement", "soros-puppet-master", "protocols-elders-zion"],
-    "depends_on": ["new-world-order"],
+    "related": [
+      "new-world-order",
+      "great-replacement",
+      "soros-puppet-master",
+      "protocols-elders-zion"
+    ],
+    "depends_on": [
+      "new-world-order"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Cultural_Marxism_conspiracy_theory"
   },
   {
     "id": "eurabia",
     "name": "Eurabia",
-    "aliases": ["Euro-Arab Axis theory", "Eurabia conspiracy"],
+    "aliases": [
+      "Euro-Arab Axis theory",
+      "Eurabia conspiracy"
+    ],
     "genre": "ethnic-religious",
     "year": 2005,
     "truth": 3,
@@ -201,14 +278,21 @@
       "The theory has been criticized by scholars as structurally identical to the antisemitic 'Protocols of the Elders of Zion' template, substituting 'Arab/Muslim elites' for 'Jewish elites'",
       "It has been cited approvingly in the manifesto of Anders Breivik, the 2011 Norway mass murderer, underscoring its real-world violence linkage"
     ],
-    "related": ["great-replacement", "cultural-marxism", "new-world-order"],
+    "related": [
+      "great-replacement",
+      "cultural-marxism",
+      "new-world-order"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Eurabia_conspiracy_theory"
   },
   {
     "id": "love-jihad",
     "name": "Love Jihad",
-    "aliases": ["Romeo Jihad", "Love Jihad conspiracy theory"],
+    "aliases": [
+      "Romeo Jihad",
+      "Love Jihad conspiracy theory"
+    ],
     "genre": "ethnic-religious",
     "year": 2009,
     "truth": 4,
@@ -228,14 +312,20 @@
       "The theory functions as a moral panic that researchers say has been used to justify vigilante violence and restrictions on women's autonomy",
       "The Hadiya case, held up as its most prominent 'proof,' ended with the Supreme Court of India upholding the marriage as the free choice of a consenting adult"
     ],
-    "related": ["great-replacement", "eurabia"],
+    "related": [
+      "great-replacement",
+      "eurabia"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Love_jihad_conspiracy_theory"
   },
   {
     "id": "zog",
     "name": "Zionist Occupation Government (ZOG)",
-    "aliases": ["ZOG", "Zionist Occupied Government"],
+    "aliases": [
+      "ZOG",
+      "Zionist Occupied Government"
+    ],
     "genre": "ethnic-religious",
     "year": 1976,
     "truth": 1,
@@ -253,14 +343,23 @@
       "Western governments are demonstrably fractious and often act against policies any single ethnic lobby would prefer, contradicting the premise of unified covert control",
       "Mainstream historians classify ZOG as a direct descendant of medieval and modern antisemitic conspiracy myths with no basis in verifiable fact"
     ],
-    "related": ["protocols-elders-zion", "rothschild-banking", "new-world-order"],
-    "depends_on": ["protocols-elders-zion"],
+    "related": [
+      "protocols-elders-zion",
+      "rothschild-banking",
+      "new-world-order"
+    ],
+    "depends_on": [
+      "protocols-elders-zion"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Zionist_Occupation_Government_conspiracy_theory"
   },
   {
     "id": "holocaust-denial",
     "name": "Holocaust Denial",
-    "aliases": ["Holocaust revisionism", "Holocaust distortion"],
+    "aliases": [
+      "Holocaust revisionism",
+      "Holocaust distortion"
+    ],
     "genre": "ethnic-religious",
     "year": 1978,
     "truth": 1,
@@ -280,14 +379,20 @@
       "Prominent deniers, notably David Irving in the 2000 Irving v. Lipstadt libel trial, have had their claims examined in court and were found to be deliberate distortions of the historical record",
       "Holocaust denial is criminalized in numerous countries specifically because of its demonstrated role in inciting antisemitic violence and Nazi rehabilitation"
     ],
-    "related": ["jewish-bolshevism", "protocols-elders-zion"],
+    "related": [
+      "jewish-bolshevism",
+      "protocols-elders-zion"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Holocaust_denial"
   },
   {
     "id": "blood-libel",
     "name": "Blood Libel",
-    "aliases": ["Ritual murder accusation", "William of Norwich blood libel"],
+    "aliases": [
+      "Ritual murder accusation",
+      "William of Norwich blood libel"
+    ],
     "genre": "ethnic-religious",
     "year": 1144,
     "truth": 0,
@@ -306,14 +411,20 @@
       "Multiple Popes, including Innocent IV in 1247, issued formal declarations rejecting the blood libel as false even in the medieval period",
       "The myth directly caused the killing of Jewish communities across Europe for centuries and was later revived by the Nazis in propaganda like Der Stürmer"
     ],
-    "related": ["well-poisoning-black-death", "protocols-elders-zion"],
+    "related": [
+      "well-poisoning-black-death",
+      "protocols-elders-zion"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Blood_libel"
   },
   {
     "id": "well-poisoning-black-death",
     "name": "Well Poisoning / Black Death Jewish Conspiracy",
-    "aliases": ["Black Death well-poisoning accusation", "Jewish plague conspiracy of 1348"],
+    "aliases": [
+      "Black Death well-poisoning accusation",
+      "Jewish plague conspiracy of 1348"
+    ],
     "genre": "ethnic-religious",
     "year": 1348,
     "truth": 0,
@@ -331,14 +442,20 @@
       "The scale claimed — a coordinated, continent-wide poisoning campaign by scattered, mutually unconnected small communities — is logistically implausible, and no physical evidence of poisoning was ever produced",
       "The accusation directly caused the massacre of thousands of Jews in over 200 towns, including the burning alive of the entire Jewish communities of Basel and Strasbourg in 1349 — a documented historical atrocity"
     ],
-    "related": ["blood-libel", "jewish-bolshevism"],
+    "related": [
+      "blood-libel",
+      "jewish-bolshevism"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Persecution_of_Jews_during_the_Black_Death"
   },
   {
     "id": "jewish-bolshevism",
     "name": "Jewish Bolshevism",
-    "aliases": ["Judeo-Bolshevism", "Jewish Communism conspiracy"],
+    "aliases": [
+      "Judeo-Bolshevism",
+      "Jewish Communism conspiracy"
+    ],
     "genre": "ethnic-religious",
     "year": 1917,
     "truth": 2,
@@ -356,14 +473,23 @@
       "Communism took root and was independently embraced across dozens of countries with negligible Jewish populations (China, Vietnam, Cuba), directly contradicting a coordinated Jewish origin",
       "The myth is a direct descendant of, and frequently cross-referenced with, the fabricated 'Protocols of the Elders of Zion'"
     ],
-    "related": ["protocols-elders-zion", "zog", "rothschild-banking"],
-    "depends_on": ["protocols-elders-zion"],
+    "related": [
+      "protocols-elders-zion",
+      "zog",
+      "rothschild-banking"
+    ],
+    "depends_on": [
+      "protocols-elders-zion"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Jewish_Bolshevism"
   },
   {
     "id": "khazarian-mafia",
     "name": "Khazarian Mafia",
-    "aliases": ["Khazarian conspiracy", "Fake Jews theory"],
+    "aliases": [
+      "Khazarian conspiracy",
+      "Fake Jews theory"
+    ],
     "genre": "ethnic-religious",
     "year": 2010,
     "truth": 1,
@@ -381,14 +507,23 @@
       "The theory has been weaponized in Russian state-aligned propaganda to delegitimize Ukrainian sovereignty and to malign both Jews and Ukrainians simultaneously, per multiple hate-monitoring organizations",
       "Its primary promotional outlets (e.g., Veterans Today) have been repeatedly identified by researchers and journalists as unreliable fringe publications with no vetted sourcing"
     ],
-    "related": ["rothschild-banking", "protocols-elders-zion", "zog"],
-    "depends_on": ["rothschild-banking"],
+    "related": [
+      "rothschild-banking",
+      "protocols-elders-zion",
+      "zog"
+    ],
+    "depends_on": [
+      "rothschild-banking"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Khazarian_Mafia"
   },
   {
     "id": "obama-birther",
     "name": "Barack Obama Birther Theory",
-    "aliases": ["Birtherism", "Obama Kenya birth conspiracy"],
+    "aliases": [
+      "Birtherism",
+      "Obama Kenya birth conspiracy"
+    ],
     "genre": "government",
     "year": 2008,
     "truth": 1,
@@ -407,14 +542,20 @@
       "The 1991 literary-booklet error was confirmed by the agency to be an unauthorized promotional simplification, not sourced from Obama himself",
       "No court, election board, or investigative body that examined birther claims — including numerous state-level lawsuits — found any merit to them"
     ],
-    "related": ["obama-secret-muslim", "deep-state"],
+    "related": [
+      "obama-secret-muslim",
+      "deep-state"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Barack_Obama_citizenship_conspiracy_theories"
   },
   {
     "id": "obama-secret-muslim",
     "name": "Obama Secret Muslim Theory",
-    "aliases": ["Obama madrassa theory", "Obama crypto-Muslim conspiracy"],
+    "aliases": [
+      "Obama madrassa theory",
+      "Obama crypto-Muslim conspiracy"
+    ],
     "genre": "government",
     "year": 2008,
     "truth": 2,
@@ -432,14 +573,19 @@
       "A person's family religious background or childhood schooling does not determine their own adult religious identity, which Obama has consistently and publicly stated is Christian",
       "Pew Research polling documented the belief was strongly correlated with partisan opposition rather than with any new factual evidence, indicating a politically motivated rather than evidence-driven claim"
     ],
-    "related": ["obama-birther"],
+    "related": [
+      "obama-birther"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Barack_Obama_religion_conspiracy_theories"
   },
   {
     "id": "clinton-body-count",
     "name": "Clinton Body Count",
-    "aliases": ["Clinton Death List", "The Clinton Chronicles"],
+    "aliases": [
+      "Clinton Death List",
+      "The Clinton Chronicles"
+    ],
     "genre": "deaths",
     "year": 1993,
     "truth": 3,
@@ -458,14 +604,20 @@
       "No physical evidence, credible witness, or successful prosecution has ever connected the Clintons to any of the alleged deaths",
       "The theory has persisted for three decades specifically because it is unfalsifiable — any death of anyone tangentially connected to the Clintons gets retroactively added to the list regardless of documented cause"
     ],
-    "related": ["seth-rich-murder", "epstein-killed"],
+    "related": [
+      "seth-rich-murder",
+      "epstein-killed"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Clinton_body_count_conspiracy_theory"
   },
   {
     "id": "seth-rich-murder",
     "name": "Seth Rich Murder Conspiracy",
-    "aliases": ["Seth Rich DNC leak theory", "Seth Rich WikiLeaks theory"],
+    "aliases": [
+      "Seth Rich DNC leak theory",
+      "Seth Rich WikiLeaks theory"
+    ],
     "genre": "deaths",
     "year": 2016,
     "truth": 3,
@@ -484,14 +636,21 @@
       "Multiple purveyors of the theory — including Fox News, commentator Ed Butowsky, and journalist Matt Couch — retracted their claims and issued formal apologies or paid settlements to the Rich family (2020-2021) after admitting the reporting was false",
       "Assange never definitively confirmed Rich as a source, and WikiLeaks' vague statements were widely noted by fact-checkers as consistent with protecting real sources' anonymity rather than confirming Rich's involvement"
     ],
-    "related": ["clinton-body-count", "deep-state"],
+    "related": [
+      "clinton-body-count",
+      "deep-state"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/Murder_of_Seth_Rich"
   },
   {
     "id": "stop-the-steal",
     "name": "2020 Stolen Election (\"Stop the Steal\")",
-    "aliases": ["Stop the Steal", "2020 election fraud theory", "Trump won 2020"],
+    "aliases": [
+      "Stop the Steal",
+      "2020 election fraud theory",
+      "Trump won 2020"
+    ],
     "genre": "government",
     "year": 2020,
     "truth": 2,
@@ -512,14 +671,24 @@
       "Forensic reviews of voting machines (including Dominion systems) found no evidence of vote manipulation or foreign interference; defamation lawsuits over false machine-fraud claims resulted in a $787 million settlement paid by Fox News to Dominion in 2023",
       "The theory directly motivated the January 6, 2021 Capitol attack, for which several hundred participants have since been criminally convicted"
     ],
-    "related": ["january-6-false-flag", "blueanon", "deep-state"],
-    "depends_on": ["deep-state"],
+    "related": [
+      "january-6-false-flag",
+      "blueanon",
+      "deep-state"
+    ],
+    "depends_on": [
+      "deep-state"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Attempts_to_overturn_the_2020_United_States_presidential_election"
   },
   {
     "id": "january-6-false-flag",
     "name": "January 6 False Flag Theory",
-    "aliases": ["Jan 6 false flag", "FBI incited Capitol riot theory", "Fedsurrection"],
+    "aliases": [
+      "Jan 6 false flag",
+      "FBI incited Capitol riot theory",
+      "Fedsurrection"
+    ],
     "genre": "government",
     "year": 2021,
     "truth": 3,
@@ -539,14 +708,24 @@
       "No document, whistleblower, or piece of forensic evidence has substantiated any FBI role in inciting or orchestrating the riot",
       "The theory caused severe real-world harm to Epps and his family, including death threats that forced them to sell their home and relocate — harm inflicted on a private citizen based on an unsubstantiated claim"
     ],
-    "related": ["stop-the-steal", "deep-state", "crisis-actors"],
-    "depends_on": ["deep-state", "stop-the-steal"],
+    "related": [
+      "stop-the-steal",
+      "deep-state",
+      "crisis-actors"
+    ],
+    "depends_on": [
+      "deep-state",
+      "stop-the-steal"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Ray_Epps"
   },
   {
     "id": "blueanon",
     "name": "BlueAnon",
-    "aliases": ["Blue Anon", "left-wing QAnon"],
+    "aliases": [
+      "Blue Anon",
+      "left-wing QAnon"
+    ],
     "genre": "government",
     "year": 2020,
     "truth": 14,
@@ -564,14 +743,21 @@
       "The 2019 Mueller Report did not establish a criminal conspiracy between the Trump campaign and Russia, undercutting the strongest version of the 'Trump is a Russian asset' claim, even though it documented extensive contacts and confirmed Russian interference",
       "Commentators note the QAnon comparison is largely rhetorical whataboutism — QAnon involved millions of adherents organized around a single anonymous prophetic figure with specific, repeatedly falsified predictions, a scale and structure 'BlueAnon' does not match"
     ],
-    "related": ["qanon", "deep-state", "stop-the-steal"],
+    "related": [
+      "qanon",
+      "deep-state",
+      "stop-the-steal"
+    ],
     "depends_on": [],
     "wikipedia": "https://en.wikipedia.org/wiki/BlueAnon"
   },
   {
     "id": "crisis-actors",
     "name": "Crisis Actors Theory",
-    "aliases": ["Crisis actor conspiracy", "staged shooting theory"],
+    "aliases": [
+      "Crisis actor conspiracy",
+      "staged shooting theory"
+    ],
     "genre": "government",
     "year": 2012,
     "truth": 1,
@@ -590,8 +776,13 @@
       "Grieving families targeted by the theory have been subjected to years of harassment, death threats, and stalking by believers, a well-documented real-world harm stemming directly from the false claim",
       "The apparent 'inconsistencies' cited as proof are the normal artifacts of chaotic breaking-news reporting (misattributed photos, early wrong details later corrected) rather than evidence of a scripted event"
     ],
-    "related": ["sandy-hook-hoax", "january-6-false-flag"],
-    "depends_on": ["sandy-hook-hoax"],
+    "related": [
+      "sandy-hook-hoax",
+      "january-6-false-flag"
+    ],
+    "depends_on": [
+      "sandy-hook-hoax"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Crisis_actor"
   }
 ]
