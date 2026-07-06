@@ -27,6 +27,9 @@
   #q{width:230px;padding:6px 10px;background:rgba(0,0,0,.32);border:1px solid var(--line);
     border-radius:7px;color:var(--txt);font-size:12px;outline:none}
   #q:focus{border-color:var(--accent)}
+  .tools input[type=number]{width:78px;padding:6px 8px;background:rgba(0,0,0,.32);border:1px solid var(--line);
+    border-radius:7px;color:var(--txt);font-size:12px;outline:none}
+  .tools input[type=number]:focus{border-color:var(--accent)}
   .tools select{padding:6px 8px;background:#0c0f1a;border:1px solid var(--line);border-radius:7px;
     color:var(--txt);font-size:12px;outline:none;max-width:180px}
   .tools label.ck{display:flex;align-items:center;gap:5px;color:var(--dim);font-size:11.5px;cursor:pointer;white-space:nowrap}
@@ -133,14 +136,18 @@
   <div class="top">
     <h1>📋 The Conspiracy Atlas · List</h1>
     <nav id="pagenav">
-      <a href="index.html">3D flythrough</a><a href="2d.html">2D map</a><a href="classic.html">Graph &amp; timeline</a><a href="iceberg.html">Iceberg</a><a href="list.html" class="on">List</a>
+      <a href="index.html">3D flythrough</a><a href="2d.html">2D map</a><a href="iceberg.html">Iceberg</a><a href="list.html" class="on">List</a>
     </nav>
   </div>
   <div class="tools">
     <input id="q" placeholder="search name, alias, summary…" autocomplete="off">
     <select id="genreSel"><option value="">all genres</option></select>
     <select id="statusSel"><option value="">all truth levels</option></select>
+    <select id="lvlSel"><option value="">all iceberg levels</option></select>
+    <input id="fY0" type="number" placeholder="year from" title="year from">
+    <input id="fY1" type="number" placeholder="year to" title="year to">
     <label class="ck"><input type="checkbox" id="srcOnly"> sourced only</label>
+    <label class="ck"><input type="checkbox" id="steelOnly"> steelman only</label>
     <div id="mSort" class="msort">
       <span class="msort-lbl">sort</span>
       <select id="mSortSel"></select>
@@ -228,9 +235,15 @@ function buildUI(){
   COLS.forEach(c=>{const o=document.createElement('option');o.value=c.k;o.textContent=c.label;msel.appendChild(o);});
   msel.onchange=()=>{const c=COLS.find(x=>x.k===msel.value);sortK=c.k;sortAsc=c.asc;render();};
   document.getElementById('mSortDir').onclick=()=>{sortAsc=!sortAsc;render();};
+  const lv=document.getElementById('lvlSel');
+  for(let k=1;k<=10;k++){const o=document.createElement('option');o.value=k;o.textContent='level '+k;lv.appendChild(o);}
   document.getElementById('q').oninput=render;
   gs.onchange=render; ss.onchange=render;
   document.getElementById('srcOnly').onchange=render;
+  document.getElementById('steelOnly').onchange=render;
+  lv.onchange=render;
+  document.getElementById('fY0').oninput=render;
+  document.getElementById('fY1').oninput=render;
 }
 
 function filtered(){
@@ -238,10 +251,17 @@ function filtered(){
   const g=document.getElementById('genreSel').value;
   const st=document.getElementById('statusSel').value;
   const so=document.getElementById('srcOnly').checked;
+  const steel=document.getElementById('steelOnly').checked;
+  const lv=document.getElementById('lvlSel').value;
+  const y0=parseInt(document.getElementById('fY0').value,10), y1=parseInt(document.getElementById('fY1').value,10);
   return T.filter(t=>{
     if(g && t.genre!==g)return false;
     if(st && statusOf(t.truth).label!==st)return false;
     if(so && !(t.wikipedia||(t.sources&&t.sources.length)))return false;
+    if(steel && !t.steelman)return false;
+    if(lv && t._lvl!==+lv)return false;
+    if(!isNaN(y0) && t.year<y0)return false;
+    if(!isNaN(y1) && t.year>y1)return false;
     if(q && !(t.name.toLowerCase().includes(q)||(t.aliases||[]).some(a=>a.toLowerCase().includes(q))||(t.summary||'').toLowerCase().includes(q)))return false;
     return true;
   });

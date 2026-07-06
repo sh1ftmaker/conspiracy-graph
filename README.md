@@ -12,7 +12,6 @@ dataset:
   **gemini-embedding-2**, UMAP-projected): theories with similar claims, actors or
   themes cluster together regardless of genre or truth. Pan/pinch/zoom, click a
   point to trace its nearest neighbors in full embedding space.
-- [Graph & timeline](https://sh1ftmaker.github.io/conspiracy-atlas/classic.html) (`docs/classic.html`,
   unlisted) — the tabbed Three.js scene: Truth × Impact scatter, load-bearing
   dependency graph, formulation-year Timeline, Semantic space.
 
@@ -20,7 +19,6 @@ dataset:
 
 - `docs/index.html` — 3D Three.js flythrough of the semantic cloud (front page)
 - `docs/2d.html` — 2D WebGL semantic map
-- `docs/classic.html` — tabbed Three.js views (scatter / graph / timeline / semantic space, unlisted)
 - `docs/data.json` — built dataset incl. embedding coordinates (generated, do not hand-edit)
 - `data/theories.seed.json` — hand-authored anchor theories (evidence-scored)
 - `data/enriched/batch_*.json` — subagent-researched theories, same schema

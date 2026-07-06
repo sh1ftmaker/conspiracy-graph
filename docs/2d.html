@@ -74,6 +74,12 @@
   #search{width:100%;padding:8px 10px;background:rgba(0,0,0,.32);border:1px solid var(--line);border-radius:9px;
     color:var(--txt);font-size:12.5px;outline:none}
   #search:focus{border-color:var(--accent)}
+  #controls select{width:100%;padding:6px 8px;background:rgba(0,0,0,.32);border:1px solid var(--line);
+    border-radius:7px;color:var(--txt);font-size:12px;outline:none}
+  #controls select:focus{border-color:var(--accent)}
+  .row input[type=number]{width:74px;padding:5px 7px;background:rgba(0,0,0,.32);border:1px solid var(--line);
+    border-radius:7px;color:var(--txt);font-size:11.5px;outline:none}
+  .row input[type=number]:focus{border-color:var(--accent)}
   #results{margin-top:6px;max-height:160px;overflow:auto}
   #results div{padding:4px 8px;border-radius:6px;cursor:pointer;color:var(--dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   #results div:hover{background:rgba(255,255,255,.06);color:var(--txt)}
@@ -159,7 +165,7 @@
     <h1>🕳️ The Conspiracy Atlas</h1>
     <p>1000+ conspiracy theories embedded with <b style="color:var(--accent)">gemini-embedding-2</b> and laid out by semantic similarity — similar claims, actors and themes cluster together, regardless of genre or truth.</p>
     <span class="badge" id="modelBadge">embedding: …</span>
-    <nav id="pagenav"><a href="index.html">3D flythrough</a><a href="2d.html" class="on">2D map</a><a href="classic.html">Graph &amp; timeline</a><a href="iceberg.html">Iceberg</a><a href="list.html">List</a></nav>
+    <nav id="pagenav"><a href="index.html">3D flythrough</a><a href="2d.html" class="on">2D map</a><a href="iceberg.html">Iceberg</a><a href="list.html">List</a></nav>
   </div>
 </div>
 
@@ -176,7 +182,19 @@
       <button data-s="pop" class="on">Notoriety</button>
       <button data-s="flat">Uniform</button>
     </div>
+    <h2>Layout</h2>
+    <div class="seg" id="layoutModes">
+      <button data-l="semantic" class="on">Semantic</button>
+      <button data-l="ti">Truth × Impact</button>
+      <button data-l="nt">Noto × Truth</button>
+    </div>
     <div class="row"><span>Glow</span><input id="glow" type="range" min="0" max="100" value="60"></div>
+    <h2 style="margin-top:10px">Filters</h2>
+    <select id="fGenre"><option value="">all genres</option></select>
+    <div style="height:6px"></div>
+    <select id="fStatus"><option value="">all truth levels</option></select>
+    <div class="row"><span>Year</span><input id="fY0" type="number" placeholder="from"><input id="fY1" type="number" placeholder="to"></div>
+    <div id="fCount" style="color:var(--dim2,#9aa1bb);font-size:11px;margin:2px 0 4px"></div>
     <h2 style="margin-top:10px">Find a theory</h2>
     <input id="search" placeholder="search…" autocomplete="off">
     <div id="results"></div>
@@ -215,6 +233,7 @@ let T=[], META, GEN=[], byId={};
 let N=0, POS, COL, SIZE, NN;
 let view={s:0.9, tx:0, ty:0};
 let colorMode="genre", sizeMode="pop", glow=0.6, sel=-1, hover=-1;
+let FILT=null;
 let dpr=Math.min(window.devicePixelRatio||1, 2);
 
 const glc=document.getElementById('gl'), fxc=document.getElementById('fx');
@@ -249,7 +268,9 @@ fetch('data.json?v=6').then(r=>r.json()).then(d=>{
     NN[i]=(t.nn||[]).map(id=>T.indexOf(byId[id])).filter(j=>j>=0);
   }
   document.getElementById('modelBadge').textContent='embedding: '+(META.embed_model||'gemini-embedding-2');
+  FILT=new Uint8Array(N); FILT.fill(1);
   buildGrid(); initGL(); recomputeColors(); recomputeSizes(); buildLegend();
+  initFilters();
   document.getElementById('search').placeholder=`search ${N} theories…`;
   document.getElementById('loading').style.display='none';
   resize(); requestAnimationFrame(loop);
@@ -272,7 +293,8 @@ function pick(wx,wy,rad){
   let best=-1,bd=rad*rad;
   for(let dx=-1;dx<=1;dx++)for(let dy=-1;dy<=1;dy++){
     const a=GRID.map.get((cx+dx)*cells+(cy+dy)); if(!a)continue;
-    for(const i of a){const ddx=POS[i*2]-wx,ddy=POS[i*2+1]-wy,d=ddx*ddx+ddy*ddy;
+    for(const i of a){if(FILT&&!FILT[i])continue;
+      const ddx=POS[i*2]-wx,ddy=POS[i*2+1]-wy,d=ddx*ddx+ddy*ddy;
       if(d<bd){bd=d;best=i;}}
   }
   return best;
@@ -291,6 +313,7 @@ function recomputeColors(){
 }
 function recomputeSizes(){
   for(let i=0;i<N;i++){
+    if(FILT&&!FILT[i]){ SIZE[i]=0; continue; }
     if(sizeMode==="pop") SIZE[i]=2.2+3.2*Math.sqrt(T[i].notoriety)/10;
     else SIZE[i]=3.0;
   }
@@ -305,6 +328,7 @@ function initGL(){
   uniform vec2 uScale; uniform vec2 uTrans; uniform float uPx; uniform int uSel;
   out vec3 vCol; out float vHi;
   void main(){
+    if(aSz<=0.0){ gl_Position=vec4(3.,3.,3.,1.); gl_PointSize=0.; vCol=vec3(0.); vHi=0.; return; }
     vec2 p=aPos*uScale+uTrans;
     gl_Position=vec4(p,0.,1.);
     float boost=(gl_VertexID==uSel)?2.6:1.0;
@@ -366,6 +390,7 @@ function drawFX(){
     const [sxX,sxY]=world2screen(POS[sel*2],POS[sel*2+1]);
     fx.lineWidth=1;
     for(const j of NN[sel]){
+      if(FILT&&!FILT[j]) continue;
       const [x,y]=world2screen(POS[j*2],POS[j*2+1]);
       fx.strokeStyle='rgba(124,242,214,.45)'; fx.beginPath();
       fx.moveTo(sxX,sxY); fx.lineTo(x,y); fx.stroke();
@@ -537,6 +562,22 @@ function flyTo(i){
 }
 
 // ---------- controls ----------
+let layoutMode='semantic';
+function setLayout(m){
+  if(!N) return;
+  layoutMode=m;
+  for(let i=0;i<N;i++){const t=T[i];
+    if(m==='semantic'){ POS[i*2]=(t.ex||0)/60; POS[i*2+1]=(t.ey||0)/60; }
+    else if(m==='ti'){ POS[i*2]=t.truth/50-1; POS[i*2+1]=t.impact/50-1; }
+    else { POS[i*2]=t.notoriety/50-1; POS[i*2+1]=t.truth/50-1; }
+  }
+  gl.bindBuffer(gl.ARRAY_BUFFER,glBuf.pos); gl.bufferData(gl.ARRAY_BUFFER,POS,gl.DYNAMIC_DRAW);
+  buildGrid(); invalidate();
+}
+document.querySelectorAll('#layoutModes button').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('#layoutModes button').forEach(x=>x.classList.remove('on'));
+  b.classList.add('on'); setLayout(b.dataset.l);
+});
 document.querySelectorAll('#colorModes button').forEach(b=>b.onclick=()=>{
   document.querySelectorAll('#colorModes button').forEach(x=>x.classList.remove('on'));
   b.classList.add('on'); colorMode=b.dataset.m; recomputeColors(); invalidate();
@@ -552,6 +593,7 @@ search.oninput=()=>{
   const q=search.value.trim().toLowerCase(); results.innerHTML='';
   if(!q)return;
   let hits=[]; for(let i=0;i<N&&hits.length<40;i++){
+    if(FILT&&!FILT[i]) continue;
     const t=T[i]; if(t.name.toLowerCase().includes(q)||(t.aliases||[]).some(a=>a.toLowerCase().includes(q))) hits.push(i);
   }
   hits.sort((a,b)=>T[b].notoriety-T[a].notoriety);
@@ -559,6 +601,33 @@ search.oninput=()=>{
     d.innerHTML=`<span class="sw" style="display:inline-block;width:8px;height:8px;border-radius:2px;background:${gc(T[i].genre)};margin-right:6px"></span>${esc(T[i].name)}`;
     d.onclick=()=>{selectTheory(i);flyTo(i);}; results.appendChild(d); }
 };
+
+// ---------- filters ----------
+function applyFilters(){
+  if(!FILT) return;
+  const g=document.getElementById('fGenre').value, st=document.getElementById('fStatus').value;
+  const y0=parseInt(document.getElementById('fY0').value,10), y1=parseInt(document.getElementById('fY1').value,10);
+  let n=0;
+  for(let i=0;i<N;i++){const t=T[i];
+    let ok=(!g||t.genre===g)&&(!st||statusOf(t.truth).label===st);
+    if(ok&&!isNaN(y0)) ok=t.year>=y0;
+    if(ok&&!isNaN(y1)) ok=t.year<=y1;
+    FILT[i]=ok?1:0; if(ok)n++;
+  }
+  document.getElementById('fCount').textContent=`${n} / ${N} theories shown`;
+  recomputeSizes();
+  if(sel>=0&&!FILT[sel]) deselect();
+  invalidate();
+}
+function initFilters(){
+  const fG=document.getElementById('fGenre'), fS=document.getElementById('fStatus');
+  GEN.filter(g=>META.by_genre[g.key]).forEach(g=>{const o=document.createElement('option');o.value=g.key;o.textContent=g.label;fG.appendChild(o);});
+  META.truth_scale.slice().sort((x,y)=>y.min-x.min).forEach(sc=>{const o=document.createElement('option');o.value=sc.label;o.textContent=`${sc.label} (${sc.min}\u2013${sc.max})`;fS.appendChild(o);});
+  fG.onchange=applyFilters; fS.onchange=applyFilters;
+  document.getElementById('fY0').oninput=applyFilters;
+  document.getElementById('fY1').oninput=applyFilters;
+  applyFilters();
+}
 
 // ---------- legend ----------
 function buildLegend(){

@@ -77,6 +77,9 @@
   .axis select{flex:1}
   .row{display:flex;align-items:center;gap:8px;margin:7px 0;color:var(--dim);font-size:11.5px}
   .row input[type=range]{flex:1;accent-color:var(--accent)}
+  .row input[type=number]{width:74px;padding:5px 7px;background:rgba(0,0,0,.32);border:1px solid var(--line);
+    border-radius:7px;color:var(--txt);font-size:11.5px;outline:none}
+  .row input[type=number]:focus{border-color:var(--accent)}
   #results{margin-top:6px;max-height:130px;overflow:auto}
   #results div{padding:4px 7px;border-radius:6px;cursor:pointer;color:var(--dim);
     white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -152,7 +155,7 @@
   <div class="wbody">
     <h1>🕳️ The Conspiracy Atlas · 3D</h1>
     <p>Fly through 1000+ conspiracy theories laid out by semantic similarity (gemini-embedding-2). Tap a star to trace its closest theories; remap the X/Y/Z axes — try Truth / Impact / Notoriety — to regroup the cloud.</p>
-    <div id="nav"><a href="index.html" class="on">3D flythrough</a><a href="2d.html">2D map</a><a href="classic.html">Graph</a><a href="iceberg.html">Iceberg</a><a href="list.html">List</a></div>
+    <div id="nav"><a href="index.html" class="on">3D flythrough</a><a href="2d.html">2D map</a><a href="iceberg.html">Iceberg</a><a href="list.html">List</a></div>
     <div id="sgNewBox" style="margin-top:8px;display:none"><button type="button" class="sg-pill" id="sgNew">➕ Suggest a theory</button></div>
   </div>
 </div>
@@ -165,6 +168,13 @@
     <button data-m="genre" class="on">Genre</button>
     <button data-m="truth">Truth status</button>
   </div>
+
+  <h2>Filters</h2>
+  <select id="fGenre"><option value="">all genres</option></select>
+  <div style="height:6px"></div>
+  <select id="fStatus"><option value="">all truth levels</option></select>
+  <div class="row"><span>Year</span><input id="fY0" type="number" placeholder="from"><input id="fY1" type="number" placeholder="to"></div>
+  <div id="fCount" style="color:var(--dim);font-size:11px;margin-top:2px"></div>
 
   <h2>Layout axes</h2>
   <div class="axis"><label>X</label><select id="axX"></select></div>
@@ -237,6 +247,7 @@ const SCALE = 60;
 const isTouch = matchMedia('(pointer:coarse)').matches;
 
 let T=[], META, GEN=[], byId={};
+let FILT=null;
 let N=0, NN;
 let AX = {};            // metric -> Float32Array in [-1,1]
 let cur, tgt;           // live + target positions (N*3), world units
@@ -297,7 +308,9 @@ fetch(DATA_URL).then(r=>r.json()).then(d=>{
   const order=T.map((t,i)=>i).sort((a,b)=>T[a].year-T[b].year);
   order.forEach((i,r)=>{ yr[i]=N>1 ? r/(N-1)*2-1 : 0; });
   AX={umap1:um1,umap2:um2,umap3:um3,truth:tru,impact:imp,pop,year:yr,flat:new Float32Array(N)};
+  FILT=new Uint8Array(N); FILT.fill(1);
   buildUI(); buildScene(); buildControls();
+  applyFilters();
   document.getElementById('search').placeholder=`search ${N} theories…`;
   document.getElementById('loading').style.display='none';
   animate();
@@ -321,6 +334,7 @@ function buildScene(){
       attribute float size; attribute vec3 color; varying vec3 vColor;
       uniform float uSize;
       void main(){ vColor=color;
+        if(size<=0.0){ gl_Position=vec4(3.0,3.0,3.0,1.0); gl_PointSize=0.0; return; }
         vec4 mv=modelViewMatrix*vec4(position,1.0);
         gl_PointSize=clamp(size*uSize*(135.0/-mv.z),1.5,26.0);
         gl_Position=projectionMatrix*mv; }`,
@@ -373,16 +387,31 @@ function recomputeColors(){
   }
   colAttr.needsUpdate=true; buildLegend();
 }
+function applyFilters(){
+  if(!FILT||!sizeAttr) return;   // scene not built yet — buildScene() re-applies via recomputeSizes
+  const g=document.getElementById('fGenre').value, st=document.getElementById('fStatus').value;
+  const y0=parseInt(document.getElementById('fY0').value,10), y1=parseInt(document.getElementById('fY1').value,10);
+  let n=0;
+  for(let i=0;i<N;i++){const t=T[i];
+    let ok=(!g||t.genre===g)&&(!st||statusOf(t.truth).label===st);
+    if(ok&&!isNaN(y0)) ok=t.year>=y0;
+    if(ok&&!isNaN(y1)) ok=t.year<=y1;
+    FILT[i]=ok?1:0; if(ok)n++;
+  }
+  document.getElementById('fCount').textContent=`${n} / ${N} theories shown`;
+  recomputeSizes(); rebuildAllEdges();
+  if(sel>=0){ if(!FILT[sel]) deselect(); else { updateSelEdges(); buildSelLabels(); } }
+}
 function recomputeSizes(){
   const s=sizeAttr.array;
-  for(let i=0;i<N;i++) s[i]=1.6+3.0*Math.sqrt(T[i].notoriety)/10;
+  for(let i=0;i<N;i++) s[i]=(FILT&&!FILT[i])?0:(1.6+3.0*Math.sqrt(T[i].notoriety)/10);
   sizeAttr.needsUpdate=true;
 }
 
 // ---------------- edges ----------------
 function rebuildAllEdges(){
   if(connMode!=='all'){ if(edgesAll) edgesAll.visible=false; return; }
-  const segs=[]; for(let i=0;i<N;i++){ const a=i*3; for(const j of NN[i]){ const b=j*3;
+  const segs=[]; for(let i=0;i<N;i++){ if(FILT&&!FILT[i]) continue; const a=i*3; for(const j of NN[i]){ if(FILT&&!FILT[j]) continue; const b=j*3;
     segs.push(cur[a],cur[a+1],cur[a+2], cur[b],cur[b+1],cur[b+2]); } }
   const arr=new Float32Array(segs);
   if(!edgesAll){
@@ -398,7 +427,7 @@ function rebuildAllEdges(){
 function updateSelEdges(){
   if(sel<0 || connMode==='none'){ edgesSel.visible=false; marker.visible=false; return; }
   const a=sel*3, pos=[];
-  for(const j of NN[sel]){ const b=j*3;
+  for(const j of NN[sel]){ if(FILT&&!FILT[j]) continue; const b=j*3;
     pos.push(cur[a],cur[a+1],cur[a+2], cur[b],cur[b+1],cur[b+2]); }
   const g=edgesSel.geometry;
   if(!g.getAttribute('position') || g.getAttribute('position').count!==pos.length/3){
@@ -460,6 +489,7 @@ const _v=new THREE.Vector3();
 function pickAt(px,py){
   const w=innerWidth,h=innerHeight; let best=-1,bd=18*18;
   for(let i=0;i<N;i++){
+    if(FILT&&!FILT[i]) continue;
     _v.set(cur[i*3],cur[i*3+1],cur[i*3+2]).project(camera);
     if(_v.z>1) continue;
     const sx=(_v.x*0.5+0.5)*w, sy=(0.5-_v.y*0.5)*h;
@@ -524,7 +554,7 @@ function buildSelLabels(){
   clearLabels();
   const mk=(idx,cls)=>{const el=document.createElement('div'); el.className='lab'+(cls?' '+cls:'');
     el.textContent=T[idx].name; labelBox.appendChild(el); labels.push({idx,el});};
-  mk(sel,'sel'); for(const j of NN[sel]) mk(j,'');
+  mk(sel,'sel'); for(const j of NN[sel]) if(!FILT||FILT[j]) mk(j,'');
 }
 function updateLabels(){
   if(!labels.length) return; const w=innerWidth,h=innerHeight;
@@ -558,6 +588,15 @@ function buildUI(){
   document.getElementById('reset').onclick=()=>{
     camTween={from:camera.position.clone(), to:new THREE.Vector3(0,0,135), look:new THREE.Vector3(0,0,0), t:0};};
 
+  // filters
+  const fG=document.getElementById('fGenre'), fS=document.getElementById('fStatus');
+  GEN.filter(g=>META.by_genre[g.key]).forEach(g=>{const o=document.createElement('option');o.value=g.key;o.textContent=g.label;fG.appendChild(o);});
+  META.truth_scale.slice().sort((x,y)=>y.min-x.min).forEach(sc=>{const o=document.createElement('option');o.value=sc.label;o.textContent=`${sc.label} (${sc.min}\u2013${sc.max})`;fS.appendChild(o);});
+  fG.onchange=applyFilters; fS.onchange=applyFilters;
+  document.getElementById('fY0').oninput=applyFilters;
+  document.getElementById('fY1').oninput=applyFilters;
+  applyFilters();
+
   // pointer pick (distinguish from drag-look)
   const cv=renderer.domElement; let down=null;
   cv.addEventListener('pointerdown',e=>{down={x:e.clientX,y:e.clientY,t:Date.now()};});
@@ -571,6 +610,7 @@ function buildUI(){
   const search=document.getElementById('search'), results=document.getElementById('results');
   search.oninput=()=>{const q=search.value.trim().toLowerCase(); results.innerHTML=''; if(!q) return;
     let hits=[]; for(let i=0;i<N&&hits.length<40;i++){
+      if(FILT&&!FILT[i]) continue;
       const t=T[i]; if(t.name.toLowerCase().includes(q)||(t.aliases||[]).some(a=>a.toLowerCase().includes(q))) hits.push(i); }
     hits.sort((a,b)=>T[b].notoriety-T[a].notoriety);
     for(const i of hits.slice(0,30)){const dv=document.createElement('div'); dv.textContent=T[i].name;

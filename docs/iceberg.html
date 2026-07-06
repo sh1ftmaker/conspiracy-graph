@@ -29,6 +29,11 @@
   #q{width:210px;padding:6px 10px;background:rgba(0,0,0,.32);border:1px solid var(--line);
     border-radius:7px;color:var(--txt);font-size:12px;outline:none}
   #q:focus{border-color:var(--accent)}
+  #hdr .tools input[type=number]{width:70px;padding:6px 8px;background:rgba(0,0,0,.32);border:1px solid var(--line);
+    border-radius:7px;color:var(--txt);font-size:12px;outline:none}
+  #hdr .tools input[type=number]:focus{border-color:var(--accent)}
+  #sortSel,#statusSel{padding:6px 8px;background:#0c0f1a;border:1px solid var(--line);border-radius:7px;
+    color:var(--txt);font-size:12px;outline:none}
   #genreSel{padding:6px 8px;background:#0c0f1a;border:1px solid var(--line);border-radius:7px;
     color:var(--txt);font-size:12px;outline:none;max-width:170px}
   #count{color:var(--dim);font-size:11px;white-space:nowrap}
@@ -152,11 +157,21 @@
   <div class="top">
     <h1>🧊 The Conspiracy Iceberg</h1>
     <nav id="pagenav">
-      <a href="index.html">3D flythrough</a><a href="2d.html">2D map</a><a href="classic.html">Graph &amp; timeline</a><a href="iceberg.html" class="on">Iceberg</a><a href="list.html">List</a>
+      <a href="index.html">3D flythrough</a><a href="2d.html">2D map</a><a href="iceberg.html" class="on">Iceberg</a><a href="list.html">List</a>
     </nav>
     <div class="tools">
       <input id="q" placeholder="search the iceberg…" autocomplete="off">
       <select id="genreSel"><option value="">all genres</option></select>
+      <select id="statusSel"><option value="">all truth levels</option></select>
+      <input id="fY0" type="number" placeholder="year from" title="year from">
+      <input id="fY1" type="number" placeholder="year to" title="year to">
+      <select id="sortSel" title="sort chips within each level">
+        <option value="notoriety">sort: notoriety</option>
+        <option value="name">sort: name</option>
+        <option value="year">sort: year</option>
+        <option value="truth">sort: truth</option>
+        <option value="impact">sort: impact</option>
+      </select>
       <span id="count"></span>
     </div>
   </div>
@@ -282,20 +297,48 @@ function build(){
     a.textContent=(k+1)+' · '+L.t.replace(/ —.*/,'');rail.appendChild(a);
   });
   updateCounts();
+  const ss=document.getElementById('statusSel');
+  META.truth_scale.slice().sort((x,y)=>y.min-x.min).forEach(sc=>{
+    const o=document.createElement('option');o.value=sc.label;o.textContent=`${sc.label} (${sc.min}\u2013${sc.max})`;ss.appendChild(o);});
   document.getElementById('q').oninput=applyFilter;
   document.getElementById('genreSel').onchange=applyFilter;
+  ss.onchange=applyFilter;
+  document.getElementById('fY0').oninput=applyFilter;
+  document.getElementById('fY1').oninput=applyFilter;
+  document.getElementById('sortSel').onchange=sortChips;
 }
 
 function applyFilter(){
   const q=document.getElementById('q').value.trim().toLowerCase();
   const g=document.getElementById('genreSel').value;
+  const st=document.getElementById('statusSel').value;
+  const y0=parseInt(document.getElementById('fY0').value,10), y1=parseInt(document.getElementById('fY1').value,10);
   document.querySelectorAll('.chip').forEach(c=>{
     const t=T[+c.dataset.i];
-    const okQ=!q || t.name.toLowerCase().includes(q) || (t.aliases||[]).some(a=>a.toLowerCase().includes(q));
-    const okG=!g || t.genre===g;
-    c.classList.toggle('hide', !(okQ&&okG));
+    let ok=(!q || t.name.toLowerCase().includes(q) || (t.aliases||[]).some(a=>a.toLowerCase().includes(q)))
+        && (!g || t.genre===g)
+        && (!st || statusOf(t.truth).label===st);
+    if(ok&&!isNaN(y0)) ok=t.year>=y0;
+    if(ok&&!isNaN(y1)) ok=t.year<=y1;
+    c.classList.toggle('hide', !ok);
   });
   updateCounts();
+}
+function sortChips(){
+  const k=document.getElementById('sortSel').value;
+  const cmp={
+    notoriety:(a,b)=>b.notoriety-a.notoriety,
+    name:(a,b)=>a.name.localeCompare(b.name),
+    year:(a,b)=>a.year-b.year,
+    truth:(a,b)=>b.truth-a.truth,
+    impact:(a,b)=>b.impact-a.impact,
+  }[k]||((a,b)=>b.notoriety-a.notoriety);
+  document.querySelectorAll('.chips').forEach(box=>{
+    [...box.children].sort((c1,c2)=>{
+      const t1=T[+c1.dataset.i], t2=T[+c2.dataset.i];
+      return cmp(t1,t2)||t1.name.localeCompare(t2.name);
+    }).forEach(c=>box.appendChild(c));
+  });
 }
 function updateCounts(){
   let tot=0;
