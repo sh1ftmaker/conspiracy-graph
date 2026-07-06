@@ -9,15 +9,19 @@ dataset:
   themes cluster together regardless of genre or truth. Pan/pinch/zoom, click a
   point to trace its nearest neighbors in full embedding space.
 - **[3D flythrough](https://sh1ftmaker.github.io/conspiracy-graph/3d.html)** (`docs/3d.html`)
-  — a free-orbit Three.js scene with four switchable layouts: Truth × Impact
-  scatter, a **load-bearing dependency graph** (which theories require other
-  theories to be true), a formulation-year Timeline, and the same Semantic space
-  as the 2D map but in 3D.
+  — fly (WASD + mouse-look) or orbit through the semantic point cloud in 3D;
+  remap the X/Y/Z axes (Semantic / Truth / Impact / Notoriety / Year) and watch
+  the cloud morph between layouts.
+- **[Graph & timeline](https://sh1ftmaker.github.io/conspiracy-graph/classic.html)** (`docs/classic.html`)
+  — the tabbed Three.js scene: Truth × Impact scatter, a **load-bearing
+  dependency graph** (which theories require other theories to be true), a
+  formulation-year Timeline, and the Semantic space.
 
 ## What's here
 
 - `docs/index.html` — 2D WebGL semantic map (front page)
-- `docs/3d.html` — 3D Three.js flythrough (scatter / graph / timeline / semantic space)
+- `docs/3d.html` — 3D Three.js flythrough of the semantic cloud (fly/orbit, remappable axes)
+- `docs/classic.html` — tabbed Three.js views (scatter / graph / timeline / semantic space)
 - `docs/data.json` — built dataset incl. embedding coordinates (generated, do not hand-edit)
 - `data/theories.seed.json` — hand-authored anchor theories (evidence-scored)
 - `data/enriched/batch_*.json` — subagent-researched theories, same schema

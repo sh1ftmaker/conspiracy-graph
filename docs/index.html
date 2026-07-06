@@ -113,7 +113,7 @@
   <h1>🕳️ The Conspiracy Atlas</h1>
   <p>1000+ conspiracy theories embedded with <b style="color:var(--accent)">gemini-embedding-2</b> and laid out by semantic similarity — similar claims, actors and themes cluster together, regardless of genre or truth.</p>
   <span class="badge" id="modelBadge">embedding: …</span>
-  <nav id="pagenav"><a href="index.html" class="on">2D map</a><a href="3d.html">3D flythrough</a></nav>
+  <nav id="pagenav"><a href="index.html" class="on">2D map</a><a href="3d.html">3D flythrough</a><a href="classic.html">Graph &amp; timeline</a></nav>
 </div>
 
 <div id="controls" class="hud panel">
@@ -167,7 +167,7 @@ const gl_=k=>{const g=GEN.find(x=>x.key===k);return g?g.label:k;};
 function statusCol(tr){return tr>=91?'#4ade80':tr>=76?'#86efac':tr>=56?'#bef264':tr>=31?'#fbbf24':tr>=11?'#fb923c':'#f87171';}
 
 // ---------- load ----------
-fetch('data.json').then(r=>r.json()).then(d=>{
+fetch('data.json?v=2').then(r=>r.json()).then(d=>{
   T=d.theories; META=d.meta; GEN=META.genres;
   T.forEach(t=>byId[t.id]=t);
   N=T.length;
