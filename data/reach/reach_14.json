@@ -1,0 +1,182 @@
+[
+ {
+  "id": "ancient-bioengineering",
+  "reach": 4,
+  "note": "'Panurgic Protocols'/ancient bioengineering: zero hits anywhere; searches return unrelated bioengineering-protocol pages. No footprint found."
+ },
+ {
+  "id": "santiago-interference",
+  "reach": 5,
+  "note": "No results for this named theory; searches return unrelated neuroscience papers on intrusive thoughts. No footprint found."
+ },
+ {
+  "id": "apocalypse-conditioning",
+  "reach": 6,
+  "note": "No hits under this name; results are unrelated genetics/ML patents. No footprint found."
+ },
+ {
+  "id": "holdover-cryptids",
+  "reach": 7,
+  "note": "No hits; results are unrelated TV Tropes/biology/patent pages. No footprint found."
+ },
+ {
+  "id": "tops-of-mountains",
+  "reach": 8,
+  "note": "No dedicated theory content; only generic 'sacred mountain'/axis-mundi spiritual writing, unrelated to this specific tile."
+ },
+ {
+  "id": "highway-trolls",
+  "reach": 9,
+  "note": "No hits combining highway driving with cryptids/4D beings; only generic 'highway hypnosis' medical/safety content."
+ },
+ {
+  "id": "field-surveillance",
+  "reach": 10,
+  "note": "No dedicated discussion; only generic academic papers on EM fields/consciousness (Sheldrake-adjacent), nothing matching this tile."
+ },
+ {
+  "id": "mental-problems-theory",
+  "reach": 11,
+  "note": "No hits under this framing; results are mainstream peer-reviewed psychiatry/neuroscience literature only."
+ },
+ {
+  "id": "cradle-of-humanity",
+  "reach": 12,
+  "note": "Only unrelated Stargate-franchise wiki pages surfaced (coincidental name overlap); no real-world theory discussion found."
+ },
+ {
+  "id": "atrocity-demons",
+  "reach": 13,
+  "note": "Only an unrelated Charles Stross novel ('The Atrocity Archive') surfaced; no genuine theory community found."
+ },
+ {
+  "id": "class-divided-propaganda",
+  "reach": 14,
+  "note": "No specific theory found; results are unrelated academic propaganda-model/class-analysis scholarship."
+ },
+ {
+  "id": "earth-is-bigger-than-the-sun",
+  "reach": 15,
+  "note": "No conspiracy under this name; only unrelated 'what if Earth were bigger' hypothetical/education videos."
+ },
+ {
+  "id": "cybersquatting-time-travelers",
+  "reach": 17,
+  "note": "No combined discussion; only tangential unrelated John Titor time-travel lore and generic cybersquatting-law pages."
+ },
+ {
+  "id": "inverted-humans",
+  "reach": 19,
+  "note": "Findable only via the Wondergressive source article itself; no independent spread, forums, or videos beyond that one write-up."
+ },
+ {
+  "id": "fukushimas-gateway",
+  "reach": 21,
+  "note": "Findable only via the Wondergressive source article; no independent coverage, forum threads, or videos beyond it."
+ },
+ {
+  "id": "real-humans-died-millenia-ago",
+  "reach": 23,
+  "note": "One independent blog post (vertigo22.com) specifically covers it as a named conspiracy; otherwise essentially no footprint."
+ },
+ {
+  "id": "noosphere-surveillance",
+  "reach": 25,
+  "note": "Noosphere is a real academic/fringe concept with NWO-adjacent conspiracy commentary online, but this exact surveillance framing has little dedicated discussion."
+ },
+ {
+  "id": "purple-spheres",
+  "reach": 27,
+  "note": "Real but minor viral local-news story (2013 Tucson desert spheres) plus tangential ISS-potato 'alien egg' buzz; modest, fleeting footprint."
+ },
+ {
+  "id": "lifetide",
+  "reach": 29,
+  "note": "Real Lyall Watson book (originated the well-known 'hundredth monkey' meme) with a New Age/Goodreads following, though not framed online as this specific theory."
+ },
+ {
+  "id": "perception-monopoly",
+  "reach": 31,
+  "note": "Exact framing not found, but overlaps the genuinely viral 'NPC theory' (TikTok, Psychology Today, Medium, Bitchute) which has real reach."
+ },
+ {
+  "id": "francis-leavy-s-handprint",
+  "reach": 33,
+  "note": "Real Chicago urban legend with WBEZ public-radio coverage plus half a dozen independent retellings across blogs/Medium/paranormal sites."
+ },
+ {
+  "id": "marko-rodin",
+  "reach": 35,
+  "note": "Real fringe figure with an actual following: vortex-math/Rodin-coil forums, YouTube videos, Bahai-forum debates about him, academia.edu papers."
+ },
+ {
+  "id": "bdort",
+  "reach": 37,
+  "note": "Real alt-medicine practice with its own Wikipedia article, a Quackwatch takedown, and patent/academic history — a live, still-practiced pseudoscience."
+ },
+ {
+  "id": "cosmic-demons",
+  "reach": 39,
+  "note": "Overlaps the real and growing 'demonic UFO hypothesis' (Wikipedia article, Catholic media, JD Vance/Tucker Carlson commentary, Collins Elite lore)."
+ },
+ {
+  "id": "bodily-calcification-implications",
+  "reach": 41,
+  "note": "Pineal-gland/fluoride calcification is a well-known wellness-conspiracy crossover with a podcast episode, skeptic takedowns, and broad awareness."
+ },
+ {
+  "id": "polywater",
+  "reach": 43,
+  "note": "Real, well-documented 1960s-70s science-history episode; own Wikipedia page, Slate/Science History Institute retrospectives, textbook 'pathological science' exa"
+ },
+ {
+  "id": "fish-rain",
+  "reach": 44,
+  "note": "Real recurring meteorological phenomenon with its own Wikipedia article ('Rain of animals') and periodic mainstream news coverage (Newsweek, etc.)."
+ },
+ {
+  "id": "neolithics-contraptions",
+  "reach": 46,
+  "note": "Maps onto the large, real OOPArts/ancient-aliens pseudoarchaeology community (Antikythera, Baghdad Battery, etc.) with substantial YouTube/forum presence."
+ },
+ {
+  "id": "roman-empire-still-rules-the-world",
+  "reach": 48,
+  "note": "Real recent TikTok viral trend ('Roman Empire never fell'), Daily Beast coverage, YouTube reaction videos, dedicated Tumblr blog — much bigger than the tier hin"
+ },
+ {
+  "id": "orbs",
+  "reach": 50,
+  "note": "Extremely widespread paranormal-photography belief; a staple of ghost-hunting culture with huge blog/forum presence, though mostly confined to paranormal circle"
+ },
+ {
+  "id": "the-black-snake-prophecy",
+  "reach": 52,
+  "note": "Real Lakota prophecy that received major mainstream coverage (CBC, Bloomberg, Spokesman-Review) during the 2016-17 Standing Rock/DAPL protests."
+ },
+ {
+  "id": "breatharianism",
+  "reach": 54,
+  "note": "Real fringe practice with documented deaths that made international news, plus ongoing documentary/YouTube coverage."
+ },
+ {
+  "id": "ali-liston-phantom-punch",
+  "reach": 57,
+  "note": "Famous decades-old boxing controversy with extensive sports-journalism coverage and enduring 'phantom punch' terminology."
+ },
+ {
+  "id": "operation-blue-beam",
+  "reach": 59,
+  "note": "Cited as a rubric reference example itself; a well-established conspiracy-community staple with YouTube/TikTok presence and its own Wikipedia article."
+ },
+ {
+  "id": "nar-realtor-commission-cartel",
+  "reach": 63,
+  "note": "Massive, sustained national news story ($1.8B verdict, NAR settlement) covered extensively by Forbes, HousingWire, and general press for over a year."
+ },
+ {
+  "id": "cern-black-hole",
+  "reach": 68,
+  "note": "Very well-known conspiracy with its own Wikipedia article ('CERN ritual hoax'), dedicated wikis, and a huge cultural footprint since the 2008 LHC launch."
+ }
+]

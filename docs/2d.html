@@ -319,9 +319,11 @@ function scoreHtml(t){
   h+=row(`reach ${S.if[2]}/5 \u00b7 ${SB_REACH[S.if[2]]||''}`,'');
   h+=`<div class="sbh">Notoriety ${t.notoriety} = measured attention</div>`;
   if(S.pv!=null&&S.pv>0)
-    h+=row(`${Number(S.pv).toLocaleString('en-US')} Wikipedia pageviews/yr \u2192 100\u00b7(log\u2081\u2080V \u2212 ${SC.noto_log_off})/${SC.noto_log_div}, bounded to attention tier ${S.att}/5 ±${SC.noto_tier_band}`,String(t.notoriety));
+    h+=row(`${Number(S.pv).toLocaleString('en-US')} Wikipedia pageviews/yr \u2192 100\u00b7(log\u2081\u2080V \u2212 ${SC.noto_log_off})/${SC.noto_log_div}, blended ×${SC.noto_pv_blend} toward attention tier ${S.att}/5`,String(t.notoriety));
+  else if(S.reach!=null)
+    h+=row(`researched web footprint \u00b7 reach ${S.reach}/92 (Reddit / YouTube / news / search volume)`,String(t.notoriety));
   else
-    h+=row(`no pageview data \u00b7 attention tier ${S.att}/5 (${SB_ATT[S.att]||''})`,String(t.notoriety));
+    h+=row(`no data \u00b7 attention tier ${S.att}/5 (${SB_ATT[S.att]||''})`,String(t.notoriety));
   if(t.truth_manual!=null)
     h+=`<div class="sbrow" style="margin-top:5px"><span class="dim">pre-formula editorial scores \u00b7 truth ${t.truth_manual} \u00b7 impact ${t.impact_manual} \u00b7 notoriety ${t.notoriety_manual}</span></div>`;
   return h+'</div>';
@@ -339,7 +341,7 @@ const gl_=k=>{const g=GEN.find(x=>x.key===k);return g?g.label:k;};
 function statusCol(tr){return tr>=91?'#4ade80':tr>=76?'#86efac':tr>=56?'#bef264':tr>=31?'#fbbf24':tr>=11?'#fb923c':'#f87171';}
 
 // ---------- load ----------
-fetch('data.json?v=12').then(r=>r.json()).then(d=>{
+fetch('data.json?v=13').then(r=>r.json()).then(d=>{
   T=d.theories; META=d.meta; GEN=META.genres;
   T.forEach(t=>byId[t.id]=t);
   N=T.length;

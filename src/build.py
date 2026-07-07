@@ -294,12 +294,20 @@ def pv_for(rec):
         return None
     title = unquote(w.split("/wiki/", 1)[1].split("#")[0].split("?")[0]).replace("_", " ")
     return pageviews.get(title, pageviews.get(title.replace(" ", "_")))
+# ---- researched web-footprint 'reach' overlays (data/reach/*.json) ----
+# For theories with no Wikipedia article, notoriety is estimated from real web
+# footprint (Reddit/YouTube/news/search volume) on a calibrated 3-92 scale.
+reach_map = {}
+for rf in sorted(glob.glob(p("data", "reach", "*.json"))):
+    for e in load(rf):
+        if isinstance(e, dict) and e.get("id") and isinstance(e.get("reach"), (int, float)):
+            reach_map[e["id"]] = e["reach"]
 scored = 0
 if factors and SC.get("classes"):
     for rid in order:
         f = factors.get(rid)
         if f:
-            scoring.score_theory(records[rid], f, pv_for(records[rid]), SC)
+            scoring.score_theory(records[rid], f, pv_for(records[rid]), reach_map.get(rid), SC)
             scored += 1
 
 # ---- load-bearing: in-degree over depends_on ----
@@ -342,7 +350,8 @@ out = {
             ("prior_clamp", "impossible_prior", "mmo_min", "mmo_max", "mmo_floor",
              "self_denial_discount", "stance_strength", "ev_cap",
              "prose_w", "leak_p", "leak_cap", "impact_gain",
-             "noto_log_off", "noto_log_div", "noto_tier_band", "att_ladder",
+             "noto_log_off", "noto_log_div", "noto_tier_band",
+             "noto_pv_blend", "noto_pv_band", "att_ladder",
              "ped_map", "coh_map", "par_map", "frame_ceiling",
              "classes", "bias_weights")},
     },

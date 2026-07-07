@@ -36,7 +36,9 @@ the full derivation is on the [methodology page](https://sh1ftmaker.github.io/co
   a separate violet axis scored on pedigree + coherence + parsimony, capped short of
   certainty, because a model of reality can never be *proven*.
 - **Impact** — geometric mean of scale × severity × reach (consequence if true).
-- **Notoriety** — measured from Wikipedia pageviews.
+- **Notoriety** — measured cultural footprint: Wikipedia pageviews where an article exists,
+  otherwise a researched web-footprint score (Reddit / YouTube / news / search volume) on a
+  calibrated reach scale, since most conspiracy theories will never have a Wikipedia article.
 
 ## Repository layout
 

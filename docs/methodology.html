@@ -224,13 +224,23 @@
 
     <section id="noto">
       <h2>Notoriety — measured, not guessed</h2>
-      <p>Notoriety is how widely known a theory is, and wherever possible it is <b>measured</b> rather than
-      judged: the trailing-12-month Wikipedia pageviews of the theory's article, on a logarithmic scale
-      (attention is power-law distributed). Records without an article fall back to a small attention-tier
-      rubric, and the measured value is bounded to that tier to guard against pages that are really about the
-      underlying event rather than the theory:</p>
+      <p>Notoriety is how widely known a theory is — its cultural footprint, not its merit. It draws on two
+      real signals, in order of preference:</p>
+      <p><b>1. Wikipedia pageviews</b>, where the theory has an article: the trailing-12-month pageviews on a
+      logarithmic scale (attention is power-law distributed).</p>
       <div class="formula">Notoriety = 100 · ( log₁₀(annual pageviews) − <span id="c_noff">1.5</span> ) /
         <span id="c_ndiv">5.5</span></div>
+      <p>This is then softly blended toward the theory's attention tier (weight <span id="c_pvbl">0.8</span> on
+      the measured value) with a lower floor but no upper cap — so genuinely high traffic is trusted and scores
+      spread continuously instead of piling at a band edge, while a famous theory whose article link is a broken
+      redirect can't be tanked to zero.</p>
+      <p><b>2. Researched web footprint</b>, for the great majority of theories that will never have a Wikipedia
+      article. Each was assessed from its real presence across the open web — Reddit threads, YouTube view
+      counts, news coverage, search-result volume, TikTok — and placed on a calibrated 3–92 reach scale anchored
+      to shared reference points (a household name like flat earth sits near the top; a deep-iceberg tile only a
+      handful of forum posts ever mention sits near the bottom). This replaced a coarse six-rung tier ladder, so
+      obscure theories are now individually ranked rather than snapped to one of six values.</p>
+      <p>Only if neither signal exists does a theory fall back to its bare attention tier.</p>
     </section>
 
     <section id="bands">
@@ -264,7 +274,7 @@
   </main>
 
 <script>
-fetch('data.json?v=12').then(r=>r.json()).then(d=>{
+fetch('data.json?v=13').then(r=>r.json()).then(d=>{
   const M=d.meta, C=M.score_constants||{};
   const set=(id,v)=>{const e=document.getElementById(id); if(e&&v!=null) e.textContent=v;};
   // live constants
@@ -272,7 +282,7 @@ fetch('data.json?v=12').then(r=>r.json()).then(d=>{
   set('c_imp',C.impossible_prior); set('c_evcap',C.ev_cap);
   set('c_self',C.self_denial_discount!=null?Math.round(C.self_denial_discount*100)+'%':null);
   set('c_ceil',C.frame_ceiling); set('c_ceil2',C.frame_ceiling);
-  set('c_noff',C.noto_log_off); set('c_ndiv',C.noto_log_div);
+  set('c_noff',C.noto_log_off); set('c_ndiv',C.noto_log_div); set('c_pvbl',C.noto_pv_blend);
   // bias table
   const bt=document.querySelector('#biasTable tbody');
   (M.bias_scale||[]).forEach(b=>{const tr=document.createElement('tr');

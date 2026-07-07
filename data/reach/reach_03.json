@@ -1,0 +1,187 @@
+[
+ {
+  "id": "noncitizen-voting-save-act",
+  "reach": 64,
+  "note": "Major 2024-25 political claim, covered repeatedly by NPR/Brennan Center/CBS; Musk amplified to millions; mainstream voter-fraud narrative"
+ },
+ {
+  "id": "iran-nuclear-weapon-intel-manufactured",
+  "reach": 52,
+  "note": "Heavy 2025-26 news coverage (CBS, PBS, Al Jazeera, Time) of Gabbard/Trump intel dispute; compared publicly to Iraq WMD, major story not fringe"
+ },
+ {
+  "id": "intelligent-design",
+  "reach": 68,
+  "note": "Decades of school-board fights, Kitzmiller v. Dover trial, Pew/Gallup polling; mainstream US culture-war topic beyond conspiracy circles"
+ },
+ {
+  "id": "the-ummo-case",
+  "reach": 40,
+  "note": "Dedicated fandom wiki, books written on it, long-running Spanish/French ufology case; real but confined to ufology community"
+ },
+ {
+  "id": "anti-medicine",
+  "reach": 38,
+  "note": "Overlaps huge 'Big Pharma conceals cures' distrust (~50% of Americans per surveys), but this narrower 'medicine keeps you weak' framing is a smaller slice"
+ },
+ {
+  "id": "aipac-covert-congress-control",
+  "reach": 37,
+  "note": "Covered re UDP's ~$100M 2024 spend and the Bowman race in progressive outlets; real political story, moderate not mass-market reach"
+ },
+ {
+  "id": "acupuncture",
+  "reach": 29,
+  "note": "Acupuncture is globally known, but the specific 'suppressed by mainstream medicine' claim only appears in skeptic-rebuttal blogs, no dedicated conspiracy commun"
+ },
+ {
+  "id": "large-hadron-collider",
+  "reach": 59,
+  "note": "Genuinely widely known conspiracy (CERN black hole/time-travel fears) covered by NBC, LiveScience, Gizmodo, Hawking commentary; near pop-science household topic"
+ },
+ {
+  "id": "magic-of-the-state",
+  "reach": 21,
+  "note": "Michael Taussig's 1997 academic book/concept; NYT and art-world mentions but confined to academic/art circles"
+ },
+ {
+  "id": "ethnopsychiatry",
+  "reach": 25,
+  "note": "Real academic field; adjacent 'generational trauma'/epigenetic-inheritance idea is popular in therapy culture, but 'ethnopsychiatry' itself has little dedicated"
+ },
+ {
+  "id": "malbolge-programming",
+  "reach": 33,
+  "note": "Real esoteric language with Wikipedia/esolangs pages and dev.to/Medium writeups; known within programmer niche only"
+ },
+ {
+  "id": "extraplanetary-sanctuary",
+  "reach": 31,
+  "note": "Rides the real, popular 'billionaire escape bunker' narrative (Musk/Bezos/Thiel) but this specific space-colony framing has no dedicated following found"
+ },
+ {
+  "id": "akashic-records",
+  "reach": 47,
+  "note": "Long-established New Age concept (Theosophy, Edgar Cayce), own Wikipedia page, huge presence in spiritual YouTube/TikTok reading content"
+ },
+ {
+  "id": "fire-is-alive",
+  "reach": 22,
+  "note": "Real but small philosophical debate: one PhysicsForums thread, one Wondergressive article, scattered small discussion"
+ },
+ {
+  "id": "aliens-caused-the-bubonic-plague",
+  "reach": 24,
+  "note": "Niche panspermia-adjacent idea covered by a few blogs/podcasts ('It's Probably Not Aliens', Wondergressive); no broad traction"
+ },
+ {
+  "id": "meat-stations-meat-trading",
+  "reach": 35,
+  "note": "4chan-originated iceberg meme with standalone YouTube explainer videos and creepypasta pages; real small following in 'creepy iceberg' niche"
+ },
+ {
+  "id": "immigration-inflate-housing-demand",
+  "reach": 56,
+  "note": "Heavily fact-checked VP-level claim in 2025-26 (FactCheck.org, PolitiFact, NBC, CBS, Cato, MSNBC, Intercept); major current political story"
+ },
+ {
+  "id": "eastern-philosophies",
+  "reach": 19,
+  "note": "Not a specific claim to search for; generic umbrella term with no dedicated 'theory' footprint of its own despite the topic's general breadth"
+ },
+ {
+  "id": "deep-sea-lab-techs",
+  "reach": 12,
+  "note": "Almost no footprint beyond its own iceberg-wiki page and a vague 4chan/pol reference; essentially invisible"
+ },
+ {
+  "id": "deep-philosophies",
+  "reach": 6,
+  "note": "No dedicated discussion found anywhere; abstract invented-sounding filler entry"
+ },
+ {
+  "id": "missing-link-cryptids",
+  "reach": 20,
+  "note": "Real but generic cryptozoology idea (Bigfoot-as-missing-link) discussed on Quora/forums/TV, no specific named theory or community of its own"
+ },
+ {
+  "id": "gods-image",
+  "reach": 7,
+  "note": "No web footprint found beyond generic theology terms; invented-sounding filler entry"
+ },
+ {
+  "id": "quantum-universe",
+  "reach": 16,
+  "note": "Borrows from famous adjacent ideas (simulation hypothesis, quantum suicide) but this specific mashup/name has no dedicated discussion"
+ },
+ {
+  "id": "coriander-veins",
+  "reach": 17,
+  "note": "The adjacent real trivia (cilantro-tastes-like-soap genetics) is well covered, but the 'spiritual superfood' framing itself has no footprint"
+ },
+ {
+  "id": "stability-fields",
+  "reach": 10,
+  "note": "No dedicated discussion found; invented-sounding filler entry"
+ },
+ {
+  "id": "solar-dead-hand-signals",
+  "reach": 18,
+  "note": "Borrows name recognition from the real Soviet 'Dead Hand' nuclear system, but this specific solar-signal theory has no footprint of its own"
+ },
+ {
+  "id": "wavering-divinity",
+  "reach": 3,
+  "note": "No web footprint found anywhere; invented-sounding filler entry"
+ },
+ {
+  "id": "sleep-deprivation-lifestyle",
+  "reach": 13,
+  "note": "No discussion found under this name; sleep-deprivation science is real but this 'primal mind' framing isn't"
+ },
+ {
+  "id": "artificial-aliens",
+  "reach": 14,
+  "note": "Touches a real minor ufology sub-idea (aliens as artificial constructs) but no dedicated community or content found under this name"
+ },
+ {
+  "id": "bioma-over-genoma",
+  "reach": 26,
+  "note": "Rides the genuinely huge 'gut microbiome' wellness trend, but this specific name/framing has no dedicated footprint"
+ },
+ {
+  "id": "vertical-universe",
+  "reach": 15,
+  "note": "Adjacent to the very popular multiverse concept, but this specific 'vertical planes' framing has no footprint found"
+ },
+ {
+  "id": "fauna-to-flora-soul-transference",
+  "reach": 4,
+  "note": "No web footprint found anywhere; invented-sounding filler entry"
+ },
+ {
+  "id": "paradigm-recalescence",
+  "reach": 8,
+  "note": "No web footprint found anywhere; invented-sounding filler entry"
+ },
+ {
+  "id": "the-math-vault-of-trinidad",
+  "reach": 5,
+  "note": "No web footprint found; oddly specific invented-sounding filler entry"
+ },
+ {
+  "id": "bank-of-souls",
+  "reach": 9,
+  "note": "No web footprint found; invented-sounding filler entry with only faint NPC-meme adjacency"
+ },
+ {
+  "id": "there-is-no-conspiracy",
+  "reach": 11,
+  "note": "No dedicated footprint found; a meta/ironic filler entry"
+ },
+ {
+  "id": "machs-principle",
+  "reach": 30,
+  "note": "Real, well-documented physics concept (Britannica, Wolfram, arXiv, textbooks) but confined to physics academia/forums, not public or conspiracy culture"
+ }
+]

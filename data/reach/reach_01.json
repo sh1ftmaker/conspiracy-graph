@@ -1,0 +1,187 @@
+[
+ {
+  "id": "sandy-hook-hoax",
+  "reach": 86,
+  "note": "Household-name hoax claim; NYT/NPR/Vice/PBS/Wikipedia coverage, Alex Jones ~$1.5B verdict; huge, enduring"
+ },
+ {
+  "id": "netanyahu-war-prolongation-political-survival",
+  "reach": 53,
+  "note": "Major 6-month NYT investigation widely republished (CNN, Global Research, Juan Cole, Arab Center); heavy 2025-26 news cycle"
+ },
+ {
+  "id": "dyaltov-pass",
+  "reach": 64,
+  "note": "Netflix/Discovery docs, 2013 feature film, huge YouTube/Reddit presence, dedicated Wikipedia; widely known mystery"
+ },
+ {
+  "id": "report-from-iron-mountain",
+  "reach": 39,
+  "note": "Guinness 'most successful literary hoax', dedicated Wikipedia + podcasts + CJR piece; enduring niche fame"
+ },
+ {
+  "id": "cigarettes-extreme-health-benefits",
+  "reach": 31,
+  "note": "Real documented fringe movement, Vice feature, 2009 conference, scattered blogs/books; small but genuine"
+ },
+ {
+  "id": "hamas-israeli-creation-asset-theory",
+  "reach": 58,
+  "note": "Heavy post-Oct-7 coverage across ADL, Newsweek, Intercept, Electronic Intifada, MEMonitor; widely circulated claim"
+ },
+ {
+  "id": "the-vela-incident",
+  "reach": 43,
+  "note": "Extensively documented (NSA/Wilson Center archives, Bulletin of Atomic Scientists, many deep-dive sites); known to history/nuclear buffs"
+ },
+ {
+  "id": "6th-extinction",
+  "reach": 47,
+  "note": "Kolbert NYT bestseller, mainstream science/environmental press coverage; widely known concept"
+ },
+ {
+  "id": "icbm-decoys",
+  "reach": 22,
+  "note": "Real military decoy concept, but as 'theory' mostly one blog + patent docs, no dedicated community"
+ },
+ {
+  "id": "greek-magnetic-sky",
+  "reach": 24,
+  "note": "No independent hits for this specific tile; rides broad 'ancient aliens' theme but no dedicated discussion found"
+ },
+ {
+  "id": "internet-soul-theft",
+  "reach": 12,
+  "note": "No dedicated theory found; only tangential 'internet is demons' jokes/theology metaphors"
+ },
+ {
+  "id": "dream-hacking",
+  "reach": 16,
+  "note": "Lucid dreaming itself huge, but this specific theory framing has no distinct footprint"
+ },
+ {
+  "id": "the-parrot",
+  "reach": 11,
+  "note": "No matching theory found; only unrelated 'Parrot's Theorem'/cognitive idiom hits"
+ },
+ {
+  "id": "war-is-fake",
+  "reach": 10,
+  "note": "No dedicated discussion found anywhere on the open web"
+ },
+ {
+  "id": "media-division",
+  "reach": 9,
+  "note": "No dedicated discussion; only unrelated 'digital divide' hits"
+ },
+ {
+  "id": "skin-is-an-alien-parasite",
+  "reach": 21,
+  "note": "TikTok discover tag, RPC wiki forum thread, one wondergressive blog; modest scattered presence"
+ },
+ {
+  "id": "homebuilder-cartel-consolidation",
+  "reach": 41,
+  "note": "Real active econ debate; Stoller Substack widely read + rebuttals in Daily Economy/American Affairs"
+ },
+ {
+  "id": "dowsing",
+  "reach": 44,
+  "note": "Centuries-old widely known folk practice, broad general-public awareness ('water witching')"
+ },
+ {
+  "id": "beacon-of-hate",
+  "reach": 28,
+  "note": "Real ham-radio internet mystery; several YouTube videos with views, blogs, FB posts, dedicated pages"
+ },
+ {
+  "id": "geometrodynamics",
+  "reach": 15,
+  "note": "Real Wheeler physics term with arXiv papers, but essentially unknown outside academic cosmology"
+ },
+ {
+  "id": "cometary-earth",
+  "reach": 35,
+  "note": "Panspermia is a real, moderately known hypothesis (Fred Hoyle); pop-science coverage (Ancient Origins, Sky at Night)"
+ },
+ {
+  "id": "5th-dimensional-bigfoot",
+  "reach": 26,
+  "note": "Genuine cryptid-community following (Beckjord), several dedicated YouTube videos/articles"
+ },
+ {
+  "id": "leyline-evolution",
+  "reach": 6,
+  "note": "Zero footprint found; term doesn't appear anywhere"
+ },
+ {
+  "id": "puppet-show-simulation",
+  "reach": 14,
+  "note": "No specific hits; broader simulation theory is huge but this exact tile is unfound"
+ },
+ {
+  "id": "spiritual-microeconomy",
+  "reach": 7,
+  "note": "No dedicated footprint; only generic 'economics of afterlife' tangents"
+ },
+ {
+  "id": "unconscious-visions",
+  "reach": 13,
+  "note": "No dedicated footprint on this specific claim; only generic Jungian dream literature"
+ },
+ {
+  "id": "demonic-leylines",
+  "reach": 3,
+  "note": "Zero footprint; search returned entirely unrelated content"
+ },
+ {
+  "id": "inorganic-beings",
+  "reach": 37,
+  "note": "Real Castaneda concept with bestselling-author legacy, dedicated Toltec/nagualism fan sites, YouTube videos"
+ },
+ {
+  "id": "2006-volleyball-incident",
+  "reach": 32,
+  "note": "Genuine internet phenomenon: KnowYourMeme entry, dedicated retrospectives, Quora/forum threads (Mandela-effect space)"
+ },
+ {
+  "id": "malerei-diespirale-the-spiral",
+  "reach": 18,
+  "note": "Real Hundertwasser artwork with official page/gallery mentions; 'theory' framing is a fabricated add-on"
+ },
+ {
+  "id": "oneworldness",
+  "reach": 8,
+  "note": "No dedicated footprint; only generic 'interconnectedness' philosophy hits"
+ },
+ {
+  "id": "clone-consumption",
+  "reach": 4,
+  "note": "Zero footprint; search returned unrelated software/immunology papers"
+ },
+ {
+  "id": "studying-divinity",
+  "reach": 5,
+  "note": "Zero footprint; only tangential Dali 'nuclear mysticism' hits"
+ },
+ {
+  "id": "chakra-removal",
+  "reach": 23,
+  "note": "Single detailed wondergressive content-farm article claiming Reddit/TikTok spread, unverified elsewhere"
+ },
+ {
+  "id": "retrocausality",
+  "reach": 33,
+  "note": "Real physics research topic (Huw Price et al., Stanford Encyclopedia), popular-science coverage (Conversation, phys.org)"
+ },
+ {
+  "id": "gods-ego-death",
+  "reach": 19,
+  "note": "icebergdb + wondergressive + 2 TikTok discover-tag pages; thin but multi-source presence"
+ },
+ {
+  "id": "henotheism",
+  "reach": 29,
+  "note": "Real, well-documented academic theology term (Wikipedia/Britannica/Merriam-Webster/EBSCO); not a conspiracy-community topic"
+ }
+]

@@ -64,6 +64,9 @@ DEFAULTS = {
     "now_year": 2026,
     "impact_gain": 20.0, "impact_floor": 0.5,
     "noto_log_off": 1.5, "noto_log_div": 5.5, "noto_tier_band": 20,
+    # measured pageviews are blended toward the tier anchor (soft, not hard-clamped)
+    # so scores spread continuously instead of piling at the band edges.
+    "noto_pv_blend": 0.8, "noto_pv_band": 32,
     "att_ladder": [3, 10, 22, 40, 58, 75],
     # ---- metaphysical "frame" plausibility (a DIFFERENT truth axis) ----
     # For entries that are frameworks of reality (idealism, simulation theory,
@@ -219,25 +222,38 @@ def impact_of(f, C):
     return int(round(C["impact_gain"] * g))
 
 
-def noto_of(f, views, C):
-    """Measured pageviews, bounded to the annotated attention tier +/- band.
-    The bound handles two known artifacts: articles about the underlying
-    event/person (not the theory) inflate views; redirect pages read ~zero."""
+def noto_of(f, views, reach, C):
+    """Notoriety = measured attention. Three signals, in priority order:
+      1. Wikipedia pageviews (best) -> log-scaled, then softly blended toward the
+         tier anchor and bounded by a wide band. The blend (not a hard clamp)
+         keeps scores spread continuously instead of piling at the band edges,
+         while the tier still corrects two artifacts: articles about the
+         underlying event/person inflate views; redirect pages read ~zero.
+      2. Researched web-footprint 'reach' (for theories with no article, which is
+         most of them) -> used directly; it is already a calibrated 3-92 estimate.
+      3. The bare tier anchor, only if neither signal exists."""
     lad = C["att_ladder"][max(0, min(5, f.get("att", 1)))]
     if views is not None and views > 0:
         v = 100 * (math.log10(views) - C["noto_log_off"]) / C["noto_log_div"]
-        b = C["noto_tier_band"]
-        v = max(lad - b, min(lad + b, v))
+        bl = C["noto_pv_blend"]
+        v = bl * v + (1 - bl) * lad
+        # Asymmetric: NO upper ceiling (trust genuinely high pageviews, so scores
+        # spread continuously instead of piling at a band edge), but keep a lower
+        # floor so a famous theory whose article link is a broken redirect reading
+        # ~0 views can't be tanked below its tier.
+        v = max(lad - C["noto_pv_band"], v)
         return max(1, min(100, int(round(v))))
+    if reach is not None:
+        return max(1, min(100, int(round(reach))))
     return lad
 
 
-def score_theory(t, f, views, C):
+def score_theory(t, f, views, reach, C):
     """Attach computed scores + transparent breakdown to theory dict t.
     Frame records (metaphysical frameworks) use the plausibility axis; all
     others use the historical Bayesian truth axis."""
     imp = impact_of(f, C)
-    noto = noto_of(f, views, C)
+    noto = noto_of(f, views, reach, C)
     t["truth_manual"], t["impact_manual"], t["notoriety_manual"] = t["truth"], t["impact"], t["notoriety"]
     t["impact"], t["notoriety"] = imp, noto
     if f.get("frame"):
@@ -248,7 +264,7 @@ def score_theory(t, f, views, C):
             "kind": "frame", "cls": f["cls"],
             "ped": [f.get("ped", 2), ped], "coh": [f.get("coh", 2), coh], "par": [f.get("par", 2), par],
             "src": srcs, "logit": logit, "ceiling": C["frame_ceiling"],
-            "if": [f["scale"], f["sev"], f["reach"]], "pv": views, "att": f.get("att"),
+            "if": [f["scale"], f["sev"], f["reach"]], "pv": views, "reach": reach, "att": f.get("att"),
         }
         return
     prior, mmo, ev, leak, logit, truth = truth_terms(t, f, C)
@@ -259,7 +275,7 @@ def score_theory(t, f, views, C):
         "prior": prior, "mmo": mmo,
         "ev": ev, "leak": leak, "logit": logit,
         "if": [f["scale"], f["sev"], f["reach"]],
-        "pv": views, "att": f.get("att"),
+        "pv": views, "reach": reach, "att": f.get("att"),
     }
 
 
