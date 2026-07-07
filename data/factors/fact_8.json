@@ -1,0 +1,22 @@
+[
+ {
+  "id": "mlk-sex-smear-fbi-fabrication",
+  "cls": "influence-psyop",
+  "imp": false,
+  "nlog": 2,
+  "scale": 4,
+  "sev": 5,
+  "reach": 4,
+  "att": 4
+ },
+ {
+  "id": "hawaiian-culture-tourist-reconstruction",
+  "cls": "fabricated-history",
+  "imp": false,
+  "nlog": 3,
+  "scale": 2,
+  "sev": 3,
+  "reach": 1,
+  "att": 1
+ }
+]

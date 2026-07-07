@@ -1,0 +1,395 @@
+[
+ {
+  "id": "mlk-sex-smear-fbi-fabrication",
+  "name": "FBI Fabricated MLK's Sex Allegations",
+  "aliases": [
+   "MLK FBI sex tapes",
+   "Willard Hotel memo dispute"
+  ],
+  "genre": "government",
+  "year": 2019,
+  "truth": 50,
+  "impact": 80,
+  "notoriety": 58,
+  "summary": "The claim that the FBI's sexual allegations against Martin Luther King Jr. — the affairs, the group-sex claims, and the disputed 1964 Willard Hotel note that King \"looked on, laughed and offered advice\" during an assault — were fabricated by the Bureau to destroy him, rather than a distorted record of real surveilled conduct. The FBI's campaign to discredit King (RFK-authorized wiretaps, the anonymous 1964 \"suicide letter\") is documented fact; whether it invented the sexual material specifically is unverified — the key claim rests on a handwritten agent annotation while the underlying tapes stay court-sealed until 2027.",
+  "evidence_for": [
+   {
+    "text": "The most explosive claim — the Willard Hotel \"looked on, laughed and offered advice\" line — rests on a seven-word handwritten marginal annotation on an FBI memo, not on the audio or even the typed summary.",
+    "source": "https://www.wesanews.org/identity-justice/2019-05-30/pittsburgh-historian-uncovers-explosive-allegations-about-mlk-jr-some-experts-skeptical"
+   },
+   {
+    "text": "FBI agents could only hear the bugged rooms, so 'laughed and offered advice' is a subjective transcription by a hostile Bureau, per Yale historian Beverly Gage.",
+    "source": "https://www.wesanews.org/identity-justice/2019-05-30/pittsburgh-historian-uncovers-explosive-allegations-about-mlk-jr-some-experts-skeptical"
+   },
+   {
+    "text": "William Sullivan, who oversaw the material, stated a willingness to go beyond 'legalistic proofs that would stand up in court'; King's lawyer Clarence Jones calls the annotation 'almost indecipherable' with no eyewitnesses.",
+    "source": "https://www.usfca.edu/news/jones-response-garrow-hoover-martin-luther-king-jr"
+   },
+   {
+    "text": "COINTELPRO has a documented record of forging and planting false material against other targets, establishing the Bureau's capability and willingness.",
+    "source": "https://www.aaihs.org/david-garrow-martin-luther-king-jr-and-the-politics-of-history/"
+   },
+   {
+    "text": "MLK confidant Andrew Young: 'I never saw anything, and I have never found anybody who said they saw something personally.'",
+    "source": "https://www.ajc.com/news/fbi-long-buried-allegations-mlk-misconduct-met-with-skepticism/4sxfRFMJhWEWJ4MWYnUciJ/"
+   }
+  ],
+  "evidence_against": [
+   {
+    "text": "Historian David Garrow, after combing ~54,000 pages of released FBI files, read the summaries as crediting the allegations as real conduct rather than Bureau invention.",
+    "source": "https://www.davidgarrow.com/wp-content/uploads/2019/05/DJGStandpoint2019.pdf"
+   },
+   {
+    "text": "No forged tape, contradicted informant, or internal FBI admission of inventing the sexual material has ever been identified — the fabrication claim rests on inference from motive, not direct evidence.",
+    "source": "https://www.washingtonpost.com/history/2019/05/30/irresponsible-historians-attack-david-garrows-mlk-allegations/"
+   },
+   {
+    "text": "The underlying audiotapes remain sealed at the National Archives until 2027, so neither the allegations nor the fabrication claim can currently be independently verified.",
+    "source": "https://en.wikipedia.org/wiki/FBI%E2%80%93King_letter"
+   }
+  ],
+  "related": [
+   "cointelpro"
+  ],
+  "depends_on": [
+   "cointelpro"
+  ],
+  "sources": [
+   {
+    "title": "The Troubling Legacy of Martin Luther King (Standpoint, May 2019)",
+    "url": "https://www.davidgarrow.com/wp-content/uploads/2019/05/DJGStandpoint2019.pdf",
+    "type": "investigative",
+    "stance": "context"
+   },
+   {
+    "title": "Martin Luther King Jr. sex allegations: David Garrow's FBI evidence outrages historian (Washington Post, May 30 2019)",
+    "url": "https://www.washingtonpost.com/history/2019/05/30/irresponsible-historians-attack-david-garrows-mlk-allegations/",
+    "type": "mainstream",
+    "stance": "context"
+   },
+   {
+    "title": "David Garrow, Martin Luther King Jr., and the Politics of History (AAIHS, Nishani Frazier)",
+    "url": "https://www.aaihs.org/david-garrow-martin-luther-king-jr-and-the-politics-of-history/",
+    "type": "academic",
+    "stance": "context"
+   },
+   {
+    "title": "Pittsburgh Historian Uncovers Explosive Allegations About MLK, Jr.; Some Experts Skeptical (WESA, May 30 2019)",
+    "url": "https://www.wesanews.org/identity-justice/2019-05-30/pittsburgh-historian-uncovers-explosive-allegations-about-mlk-jr-some-experts-skeptical",
+    "type": "mainstream",
+    "stance": "context"
+   },
+   {
+    "title": "Don't Give J. Edgar Hoover a Posthumous Victory in his Attempts to Assassinate Dr. King's Character (Clarence B. Jones, USF)",
+    "url": "https://www.usfca.edu/news/jones-response-garrow-hoover-martin-luther-king-jr",
+    "type": "advocacy",
+    "stance": "supports"
+   },
+   {
+    "title": "FBI's long-buried allegations of MLK misconduct met with skepticism (Atlanta Journal-Constitution)",
+    "url": "https://www.ajc.com/news/fbi-long-buried-allegations-mlk-misconduct-met-with-skepticism/4sxfRFMJhWEWJ4MWYnUciJ/",
+    "type": "mainstream",
+    "stance": "supports"
+   },
+   {
+    "title": "I'm an MLK scholar -- and I'll never be able to view King in the same light (The Conversation, Jason Miller)",
+    "url": "https://theconversation.com/im-an-mlk-scholar-and-ill-never-be-able-to-view-king-in-the-same-light-118015",
+    "type": "academic",
+    "stance": "context"
+   },
+   {
+    "title": "Federal Bureau of Investigation (FBI) -- MLK Research and Education Institute (Stanford)",
+    "url": "https://kinginstitute.stanford.edu/federal-bureau-investigation-fbi",
+    "type": "academic",
+    "stance": "context"
+   },
+   {
+    "title": "FBI-King letter (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/FBI%E2%80%93King_letter",
+    "type": "wikipedia",
+    "stance": "context"
+   },
+   {
+    "title": "The FBI's War on King -- King's Last March (APM Reports)",
+    "url": "https://features.apmreports.org/arw/king/d1.html",
+    "type": "investigative",
+    "stance": "context"
+   },
+   {
+    "title": "Church Committee, Book III: Supplementary Detailed Staff Reports on Intelligence Activities and the Rights of Americans (US Senate Select Committee, 1976)",
+    "url": "https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94755-iii.pdf",
+    "type": "government",
+    "stance": "context"
+   },
+   {
+    "title": "JFK File: FBI Monitored Martin Luther King's 'Abnormal' Sex Life... (Newsweek)",
+    "url": "https://www.newsweek.com/declassified-jfk-file-details-fbi-sex-smears-about-martin-luther-king-701996",
+    "type": "mainstream",
+    "stance": "context"
+   },
+   {
+    "title": "Trump administration releases FBI records on MLK Jr. despite his family's opposition (PBS NewsHour, July 2025)",
+    "url": "https://www.pbs.org/newshour/politics/trump-administration-releases-fbi-records-on-mlk-jr-despite-his-familys-opposition",
+    "type": "mainstream",
+    "stance": "context"
+   }
+  ]
+ },
+ {
+  "id": "hawaiian-culture-tourist-reconstruction",
+  "name": "Modern Hawaiian Culture Is a Tourist Reconstruction",
+  "aliases": [
+   "Hawaiian culture was reinvented for tourism"
+  ],
+  "genre": "alt-history",
+  "year": 2026,
+  "truth": 18,
+  "impact": 30,
+  "notoriety": 8,
+  "summary": "The claim that the Hawaiian culture visitors meet today is largely a sanitized reconstruction built by (mostly non-Native) outsiders for tourism rather than authentic surviving Indigenous heritage — that the language, hula, and 'astronavigator' wayfinding were softened and repackaged, and that showpieces like botanical gardens are white-developed. The historical substrate is real (a ~90% post-contact population collapse, the near-death of the Hawaiian language under an 1896–1987 school ban, and genuine tourism commodification), but the load-bearing attribution is inverted: the 1970s–80s Hawaiian Renaissance was Native Hawaiian–led, wayfinding is an authentic Pacific tradition, and the 'haka' the claim invokes is Māori, not Hawaiian.",
+  "evidence_for": [
+   {
+    "text": "Introduced disease cut the Native Hawaiian population by roughly 90% in the century after 1778 contact.",
+    "source": "https://en.wikipedia.org/wiki/Colonial_epidemic_disease_in_Hawaii"
+   },
+   {
+    "text": "Hawaiian was banned as a school-instruction language from 1896 to 1987; native speakers fell to ~2,000, and today only ~1–2% of residents have meaningful fluency.",
+    "source": "https://www.npr.org/sections/codeswitch/2019/06/22/452551172/the-hawaiian-language-nearly-died-a-radio-show-sparked-its-revival"
+   },
+   {
+    "text": "Native scholars and activists document how the tourism industry commodifies and softens Hawaiian culture for visitors.",
+    "source": "https://www.culturalsurvival.org/publications/cultural-survival-quarterly/tourism-and-prostitution-hawaiian-culture"
+   },
+   {
+    "text": "The Hawaii Tropical Botanical Garden was carved from overgrown jungle by a mainland businessman, Dan Lutkenhouse, starting in 1977.",
+    "source": "https://htbg.com/about/"
+   }
+  ],
+  "evidence_against": [
+   {
+    "text": "The 1970s Hawaiian Renaissance — the Merrie Monarch hula revival, Pūnana Leo language immersion, the Kahoʻolawe protests — was led by Native Hawaiians reclaiming suppressed traditions, not reconstructed by white outsiders.",
+    "source": "https://www.kaainamomona.org/post/5-major-events-of-the-1970s-hawaiian-renaissance-movement"
+   },
+   {
+    "text": "Polynesian non-instrument wayfinding is an authentic, sophisticated Indigenous tradition; its revival came from master navigator Mau Piailug teaching Nainoa Thompson, not tourist invention.",
+    "source": "https://en.wikipedia.org/wiki/Mau_Piailug"
+   },
+   {
+    "text": "The haka is Māori (New Zealand), not Hawaiian — the Hawaiian forms are hula and haʻa — so it was never part of Hawaiian culture to be 'removed'.",
+    "source": "https://scholarspace.manoa.hawaii.edu/items/a67a733c-04f7-4eff-b568-e63f5a7d0c19"
+   },
+   {
+    "text": "Generalizing from one privately-developed garden ignores Native-stewarded institutions like the Bishop Museum and ongoing Indigenous loko iʻa (fishpond) restoration.",
+    "source": "https://www.bishopmuseum.org/about/"
+   }
+  ],
+  "related": [],
+  "depends_on": [],
+  "sources": [
+   {
+    "title": "Ancient Hawaiian population - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Ancient_Hawaiian_population",
+    "type": "wikipedia",
+    "stance": "context"
+   },
+   {
+    "title": "After 200 years, Native Hawaiians make a comeback - Pew Research Center",
+    "url": "https://www.pewresearch.org/short-reads/2015/04/06/native-hawaiian-population/",
+    "type": "mainstream",
+    "stance": "context"
+   },
+   {
+    "title": "Colonial epidemic disease in Hawaii - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Colonial_epidemic_disease_in_Hawaii",
+    "type": "wikipedia",
+    "stance": "context"
+   },
+   {
+    "title": "Hawaiian language - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Hawaiian_language",
+    "type": "wikipedia",
+    "stance": "context"
+   },
+   {
+    "title": "The Hawaiian Language Nearly Died. A Radio Show Sparked Its Revival - NPR",
+    "url": "https://www.npr.org/sections/codeswitch/2019/06/22/452551172/the-hawaiian-language-nearly-died-a-radio-show-sparked-its-revival",
+    "type": "mainstream",
+    "stance": "context"
+   },
+   {
+    "title": "History - ʻAha Pūnana Leo",
+    "url": "https://www.ahapunanaleo.org/history-hl-1",
+    "type": "advocacy",
+    "stance": "debunks"
+   },
+   {
+    "title": "Language Suppression, Revitalization, and Native Hawaiian Identity - Mokuola Honua",
+    "url": "https://www.mokuolahonua.com/resources/language-policy-and-advocacy/2019/2/18/language-suppression-revitalization-and-native-hawaiian-identity-k87xc",
+    "type": "advocacy",
+    "stance": "context"
+   },
+   {
+    "title": "Spanish language in the United States - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Spanish_language_in_the_United_States",
+    "type": "wikipedia",
+    "stance": "context"
+   },
+   {
+    "title": "New Data on Detailed Languages Spoken at Home and the Ability to Speak English - US Census Bureau",
+    "url": "https://www.census.gov/newsroom/press-releases/2025/2017-2021-acs-language-use-tables.html",
+    "type": "government",
+    "stance": "context"
+   },
+   {
+    "title": "OFFICIAL LANGUAGES - Hawaii Constitution Article XV Section 4",
+    "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/05-Const/CONST_0015-0004.htm",
+    "type": "government",
+    "stance": "context"
+   },
+   {
+    "title": "Hawaiian Is An Official Language So Why Isn't It Used More? - Honolulu Civil Beat",
+    "url": "https://www.civilbeat.org/2018/02/hawaiian-is-an-official-language-so-why-isnt-it-used-more/",
+    "type": "mainstream",
+    "stance": "context"
+   },
+   {
+    "title": "The Ultimate Guide to Understanding Kapu in Hawaiian Culture",
+    "url": "https://www.hawaiiactivities.com/travelguide/the-ultimate-guide-to-understanding-kapu-in-hawaiian-culture/",
+    "type": "mainstream",
+    "stance": "context"
+   },
+   {
+    "title": "Mo'okini Heiau - National Park Service",
+    "url": "https://www.nps.gov/places/mo-okini-heiau.htm",
+    "type": "government",
+    "stance": "context"
+   },
+   {
+    "title": "Haka - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Haka",
+    "type": "wikipedia",
+    "stance": "debunks"
+   },
+   {
+    "title": "The Dance of the Warrior: Māori Haka and Hawaiian Haʻa Koa - UH Mānoa ScholarSpace",
+    "url": "https://scholarspace.manoa.hawaii.edu/items/a67a733c-04f7-4eff-b568-e63f5a7d0c19",
+    "type": "academic",
+    "stance": "debunks"
+   },
+   {
+    "title": "Tourism and The Prostitution Of Hawaiian Culture - Cultural Survival",
+    "url": "https://www.culturalsurvival.org/publications/cultural-survival-quarterly/tourism-and-prostitution-hawaiian-culture",
+    "type": "advocacy",
+    "stance": "supports"
+   },
+   {
+    "title": "Polynesian Voyaging Society - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Polynesian_Voyaging_Society",
+    "type": "wikipedia",
+    "stance": "context"
+   },
+   {
+    "title": "History of the Festival - Merrie Monarch Festival",
+    "url": "https://www.merriemonarch.com/history-of-the-festival/",
+    "type": "mainstream",
+    "stance": "debunks"
+   },
+   {
+    "title": "Merrie Monarch Festival co-founder, kumu hula George Naope dies - Hawaii Magazine",
+    "url": "https://www.hawaiimagazine.com/merrie-monarch-festival-co-founder-kumu-hula-george-naope-dies/",
+    "type": "mainstream",
+    "stance": "debunks"
+   },
+   {
+    "title": "Film depicts life of George Helm, sacrifices made by Protect Kahoʻolawe ʻOhana activists - Maui Now",
+    "url": "https://mauinow.com/2022/08/02/film-depicts-life-of-george-helm-sacrifices-made-by-protect-kahoolawe-ohana-activists/",
+    "type": "mainstream",
+    "stance": "debunks"
+   },
+   {
+    "title": "5 major events of the 1970s Hawaiian Renaissance Movement - Kaʻāina Momona",
+    "url": "https://www.kaainamomona.org/post/5-major-events-of-the-1970s-hawaiian-renaissance-movement",
+    "type": "advocacy",
+    "stance": "debunks"
+   },
+   {
+    "title": "Mau Piailug - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Mau_Piailug",
+    "type": "wikipedia",
+    "stance": "debunks"
+   },
+   {
+    "title": "Polynesian Wayfinding - Hōkūleʻa / Polynesian Voyaging Society",
+    "url": "https://hokulea.com/polynesian-wayfinding/",
+    "type": "advocacy",
+    "stance": "debunks"
+   },
+   {
+    "title": "Guiding Us Home: Traditional Hawaiian Wayfinding Aboard Hōkūleʻa - Smithsonian Center for Folklife and Cultural Heritage",
+    "url": "https://folklife.si.edu/magazine/hokulea-hawaiian-wayfinding",
+    "type": "academic",
+    "stance": "debunks"
+   },
+   {
+    "title": "ABOUT - Hawaii Tropical Botanical Garden",
+    "url": "https://htbg.com/about/",
+    "type": "mainstream",
+    "stance": "supports"
+   },
+   {
+    "title": "Hawaii Tropical Botanical Garden - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Hawaii_Tropical_Botanical_Garden",
+    "type": "wikipedia",
+    "stance": "supports"
+   },
+   {
+    "title": "About - Bishop Museum",
+    "url": "https://www.bishopmuseum.org/about/",
+    "type": "mainstream",
+    "stance": "debunks"
+   },
+   {
+    "title": "Hui Mālama Loko Iʻa - KUA Hawaii",
+    "url": "https://kuahawaii.org/huimalamalokoia/",
+    "type": "advocacy",
+    "stance": "debunks"
+   },
+   {
+    "title": "Indigenous Management Of Hawaii's Fishponds Is Getting A High Tech Upgrade - Honolulu Civil Beat",
+    "url": "https://www.civilbeat.org/2023/01/indigenous-management-of-hawaiis-fishponds-is-getting-a-high-tech-upgrade/",
+    "type": "mainstream",
+    "stance": "debunks"
+   },
+   {
+    "title": "Kill Haole Day - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Kill_Haole_Day",
+    "type": "wikipedia",
+    "stance": "context"
+   },
+   {
+    "title": "Haole - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Haole",
+    "type": "wikipedia",
+    "stance": "context"
+   },
+   {
+    "title": "Doe v. Kamehameha Schools: 'Kill Haole Day' is not a reasonable concern - Pacific Legal Foundation",
+    "url": "https://pacificlegal.org/doe-v-kamehamela-schools-kill-haole-day-is-not-a-reasonable-concern/",
+    "type": "advocacy",
+    "stance": "context"
+   },
+   {
+    "title": "\"Haole,\" Hawaii, Hate Crimes, and White Supremacy - Common Dreams",
+    "url": "https://www.commondreams.org/opinion/haole-hate-crime-hawaii",
+    "type": "advocacy",
+    "stance": "context"
+   },
+   {
+    "title": "Denby Fawcett: 'Kill Haole Day,' Situational Racism and Surfing - Honolulu Civil Beat",
+    "url": "https://civilbeat.org/2015/06/denby-fawcett-kill-haole-day-situational-racism-and-surfing/",
+    "type": "mainstream",
+    "stance": "context"
+   }
+  ]
+ }
+]
