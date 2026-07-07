@@ -234,7 +234,7 @@
 </div>
 
 <div id="card" class="hud panel">
-  <div class="wbar"><span class="grip">⠿</span><b>Detail</b><span class="sp"></span><button class="wmini" id="cardMini">–</button></div>
+  <div class="wbar"><span class="grip">⠿</span><b>Detail</b><span class="sp"></span><button class="wmini" id="cardCopy" title="Copy shareable link">🔗</button><button class="wmini" id="cardMini">–</button></div>
   <div class="wbody">
     <h3 id="cTitle"></h3>
     <div class="sub" id="cSub"></div>
@@ -333,6 +333,7 @@ fetch(DATA_URL).then(r=>r.json()).then(d=>{
   applyFilters();
   document.getElementById('search').placeholder=`search ${N} theories…`;
   document.getElementById('loading').style.display='none';
+  applyDeepLink();      // ?t=<id> deep-link: select+focus once byId/geometry exist
   animate();
 }).catch(e=>{document.getElementById('loading').innerHTML='<div>failed to load data.json<br><small>'+e+'</small></div>';});
 
@@ -584,9 +585,25 @@ function selectTheory(i){
       `<div style="padding:2px 0"><a class="src" href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title||s.url)} ↗</a>`+
       biasTag(s)+`</div>`).join('') : '';
   updateSelEdges(); buildSelLabels();
+  syncUrl(t.id);
 }
 function deselect(){ sel=-1; document.getElementById('card').classList.remove('show');
-  edgesSel.visible=false; marker.visible=false; clearLabels(); }
+  edgesSel.visible=false; marker.visible=false; clearLabels(); syncUrl(null); }
+
+// ---------------- shareable deep-link (?t=<id>) ----------------
+// Encode the selected theory's stable slug in the URL so the view is linkable.
+function idIndex(id){ for(let i=0;i<N;i++) if(T[i].id===id) return i; return -1; }
+function syncUrl(id){
+  try{
+    const u=new URL(location.href);
+    if(id) u.searchParams.set('t',id); else u.searchParams.delete('t');
+    history.replaceState(null,'',u.pathname+u.search+u.hash);   // replaceState: don't spam history; keeps other params/hash
+  }catch(e){}
+}
+function applyDeepLink(){
+  let id=null; try{ id=new URL(location.href).searchParams.get('t'); }catch(e){}
+  if(id && byId[id]){ const i=idIndex(id); if(i>=0){ selectTheory(i); flyTo(i); } }
+}
 
 let camTween=null;
 function flyTo(i){
@@ -665,6 +682,14 @@ function buildUI(){
     for(const i of hits.slice(0,30)){const dv=document.createElement('div'); dv.textContent=T[i].name;
       dv.onclick=()=>{selectTheory(i); flyTo(i);}; results.appendChild(dv);} };
   window.addEventListener('keydown',e=>{if(e.key==='Escape')deselect();});
+
+  // copy shareable deep-link for the open theory
+  const copyBtn=document.getElementById('cardCopy');
+  if(copyBtn) copyBtn.onclick=e=>{ e.stopPropagation();
+    const done=ok=>{ copyBtn.textContent=ok?'✓':'✕'; setTimeout(()=>copyBtn.textContent='🔗',1200); };
+    const url=location.href;
+    if(navigator.clipboard&&navigator.clipboard.writeText) navigator.clipboard.writeText(url).then(()=>done(true),()=>done(false));
+    else { try{ const ta=document.createElement('textarea'); ta.value=url; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); ta.remove(); done(true);}catch(err){done(false);} } };
 
   // mobile: collapse the controls panel so the canvas is free to fly
   const panel=document.getElementById('controls'), toggle=document.getElementById('panelToggle');
